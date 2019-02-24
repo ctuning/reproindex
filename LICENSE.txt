@@ -1,0 +1,5 @@
+Copyright (c) cTuning Foundation and individual contributors.
+All rights reserved
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted under Creative Commons Attribution License (CC-BY).

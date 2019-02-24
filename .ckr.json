@@ -1,0 +1,18 @@
+{
+  "data_alias": "reusable-research",
+  "data_name": "reusable-research",
+  "data_uid": "c590dea823213918",
+  "data_uoa": "reusable-research",
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-dissemination-modules"
+      },
+      {
+        "repo_uoa": "ck-web"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/reusable-research"
+  }
+}
