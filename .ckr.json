@@ -1,8 +1,8 @@
 {
-  "data_alias": "reusable-research",
-  "data_name": "reusable-research",
+  "data_alias": "reuse-research",
+  "data_name": "reuse-research",
   "data_uid": "c590dea823213918",
-  "data_uoa": "reusable-research",
+  "data_uoa": "reuse-research",
   "dict": {
     "repo_deps": [
       {
@@ -13,6 +13,6 @@
       }
     ],
     "shared": "git",
-    "url": "https://github.com/ctuning/reusable-research"
+    "url": "https://github.com/ctuning/reuse-research"
   }
 }
