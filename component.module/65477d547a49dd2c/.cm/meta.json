@@ -18,8 +18,12 @@
   },
   "misc": {
     "actions": {
-      "get": {},
-      "process": {}
+      "get": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.scenario.mobile/module.py#L33"
+      },
+      "process": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.scenario.mobile/module.py#L165"
+      }
     },
     "data_uid": "65477d547a49dd2c",
     "data_uoa": "experiment.scenario.mobile",

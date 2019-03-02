@@ -38,13 +38,23 @@
   "misc": {
     "actions": {
       "add": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/apk/module.py#L289"
+      },
+      "detect": {
         "url_api": "https://github.com/ctuning/ck-env/tree/master/module/apk/module.py#L34"
       },
-      "detect": {},
-      "install": {},
-      "list_installed": {},
-      "uninstall": {},
-      "uninstall_all": {}
+      "install": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/apk/module.py#L148"
+      },
+      "list_installed": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/apk/module.py#L475"
+      },
+      "uninstall": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/apk/module.py#L417"
+      },
+      "uninstall_all": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/apk/module.py#L536"
+      }
     },
     "data_uid": "eb4ec9907982260a",
     "data_uoa": "apk",

@@ -23,8 +23,12 @@
   },
   "misc": {
     "actions": {
-      "autotune": {},
-      "crowdtune": {}
+      "autotune": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/clblast/module.py#L33"
+      },
+      "crowdtune": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/clblast/module.py#L55"
+      }
     },
     "data_uid": "0c951e74b67b9d4e",
     "data_uoa": "clblast",

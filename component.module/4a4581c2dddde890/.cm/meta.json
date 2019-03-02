@@ -13,7 +13,9 @@
   },
   "misc": {
     "actions": {
-      "display": {}
+      "display": {
+        "url_api": "https://github.com/ctuning/ck-web/tree/master/module/dashboard/module.py#L43"
+      }
     },
     "data_uid": "4a4581c2dddde890",
     "data_uoa": "dashboard",

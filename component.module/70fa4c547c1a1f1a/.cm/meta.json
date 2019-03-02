@@ -122,8 +122,12 @@
   },
   "misc": {
     "actions": {
-      "get_raw_config": {},
-      "get_raw_data": {}
+      "get_raw_config": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/hackathon.20190127/module.py#L227"
+      },
+      "get_raw_data": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/hackathon.20190127/module.py#L44"
+      }
     },
     "data_uid": "70fa4c547c1a1f1a",
     "data_uoa": "hackathon.20190127",

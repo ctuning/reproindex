@@ -162,10 +162,18 @@
   },
   "misc": {
     "actions": {
-      "crowdsource": {},
-      "html_viewer": {},
-      "prune": {},
-      "replay": {}
+      "crowdsource": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.dnn.batch_size/module.py#L34"
+      },
+      "html_viewer": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.dnn.batch_size/module.py#L48"
+      },
+      "prune": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.dnn.batch_size/module.py#L75"
+      },
+      "replay": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.dnn.batch_size/module.py#L61"
+      }
     },
     "data_uid": "c074f00ae937b922",
     "data_uoa": "experiment.tune.dnn.batch_size",

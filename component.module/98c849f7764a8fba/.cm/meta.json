@@ -384,8 +384,12 @@
   },
   "misc": {
     "actions": {
-      "get_raw_config": {},
-      "get_raw_data": {}
+      "get_raw_config": {
+        "url_api": "https://github.com/ctuning/ck-tensorflow/tree/master/module/mlperf.mobilenets/module.py#L464"
+      },
+      "get_raw_data": {
+        "url_api": "https://github.com/ctuning/ck-tensorflow/tree/master/module/mlperf.mobilenets/module.py#L49"
+      }
     },
     "data_uid": "98c849f7764a8fba",
     "data_uoa": "mlperf.mobilenets",

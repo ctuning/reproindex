@@ -92,32 +92,76 @@
       "add": {
         "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L34"
       },
-      "browse": {},
-      "copy": {},
-      "cp": {},
-      "create": {},
-      "delete": {},
-      "deps": {},
-      "find": {},
-      "get_and_unzip_archive": {},
-      "import": {},
-      "print_deps": {},
-      "pull": {},
-      "push": {},
-      "recache": {},
-      "remove": {},
-      "ren": {},
-      "rename": {},
-      "renew": {},
-      "reset": {},
-      "rm": {},
-      "show": {
-        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L233"
+      "browse": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L2181"
       },
-      "unzip": {},
-      "update": {},
-      "where": {},
-      "zip": {}
+      "copy": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L2628"
+      },
+      "cp": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L2646"
+      },
+      "create": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1143"
+      },
+      "delete": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1381"
+      },
+      "deps": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1789"
+      },
+      "find": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L2082"
+      },
+      "get_and_unzip_archive": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1629"
+      },
+      "import": {},
+      "print_deps": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1974"
+      },
+      "pull": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L754"
+      },
+      "push": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1007"
+      },
+      "recache": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1154"
+      },
+      "remove": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1370"
+      },
+      "ren": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L2506"
+      },
+      "rename": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L2609"
+      },
+      "renew": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L2112"
+      },
+      "reset": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L2482"
+      },
+      "rm": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1272"
+      },
+      "show": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L2355"
+      },
+      "unzip": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1588"
+      },
+      "update": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L549"
+      },
+      "where": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1392"
+      },
+      "zip": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1426"
+      }
     },
     "data_uid": "befd7892b0d469e9",
     "data_uoa": "repo",

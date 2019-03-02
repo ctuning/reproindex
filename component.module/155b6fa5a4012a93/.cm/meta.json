@@ -61,12 +61,20 @@
   },
   "misc": {
     "actions": {
-      "browse": {},
-      "crowdsource": {},
-      "html_viewer": {},
-      "replay": {},
+      "browse": {
+        "url_api": "git@github.com:dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/module.py#L1342"
+      },
+      "crowdsource": {
+        "url_api": "git@github.com:dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/module.py#L74"
+      },
+      "html_viewer": {
+        "url_api": "git@github.com:dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/module.py#L1366"
+      },
+      "replay": {
+        "url_api": "git@github.com:dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/module.py#L1318"
+      },
       "show": {
-        "url_api": "git@github.com:dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/module.py#L233"
+        "url_api": "git@github.com:dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/module.py#L682"
       }
     },
     "data_uid": "155b6fa5a4012a93",

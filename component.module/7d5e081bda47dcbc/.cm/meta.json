@@ -31,9 +31,15 @@
   },
   "misc": {
     "actions": {
-      "autotune": {},
-      "crowdbench": {},
-      "demo": {}
+      "autotune": {
+        "url_api": "git@github.com:dividiti/ck-caffe/tree/master/module/caffe/module.py#L119"
+      },
+      "crowdbench": {
+        "url_api": "git@github.com:dividiti/ck-caffe/tree/master/module/caffe/module.py#L33"
+      },
+      "demo": {
+        "url_api": "git@github.com:dividiti/ck-caffe/tree/master/module/caffe/module.py#L54"
+      }
     },
     "data_uid": "7d5e081bda47dcbc",
     "data_uoa": "caffe",

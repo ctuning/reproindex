@@ -40,14 +40,30 @@
   },
   "misc": {
     "actions": {
-      "convert_to_cygwin_path": {},
-      "convert_to_cygwin_paths": {},
-      "convert_uid_to_alias": {},
-      "find_close": {},
-      "find_file_above_path": {},
-      "lib_path_export_script": {},
-      "run_and_get_stdout": {},
-      "shell": {}
+      "convert_to_cygwin_path": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/os/module.py#L413"
+      },
+      "convert_to_cygwin_paths": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/os/module.py#L441"
+      },
+      "convert_uid_to_alias": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/os/module.py#L334"
+      },
+      "find_close": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/os/module.py#L33"
+      },
+      "find_file_above_path": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/os/module.py#L517"
+      },
+      "lib_path_export_script": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/os/module.py#L367"
+      },
+      "run_and_get_stdout": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/os/module.py#L472"
+      },
+      "shell": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/os/module.py#L134"
+      }
     },
     "data_uid": "0440cb72c2bc5cc6",
     "data_uoa": "os",

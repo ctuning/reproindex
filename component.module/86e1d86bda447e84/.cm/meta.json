@@ -83,10 +83,18 @@
   },
   "misc": {
     "actions": {
-      "crowdsource": {},
-      "html_viewer": {},
-      "prune": {},
-      "replay": {}
+      "crowdsource": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.custom.dimensions/module.py#L36"
+      },
+      "html_viewer": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.custom.dimensions/module.py#L260"
+      },
+      "prune": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.custom.dimensions/module.py#L287"
+      },
+      "replay": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.custom.dimensions/module.py#L273"
+      }
     },
     "data_uid": "86e1d86bda447e84",
     "data_uoa": "experiment.tune.custom.dimensions",

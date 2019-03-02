@@ -17,7 +17,9 @@
   },
   "misc": {
     "actions": {
-      "generate": {}
+      "generate": {
+        "url_api": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/module/ae.person.table/module.py#L33"
+      }
     },
     "data_uid": "92c765dd4f467e96",
     "data_uoa": "ae.person.table",

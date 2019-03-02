@@ -14,7 +14,9 @@
   },
   "misc": {
     "actions": {
-      "filter": {}
+      "filter": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/math.frontier/module.py#L33"
+      }
     },
     "data_uid": "99d08d331cdc5478",
     "data_uoa": "math.frontier",

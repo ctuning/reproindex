@@ -34,11 +34,17 @@
   },
   "misc": {
     "actions": {
-      "browse": {},
-      "detect": {},
-      "set_freq": {},
+      "browse": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform.cpu/module.py#L1086"
+      },
+      "detect": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform.cpu/module.py#L33"
+      },
+      "set_freq": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform.cpu/module.py#L790"
+      },
       "show": {
-        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform.cpu/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform.cpu/module.py#L947"
       }
     },
     "data_uid": "aa6b542a420b8db9",

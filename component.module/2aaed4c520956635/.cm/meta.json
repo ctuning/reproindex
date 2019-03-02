@@ -232,10 +232,18 @@
   },
   "misc": {
     "actions": {
-      "crowdsource": {},
-      "html_viewer": {},
-      "prune": {},
-      "replay": {}
+      "crowdsource": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.compiler.flags.llvm.e/module.py#L34"
+      },
+      "html_viewer": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.compiler.flags.llvm.e/module.py#L47"
+      },
+      "prune": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.compiler.flags.llvm.e/module.py#L74"
+      },
+      "replay": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.compiler.flags.llvm.e/module.py#L60"
+      }
     },
     "data_uid": "2aaed4c520956635",
     "data_uoa": "experiment.tune.compiler.flags.llvm.e",

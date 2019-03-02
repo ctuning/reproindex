@@ -16,8 +16,12 @@
   },
   "misc": {
     "actions": {
-      "get_raw_config": {},
-      "get_raw_data": {}
+      "get_raw_config": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/hackathon.20180615/module.py#L401"
+      },
+      "get_raw_data": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/hackathon.20180615/module.py#L151"
+      }
     },
     "data_uid": "f40e5947238264d1",
     "data_uoa": "hackathon.20180615",

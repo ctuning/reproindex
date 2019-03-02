@@ -67,9 +67,11 @@
   "misc": {
     "actions": {
       "add": {
-        "url_api": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/person/module.py#L34"
+        "url_api": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/person/module.py#L163"
       },
-      "html_viewer": {}
+      "html_viewer": {
+        "url_api": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/person/module.py#L20"
+      }
     },
     "data_uid": "b0743a4044480ead",
     "data_uoa": "person",

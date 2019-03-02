@@ -17,8 +17,12 @@
   },
   "misc": {
     "actions": {
-      "_run_external": {},
-      "run": {}
+      "_run_external": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/script/module.py#L139"
+      },
+      "run": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/script/module.py#L37"
+      }
     },
     "data_uid": "84e27ad9dd12e734",
     "data_uoa": "script",

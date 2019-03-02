@@ -20,9 +20,15 @@
   },
   "misc": {
     "actions": {
-      "make": {},
-      "select_list": {},
-      "select_uoa": {}
+      "make": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/choice/module.py#L33"
+      },
+      "select_list": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/choice/module.py#L369"
+      },
+      "select_uoa": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/choice/module.py#L437"
+      }
     },
     "data_uid": "e4564d6f984400d7",
     "data_uoa": "choice",

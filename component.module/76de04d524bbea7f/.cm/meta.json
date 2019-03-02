@@ -35,11 +35,17 @@
   },
   "misc": {
     "actions": {
-      "browse": {},
-      "detect": {},
-      "set_freq": {},
+      "browse": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform.nn/module.py#L319"
+      },
+      "detect": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform.nn/module.py#L33"
+      },
+      "set_freq": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform.nn/module.py#L138"
+      },
       "show": {
-        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform.nn/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform.nn/module.py#L206"
       }
     },
     "data_uid": "76de04d524bbea7f",

@@ -26,7 +26,9 @@
   },
   "misc": {
     "actions": {
-      "generate": {}
+      "generate": {
+        "url_api": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/proceedings.acm/module.py#L33"
+      }
     },
     "data_uid": "6b88021f7bcea660",
     "data_uoa": "proceedings.acm",

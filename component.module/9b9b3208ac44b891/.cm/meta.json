@@ -67,23 +67,49 @@
   },
   "misc": {
     "actions": {
-      "cat": {},
-      "clean": {},
-      "delete": {},
-      "deps_summary": {},
-      "get_all_versions_in_deps": {},
-      "prune_search_list": {},
-      "refresh": {},
-      "remove": {},
-      "resolve": {},
-      "rm": {},
-      "rmtmp": {},
+      "cat": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/env/module.py#L2376"
+      },
+      "clean": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/env/module.py#L1976"
+      },
+      "delete": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/env/module.py#L2631"
+      },
+      "deps_summary": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/env/module.py#L2549"
+      },
+      "get_all_versions_in_deps": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/env/module.py#L2490"
+      },
+      "prune_search_list": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/env/module.py#L1843"
+      },
+      "refresh": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/env/module.py#L1544"
+      },
+      "remove": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/env/module.py#L2642"
+      },
+      "resolve": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/env/module.py#L1194"
+      },
+      "rm": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/env/module.py#L2603"
+      },
+      "rmtmp": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/env/module.py#L2463"
+      },
       "set": {},
       "show": {
-        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/env/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/env/module.py#L956"
       },
-      "virtual": {},
-      "xset": {}
+      "virtual": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/env/module.py#L2257"
+      },
+      "xset": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/env/module.py#L2232"
+      }
     },
     "data_uid": "9b9b3208ac44b891",
     "data_uoa": "env",

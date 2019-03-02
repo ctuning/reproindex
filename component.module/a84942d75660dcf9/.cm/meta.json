@@ -89,13 +89,23 @@
   },
   "misc": {
     "actions": {
-      "configure": {},
-      "crowdbench": {},
-      "dashboard": {},
+      "configure": {
+        "url_api": "https://github.com/dividiti/ck-wa/tree/master/module/wa/module.py#L1273"
+      },
+      "crowdbench": {
+        "url_api": "https://github.com/dividiti/ck-wa/tree/master/module/wa/module.py#L1377"
+      },
+      "dashboard": {
+        "url_api": "https://github.com/dividiti/ck-wa/tree/master/module/wa/module.py#L715"
+      },
       "import": {},
       "list": {},
-      "replay": {},
-      "run": {},
+      "replay": {
+        "url_api": "https://github.com/dividiti/ck-wa/tree/master/module/wa/module.py#L1210"
+      },
+      "run": {
+        "url_api": "https://github.com/dividiti/ck-wa/tree/master/module/wa/module.py#L93"
+      },
       "runx": {}
     },
     "data_uid": "a84942d75660dcf9",

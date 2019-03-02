@@ -52,18 +52,42 @@
   },
   "misc": {
     "actions": {
-      "cleanup": {},
-      "deploy": {},
-      "deploy_ansatz": {},
-      "deploy_optimizer": {},
-      "list_deployables": {},
-      "list_experiments": {},
-      "list_registered_emails": {},
-      "pick_an_experiment": {},
-      "plugin_path": {},
-      "run": {},
-      "time_to_solution": {},
-      "upload": {}
+      "cleanup": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/vqe/module.py#L0"
+      },
+      "deploy": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/vqe/module.py#L0"
+      },
+      "deploy_ansatz": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/vqe/module.py#L0"
+      },
+      "deploy_optimizer": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/vqe/module.py#L0"
+      },
+      "list_deployables": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/vqe/module.py#L0"
+      },
+      "list_experiments": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/vqe/module.py#L0"
+      },
+      "list_registered_emails": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/vqe/module.py#L0"
+      },
+      "pick_an_experiment": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/vqe/module.py#L0"
+      },
+      "plugin_path": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/vqe/module.py#L0"
+      },
+      "run": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/vqe/module.py#L0"
+      },
+      "time_to_solution": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/vqe/module.py#L0"
+      },
+      "upload": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/vqe/module.py#L0"
+      }
     },
     "data_uid": "6b82fa71240ce99c",
     "data_uoa": "vqe",

@@ -186,13 +186,23 @@
   },
   "misc": {
     "actions": {
-      "crowdsource": {},
-      "html_viewer": {},
-      "process_interactive_graph": {},
-      "prune": {},
-      "replay": {},
+      "crowdsource": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.compiler.flags/module.py#L811"
+      },
+      "html_viewer": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.compiler.flags/module.py#L40"
+      },
+      "process_interactive_graph": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.compiler.flags/module.py#L1223"
+      },
+      "prune": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.compiler.flags/module.py#L1096"
+      },
+      "replay": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.compiler.flags/module.py#L1082"
+      },
       "show": {
-        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.compiler.flags/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.compiler.flags/module.py#L1110"
       }
     },
     "data_uid": "343e18b9c5f1771c",

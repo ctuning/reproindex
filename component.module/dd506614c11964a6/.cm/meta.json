@@ -32,9 +32,13 @@
   },
   "misc": {
     "actions": {
-      "build": {},
+      "build": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model.tf/module.py#L33"
+      },
       "convert_categories_to_floats": {},
-      "validate": {}
+      "validate": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model.tf/module.py#L218"
+      }
     },
     "data_uid": "dd506614c11964a6",
     "data_uoa": "model.tf",

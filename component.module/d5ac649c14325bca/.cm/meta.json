@@ -14,7 +14,9 @@
   },
   "misc": {
     "actions": {
-      "check": {}
+      "check": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/math.conditions/module.py#L33"
+      }
     },
     "data_uid": "d5ac649c14325bca",
     "data_uoa": "math.conditions",

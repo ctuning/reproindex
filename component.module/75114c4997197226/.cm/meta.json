@@ -53,10 +53,14 @@
   },
   "misc": {
     "actions": {
-      "crowdsource": {},
-      "replay": {},
+      "crowdsource": {
+        "url_api": "https://github.com/ctuning/ck-caffe2/tree/master/module/experiment.bench.caffe2/module.py#L75"
+      },
+      "replay": {
+        "url_api": "https://github.com/ctuning/ck-caffe2/tree/master/module/experiment.bench.caffe2/module.py#L1067"
+      },
       "show": {
-        "url_api": "https://github.com/ctuning/ck-caffe2/tree/master/module/experiment.bench.caffe2/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-caffe2/tree/master/module/experiment.bench.caffe2/module.py#L581"
       }
     },
     "data_uid": "75114c4997197226",

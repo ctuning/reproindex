@@ -43,7 +43,9 @@
   },
   "misc": {
     "actions": {
-      "crowdsource": {}
+      "crowdsource": {
+        "url_api": "https://github.com/dividiti/ck-wa/tree/master/module/experiment.bench.workload.android/module.py#L40"
+      }
     },
     "data_uid": "53fc154f34ab6b17",
     "data_uoa": "experiment.bench.workload.android",

@@ -12,8 +12,12 @@
   },
   "misc": {
     "actions": {
-      "eval": {},
-      "train": {}
+      "eval": {
+        "url_api": "https://github.com/ctuning/ck-tensorflow/tree/master/module/model.tensorflowapi/module.py#L121"
+      },
+      "train": {
+        "url_api": "https://github.com/ctuning/ck-tensorflow/tree/master/module/model.tensorflowapi/module.py#L53"
+      }
     },
     "data_uid": "54493a21023bbe15",
     "data_uoa": "model.tensorflowapi",

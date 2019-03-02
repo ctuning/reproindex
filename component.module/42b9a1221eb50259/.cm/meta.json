@@ -48,13 +48,21 @@
   },
   "misc": {
     "actions": {
-      "ask_ai_web": {},
-      "dashboard": {},
-      "html_viewer": {},
-      "show": {
-        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model.image.classification/module.py#L233"
+      "ask_ai_web": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model.image.classification/module.py#L386"
       },
-      "show_json": {}
+      "dashboard": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model.image.classification/module.py#L363"
+      },
+      "html_viewer": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model.image.classification/module.py#L427"
+      },
+      "show": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model.image.classification/module.py#L50"
+      },
+      "show_json": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model.image.classification/module.py#L404"
+      }
     },
     "data_uid": "42b9a1221eb50259",
     "data_uoa": "model.image.classification",

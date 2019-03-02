@@ -184,10 +184,18 @@
   },
   "misc": {
     "actions": {
-      "crowdsource": {},
-      "html_viewer": {},
-      "prune": {},
-      "replay": {}
+      "crowdsource": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.check.numerical.stability/module.py#L34"
+      },
+      "html_viewer": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.check.numerical.stability/module.py#L44"
+      },
+      "prune": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.check.numerical.stability/module.py#L64"
+      },
+      "replay": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.check.numerical.stability/module.py#L54"
+      }
     },
     "data_uid": "b0494091a880bdbd",
     "data_uoa": "experiment.check.numerical.stability",

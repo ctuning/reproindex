@@ -184,10 +184,18 @@
   },
   "misc": {
     "actions": {
-      "crowdsource": {},
-      "html_viewer": {},
-      "prune": {},
-      "replay": {}
+      "crowdsource": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.opencl.lws.ep/module.py#L34"
+      },
+      "html_viewer": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.opencl.lws.ep/module.py#L44"
+      },
+      "prune": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.opencl.lws.ep/module.py#L64"
+      },
+      "replay": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.opencl.lws.ep/module.py#L54"
+      }
     },
     "data_uid": "f519226eb5740c8b",
     "data_uoa": "experiment.tune.opencl.lws.ep",

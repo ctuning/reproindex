@@ -344,10 +344,14 @@
   },
   "misc": {
     "actions": {
-      "calculate_similarity": {},
-      "extract": {},
+      "calculate_similarity": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program.static.features/module.py#L160"
+      },
+      "extract": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program.static.features/module.py#L33"
+      },
       "show": {
-        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program.static.features/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program.static.features/module.py#L225"
       }
     },
     "data_uid": "92a02f0445148203",

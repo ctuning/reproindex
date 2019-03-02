@@ -66,22 +66,54 @@
   },
   "misc": {
     "actions": {
-      "add_key": {},
-      "clone_server_repo": {},
-      "list_kernel_functions": {},
-      "list_modules": {},
-      "list_repos": {},
-      "merge_dicts": {},
-      "preload_html_for_lists": {},
-      "prepare_entry_template": {},
-      "process_all_files_recursively": {},
-      "refresh_json": {},
-      "replace_string_in_file": {},
-      "replace_strings_in_file": {},
-      "select_string": {},
-      "select_uoa": {},
-      "sort_json_file": {},
-      "transfer": {}
+      "add_key": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/misc/module.py#L241"
+      },
+      "clone_server_repo": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/misc/module.py#L0"
+      },
+      "list_kernel_functions": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/misc/module.py#L653"
+      },
+      "list_modules": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/misc/module.py#L1244"
+      },
+      "list_repos": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/misc/module.py#L897"
+      },
+      "merge_dicts": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/misc/module.py#L172"
+      },
+      "preload_html_for_lists": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/misc/module.py#L1512"
+      },
+      "prepare_entry_template": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/misc/module.py#L340"
+      },
+      "process_all_files_recursively": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/misc/module.py#L110"
+      },
+      "refresh_json": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/misc/module.py#L80"
+      },
+      "replace_string_in_file": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/misc/module.py#L33"
+      },
+      "replace_strings_in_file": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/misc/module.py#L1566"
+      },
+      "select_string": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/misc/module.py#L480"
+      },
+      "select_uoa": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/misc/module.py#L583"
+      },
+      "sort_json_file": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/misc/module.py#L221"
+      },
+      "transfer": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/misc/module.py#L0"
+      }
     },
     "data_uid": "cddc5e04b0da610e",
     "data_uoa": "misc",

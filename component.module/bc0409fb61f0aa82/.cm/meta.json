@@ -108,33 +108,83 @@
   "misc": {
     "actions": {
       "add": {
-        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L34"
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L40"
       },
-      "browse": {},
-      "convert_table_to_csv": {},
-      "crowdsource": {},
-      "delete_points": {},
-      "filter": {},
-      "get": {},
-      "get_all_meta": {},
-      "get_and_cache_results": {},
-      "get_log_path": {},
-      "get_unique_keys_from_list": {},
-      "html_viewer": {},
-      "list_points": {},
-      "load_pipeline": {},
-      "load_point": {},
-      "log": {},
-      "multi_stat_analysis": {},
-      "pack": {},
-      "prepare_html_selector": {},
-      "prepare_selector": {},
-      "replay": {},
-      "reproduce": {},
-      "rerun": {},
-      "sort_table": {},
-      "stat_analysis": {},
-      "substitute_x_with_loop": {}
+      "browse": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L3485"
+      },
+      "convert_table_to_csv": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L1050"
+      },
+      "crowdsource": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L3162"
+      },
+      "delete_points": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L2649"
+      },
+      "filter": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L1524"
+      },
+      "get": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L552"
+      },
+      "get_all_meta": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L1460"
+      },
+      "get_and_cache_results": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L3742"
+      },
+      "get_log_path": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L3393"
+      },
+      "get_unique_keys_from_list": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L3962"
+      },
+      "html_viewer": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L2743"
+      },
+      "list_points": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L1649"
+      },
+      "load_pipeline": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L2356"
+      },
+      "load_point": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L2407"
+      },
+      "log": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L3431"
+      },
+      "multi_stat_analysis": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L2518"
+      },
+      "pack": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L3345"
+      },
+      "prepare_html_selector": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L3849"
+      },
+      "prepare_selector": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L3522"
+      },
+      "replay": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L1760"
+      },
+      "reproduce": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L1760"
+      },
+      "rerun": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L1760"
+      },
+      "sort_table": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L1338"
+      },
+      "stat_analysis": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L1131"
+      },
+      "substitute_x_with_loop": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/experiment/module.py#L1369"
+      }
     },
     "data_uid": "bc0409fb61f0aa82",
     "data_uoa": "experiment",

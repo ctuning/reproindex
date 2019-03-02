@@ -25,7 +25,9 @@
   },
   "misc": {
     "actions": {
-      "detect": {}
+      "detect": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform.dsp/module.py#L33"
+      }
     },
     "data_uid": "8f8a0a7236ff42a6",
     "data_uoa": "platform.dsp",

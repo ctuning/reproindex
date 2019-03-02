@@ -186,10 +186,18 @@
   },
   "misc": {
     "actions": {
-      "crowdsource": {},
-      "html_viewer": {},
-      "prune": {},
-      "replay": {}
+      "crowdsource": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.detect.opencl.bugs/module.py#L34"
+      },
+      "html_viewer": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.detect.opencl.bugs/module.py#L44"
+      },
+      "prune": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.detect.opencl.bugs/module.py#L64"
+      },
+      "replay": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.detect.opencl.bugs/module.py#L54"
+      }
     },
     "data_uid": "7b4eb7a0a2c589c2",
     "data_uoa": "experiment.detect.opencl.bugs",

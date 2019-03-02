@@ -19,7 +19,9 @@
   },
   "misc": {
     "actions": {
-      "run_cache_stat": {}
+      "run_cache_stat": {
+        "url_api": "https://github.com/proywm/ck-ccprof/tree/master/module/ccprof/module.py#L34"
+      }
     },
     "data_uid": "0829aad27f493bb7",
     "data_uoa": "ccprof",

@@ -20,8 +20,12 @@
   },
   "misc": {
     "actions": {
-      "set": {},
-      "setup": {}
+      "set": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/kernel/module.py#L463"
+      },
+      "setup": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/kernel/module.py#L37"
+      }
     },
     "data_uid": "b1e99f6461424276",
     "data_uoa": "kernel",

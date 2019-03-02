@@ -88,10 +88,18 @@
   },
   "misc": {
     "actions": {
-      "continuous_plot": {},
-      "html_viewer": {},
-      "plot": {},
-      "replay": {}
+      "continuous_plot": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/graph/module.py#L1088"
+      },
+      "html_viewer": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/graph/module.py#L1113"
+      },
+      "plot": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/graph/module.py#L40"
+      },
+      "replay": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/graph/module.py#L1591"
+      }
     },
     "data_uid": "2d41f89bcf32d4d4",
     "data_uoa": "graph",

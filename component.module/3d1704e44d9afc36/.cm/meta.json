@@ -16,7 +16,9 @@
   },
   "misc": {
     "actions": {
-      "process_hotcrp": {}
+      "process_hotcrp": {
+        "url_api": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/module/ae/module.py#L33"
+      }
     },
     "data_uid": "3d1704e44d9afc36",
     "data_uoa": "ae",

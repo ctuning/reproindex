@@ -14,9 +14,7 @@
   },
   "misc": {
     "actions": {
-      "add": {
-        "url_api": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/dissemination.presentation/module.py#L34"
-      }
+      "add": {}
     },
     "data_uid": "150372f34b8d8368",
     "data_uoa": "dissemination.presentation",

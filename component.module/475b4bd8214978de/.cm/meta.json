@@ -16,7 +16,7 @@
   "misc": {
     "actions": {
       "show": {
-        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program.behavior/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program.behavior/module.py#L33"
       }
     },
     "data_uid": "475b4bd8214978de",

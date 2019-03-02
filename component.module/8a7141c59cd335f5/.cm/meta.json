@@ -28,13 +28,23 @@
   "misc": {
     "actions": {
       "add": {
-        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/dataset/module.py#L34"
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/dataset/module.py#L307"
       },
-      "add_file_to": {},
-      "check_size": {},
-      "generate": {},
-      "import_all_files": {},
-      "prune": {}
+      "add_file_to": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/dataset/module.py#L241"
+      },
+      "check_size": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/dataset/module.py#L149"
+      },
+      "generate": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/dataset/module.py#L87"
+      },
+      "import_all_files": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/dataset/module.py#L33"
+      },
+      "prune": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/dataset/module.py#L118"
+      }
     },
     "data_uid": "8a7141c59cd335f5",
     "data_uoa": "dataset",

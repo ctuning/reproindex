@@ -35,10 +35,16 @@
   },
   "misc": {
     "actions": {
-      "autotune": {},
-      "run": {},
+      "autotune": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/pipeline/module.py#L79"
+      },
+      "run": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/pipeline/module.py#L79"
+      },
       "run_stat": {},
-      "setup": {}
+      "setup": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/pipeline/module.py#L35"
+      }
     },
     "data_uid": "db25414b48b4ffb3",
     "data_uoa": "pipeline",

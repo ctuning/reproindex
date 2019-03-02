@@ -20,9 +20,15 @@
   },
   "misc": {
     "actions": {
-      "convert": {},
-      "copy_file": {},
-      "prepare_for_latex": {}
+      "convert": {
+        "url_api": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/slide/module.py#L120"
+      },
+      "copy_file": {
+        "url_api": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/slide/module.py#L219"
+      },
+      "prepare_for_latex": {
+        "url_api": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/slide/module.py#L33"
+      }
     },
     "data_uid": "757c34ce8a0a808d",
     "data_uoa": "slide",

@@ -18,8 +18,12 @@
   },
   "misc": {
     "actions": {
-      "cmd": {},
-      "run": {}
+      "cmd": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/test/module.py#L323"
+      },
+      "run": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/test/module.py#L42"
+      }
     },
     "data_uid": "942e180ee60b2d72",
     "data_uoa": "test",

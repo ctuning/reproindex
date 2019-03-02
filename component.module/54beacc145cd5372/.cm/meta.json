@@ -26,9 +26,15 @@
   },
   "misc": {
     "actions": {
-      "autotune": {},
-      "crowdbench": {},
-      "replay": {}
+      "autotune": {
+        "url_api": "https://github.com/ctuning/ck-tensorflow/tree/master/module/tensorflow/module.py#L73"
+      },
+      "crowdbench": {
+        "url_api": "https://github.com/ctuning/ck-tensorflow/tree/master/module/tensorflow/module.py#L33"
+      },
+      "replay": {
+        "url_api": "https://github.com/ctuning/ck-tensorflow/tree/master/module/tensorflow/module.py#L54"
+      }
     },
     "data_uid": "54beacc145cd5372",
     "data_uoa": "tensorflow",

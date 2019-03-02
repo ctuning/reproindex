@@ -26,9 +26,15 @@
   },
   "misc": {
     "actions": {
-      "autotune": {},
-      "crowdbench": {},
-      "replay": {}
+      "autotune": {
+        "url_api": "https://github.com/ctuning/ck-caffe2/tree/master/module/caffe2/module.py#L73"
+      },
+      "crowdbench": {
+        "url_api": "https://github.com/ctuning/ck-caffe2/tree/master/module/caffe2/module.py#L33"
+      },
+      "replay": {
+        "url_api": "https://github.com/ctuning/ck-caffe2/tree/master/module/caffe2/module.py#L54"
+      }
     },
     "data_uid": "95a1719259c1a699",
     "data_uoa": "caffe2",
