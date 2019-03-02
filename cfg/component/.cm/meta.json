@@ -1,0 +1,9 @@
+{
+  "index": [
+    {"name":"Modules", "id":"module", "uid":"4700aece50b4de77"},
+    {"name":"Repositories", "id":"repo", "uid":"4adfaff6d69d41a9"},
+    {"name":"Tasks (program workflows)", "id":"task", "uid":"37b8fd897f14d213"},
+    {"name":"Software detection plugins", "id":"soft", "uid":"c4746e18ba0d23fe"},
+    {"name":"Packages", "id":"package", "uid":"5bd40c8c212063a3"}
+  ]
+}

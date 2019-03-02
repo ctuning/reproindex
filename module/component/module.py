@@ -65,13 +65,13 @@ def get(i):
     wv.update(wvg)
 
     # Page length
-    length=wv.get('length','')
+    length=wv.get('l','')
     dlength='10'
     if length=='': length=dlength
     ilength=int(length)
 
     # Page
-    page=wv.get('page','')
+    page=wv.get('p','')
     if page=='': page='1'
     ipage=int(page)
 
@@ -80,7 +80,33 @@ def get(i):
     if page_name=='':
        return {'return':1, 'error':'page_name is empty'}
 
-    url=page_name
+    # Init URL
+    url=page_name+'?'
+
+    # Check component and prepare selector
+    c=wv.get('c','')
+    if c=='': c='module'
+
+    c_uid='component.*' # Selected UID
+
+    r=ck.access({'action':'load',
+                 'module_uoa':'cfg',
+                 'data_uoa':'component'})
+    if r['return']>0: return r
+    di=r['dict'].get('index',[])
+
+    hc=''
+    for q in di:
+        name=q['name']
+        xid=q['id']
+        uid=q['uid']
+
+        hc+='<option value="'+xid+'"'
+        if xid==c:
+           hc+=' selected'
+           c_uid=uid
+           url+='&c='+xid
+        hc+='>'+name+'</option>\n'
 
     # Check search
     q=wv.get('q','')
@@ -91,14 +117,14 @@ def get(i):
     qq=urlencode({'q':q})
     if sys.version_info[0]>2: qq=qq.encode('utf8')
 
-    url+='?'+qq
+    url+='&'+qq
 
     if ilength!=dlength:
-       url+='&length='+str(ilength)
+       url+='&l='+str(ilength)
 
     # Search
     ii={"action":"search",
-        "module_uoa":"repo",
+        "module_uoa":c_uid,
         "add_meta":"yes"}
     r=ck.access(ii)
     if r['return']>0: return r
@@ -134,7 +160,7 @@ def get(i):
 
            url1=url
            if ilength!=dlength:
-              url1+='&page='+str(rp)
+              url1+='&p='+str(rp)
 
            x1='<a href="'+url1+'">'
            x2='</a>'
@@ -147,10 +173,10 @@ def get(i):
 
        if (ipage+1)<=tpages:
           url1=url
-          url1+='&page='+str(ipage+1)
+          url1+='&p='+str(ipage+1)
 
           h1+='&nbsp;&nbsp;&nbsp; <a href="'+url1+'">Next</a>\n'
 
        h+=h1
 
-    return {'return':0, 'html':h}
+    return {'return':0, 'len':llst, 'html':h, 'html_c':hc}
