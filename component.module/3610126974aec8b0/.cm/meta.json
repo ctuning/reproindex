@@ -33,8 +33,12 @@
   },
   "misc": {
     "actions": {
-      "build": {},
-      "validate": {}
+      "build": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model.r/module.py#L33"
+      },
+      "validate": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model.r/module.py#L187"
+      }
     },
     "data_uid": "3610126974aec8b0",
     "data_uoa": "model.r",

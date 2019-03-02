@@ -20,9 +20,15 @@
   },
   "misc": {
     "actions": {
-      "pull": {},
-      "push": {},
-      "shell": {}
+      "pull": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/crowdnode/module.py#L90"
+      },
+      "push": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/crowdnode/module.py#L34"
+      },
+      "shell": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/crowdnode/module.py#L145"
+      }
     },
     "data_uid": "d48bb74fac9e78a3",
     "data_uoa": "crowdnode",

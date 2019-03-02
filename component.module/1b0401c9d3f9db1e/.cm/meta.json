@@ -29,11 +29,21 @@
   },
   "misc": {
     "actions": {
-      "list_experiments": {},
-      "pick_a_filename": {},
-      "pick_an_experiment": {},
-      "store_experiment": {},
-      "upload": {}
+      "list_experiments": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/qml/module.py#L0"
+      },
+      "pick_a_filename": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/qml/module.py#L0"
+      },
+      "pick_an_experiment": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/qml/module.py#L0"
+      },
+      "store_experiment": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/qml/module.py#L0"
+      },
+      "upload": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/qml/module.py#L0"
+      }
     },
     "data_uid": "1b0401c9d3f9db1e",
     "data_uoa": "qml",

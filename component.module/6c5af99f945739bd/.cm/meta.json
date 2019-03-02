@@ -61,12 +61,18 @@
   },
   "misc": {
     "actions": {
-      "browse": {},
-      "crowdsource": {},
+      "browse": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.opencl.clblast/module.py#L1089"
+      },
+      "crowdsource": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.opencl.clblast/module.py#L58"
+      },
       "html_viewer": {},
-      "replay": {},
+      "replay": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.opencl.clblast/module.py#L1071"
+      },
       "show": {
-        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.opencl.clblast/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.opencl.clblast/module.py#L595"
       }
     },
     "data_uid": "6c5af99f945739bd",

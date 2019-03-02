@@ -9,7 +9,9 @@
   },
   "misc": {
     "actions": {
-      "run": {}
+      "run": {
+        "url_api": "git@github.com:Chunosov/ck-gui/tree/master/module/gui/module.py#L66"
+      }
     },
     "data_uid": "dbf95494d930e5c1",
     "data_uoa": "gui",

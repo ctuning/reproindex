@@ -69,24 +69,50 @@
   "misc": {
     "actions": {
       "add": {
-        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L34"
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L2883"
       },
-      "check": {},
-      "check_target": {},
-      "compare_versions": {},
-      "detect": {},
-      "find_config_file": {},
-      "get_version": {},
-      "internal_detect": {},
-      "list_all_files": {},
-      "print_help": {},
-      "search_tool": {},
-      "search_version": {},
-      "setup": {},
+      "check": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L1384"
+      },
+      "check_target": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L2296"
+      },
+      "compare_versions": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L2778"
+      },
+      "detect": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L1384"
+      },
+      "find_config_file": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L2715"
+      },
+      "get_version": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L2028"
+      },
+      "internal_detect": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L45"
+      },
+      "list_all_files": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L1297"
+      },
+      "print_help": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L2228"
+      },
+      "search_tool": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L1197"
+      },
+      "search_version": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L2961"
+      },
+      "setup": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L241"
+      },
       "show": {
-        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L2401"
       },
-      "split_version": {}
+      "split_version": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L2362"
+      }
     },
     "data_uid": "5e1100048ab875d7",
     "data_uoa": "soft",

@@ -9,13 +9,21 @@
     "actions": {
       "add_index": {
         "desc": "add index"
+      },
+      "html": {
+        "desc": "generate html"
       }
     },
     "desc": "index of CK modules"
   },
   "misc": {
     "actions": {
-      "add_index": {}
+      "add_index": {
+        "url_api": "https://github.com/ctuning/reuse-research/tree/master/module/component.module/module.py#L33"
+      },
+      "html": {
+        "url_api": "https://github.com/ctuning/reuse-research/tree/master/module/component.module/module.py#L93"
+      }
     },
     "data_uid": "4700aece50b4de77",
     "data_uoa": "component.module",

@@ -53,16 +53,28 @@
   "misc": {
     "actions": {
       "add": {
-        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/package/module.py#L34"
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/package/module.py#L2383"
       },
-      "distribute": {},
-      "install": {},
-      "prepare_install_path": {},
-      "rebuild_deps": {},
-      "reinstall": {},
-      "setup": {},
+      "distribute": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/package/module.py#L2015"
+      },
+      "install": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/package/module.py#L43"
+      },
+      "prepare_install_path": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/package/module.py#L1983"
+      },
+      "rebuild_deps": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/package/module.py#L1553"
+      },
+      "reinstall": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/package/module.py#L2364"
+      },
+      "setup": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/package/module.py#L43"
+      },
       "show": {
-        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/package/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/package/module.py#L1659"
       }
     },
     "data_uid": "1dc07ee0f4742028",

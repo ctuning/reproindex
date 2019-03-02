@@ -21,7 +21,9 @@
   },
   "misc": {
     "actions": {
-      "snapshot": {}
+      "snapshot": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/artifact/module.py#L80"
+      }
     },
     "data_uid": "417c3b437caa4594",
     "data_uoa": "artifact",

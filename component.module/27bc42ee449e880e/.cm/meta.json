@@ -115,25 +115,57 @@
   },
   "misc": {
     "actions": {
-      "add_solution": {},
-      "classify": {},
-      "compare_results": {},
-      "crowdsource": {},
-      "dashboard": {},
-      "explore": {},
-      "get": {},
-      "get_workloads": {},
-      "initialize": {},
-      "links": {},
-      "problem": {},
-      "prune": {},
-      "replay": {},
-      "run": {},
-      "show": {
-        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization/module.py#L233"
+      "add_solution": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization/module.py#L703"
       },
-      "show_json": {},
-      "test": {}
+      "classify": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization/module.py#L3561"
+      },
+      "compare_results": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization/module.py#L3018"
+      },
+      "crowdsource": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization/module.py#L197"
+      },
+      "dashboard": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization/module.py#L3937"
+      },
+      "explore": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization/module.py#L170"
+      },
+      "get": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization/module.py#L3199"
+      },
+      "get_workloads": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization/module.py#L3838"
+      },
+      "initialize": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization/module.py#L1281"
+      },
+      "links": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization/module.py#L3106"
+      },
+      "problem": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization/module.py#L3899"
+      },
+      "prune": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization/module.py#L3322"
+      },
+      "replay": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization/module.py#L3322"
+      },
+      "run": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization/module.py#L1508"
+      },
+      "show": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization/module.py#L317"
+      },
+      "show_json": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization/module.py#L3973"
+      },
+      "test": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization/module.py#L70"
+      }
     },
     "data_uid": "27bc42ee449e880e",
     "data_uoa": "program.optimization",

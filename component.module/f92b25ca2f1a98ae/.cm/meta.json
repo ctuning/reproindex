@@ -28,10 +28,18 @@
   },
   "misc": {
     "actions": {
-      "build": {},
-      "convert_to_csv": {},
-      "use": {},
-      "validate": {}
+      "build": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model/module.py#L114"
+      },
+      "convert_to_csv": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model/module.py#L699"
+      },
+      "use": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model/module.py#L33"
+      },
+      "validate": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model/module.py#L365"
+      }
     },
     "data_uid": "f92b25ca2f1a98ae",
     "data_uoa": "model",

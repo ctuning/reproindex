@@ -367,8 +367,12 @@
   },
   "misc": {
     "actions": {
-      "get_raw_config": {},
-      "get_raw_data": {}
+      "get_raw_config": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/challenge.vqe/module.py#L329"
+      },
+      "get_raw_data": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/challenge.vqe/module.py#L40"
+      }
     },
     "data_uid": "a44f5985526c2323",
     "data_uoa": "challenge.vqe",

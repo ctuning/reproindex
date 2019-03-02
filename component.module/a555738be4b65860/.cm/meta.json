@@ -91,18 +91,36 @@
   },
   "misc": {
     "actions": {
-      "dashboard": {},
-      "get_raw_config": {},
-      "get_raw_data": {},
-      "html_viewer": {},
-      "make_deps_full_name": {},
-      "prepare_common_meta": {},
-      "replay": {},
-      "scoreboard": {},
-      "show": {
-        "url_api": "https://github.com/ctuning/ck-request/tree/master/module/request.asplos18/module.py#L233"
+      "dashboard": {
+        "url_api": "https://github.com/ctuning/ck-request/tree/master/module/request.asplos18/module.py#L1424"
       },
-      "validate": {}
+      "get_raw_config": {
+        "url_api": "https://github.com/ctuning/ck-request/tree/master/module/request.asplos18/module.py#L2050"
+      },
+      "get_raw_data": {
+        "url_api": "https://github.com/ctuning/ck-request/tree/master/module/request.asplos18/module.py#L1794"
+      },
+      "html_viewer": {
+        "url_api": "https://github.com/ctuning/ck-request/tree/master/module/request.asplos18/module.py#L1026"
+      },
+      "make_deps_full_name": {
+        "url_api": "https://github.com/ctuning/ck-request/tree/master/module/request.asplos18/module.py#L1696"
+      },
+      "prepare_common_meta": {
+        "url_api": "https://github.com/ctuning/ck-request/tree/master/module/request.asplos18/module.py#L1469"
+      },
+      "replay": {
+        "url_api": "https://github.com/ctuning/ck-request/tree/master/module/request.asplos18/module.py#L1247"
+      },
+      "scoreboard": {
+        "url_api": "https://github.com/ctuning/ck-request/tree/master/module/request.asplos18/module.py#L1788"
+      },
+      "show": {
+        "url_api": "https://github.com/ctuning/ck-request/tree/master/module/request.asplos18/module.py#L169"
+      },
+      "validate": {
+        "url_api": "https://github.com/ctuning/ck-request/tree/master/module/request.asplos18/module.py#L1628"
+      }
     },
     "data_uid": "a555738be4b65860",
     "data_uoa": "request.asplos18",

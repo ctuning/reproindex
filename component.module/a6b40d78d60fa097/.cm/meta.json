@@ -31,11 +31,15 @@
   },
   "misc": {
     "actions": {
-      "clean": {},
-      "show": {
-        "url_api": "git@github.com:dividiti/gemmbench/tree/master/module/gemmbench.crowdtuning/module.py#L233"
+      "clean": {
+        "url_api": "git@github.com:dividiti/gemmbench/tree/master/module/gemmbench.crowdtuning/module.py#L167"
       },
-      "start": {}
+      "show": {
+        "url_api": "git@github.com:dividiti/gemmbench/tree/master/module/gemmbench.crowdtuning/module.py#L220"
+      },
+      "start": {
+        "url_api": "git@github.com:dividiti/gemmbench/tree/master/module/gemmbench.crowdtuning/module.py#L36"
+      }
     },
     "data_uid": "a6b40d78d60fa097",
     "data_uoa": "gemmbench.crowdtuning",

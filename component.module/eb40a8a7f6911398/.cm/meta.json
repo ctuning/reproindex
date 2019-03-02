@@ -33,13 +33,19 @@
   "misc": {
     "actions": {
       "add": {
-        "url_api": "https://github.com/ctuning/ck-ai/tree/master/module/ai-artifact/module.py#L34"
+        "url_api": "https://github.com/ctuning/ck-ai/tree/master/module/ai-artifact/module.py#L654"
       },
-      "browse": {},
-      "dashboard": {},
-      "html_viewer": {},
+      "browse": {
+        "url_api": "https://github.com/ctuning/ck-ai/tree/master/module/ai-artifact/module.py#L88"
+      },
+      "dashboard": {
+        "url_api": "https://github.com/ctuning/ck-ai/tree/master/module/ai-artifact/module.py#L57"
+      },
+      "html_viewer": {
+        "url_api": "https://github.com/ctuning/ck-ai/tree/master/module/ai-artifact/module.py#L106"
+      },
       "show": {
-        "url_api": "https://github.com/ctuning/ck-ai/tree/master/module/ai-artifact/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-ai/tree/master/module/ai-artifact/module.py#L320"
       }
     },
     "data_uid": "eb40a8a7f6911398",

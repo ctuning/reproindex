@@ -23,10 +23,18 @@
   },
   "misc": {
     "actions": {
-      "analyze": {},
-      "geometric_mean": {},
-      "process_plus_minus": {},
-      "speedup": {}
+      "analyze": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/math.variation/module.py#L33"
+      },
+      "geometric_mean": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/math.variation/module.py#L282"
+      },
+      "process_plus_minus": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/math.variation/module.py#L308"
+      },
+      "speedup": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/math.variation/module.py#L174"
+      }
     },
     "data_uid": "d3b13388e6152da7",
     "data_uoa": "math.variation",

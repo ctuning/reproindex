@@ -32,12 +32,22 @@
   },
   "misc": {
     "actions": {
-      "build": {},
+      "build": {
+        "url_api": "https://github.com/ctuning/ck-docker/tree/master/module/docker/module.py#L33"
+      },
       "import": {},
-      "login": {},
-      "push": {},
-      "run": {},
-      "save": {}
+      "login": {
+        "url_api": "https://github.com/ctuning/ck-docker/tree/master/module/docker/module.py#L244"
+      },
+      "push": {
+        "url_api": "https://github.com/ctuning/ck-docker/tree/master/module/docker/module.py#L271"
+      },
+      "run": {
+        "url_api": "https://github.com/ctuning/ck-docker/tree/master/module/docker/module.py#L56"
+      },
+      "save": {
+        "url_api": "https://github.com/ctuning/ck-docker/tree/master/module/docker/module.py#L294"
+      }
     },
     "data_uid": "88eef0cd8c43b68a",
     "data_uoa": "docker",

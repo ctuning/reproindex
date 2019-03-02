@@ -17,8 +17,12 @@
   },
   "misc": {
     "actions": {
-      "clean": {},
-      "run": {}
+      "clean": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/jnotebook/module.py#L33"
+      },
+      "run": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/jnotebook/module.py#L82"
+      }
     },
     "data_uid": "145039462db4f4d2",
     "data_uoa": "jnotebook",

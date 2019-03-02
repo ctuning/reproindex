@@ -41,10 +41,14 @@
   },
   "misc": {
     "actions": {
-      "dashboard": {},
-      "run": {},
+      "dashboard": {
+        "url_api": "https://github.com/SamAinsworth/reproduce-cgo2017-paper/tree/master/module/workflow-from-cgo2017-paper/module.py#L1183"
+      },
+      "run": {
+        "url_api": "https://github.com/SamAinsworth/reproduce-cgo2017-paper/tree/master/module/workflow-from-cgo2017-paper/module.py#L285"
+      },
       "show": {
-        "url_api": "https://github.com/SamAinsworth/reproduce-cgo2017-paper/tree/master/module/workflow-from-cgo2017-paper/module.py#L233"
+        "url_api": "https://github.com/SamAinsworth/reproduce-cgo2017-paper/tree/master/module/workflow-from-cgo2017-paper/module.py#L1206"
       }
     },
     "data_uid": "46a6bedec34ef950",

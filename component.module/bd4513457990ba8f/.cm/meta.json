@@ -25,8 +25,12 @@
   },
   "misc": {
     "actions": {
-      "get": {},
-      "index": {}
+      "get": {
+        "url_api": "https://github.com/ctuning/reuse-research/tree/master/module/component/module.py#L33"
+      },
+      "index": {
+        "url_api": "https://github.com/ctuning/reuse-research/tree/master/module/component/module.py#L259"
+      }
     },
     "data_uid": "bd4513457990ba8f",
     "data_uoa": "component",

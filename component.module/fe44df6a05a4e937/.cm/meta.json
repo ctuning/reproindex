@@ -26,13 +26,21 @@
   },
   "misc": {
     "actions": {
-      "clean": {},
-      "off": {},
-      "on": {},
-      "show": {
-        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/index/module.py#L233"
+      "clean": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/index/module.py#L218"
       },
-      "test": {}
+      "off": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/index/module.py#L61"
+      },
+      "on": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/index/module.py#L33"
+      },
+      "show": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/index/module.py#L89"
+      },
+      "test": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/index/module.py#L184"
+      }
     },
     "data_uid": "fe44df6a05a4e937",
     "data_uoa": "index",

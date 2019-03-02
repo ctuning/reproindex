@@ -38,8 +38,12 @@
   },
   "misc": {
     "actions": {
-      "describe": {},
-      "reproduce": {}
+      "describe": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program.experiment.speedup/module.py#L34"
+      },
+      "reproduce": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program.experiment.speedup/module.py#L54"
+      }
     },
     "data_uid": "79ebd29367875c5b",
     "data_uoa": "program.experiment.speedup",

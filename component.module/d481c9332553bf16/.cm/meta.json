@@ -13,7 +13,9 @@
   },
   "misc": {
     "actions": {
-      "make": {}
+      "make": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/me/module.py#L33"
+      }
     },
     "data_uid": "d481c9332553bf16",
     "data_uoa": "me",

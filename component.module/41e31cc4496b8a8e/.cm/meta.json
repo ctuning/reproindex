@@ -31,10 +31,14 @@
   },
   "misc": {
     "actions": {
-      "browse": {},
-      "detect": {},
+      "browse": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform.os/module.py#L959"
+      },
+      "detect": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform.os/module.py#L33"
+      },
       "show": {
-        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform.os/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform.os/module.py#L844"
       }
     },
     "data_uid": "41e31cc4496b8a8e",

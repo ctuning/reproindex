@@ -21,8 +21,12 @@
   },
   "misc": {
     "actions": {
-      "copy_file": {},
-      "html_viewer": {}
+      "copy_file": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/report/module.py#L365"
+      },
+      "html_viewer": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/report/module.py#L35"
+      }
     },
     "data_uid": "1e348bd6ab43ce8a",
     "data_uoa": "report",

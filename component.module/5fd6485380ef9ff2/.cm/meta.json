@@ -13,7 +13,9 @@
   },
   "misc": {
     "actions": {
-      "generate": {}
+      "generate": {
+        "url_api": "https://github.com/ctuning/ck-web/tree/master/module/qr-code/module.py#L34"
+      }
     },
     "data_uid": "5fd6485380ef9ff2",
     "data_uoa": "qr-code",

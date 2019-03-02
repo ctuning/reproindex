@@ -18,7 +18,9 @@
   },
   "misc": {
     "actions": {
-      "convert_to_decision_tree": {}
+      "convert_to_decision_tree": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/graph.dot/module.py#L33"
+      }
     },
     "data_uid": "94a051a40018fcd3",
     "data_uoa": "graph.dot",

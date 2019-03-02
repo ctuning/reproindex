@@ -55,6 +55,10 @@ def add_index(i):
 
     repo_url1_full=d['misc'].get('repo_url1','')
 
+    data_uoa=d['misc'].get('data_uoa','')
+    data_uid=d['misc'].get('data_uid','')
+
+    module_uoa=d['misc'].get('module_uoa','')
     module_uid=d['misc'].get('module_uid','')
 
     xworkflow=m.get('workflow','')
@@ -77,7 +81,7 @@ def add_index(i):
            if repo_url1_full!='':
               # Get API!
               l=-1
-              rx=ck.get_api({'module_uoa':module_uid, 'func':q})
+              rx=ck.get_api({'module_uoa':data_uid, 'func':q})
               if rx['return']==0:
                  l=rx['line']
 

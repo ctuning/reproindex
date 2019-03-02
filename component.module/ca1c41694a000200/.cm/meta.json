@@ -51,15 +51,27 @@
   },
   "misc": {
     "actions": {
-      "ask_ai": {},
-      "ask_ai_web": {},
-      "dashboard": {},
-      "remote_xsb": {},
-      "remote_xsb_api": {},
-      "show": {
-        "url_api": "https://github.com/ctuning/reproduce-milepost-project/tree/master/module/milepost/module.py#L233"
+      "ask_ai": {
+        "url_api": "https://github.com/ctuning/reproduce-milepost-project/tree/master/module/milepost/module.py#L472"
       },
-      "show_json": {}
+      "ask_ai_web": {
+        "url_api": "https://github.com/ctuning/reproduce-milepost-project/tree/master/module/milepost/module.py#L612"
+      },
+      "dashboard": {
+        "url_api": "https://github.com/ctuning/reproduce-milepost-project/tree/master/module/milepost/module.py#L449"
+      },
+      "remote_xsb": {
+        "url_api": "https://github.com/ctuning/reproduce-milepost-project/tree/master/module/milepost/module.py#L493"
+      },
+      "remote_xsb_api": {
+        "url_api": "https://github.com/ctuning/reproduce-milepost-project/tree/master/module/milepost/module.py#L542"
+      },
+      "show": {
+        "url_api": "https://github.com/ctuning/reproduce-milepost-project/tree/master/module/milepost/module.py#L59"
+      },
+      "show_json": {
+        "url_api": "https://github.com/ctuning/reproduce-milepost-project/tree/master/module/milepost/module.py#L630"
+      }
     },
     "data_uid": "ca1c41694a000200",
     "data_uoa": "milepost",

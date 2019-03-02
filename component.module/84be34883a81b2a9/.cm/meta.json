@@ -162,13 +162,17 @@
       "add": {
         "url_api": "https://github.com/ctuning/ck-env/tree/master/module/machine/module.py#L34"
       },
-      "browse": {},
-      "check": {},
+      "browse": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/machine/module.py#L897"
+      },
+      "check": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/machine/module.py#L984"
+      },
       "init": {
         "url_api": "https://github.com/ctuning/ck-env/tree/master/module/machine/module.py#L17"
       },
       "show": {
-        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/machine/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/machine/module.py#L744"
       }
     },
     "data_uid": "84be34883a81b2a9",

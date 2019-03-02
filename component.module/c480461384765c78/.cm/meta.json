@@ -96,8 +96,12 @@
   },
   "misc": {
     "actions": {
-      "start": {},
-      "test": {}
+      "start": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/web/module.py#L610"
+      },
+      "test": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/web/module.py#L706"
+      }
     },
     "data_uid": "c480461384765c78",
     "data_uoa": "web",

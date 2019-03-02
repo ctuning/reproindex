@@ -30,10 +30,14 @@
   },
   "misc": {
     "actions": {
-      "ask": {},
-      "browse": {},
+      "ask": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/advice/module.py#L205"
+      },
+      "browse": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/advice/module.py#L182"
+      },
       "show": {
-        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/advice/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/advice/module.py#L52"
       }
     },
     "data_uid": "2a2ede3f72b29b6b",

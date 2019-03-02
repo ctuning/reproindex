@@ -58,13 +58,21 @@
   },
   "misc": {
     "actions": {
-      "crowdsource": {},
-      "process_results": {},
-      "replay": {},
-      "show": {
-        "url_api": "https://github.com/dividiti/ck-crowdsource-dnn-optimization/tree/master/module/experiment.bench.dnn.desktop/module.py#L233"
+      "crowdsource": {
+        "url_api": "https://github.com/dividiti/ck-crowdsource-dnn-optimization/tree/master/module/experiment.bench.dnn.desktop/module.py#L59"
       },
-      "submit": {}
+      "process_results": {
+        "url_api": "https://github.com/dividiti/ck-crowdsource-dnn-optimization/tree/master/module/experiment.bench.dnn.desktop/module.py#L597"
+      },
+      "replay": {
+        "url_api": "https://github.com/dividiti/ck-crowdsource-dnn-optimization/tree/master/module/experiment.bench.dnn.desktop/module.py#L449"
+      },
+      "show": {
+        "url_api": "https://github.com/dividiti/ck-crowdsource-dnn-optimization/tree/master/module/experiment.bench.dnn.desktop/module.py#L77"
+      },
+      "submit": {
+        "url_api": "https://github.com/dividiti/ck-crowdsource-dnn-optimization/tree/master/module/experiment.bench.dnn.desktop/module.py#L475"
+      }
     },
     "data_uid": "5f9c6d3488fab90e",
     "data_uoa": "experiment.bench.dnn.desktop",

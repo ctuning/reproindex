@@ -94,11 +94,17 @@
   },
   "misc": {
     "actions": {
-      "generate": {},
-      "process": {},
-      "process_unexpected_behavior": {},
+      "generate": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.bench.dnn.mobile/module.py#L1438"
+      },
+      "process": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.bench.dnn.mobile/module.py#L1150"
+      },
+      "process_unexpected_behavior": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.bench.dnn.mobile/module.py#L1358"
+      },
       "show": {
-        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.bench.dnn.mobile/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.bench.dnn.mobile/module.py#L74"
       }
     },
     "data_uid": "4dcf435bb0d92fa6",

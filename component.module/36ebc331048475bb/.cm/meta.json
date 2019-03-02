@@ -34,10 +34,18 @@
   },
   "misc": {
     "actions": {
-      "extract_opts": {},
-      "extract_opts_new": {},
-      "extract_to_pipeline": {},
-      "html_viewer": {}
+      "extract_opts": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/compiler/module.py#L129"
+      },
+      "extract_opts_new": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/compiler/module.py#L456"
+      },
+      "extract_to_pipeline": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/compiler/module.py#L33"
+      },
+      "html_viewer": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/compiler/module.py#L798"
+      }
     },
     "data_uid": "36ebc331048475bb",
     "data_uoa": "compiler",

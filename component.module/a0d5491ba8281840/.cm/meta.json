@@ -51,10 +51,18 @@
   },
   "misc": {
     "actions": {
-      "check": {},
-      "crowdsource": {},
-      "request": {},
-      "server": {}
+      "check": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization.mobile/module.py#L806"
+      },
+      "crowdsource": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization.mobile/module.py#L750"
+      },
+      "request": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization.mobile/module.py#L36"
+      },
+      "server": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/program.optimization.mobile/module.py#L624"
+      }
     },
     "data_uid": "a0d5491ba8281840",
     "data_uoa": "program.optimization.mobile",

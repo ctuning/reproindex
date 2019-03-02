@@ -46,10 +46,12 @@
   },
   "misc": {
     "actions": {
-      "detect": {},
+      "detect": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/platform.gpgpu/module.py#L33"
+      },
       "set_freq": {},
       "show": {
-        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/platform.gpgpu/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/platform.gpgpu/module.py#L530"
       }
     },
     "data_uid": "192ed4e0bbdbe743",

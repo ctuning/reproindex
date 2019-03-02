@@ -18,9 +18,15 @@
   },
   "misc": {
     "actions": {
-      "auth": {},
-      "create": {},
-      "renew": {}
+      "auth": {
+        "url_api": "https://github.com/ctuning/ck-web/tree/master/module/user/module.py#L33"
+      },
+      "create": {
+        "url_api": "https://github.com/ctuning/ck-web/tree/master/module/user/module.py#L104"
+      },
+      "renew": {
+        "url_api": "https://github.com/ctuning/ck-web/tree/master/module/user/module.py#L190"
+      }
     },
     "data_uid": "31945a474d940ab0",
     "data_uoa": "user",

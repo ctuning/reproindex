@@ -51,10 +51,14 @@
   },
   "misc": {
     "actions": {
-      "crowdsource": {},
-      "replay": {},
+      "crowdsource": {
+        "url_api": "https://github.com/ctuning/ck-tensorflow/tree/master/module/experiment.bench.tensorflow/module.py#L74"
+      },
+      "replay": {
+        "url_api": "https://github.com/ctuning/ck-tensorflow/tree/master/module/experiment.bench.tensorflow/module.py#L1068"
+      },
       "show": {
-        "url_api": "https://github.com/ctuning/ck-tensorflow/tree/master/module/experiment.bench.tensorflow/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-tensorflow/tree/master/module/experiment.bench.tensorflow/module.py#L581"
       }
     },
     "data_uid": "bca33b04b438d756",

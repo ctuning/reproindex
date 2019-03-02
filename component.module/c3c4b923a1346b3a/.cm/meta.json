@@ -44,9 +44,11 @@
   },
   "misc": {
     "actions": {
-      "dashboard": {},
+      "dashboard": {
+        "url_api": "https://github.com/ctuning/ck-clsmith/tree/master/module/opencl-bug/module.py#L111"
+      },
       "show": {
-        "url_api": "https://github.com/ctuning/ck-clsmith/tree/master/module/opencl-bug/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-clsmith/tree/master/module/opencl-bug/module.py#L42"
       }
     },
     "data_uid": "c3c4b923a1346b3a",

@@ -44,14 +44,26 @@
   },
   "misc": {
     "actions": {
-      "browse": {},
-      "deinit": {},
-      "detect": {},
-      "exchange": {},
-      "get_from_wmic": {},
-      "init_device": {},
+      "browse": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform/module.py#L978"
+      },
+      "deinit": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform/module.py#L808"
+      },
+      "detect": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform/module.py#L34"
+      },
+      "exchange": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform/module.py#L667"
+      },
+      "get_from_wmic": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform/module.py#L526"
+      },
+      "init_device": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform/module.py#L615"
+      },
       "show": {
-        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform/module.py#L877"
       }
     },
     "data_uid": "707ccdfe444cafac",

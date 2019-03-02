@@ -11,8 +11,12 @@
   },
   "misc": {
     "actions": {
-      "prepare": {},
-      "run": {}
+      "prepare": {
+        "url_api": "https://github.com/lift-project/ck-lift/tree/master/module/lift-benchmark/module.py#L201"
+      },
+      "run": {
+        "url_api": "https://github.com/lift-project/ck-lift/tree/master/module/lift-benchmark/module.py#L45"
+      }
     },
     "data_uid": "10209c9944e509b1",
     "data_uoa": "lift-benchmark",

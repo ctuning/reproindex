@@ -15,7 +15,9 @@
   },
   "misc": {
     "actions": {
-      "pipeline": {}
+      "pipeline": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/pipeline.cmd/module.py#L33"
+      }
     },
     "data_uid": "c52e2c61be3f4600",
     "data_uoa": "pipeline.cmd",

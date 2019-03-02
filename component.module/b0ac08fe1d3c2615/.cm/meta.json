@@ -149,27 +149,57 @@
   "misc": {
     "actions": {
       "add": {
-        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L34"
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L7053"
       },
-      "autotune": {},
-      "benchmark": {},
-      "clean": {},
-      "clean_tmp": {},
-      "compile": {},
-      "copy": {},
-      "cp": {},
-      "crowdtune": {},
-      "find_output": {},
-      "pipeline": {},
-      "prepare_table_with_results": {},
-      "process_in_dir": {},
-      "run": {},
+      "autotune": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L6189"
+      },
+      "benchmark": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L6290"
+      },
+      "clean": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L3431"
+      },
+      "clean_tmp": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L6146"
+      },
+      "compile": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L181"
+      },
+      "copy": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L6062"
+      },
+      "cp": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L6062"
+      },
+      "crowdtune": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L6115"
+      },
+      "find_output": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L7009"
+      },
+      "pipeline": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L3478"
+      },
+      "prepare_table_with_results": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L6763"
+      },
+      "process_in_dir": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L181"
+      },
+      "run": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L181"
+      },
       "select_uoa": {},
       "show": {
-        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L233"
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L7123"
       },
-      "substitute_some_ck_keys": {},
-      "xcrowdtune": {}
+      "substitute_some_ck_keys": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L6004"
+      },
+      "xcrowdtune": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/program/module.py#L6257"
+      }
     },
     "data_uid": "b0ac08fe1d3c2615",
     "data_uoa": "program",

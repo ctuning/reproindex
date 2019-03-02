@@ -14,7 +14,9 @@
   },
   "misc": {
     "actions": {
-      "pull": {}
+      "pull": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/all/module.py#L33"
+      }
     },
     "data_uid": "e8ebe2ef2e5b4555",
     "data_uoa": "all",
