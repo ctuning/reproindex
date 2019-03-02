@@ -1,4 +1,8 @@
 {
-  "actions": {},
+  "actions": {
+    "add_index": {
+      "desc": "add index"
+    }
+  },
   "desc": "index of CK modules"
 }

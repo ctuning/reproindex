@@ -1,0 +1,48 @@
+{
+  "dict": {
+    "actions": {
+      "autotune": {
+        "desc": "autotune Caffe"
+      },
+      "crowdbench": {
+        "desc": "crowd-benchmark caffe"
+      },
+      "demo": {
+        "desc": "classification demo using webcam"
+      }
+    },
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "demo": {
+      "data_uoa": "tmp-live-caffe-demo",
+      "image_name": "tmp-captured-image.jpg"
+    },
+    "desc": "caffe CK front-end",
+    "developer": "cTuning foundation",
+    "developer_email": "admin@cTuning.org",
+    "developer_webpage": "http://cTuning.org",
+    "license": "See CK LICENSE.txt for licensing details",
+    "module_deps": {
+      "experiment.bench.caffe": "155b6fa5a4012a93",
+      "program": "b0ac08fe1d3c2615",
+      "tmp": "bfc8fef73c233ce4"
+    },
+    "workflow": "yes",
+    "workflow_type": "caffe pipeline"
+  },
+  "misc": {
+    "actions": {
+      "autotune": {},
+      "crowdbench": {},
+      "demo": {}
+    },
+    "data_uid": "7d5e081bda47dcbc",
+    "data_uoa": "caffe",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "57e83bca8a5a4344",
+    "repo_uoa": "ck-caffe",
+    "repo_url1": "git@github.com:dividiti/ck-caffe/tree/master/module/caffe/module.py",
+    "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/module/caffe/.cm/meta.json",
+    "workflow": "caffe pipeline"
+  }
+}

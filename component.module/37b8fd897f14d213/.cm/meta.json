@@ -1,0 +1,20 @@
+{
+  "actions": {},
+  "desc": "index of CK programs",
+  "dict": {
+    "actions": {},
+    "desc": "index of CK programs"
+  },
+  "misc": {
+    "actions": {},
+    "data_uid": "37b8fd897f14d213",
+    "data_uoa": "component.program",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "c590dea823213918",
+    "repo_uoa": "reuse-research",
+    "repo_url1": "https://github.com/ctuning/reuse-research/tree/master/module/component.program/module.py",
+    "repo_url2": "https://github.com/ctuning/reuse-research/tree/master/module/component.program/.cm/meta.json",
+    "workflow": ""
+  }
+}

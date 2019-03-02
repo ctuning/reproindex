@@ -1,0 +1,30 @@
+{
+  "actions": {
+    "add_index": {
+      "desc": "add index"
+    }
+  },
+  "desc": "index of CK modules",
+  "dict": {
+    "actions": {
+      "add_index": {
+        "desc": "add index"
+      }
+    },
+    "desc": "index of CK modules"
+  },
+  "misc": {
+    "actions": {
+      "add_index": {}
+    },
+    "data_uid": "4700aece50b4de77",
+    "data_uoa": "component.module",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "c590dea823213918",
+    "repo_uoa": "reuse-research",
+    "repo_url1": "https://github.com/ctuning/reuse-research/tree/master/module/component.module/module.py",
+    "repo_url2": "https://github.com/ctuning/reuse-research/tree/master/module/component.module/.cm/meta.json",
+    "workflow": ""
+  }
+}

@@ -2,7 +2,14 @@
   "actions": {
     "get": {
       "desc": "get index of components"
+    },
+    "index": {
+      "desc": "index components"
     }
   },
-  "desc": "indexing reusable research components"
+  "desc": "indexing reusable research components",
+  "module_deps": {
+    "cfg":"b34231a3467566f8",
+    "module": "032630d041b4fd8a"
+  }
 }

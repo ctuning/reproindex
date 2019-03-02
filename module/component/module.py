@@ -180,3 +180,187 @@ def get(i):
        h+=h1
 
     return {'return':0, 'len':llst, 'html':h, 'html_c':hc}
+
+##############################################################################
+# index components
+
+def index(i):
+    """
+    Input:  {
+              (data_uoa)        - which component to index; if "", take from cfg:component
+              (target_repo_uoa) - if "", use "reuse-research"
+            }
+
+    Output: {
+              return       - return code =  0, if successful
+                                         >  0, if error
+              (error)      - error text if return > 0
+            }
+
+    """
+
+    import os
+    import copy
+
+    o=i.get('out','')
+
+    tr_uoa=i.get('target_repo_uoa','')
+    if tr_uoa=='': tr_uoa='reuse-research'
+
+    # Check which components to index
+    duoa=i.get('data_uoa','')
+    if duoa!='':
+       r=ck.access({'action':'load',
+                    'module_uoa':cfg['module_deps']['module'],
+                    'data_uoa':duoa})
+       if r['return']>0: return r
+       duoa=r['data_uid']
+
+    r=ck.access({'action':'load',
+                 'module_uoa':cfg['module_deps']['cfg'],
+                 'data_uoa':'component'})
+    if r['return']>0: return r
+    components=r['dict']['index']
+
+    for cc in components:
+        name=cc["name"]
+        c_uid=cc["uid"]
+        cm_uid=cc["orig_module_uid"]
+
+        if duoa!='' and c_uid!=duoa:
+           continue
+
+        ck.out('==========================================================')
+        ck.out('Indexing component: '+name)
+        ck.out('')
+        
+        # Search for components
+        ii={}
+        ii['action']='list'
+        ii['module_uoa']=cm_uid
+        ii['add_meta']='yes'
+        ii['time_out']=-1
+
+        rx=ck.access(ii)
+        if rx['return']>0: return rx
+
+        ll=sorted(rx['lst'], key=lambda k: k['data_uoa'])
+
+        repo_url={}
+        repo_private={}
+
+        private=''
+        num=0
+
+        h=''
+
+        for l in ll:
+            ln=l['data_uoa']
+            ln_uid=l['data_uid']
+
+            lm_uoa=l['module_uoa']
+            lm_uid=l['module_uid']
+
+            lr=l['repo_uoa']
+            lr_uid=l['repo_uid']
+
+            url=''
+            if lr=='default':
+               url='https://github.com/ctuning/ck/tree/master/ck/repo'
+            elif lr_uid in repo_url:
+               url=repo_url[lr_uid]
+            else:
+               rx=ck.load_repo_info_from_cache({'repo_uoa':lr_uid})
+               if rx['return']>0: return rx
+               url=rx.get('dict',{}).get('url','')
+               repo_private[lr_uid]=rx.get('dict',{}).get('private','')
+               repo_url[lr_uid]=url
+
+            private=repo_private.get(lr_uid,'')
+
+            # Check that repository is not private or local ...
+            if lr not in cfg.get('skip_repos',[]) and private!='yes' and url!='':
+               num+=1
+
+               ck.out('  '+str(num)+') '+ln)
+
+               # Check if entry already exists
+               ddd={}
+               exist=False
+               r=ck.access({'action':'load',
+                            'module_uoa':c_uid,
+                            'data_uoa':ln_uid,
+                            'repo_uoa':tr_uoa})
+               if r['return']>0 and r['return']!=16: return r
+               if r['return']==0: 
+                  ddd=r['dict']
+                  exist=True
+
+               # General vars
+               lm=l['meta']
+               ld=lm.get('desc','')
+
+               # Info about repo
+               if lr=='default':
+                  to_get=''
+               elif url.find('github.com/ctuning/')>0:
+                  to_get='ck pull repo:'+lr
+               else:
+                  to_get='ck pull repo --url='+url
+
+               repo_url1_full=''
+               repo_url2_full=''
+               if url!='':
+                  url2=url
+
+                  if url2.endswith('.git'):
+                     url2=url2[:-4]
+
+                  if '/tree/master/' not in url2:
+                     url2+='/tree/master/module/'
+                  else:
+                     url2+='/module/'
+
+                  repo_url1_full=url2+ln+'/module.py'
+                  repo_url2_full=url2+ln+'/.cm/meta.json'
+
+               # Update dict
+               ddd['dict']=copy.deepcopy(lm)
+               ddd['misc']={'repo_url1':repo_url1_full,
+                            'repo_url2':repo_url2_full,
+                            'data_uoa':ln,
+                            'data_uid':ln_uid,
+                            'repo_uoa':lr,
+                            'repo_uid':lr_uid,
+                            'module_uoa':lm_uoa,
+                            'module_uid':lm_uid}
+
+               # Add specific info per component
+               r=ck.access({'action':'add_index',
+                            'module_uoa':c_uid,
+                            'dict':ddd,
+                            'meta':lm})
+               if r['return']>0: return r
+
+               # Add/update entry
+               ii={'module_uoa':c_uid,
+                   'data_uoa':ln_uid,
+                   'repo_uoa':tr_uoa,
+                   'dict':ddd,
+                   'substitute':'yes',
+                   'sort_keys':'yes'}
+
+               if exist:
+                  ii['action']='update'
+                  ii['ignore_update']='yes'
+               else:
+                  ii['action']='add'
+
+               r=ck.access(ii)
+               if r['return']>0: return r
+
+        ck.out('')
+        ck.out('  Total components: '+str(num))
+        ck.out('')
+
+    return {'return':0}

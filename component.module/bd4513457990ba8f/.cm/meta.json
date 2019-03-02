@@ -1,0 +1,45 @@
+{
+  "actions": {
+    "get": {
+      "desc": "get index of components"
+    },
+    "index": {
+      "desc": "index components"
+    }
+  },
+  "desc": "indexing reusable research components",
+  "dict": {
+    "actions": {
+      "get": {
+        "desc": "get index of components"
+      },
+      "index": {
+        "desc": "index components"
+      }
+    },
+    "desc": "indexing reusable research components",
+    "module_deps": {
+      "cfg": "b34231a3467566f8",
+      "module": "032630d041b4fd8a"
+    }
+  },
+  "misc": {
+    "actions": {
+      "get": {},
+      "index": {}
+    },
+    "data_uid": "bd4513457990ba8f",
+    "data_uoa": "component",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "c590dea823213918",
+    "repo_uoa": "reuse-research",
+    "repo_url1": "https://github.com/ctuning/reuse-research/tree/master/module/component/module.py",
+    "repo_url2": "https://github.com/ctuning/reuse-research/tree/master/module/component/.cm/meta.json",
+    "workflow": ""
+  },
+  "module_deps": {
+    "cfg": "b34231a3467566f8",
+    "module": "032630d041b4fd8a"
+  }
+}
