@@ -85,3 +85,44 @@ def add_index(i):
                  d['misc']['actions'][q]['url_api']=repo_url1_full+'#L'+str(l)
 
     return {'return':0}
+
+##############################################################################
+# generate html
+
+def html(i):
+    """
+    Input:  {
+            }
+
+    Output: {
+              return       - return code =  0, if successful
+                                         >  0, if error
+              (error)      - error text if return > 0
+            }
+
+    """
+
+    d=i.get('dict',{})
+
+    llm=d.get('meta',{})
+
+    llmisc=llm.get('misc',{})
+    lldict=llm.get('dict',{})
+
+    desc=lldict.get('desc','')
+
+    duoa=llmisc.get('data_uoa','')
+    duid=llmisc.get('data_uid','')
+
+    muoa=llmisc.get('module_uoa','')
+
+    h=''
+    if desc!='':
+       h+='<i> - '+desc+'</i><br>\n'
+
+    h1=''
+
+    h1+='<a href="http://cknowledge.org/repo/web.php?template=cknowledge&&action=load&out=json&cid=604419a9fcc7a081:befd7892b0d469e9:604419a9fcc7a081" target="_blank">[View meta]</a>&nbsp;\n'
+
+
+    return {'return':0, 'html':h, 'html1':h1}

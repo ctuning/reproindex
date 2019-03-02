@@ -1,10 +1,10 @@
 #
 # Collective Knowledge (indexing reusable research components)
 #
-# 
-# 
+# See CK LICENSE.txt for licensing details
+# See CK COPYRIGHT.txt for copyright details
 #
-# Developer: 
+# Developer: Grigori Fursin
 #
 
 cfg={}  # Will be updated by CK (meta description of this module)
@@ -82,6 +82,7 @@ def get(i):
 
     # Init URL
     url=page_name+'?'
+    url0=url
 
     # Check component and prepare selector
     c=wv.get('c','')
@@ -108,8 +109,34 @@ def get(i):
            url+='&c='+xid
         hc+='>'+name+'</option>\n'
 
-    # Check search
+    # Check if CID
+    cid=wv.get('cid','')
+    d_uoa=''
+    if cid!='':
+       r=ck.parse_cid({'cid':cid})
+       if r['return']==0:
+          c_uid=r.get('module_uoa','')
+          d_uoa=r.get('data_uoa','')
+
+    # Parse search string
     q=wv.get('q','')
+    q=q.encode('utf8')
+
+    if '"' in q:
+       q1=q.split('"')
+    else:
+       q1=q.split(' ')
+    qs=[]
+    for q in q1:
+        if q!='':
+           if q.startswith(' '):
+              q3=q.strip().split(' ')
+              q2=[]
+              for q in q3:
+                  q2.append(q.strip().lower())
+           else:
+              q2=[q.strip().lower()]
+           qs+=q2
 
     try:    from urllib.parse import urlencode
     except: from urllib import urlencode # pragma: no cover
@@ -123,20 +150,29 @@ def get(i):
        url+='&l='+str(ilength)
 
     # Search
-    ii={"action":"search",
+    ii={"action":"list",
         "module_uoa":c_uid,
-        "add_meta":"yes"}
+        "add_meta":"yes",
+        "filter_func_addr":getattr(sys.modules[__name__],'search_filter'),
+        "search_dict":qs}
+    if d_uoa!='':
+       ii['data_uoa']=d_uoa
     r=ck.access(ii)
     if r['return']>0: return r
 
     lst=r['lst']
     ep=r['elapsed_time']
 
+    # Sort by name
+    lst=sorted(lst, key=lambda x: x.get('meta',{}).get('misc',{}).get('data_uoa',''))
+
     llst=len(lst)
 
     x=''
     if llst==0 or llst>1: x='s'
-    h='<center>'+str(llst)+' result'+x+' ('+("%.3f" % float(ep))+' seconds)<br></center>\n'
+    h=''
+    if llst!=1:
+       h='<center>'+str(llst)+' result'+x+' ('+("%.3f" % float(ep))+' seconds)<br></center>\n'
 
     # List
     j1=(ipage-1)*ilength
@@ -145,9 +181,48 @@ def get(i):
 
     for j in range(j1,j2+1):
         jj=j+1
-        h+=str(jj)+'<br>\n'
 
+        ll=lst[j]
 
+        llm=ll['meta']
+
+        llmisc=llm.get('misc',{})
+
+        duoa=llmisc.get('data_uoa','')
+        duid=llmisc.get('data_uid','')
+
+        muoa=llmisc.get('module_uoa','')
+
+        r=ck.access({'action':'html',
+                     'module_uoa':c_uid,
+                     'dict':ll})
+        if r['return']>0: return r
+
+        hh=r['html']
+        hh1=r.get('html1','')
+
+        xcid=c_uid+':'+duid
+
+        h+='<div id="ck_entries">\n'
+        xurl1='<a href="'+url0+'cid='+xcid+'">'
+        xurl2='</a>'
+
+        if llst==1:
+           h+=xurl1+muoa+':'+duoa+xurl2+'\n'
+        else:
+           h+=str(jj)+') '+xurl1+duoa+xurl2+'\n'
+
+        h+=hh
+
+        if hh1!='':
+           h+='<div id="ck_entries_space4"></div>\n'
+           h+='<div id="ck_downloads">\n'
+           h+=hh1
+           h+='</div>\n'
+
+        h+='</div>\n'
+
+        h+='<div id="ck_entries_space4"></div>\n'
 
     # Get page index
     tpages=int(math.ceil(float(llst)/float(ilength)))
@@ -233,7 +308,7 @@ def index(i):
         ck.out('==========================================================')
         ck.out('Indexing component: '+name)
         ck.out('')
-        
+
         # Search for components
         ii={}
         ii['action']='list'
@@ -364,3 +439,51 @@ def index(i):
         ck.out('')
 
     return {'return':0}
+
+##############################################################################
+# search filter
+
+def search_filter(i):
+
+    meta=i.get('meta',{})
+    sd=i.get('search_dict',[])
+
+    skip='yes'
+
+    if len(sd)==0:
+       skip='no'
+
+    for s in sd:
+        for k in meta:
+            if not search_filter_recursive(meta[k],s):
+               skip='no'
+               break
+
+    return {'return':0, 'skip':skip}
+
+##############################################################################
+# search filter (recursive)
+
+def search_filter_recursive(v,s):
+    skip=True
+
+    if type(v)==list:
+       for k in v:
+          if not search_filter_recursive(k,s):
+             skip=False
+             break
+    elif type(v)==dict:
+        for k in v:
+            if not search_filter_recursive(v[k],s):
+               skip=False
+               break
+    else:
+        try:
+            v=str(v).lower()
+        except:
+            pass
+
+        if s in v:
+           skip=False
+
+    return skip

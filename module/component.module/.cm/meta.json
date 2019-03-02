@@ -2,6 +2,9 @@
   "actions": {
     "add_index": {
       "desc": "add index"
+    },
+    "html": {
+      "desc": "generate html"
     }
   },
   "desc": "index of CK modules"
