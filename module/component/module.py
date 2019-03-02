@@ -208,9 +208,9 @@ def get(i):
         xurl2='</a>'
 
         if llst==1:
-           h+=xurl1+muoa+':'+duoa+xurl2+'\n'
+           h+='<b>'+xurl1+muoa+':'+duoa+xurl2+'</b>\n'
         else:
-           h+=str(jj)+') '+xurl1+duoa+xurl2+'\n'
+           h+=str(jj)+') <b>'+xurl1+duoa+xurl2+'</b>\n'
 
         h+=hh
 

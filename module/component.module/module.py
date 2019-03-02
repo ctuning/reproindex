@@ -109,6 +109,9 @@ def html(i):
     llmisc=llm.get('misc',{})
     lldict=llm.get('dict',{})
 
+    repo_url1=llmisc.get('repo_url1','')
+    repo_url2=llmisc.get('repo_url2','')
+
     desc=lldict.get('desc','')
 
     duoa=llmisc.get('data_uoa','')
@@ -118,11 +121,36 @@ def html(i):
 
     h=''
     if desc!='':
-       h+='<i> - '+desc+'</i><br>\n'
+       h+='<i> - '+desc+'</i>\n'
+
+    actions1=lldict.get('actions',{})
+    actions2=llmisc.get('actions',{})
+
+    h+='<div style="background-color:#efefef;margin:5px;padding:5px;">\n'
+    if len(actions1)>0:
+       h+='<b>Actions:</b><br>\n'
+       h+='<div style="margin-left:20px;">\n'
+       h+=' <ul>\n'
+       for a in actions1:
+           x=actions1[a]
+           ad=x.get('desc','')
+           y=actions2.get(a,{})
+           au=y.get('url_api','')
+
+           h+='  <li><span style="color:#9f0000;">ck <i>'+str(a)+'</i> '+duoa+'</span> - '+ad
+           if au!='':
+              h+=' (&nbsp;<a href="'+au+'">API</a>&nbsp;)\n'
+
+       h+=' </ul>\n'
+       h+='</div>\n'
+    h+='</div>\n'
 
     h1=''
 
-    h1+='<a href="http://cknowledge.org/repo/web.php?template=cknowledge&&action=load&out=json&cid=604419a9fcc7a081:befd7892b0d469e9:604419a9fcc7a081" target="_blank">[View meta]</a>&nbsp;\n'
+    if repo_url1!='':
+       h1+='[&nbsp;<a href="'+repo_url1+'" target="_blank">code</a>&nbsp;]&nbsp;\n'
+    if repo_url2!='':
+       h1+='[&nbsp;<a href="'+repo_url2+'" target="_blank">meta</a>&nbsp;]\n'
 
 
     return {'return':0, 'html':h, 'html1':h1}
