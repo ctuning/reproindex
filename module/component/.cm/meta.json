@@ -1,0 +1,8 @@
+{
+  "actions": {
+    "get": {
+      "desc": "get index of components"
+    }
+  },
+  "desc": "indexing reusable research components"
+}
