@@ -5,5 +5,27 @@
     {"name":"Tasks (program workflows)", "id":"task", "uid":"37b8fd897f14d213", "orig_module_uid":"b0ac08fe1d3c2615"},
     {"name":"Software detection plugins", "id":"soft", "uid":"c4746e18ba0d23fe", "orig_module_uid":"5e1100048ab875d7"},
     {"name":"Packages", "id":"package", "uid":"5bd40c8c212063a3", "orig_module_uid":"1dc07ee0f4742028"}
+  ],
+  "index_articles": [
+    {"name":"", "id":""},
+    {"name":"SysML'19", "id":"papers-sysml-2019"},
+    {"name":"ReQuEST-ASPLOS'18", "id":"papers-request-asplos-2018"},
+    {"name":"PPoPP'19", "id":"papers-ppopp-2019"},
+    {"name":"CGO'18", "id":"papers-cgo-2018"},
+    {"name":"PPoPP'18", "id":"papers-ppopp-2018"},
+    {"name":"IA3'18", "id":"papers-ia3"},
+    {"name":"CGO'17", "id":"papers-cgo-2017"},
+    {"name":"SC'17", "id":"papers-sc-2017"},
+    {"name":"PPoPP'17", "id":"papers-ppopp-2017"},
+    {"name":"PACT'17", "id":"papers-pact-2017"},
+    {"name":"ADAPT'16", "id":"papers-adapt-2016"},
+    {"name":"PACT'16", "id":"papers-pact-2016"},
+    {"name":"PPoPP'16", "id":"papers-ppopp-2016"},
+    {"name":"CGO'16", "id":"papers-cgo-2016"},
+    {"name":"PPoPP'15", "id":"papers-ppopp-2015"},
+    {"name":"CGO'15", "id":"papers-cgo-2015"},
+    {"name":"ADAPT'15", "id":"papers-adapt-2015"},
+    {"name":"GCC Summit'09", "id":"papers-gcc-summit-2009"},
+    {"name":"ArXiv", "id":"papers-arxiv"}
   ]
 }

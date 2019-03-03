@@ -84,32 +84,39 @@ def get(i):
     url=page_name+'?'
     url0=url
 
+    # Check article
+    a=wv.get('a','')
+
     # Check component and prepare selector
     c=wv.get('c','')
     if c=='': c='module'
 
-    c_uid='component.*' # Selected UID
+    c_uid='component.module' # Selected UID
     orig_module_uid=''
+
+    if c=='article':
+       c_uid='component.article'
 
     r=ck.access({'action':'load',
                  'module_uoa':'cfg',
                  'data_uoa':'component'})
     if r['return']>0: return r
-    di=r['dict'].get('index',[])
+    rd=r['dict']
 
-    hc=''
-    for q in di:
-        name=q['name']
-        xid=q['id']
-        uid=q['uid']
+    if c=='article':
+       di=rd.get('index_articles',[])
+       selector=a
+    else:
+       di=rd.get('index',[])
+       selector=c
 
-        hc+='<option value="'+xid+'"'
-        if xid==c:
-           hc+=' selected'
-           c_uid=uid
-           orig_module_uid=q['orig_module_uid']
-           url+='&c='+xid
-        hc+='>'+name+'</option>\n'
+    r=create_selector({'list':di, 'c':selector, 'url':url})
+    if r['return']>0: return r
+    hc=r['html']
+
+    if r.get('c_uid','')!='': c_uid=r['c_uid']
+    if r.get('orig_module_uid','')!='': orig_module_uid=r['orig_module_uid']
+    if r.get('url','')!='' and r.get('url','')!=url: url=r['url']
 
     # Check if CID
     cid=wv.get('cid','')
@@ -498,3 +505,32 @@ def search_filter_recursive(v,s):
            skip=False
 
     return skip
+
+##############################################################################
+# create selector
+
+def create_selector(i):
+
+    di=i['list']
+    c=i['c']
+    url=i['url']
+
+    hc=''
+
+    c_uid=''
+    orig_module_uid=''
+
+    for q in di:
+        name=q['name']
+        xid=q.get('id','')
+        uid=q.get('uid','')
+
+        hc+='<option value="'+xid+'"'
+        if xid==c:
+           hc+=' selected'
+           c_uid=uid
+           orig_module_uid=q.get('orig_module_uid','')
+           url+='&c='+xid
+        hc+='>'+name+'</option>\n'
+
+    return {'return':0, 'html':hc, 'c_uid':c_uid, 'orig_module_uid':orig_module_uid, 'url':url}
