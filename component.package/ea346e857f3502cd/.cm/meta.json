@@ -1,0 +1,54 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "2009"
+    },
+    "deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C compiler",
+        "tags": "compiler,lang-c"
+      }
+    },
+    "end_full_path": {
+      "android": "lib$#sep#$librtlmilepostcodelet.a",
+      "linux": "lib/librtlmilepostcodelet.a",
+      "mingw": "lib\\librtlmilepostcodelet.a",
+      "win": "lib\\librtlmilepostcodelet.lib"
+    },
+    "process_script": "process",
+    "soft_uoa": "4a0ba606d7cee653",
+    "suggested_path": "lib-rtl-milepost-codelet",
+    "tags": [
+      "lib",
+      "rtl",
+      "milepost",
+      "codelet",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "ea346e857f3502cd",
+    "data_uoa": "lib-rtl-milepost-codelets",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "a4328ba99679e0d1",
+    "repo_uoa": "ck-autotuning",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/package/lib-rtl-milepost-codelets/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-autotuning/tree/master/package/lib-rtl-milepost-codelets",
+    "soft_uoa": "4a0ba606d7cee653",
+    "stags": "lib,rtl,milepost,codelet,channel-stable",
+    "tags": [
+      "lib",
+      "rtl",
+      "milepost",
+      "codelet",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": ""
+  }
+}

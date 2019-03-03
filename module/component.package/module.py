@@ -53,40 +53,63 @@ def add_index(i):
     d=i['dict']
     m=i['meta']
 
-    repo_url1_full=d['misc'].get('repo_url1','')
+    dd=d.get('dict',{})
 
-    data_uoa=d['misc'].get('data_uoa','')
-    data_uid=d['misc'].get('data_uid','')
+    if 'misc' not in d: d['misc']={}
+    misc=d['misc']
 
-    module_uoa=d['misc'].get('module_uoa','')
-    module_uid=d['misc'].get('module_uid','')
+    repo_url1_full=misc.get('repo_url1','')
 
-    xworkflow=m.get('workflow','')
-    workflow=m.get('workflow_type','')
-    if xworkflow=='yes' and workflow=='':
-       workflow='yes'
+    data_uoa=misc.get('data_uoa','')
+    data_uid=misc.get('data_uid','')
 
-    d['misc']['workflow']=workflow
-    d['misc']['actions']={}
+    module_uoa=misc.get('module_uoa','')
+    module_uid=misc.get('module_uid','')
 
-    actions=m.get('actions',{})
+    soft_uoa=dd.get('soft_uoa','')
+    misc['soft_uoa']=soft_uoa
 
-    if len(actions)>0:
-       for q in sorted(actions):
+    cus=dd.get('customize',{})
 
-           qq=actions[q]
+    xhos=dd.get('only_for_host_os_tags',[])
+    xtos=dd.get('only_for_target_os_tags',[])
 
-           d['misc']['actions'][q]={}
+    tmpl=dd.get('template','')
+    template=dd.get('template_type','')
+    if tmpl=='yes' and template=='':
+       template='yes'
 
-           if repo_url1_full!='':
-              # Get API!
-              l=-1
-              rx=ck.get_api({'module_uoa':data_uid, 'func':q})
-              if rx['return']==0:
-                 l=rx['line']
+    misc['template']=template
 
-              if l!=-1:
-                 d['misc']['actions'][q]['url_api']=repo_url1_full+'#L'+str(l)
+    tags=dd.get('tags',[])
+    ytags=','.join(tags)
+
+    misc['tags']=tags
+    misc['stags']=ytags
+
+    yhos=''
+    ytos=''
+
+    for q in xhos:
+        if yhos!='': yhos+=','
+        yhos+=q
+
+    for q in xtos:
+        if ytos!='': ytos+=','
+        ytos+=q
+
+    if yhos=='':
+       yhos='any'
+    else:
+       yhos=yhos.replace('linux','linux,macos')
+
+    if ytos=='':
+       ytos='any'
+    else:
+       ytos=ytos.replace('linux','linux,macos')
+
+    misc['host_os']=yhos
+    misc['target_os']=ytos
 
     return {'return':0}
 
