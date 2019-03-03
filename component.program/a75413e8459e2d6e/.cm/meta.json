@@ -68,6 +68,7 @@
     ],
     "target_os": "any",
     "template": "Fortran program workflow",
+    "to_get": "ck pull repo:ck-autotuning",
     "version": ""
   }
 }

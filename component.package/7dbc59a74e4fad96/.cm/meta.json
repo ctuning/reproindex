@@ -66,6 +66,7 @@
       "channel-stable"
     ],
     "target_os": "linux,macos,windows",
-    "template": "LLVM compiler"
+    "template": "LLVM compiler",
+    "to_get": "ck pull repo:ck-env"
   }
 }

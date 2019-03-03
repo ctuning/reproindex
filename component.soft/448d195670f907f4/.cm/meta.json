@@ -39,6 +39,7 @@
       "mace"
     ],
     "target_os": "any",
-    "template": "yes"
+    "template": "yes",
+    "to_get": "ck pull repo:ck-math"
   }
 }

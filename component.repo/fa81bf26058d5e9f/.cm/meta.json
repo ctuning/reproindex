@@ -1,0 +1,23 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://gfursin@bitbucket.org/gfursin/ck-book"
+  },
+  "misc": {
+    "ckr": {
+      "private": "yes",
+      "shared": "git",
+      "url": "https://gfursin@bitbucket.org/gfursin/ck-book"
+    },
+    "data_uid": "fa81bf26058d5e9f",
+    "data_uoa": "ck-book",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://gfursin@bitbucket.org/gfursin/ck-book/tree/master/repo/ck-book/.cm/meta.json",
+    "repo_url3": "https://gfursin@bitbucket.org/gfursin/ck-book/tree/master/repo/ck-book",
+    "to_get": "ck pull repo --url=https://gfursin@bitbucket.org/gfursin/ck-book"
+  }
+}

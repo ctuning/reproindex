@@ -1,0 +1,38 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-crowd-papers"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uoa": "ck-crowdtuning"
+        },
+        {
+          "repo_uoa": "ck-dissemination-modules"
+        },
+        {
+          "repo_uoa": "ck-artifact-evaluation"
+        },
+        {
+          "repo_uoa": "ck-docker"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-crowd-papers"
+    },
+    "data_uid": "686fa086a2b81892",
+    "data_uoa": "ck-crowd-papers",
+    "desc": "",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-crowd-papers/tree/master/repo/ck-crowd-papers/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-crowd-papers/tree/master/repo/ck-crowd-papers",
+    "to_get": "ck pull repo:local",
+    "workflow_desc": ""
+  }
+}

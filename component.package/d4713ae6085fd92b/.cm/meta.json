@@ -74,6 +74,7 @@
       "channel-stable"
     ],
     "target_os": "android",
-    "template": "TFLite AI framework"
+    "template": "TFLite AI framework",
+    "to_get": "ck pull repo:ck-tensorflow"
   }
 }

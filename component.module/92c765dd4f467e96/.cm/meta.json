@@ -29,6 +29,8 @@
     "repo_uoa": "ck-artifact-evaluation",
     "repo_url1": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/module/ae.person.table/module.py",
     "repo_url2": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/module/ae.person.table/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-artifact-evaluation",
     "workflow": ""
   }
 }

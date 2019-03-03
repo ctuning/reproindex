@@ -39,6 +39,7 @@
       "lang-c"
     ],
     "target_os": "any",
-    "template": "OpenME library"
+    "template": "OpenME library",
+    "to_get": "ck pull repo:ck-env"
   }
 }

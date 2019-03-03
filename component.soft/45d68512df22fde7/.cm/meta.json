@@ -68,6 +68,7 @@
       "lang-python"
     ],
     "target_os": "any",
-    "template": "python"
+    "template": "python",
+    "to_get": "ck pull repo:ck-env"
   }
 }

@@ -46,6 +46,7 @@
       "opencl"
     ],
     "target_os": "any",
-    "template": "OpenCL library"
+    "template": "OpenCL library",
+    "to_get": "ck pull repo:ck-env"
   }
 }

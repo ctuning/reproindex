@@ -39,6 +39,7 @@
       "cpu2006"
     ],
     "target_os": "any",
-    "template": "spec cpu2006 benchmark"
+    "template": "spec cpu2006 benchmark",
+    "to_get": "ck pull repo:ck-env"
   }
 }

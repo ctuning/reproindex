@@ -72,6 +72,7 @@
     ],
     "target_os": "any",
     "template": "julia workflow",
+    "to_get": "ck pull repo:ctuning-programs",
     "version": ""
   }
 }

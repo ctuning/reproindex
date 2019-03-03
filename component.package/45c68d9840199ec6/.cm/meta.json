@@ -94,6 +94,7 @@
       "channel-stable"
     ],
     "target_os": "android",
-    "template": "ProtoBuf library for Android"
+    "template": "ProtoBuf library for Android",
+    "to_get": "ck pull repo:ck-env"
   }
 }

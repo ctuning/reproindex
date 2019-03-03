@@ -19,6 +19,8 @@
     "repo_uoa": "ck-env",
     "repo_url1": "https://github.com/ctuning/ck-env/tree/master/module/device/module.py",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/module/device/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-env",
     "workflow": ""
   }
 }

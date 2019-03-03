@@ -96,6 +96,7 @@
       "vdev"
     ],
     "target_os": "windows,linux,macos,android",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:ck-math"
   }
 }

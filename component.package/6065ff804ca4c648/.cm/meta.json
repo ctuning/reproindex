@@ -62,6 +62,7 @@
       "channel-stable"
     ],
     "target_os": "any",
-    "template": "JDK"
+    "template": "JDK",
+    "to_get": "ck pull repo:ck-env"
   }
 }

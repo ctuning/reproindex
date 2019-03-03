@@ -136,6 +136,7 @@
     ],
     "target_os": "any",
     "template": "image classification via TVM/VTA on FPGA",
+    "to_get": "ck pull repo:ck-request-asplos18-resnet-tvm-fpga",
     "version": ""
   }
 }

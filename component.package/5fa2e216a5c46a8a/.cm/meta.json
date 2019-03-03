@@ -198,8 +198,8 @@
     "repo_uid": "57e83bca8a5a4344",
     "repo_uoa": "ck-caffe",
     "repo_url1": "",
-    "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/package/lib-caffe-intel-request-cpu/.cm/meta.json",
-    "repo_url3": "git@github.com:dividiti/ck-caffe/tree/master/package/lib-caffe-intel-request-cpu",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/package/lib-caffe-intel-request-cpu/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-caffe/tree/master/package/lib-caffe-intel-request-cpu",
     "soft_name": "BVLC Caffe framework",
     "soft_uid": "04ab08137582bd03",
     "soft_uoa": "lib.caffe",
@@ -212,6 +212,7 @@
       "vcpu"
     ],
     "target_os": "linux,macos",
-    "template": "Caffe AI framework (rebuild for AWS and Intel)"
+    "template": "Caffe AI framework (rebuild for AWS and Intel)",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git"
   }
 }

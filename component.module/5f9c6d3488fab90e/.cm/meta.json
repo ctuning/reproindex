@@ -82,6 +82,8 @@
     "repo_uoa": "ck-crowdsource-dnn-optimization",
     "repo_url1": "https://github.com/dividiti/ck-crowdsource-dnn-optimization/tree/master/module/experiment.bench.dnn.desktop/module.py",
     "repo_url2": "https://github.com/dividiti/ck-crowdsource-dnn-optimization/tree/master/module/experiment.bench.dnn.desktop/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-crowdsource-dnn-optimization",
     "workflow": ""
   }
 }

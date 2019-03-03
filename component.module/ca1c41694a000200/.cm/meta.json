@@ -81,6 +81,8 @@
     "repo_uoa": "reproduce-milepost-project",
     "repo_url1": "https://github.com/ctuning/reproduce-milepost-project/tree/master/module/milepost/module.py",
     "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/module/milepost/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:reproduce-milepost-project",
     "workflow": "MILEPOST GCC basic pipeline"
   }
 }

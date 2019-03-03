@@ -76,6 +76,7 @@
       "channel-stable"
     ],
     "target_os": "any",
-    "template": "Kitti dataset"
+    "template": "Kitti dataset",
+    "to_get": "ck pull repo:ck-tensorflow"
   }
 }

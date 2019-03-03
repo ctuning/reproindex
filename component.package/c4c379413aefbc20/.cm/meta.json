@@ -114,6 +114,7 @@
       "channel-stable"
     ],
     "target_os": "windows",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
   }
 }

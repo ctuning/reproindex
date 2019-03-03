@@ -488,8 +488,12 @@ def index(i):
                   j2=json.dumps(ddd,sort_keys=True)
 
                   if j1!=j2:
+                     ck.out('            Index updated!' )
                      r=ck.access(ii)
                      if r['return']>0: return r
+                  else:
+                     ck.out('            Update skiped (the same dict)!')
+
                else:
                   ii['action']='add'
 

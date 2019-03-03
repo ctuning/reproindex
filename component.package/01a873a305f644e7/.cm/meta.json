@@ -68,8 +68,8 @@
     "repo_uid": "57e83bca8a5a4344",
     "repo_uoa": "ck-caffe",
     "repo_url1": "",
-    "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/package/caffemodel-ssd-voc-512/.cm/meta.json",
-    "repo_url3": "git@github.com:dividiti/ck-caffe/tree/master/package/caffemodel-ssd-voc-512",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/package/caffemodel-ssd-voc-512/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-caffe/tree/master/package/caffemodel-ssd-voc-512",
     "soft_name": "Caffe model (net and weights)",
     "soft_uid": "e2400aabc11d6cd1",
     "soft_uoa": "model.caffe",
@@ -84,6 +84,7 @@
       "channel-stable"
     ],
     "target_os": "windows,linux,macos",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git"
   }
 }

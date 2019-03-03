@@ -16,6 +16,7 @@
     "tags": [],
     "target_os": "any",
     "template": "",
+    "to_get": "ck pull repo --url=https://github.com/SamAinsworth/reproduce-cgo2017-paper",
     "version": ""
   }
 }

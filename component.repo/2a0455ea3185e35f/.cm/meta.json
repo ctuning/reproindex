@@ -1,0 +1,32 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-website"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uoa": "ck-env"
+        },
+        {
+          "repo_uoa": "ck-web"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-website"
+    },
+    "data_uid": "2a0455ea3185e35f",
+    "data_uoa": "ck-website",
+    "desc": "CK components for <a href=\"http://cKnowledge.org\">cKnowledge.org</a>.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-website/tree/master/repo/ck-website/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-website/tree/master/repo/ck-website",
+    "to_get": "ck pull repo:local",
+    "workflow_desc": "cKnowledge.org website generator"
+  }
+}

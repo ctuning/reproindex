@@ -42,6 +42,7 @@
       "vstatic"
     ],
     "target_os": "any",
-    "template": "TFLite library (С++)"
+    "template": "TFLite library (С++)",
+    "to_get": "ck pull repo:ck-tensorflow"
   }
 }

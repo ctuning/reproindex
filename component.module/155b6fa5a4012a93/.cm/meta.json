@@ -62,19 +62,19 @@
   "misc": {
     "actions": {
       "browse": {
-        "url_api": "git@github.com:dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/module.py#L1342"
+        "url_api": "https://github.com/dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/module.py#L1342"
       },
       "crowdsource": {
-        "url_api": "git@github.com:dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/module.py#L74"
+        "url_api": "https://github.com/dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/module.py#L74"
       },
       "html_viewer": {
-        "url_api": "git@github.com:dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/module.py#L1366"
+        "url_api": "https://github.com/dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/module.py#L1366"
       },
       "replay": {
-        "url_api": "git@github.com:dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/module.py#L1318"
+        "url_api": "https://github.com/dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/module.py#L1318"
       },
       "show": {
-        "url_api": "git@github.com:dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/module.py#L682"
+        "url_api": "https://github.com/dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/module.py#L682"
       }
     },
     "data_uid": "155b6fa5a4012a93",
@@ -83,8 +83,10 @@
     "module_uoa": "module",
     "repo_uid": "57e83bca8a5a4344",
     "repo_uoa": "ck-caffe",
-    "repo_url1": "git@github.com:dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/module.py",
-    "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/.cm/meta.json",
+    "repo_url1": "https://github.com/dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/module.py",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/module/experiment.bench.caffe/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git",
     "workflow": "crowd-benchmarking pipeline for Caffe"
   }
 }

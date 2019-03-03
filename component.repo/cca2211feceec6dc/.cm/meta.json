@@ -1,0 +1,24 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-wa-workloads"
+  },
+  "misc": {
+    "ckr": {
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-wa-workloads"
+    },
+    "data_uid": "cca2211feceec6dc",
+    "data_uoa": "ck-wa-workloads",
+    "desc": "ARM's workloads in the universal Collective Knowledge Format with JSON API and JSON meta information to power Workload Automation Framework",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-wa-workloads/tree/master/repo/ck-wa-workloads/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-wa-workloads/tree/master/repo/ck-wa-workloads",
+    "to_get": "ck pull repo:local",
+    "workflow_desc": ""
+  }
+}

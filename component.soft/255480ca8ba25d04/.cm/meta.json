@@ -51,6 +51,7 @@
       "dnn"
     ],
     "target_os": "any",
-    "template": "cuDNN library"
+    "template": "cuDNN library",
+    "to_get": "ck pull repo:ck-env"
   }
 }

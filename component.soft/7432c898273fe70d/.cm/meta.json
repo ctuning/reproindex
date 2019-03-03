@@ -43,6 +43,7 @@
       "vmaster"
     ],
     "target_os": "any",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
   }
 }

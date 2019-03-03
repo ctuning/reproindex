@@ -102,6 +102,7 @@
       "channel-stable"
     ],
     "target_os": "windows,linux,macos",
-    "template": "yes"
+    "template": "yes",
+    "to_get": "ck pull repo:ck-math"
   }
 }

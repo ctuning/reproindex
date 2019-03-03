@@ -59,6 +59,7 @@
       "wa"
     ],
     "target_os": "linux,macos,android",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-wa"
   }
 }

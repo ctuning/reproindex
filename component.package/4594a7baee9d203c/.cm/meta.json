@@ -60,6 +60,7 @@
       "vmaster"
     ],
     "target_os": "windows,linux,macos",
-    "template": "Python package"
+    "template": "Python package",
+    "to_get": "ck pull repo:ck-env"
   }
 }

@@ -51,6 +51,7 @@
       "bvlc"
     ],
     "target_os": "any",
-    "template": "Dataset (model)"
+    "template": "Dataset (model)",
+    "to_get": "ck pull repo:ck-dnndk"
   }
 }

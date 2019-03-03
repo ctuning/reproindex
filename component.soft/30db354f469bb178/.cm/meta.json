@@ -41,6 +41,7 @@
       "tensorflow"
     ],
     "target_os": "any",
-    "template": "TensorFlow library (Python)"
+    "template": "TensorFlow library (Python)",
+    "to_get": "ck pull repo:ck-tensorflow"
   }
 }

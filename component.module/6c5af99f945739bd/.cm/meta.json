@@ -83,6 +83,8 @@
     "repo_uoa": "ck-crowdtuning",
     "repo_url1": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.opencl.clblast/module.py",
     "repo_url2": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.tune.opencl.clblast/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-crowdtuning",
     "workflow": "CLBlast crowd-tuning workflow"
   }
 }

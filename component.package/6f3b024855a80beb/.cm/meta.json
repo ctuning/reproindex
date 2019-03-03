@@ -98,6 +98,7 @@
       "vmaster"
     ],
     "target_os": "linux,macos,windows,android",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
   }
 }

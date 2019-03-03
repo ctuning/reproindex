@@ -59,6 +59,8 @@
     "repo_uoa": "ck-clsmith",
     "repo_url1": "https://github.com/ctuning/ck-clsmith/tree/master/module/opencl-bug/module.py",
     "repo_url2": "https://github.com/ctuning/ck-clsmith/tree/master/module/opencl-bug/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-clsmith",
     "workflow": ""
   }
 }

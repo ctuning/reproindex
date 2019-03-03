@@ -33,6 +33,8 @@
     "repo_uoa": "ck-env",
     "repo_url1": "https://github.com/ctuning/ck-env/tree/master/module/artifact/module.py",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/module/artifact/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-env",
     "workflow": "HotCRP automation pipeline"
   }
 }

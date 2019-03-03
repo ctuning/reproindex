@@ -1,0 +1,34 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/reproduce-carp-project"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uoa": "ck-autotuning"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/reproduce-carp-project"
+    },
+    "data_uid": "7d60433aa9fd29fe",
+    "data_uoa": "reproduce-carp-project",
+    "desc": "Customizable CK workflows and portable CK packages for EU CARP project.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-carp-project/tree/master/repo/reproduce-carp-project/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-carp-project/tree/master/repo/reproduce-carp-project",
+    "to_get": "ck pull repo:local",
+    "workflow_desc": "programs"
+  }
+}

@@ -74,6 +74,7 @@
       "vtrunk"
     ],
     "target_os": "android",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:ck-old-packages"
   }
 }

@@ -105,6 +105,7 @@
       "explicit-window-global-pooling"
     ],
     "target_os": "windows,linux,macos",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorrt"
   }
 }

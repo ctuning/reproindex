@@ -234,8 +234,8 @@
     "repo_uid": "57e83bca8a5a4344",
     "repo_uoa": "ck-caffe",
     "repo_url1": "",
-    "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/package/lib-caffe-nvidia-0.16-cuda-universal/.cm/meta.json",
-    "repo_url3": "git@github.com:dividiti/ck-caffe/tree/master/package/lib-caffe-nvidia-0.16-cuda-universal",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/package/lib-caffe-nvidia-0.16-cuda-universal/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-caffe/tree/master/package/lib-caffe-nvidia-0.16-cuda-universal",
     "soft_name": "BVLC Caffe framework",
     "soft_uid": "04ab08137582bd03",
     "soft_uoa": "lib.caffe",
@@ -253,6 +253,7 @@
       "vno-cudnn"
     ],
     "target_os": "linux,macos,windows",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git"
   }
 }

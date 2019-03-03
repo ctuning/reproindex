@@ -32,13 +32,13 @@
   "misc": {
     "actions": {
       "clean": {
-        "url_api": "git@github.com:dividiti/gemmbench/tree/master/module/gemmbench.crowdtuning/module.py#L167"
+        "url_api": "https://github.com/dividiti/gemmbench/tree/master/module/gemmbench.crowdtuning/module.py#L167"
       },
       "show": {
-        "url_api": "git@github.com:dividiti/gemmbench/tree/master/module/gemmbench.crowdtuning/module.py#L220"
+        "url_api": "https://github.com/dividiti/gemmbench/tree/master/module/gemmbench.crowdtuning/module.py#L220"
       },
       "start": {
-        "url_api": "git@github.com:dividiti/gemmbench/tree/master/module/gemmbench.crowdtuning/module.py#L36"
+        "url_api": "https://github.com/dividiti/gemmbench/tree/master/module/gemmbench.crowdtuning/module.py#L36"
       }
     },
     "data_uid": "a6b40d78d60fa097",
@@ -47,8 +47,10 @@
     "module_uoa": "module",
     "repo_uid": "1e884df489890fa1",
     "repo_uoa": "gemmbench",
-    "repo_url1": "git@github.com:dividiti/gemmbench/tree/master/module/gemmbench.crowdtuning/module.py",
-    "repo_url2": "git@github.com:dividiti/gemmbench/tree/master/module/gemmbench.crowdtuning/.cm/meta.json",
+    "repo_url1": "https://github.com/dividiti/gemmbench/tree/master/module/gemmbench.crowdtuning/module.py",
+    "repo_url2": "https://github.com/dividiti/gemmbench/tree/master/module/gemmbench.crowdtuning/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/gemmbench.git",
     "workflow": "GEMM benchmark autotuning/crowd-tuning pipeline"
   }
 }

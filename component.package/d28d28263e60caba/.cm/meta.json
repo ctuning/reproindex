@@ -44,6 +44,7 @@
       "v2"
     ],
     "target_os": "linux,macos",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:reproduce-fgg-2010"
   }
 }

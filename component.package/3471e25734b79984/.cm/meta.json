@@ -62,6 +62,7 @@
       "v1"
     ],
     "target_os": "linux,macos",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:ck-dev-compilers"
   }
 }

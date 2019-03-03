@@ -25,8 +25,8 @@
     "repo_uid": "57e83bca8a5a4344",
     "repo_uoa": "ck-caffe",
     "repo_url1": "",
-    "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/soft/lib.dnnproxy/.cm/meta.json",
-    "repo_url3": "git@github.com:dividiti/ck-caffe/tree/master/soft/lib.dnnproxy",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/soft/lib.dnnproxy/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-caffe/tree/master/soft/lib.dnnproxy",
     "soft_name": "DNN Proxy Library",
     "stags": "lib,dnn-proxy,lang-cpp",
     "tags": [
@@ -35,6 +35,7 @@
       "lang-cpp"
     ],
     "target_os": "any",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git"
   }
 }

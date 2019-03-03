@@ -92,6 +92,7 @@
       "channel-stable"
     ],
     "target_os": "android",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
   }
 }

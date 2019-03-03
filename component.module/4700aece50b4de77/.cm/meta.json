@@ -33,6 +33,8 @@
     "repo_uoa": "reuse-research",
     "repo_url1": "https://github.com/ctuning/reuse-research/tree/master/module/component.module/module.py",
     "repo_url2": "https://github.com/ctuning/reuse-research/tree/master/module/component.module/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:reuse-research",
     "workflow": ""
   }
 }

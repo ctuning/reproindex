@@ -59,6 +59,7 @@
     ],
     "target_os": "any",
     "template": "",
+    "to_get": "ck pull repo --url=https://github.com/proywm/ck-ccprof",
     "version": ""
   }
 }

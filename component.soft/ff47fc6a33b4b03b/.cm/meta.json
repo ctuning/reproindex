@@ -49,6 +49,7 @@
       "caffe"
     ],
     "target_os": "any",
-    "template": "dataset (imagenet, val images)"
+    "template": "dataset (imagenet, val images)",
+    "to_get": "ck pull repo:ck-env"
   }
 }

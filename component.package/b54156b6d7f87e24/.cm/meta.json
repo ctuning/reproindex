@@ -100,6 +100,7 @@
       "channel-stable"
     ],
     "target_os": "windows,linux,macos",
-    "template": "ProtoBuf library"
+    "template": "ProtoBuf library",
+    "to_get": "ck pull repo:ck-env"
   }
 }

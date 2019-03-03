@@ -86,6 +86,7 @@
       "vmaster"
     ],
     "target_os": "linux,macos",
-    "template": "simple package for artifact evaluation (SysML'19)"
+    "template": "simple package for artifact evaluation (SysML'19)",
+    "to_get": "ck pull repo:reproduce-sysml19-paper-aggregathor"
   }
 }

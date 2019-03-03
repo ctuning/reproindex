@@ -10,7 +10,7 @@
   "misc": {
     "actions": {
       "run": {
-        "url_api": "git@github.com:Chunosov/ck-gui/tree/master/module/gui/module.py#L66"
+        "url_api": "https://github.com/Chunosov/ck-gui/tree/master/module/gui/module.py#L66"
       }
     },
     "data_uid": "dbf95494d930e5c1",
@@ -19,8 +19,10 @@
     "module_uoa": "module",
     "repo_uid": "4ae7df4c1a806867",
     "repo_uoa": "ck-gui",
-    "repo_url1": "git@github.com:Chunosov/ck-gui/tree/master/module/gui/module.py",
-    "repo_url2": "git@github.com:Chunosov/ck-gui/tree/master/module/gui/.cm/meta.json",
+    "repo_url1": "https://github.com/Chunosov/ck-gui/tree/master/module/gui/module.py",
+    "repo_url2": "https://github.com/Chunosov/ck-gui/tree/master/module/gui/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo --url=https://github.com/Chunosov/ck-gui",
     "workflow": ""
   }
 }

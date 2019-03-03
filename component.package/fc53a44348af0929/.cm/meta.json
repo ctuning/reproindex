@@ -76,6 +76,7 @@
       "v3"
     ],
     "target_os": "any",
-    "template": "Scons (stable version)"
+    "template": "Scons (stable version)",
+    "to_get": "ck pull repo:ck-env"
   }
 }

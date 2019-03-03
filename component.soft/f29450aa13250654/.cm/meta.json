@@ -30,8 +30,8 @@
     "repo_uid": "4ae7df4c1a806867",
     "repo_uoa": "ck-gui",
     "repo_url1": "",
-    "repo_url2": "git@github.com:Chunosov/ck-gui/tree/master/soft/tool.ck-gui/.cm/meta.json",
-    "repo_url3": "git@github.com:Chunosov/ck-gui/tree/master/soft/tool.ck-gui",
+    "repo_url2": "https://github.com/Chunosov/ck-gui/tree/master/soft/tool.ck-gui/.cm/meta.json",
+    "repo_url3": "https://github.com/Chunosov/ck-gui/tree/master/soft/tool.ck-gui",
     "soft_name": "ck-gui prebuilt AppImage",
     "stags": "tool,ck-gui",
     "tags": [
@@ -39,6 +39,7 @@
       "ck-gui"
     ],
     "target_os": "any",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/Chunosov/ck-gui"
   }
 }

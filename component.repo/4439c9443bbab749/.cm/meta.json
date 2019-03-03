@@ -1,0 +1,34 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-crowdtuning"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/dividiti/ck-rpi-optimization"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uoa": "ck-crowdtuning"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/dividiti/ck-rpi-optimization"
+    },
+    "data_uid": "4439c9443bbab749",
+    "data_uoa": "ck-rpi-optimization",
+    "desc": "CK workflows, portable packages and interactive articles to crowdsource autotuning of shared workloads across Rapsberry Pi devices (see <a href=\"http://cKnowledge.org/rpi-crowd-tuning\">interactive report</a>).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-rpi-optimization/tree/master/repo/ck-rpi-optimization/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-rpi-optimization/tree/master/repo/ck-rpi-optimization",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-rpi-optimization",
+    "workflow_desc": ""
+  }
+}

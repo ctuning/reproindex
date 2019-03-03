@@ -64,6 +64,7 @@
       "channel-stable"
     ],
     "target_os": "any",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:reproduce-sysml19-paper-p3"
   }
 }

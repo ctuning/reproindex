@@ -56,6 +56,8 @@
     "repo_uoa": "ck-ai",
     "repo_url1": "https://github.com/ctuning/ck-ai/tree/master/module/ai-artifact/module.py",
     "repo_url2": "https://github.com/ctuning/ck-ai/tree/master/module/ai-artifact/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-ai",
     "workflow": ""
   }
 }

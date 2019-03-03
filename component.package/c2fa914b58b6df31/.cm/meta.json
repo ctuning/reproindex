@@ -58,6 +58,7 @@
       "v1.8.0"
     ],
     "target_os": "linux,macos,windows",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:ck-rigetti"
   }
 }

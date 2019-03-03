@@ -47,6 +47,7 @@
       "arm-compute-library"
     ],
     "target_os": "any",
-    "template": "ArmCL library"
+    "template": "ArmCL library",
+    "to_get": "ck pull repo:ck-env"
   }
 }

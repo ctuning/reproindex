@@ -123,6 +123,7 @@
       "vmaster"
     ],
     "target_os": "linux,macos",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:reproduce-sysml19-paper-p3"
   }
 }

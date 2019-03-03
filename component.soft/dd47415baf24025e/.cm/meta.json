@@ -47,6 +47,7 @@
       "images"
     ],
     "target_os": "any",
-    "template": "dataset for object detection (Kitti)"
+    "template": "dataset for object detection (Kitti)",
+    "to_get": "ck pull repo:ck-tensorflow"
   }
 }

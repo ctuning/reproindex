@@ -126,8 +126,8 @@
     "repo_uid": "1e884df489890fa1",
     "repo_uoa": "gemmbench",
     "repo_url1": "",
-    "repo_url2": "git@github.com:dividiti/gemmbench/tree/master/program/clblast-xgemm-overlay/.cm/meta.json",
-    "repo_url3": "git@github.com:dividiti/gemmbench/tree/master/program/clblast-xgemm-overlay",
+    "repo_url2": "https://github.com/dividiti/gemmbench/tree/master/program/clblast-xgemm-overlay/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/gemmbench/tree/master/program/clblast-xgemm-overlay",
     "soft_name": "",
     "stags": "gemmbench,program,clblast,xgemm,overlay",
     "tags": [
@@ -139,6 +139,7 @@
     ],
     "target_os": "any",
     "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/gemmbench.git",
     "version": ""
   }
 }

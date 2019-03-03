@@ -55,6 +55,8 @@
     "repo_uoa": "ck-wa",
     "repo_url1": "https://github.com/dividiti/ck-wa/tree/master/module/experiment.bench.workload.android/module.py",
     "repo_url2": "https://github.com/dividiti/ck-wa/tree/master/module/experiment.bench.workload.android/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-wa",
     "workflow": "crowd-benchmarking Arm workloads via Android devices"
   }
 }

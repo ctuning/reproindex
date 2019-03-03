@@ -189,6 +189,7 @@
       "vcpu"
     ],
     "target_os": "linux,macos,windows,android",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:ck-caffe2"
   }
 }

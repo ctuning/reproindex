@@ -17,6 +17,8 @@
     "repo_uoa": "ck-dissemination-modules",
     "repo_url1": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/dissemination.pitfall/module.py",
     "repo_url2": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/dissemination.pitfall/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-dissemination-modules",
     "workflow": ""
   }
 }

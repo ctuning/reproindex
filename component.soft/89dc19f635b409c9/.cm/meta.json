@@ -125,6 +125,7 @@
       "lang-cpp-cuda"
     ],
     "target_os": "any",
-    "template": "CUDA compiler"
+    "template": "CUDA compiler",
+    "to_get": "ck pull repo:ck-env"
   }
 }

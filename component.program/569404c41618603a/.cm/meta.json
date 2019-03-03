@@ -377,8 +377,8 @@
     "repo_uid": "57e83bca8a5a4344",
     "repo_uoa": "ck-caffe",
     "repo_url1": "",
-    "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/program/caffe/.cm/meta.json",
-    "repo_url3": "git@github.com:dividiti/ck-caffe/tree/master/program/caffe",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/program/caffe/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-caffe/tree/master/program/caffe",
     "soft_name": "",
     "stags": "program,caffe",
     "tags": [
@@ -387,6 +387,7 @@
     ],
     "target_os": "windows,linux,macos",
     "template": "image classification via Caffe (Python)",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git",
     "version": ""
   }
 }

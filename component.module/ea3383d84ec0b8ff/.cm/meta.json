@@ -37,6 +37,8 @@
     "repo_uoa": "reproduce-sysml19-paper-aggregathor",
     "repo_url1": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor/tree/master/module/workflow-sysml19-aggregathor/module.py",
     "repo_url2": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor/tree/master/module/workflow-sysml19-aggregathor/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:reproduce-sysml19-paper-aggregathor",
     "workflow": ""
   }
 }

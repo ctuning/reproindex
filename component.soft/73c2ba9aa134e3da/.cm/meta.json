@@ -42,6 +42,7 @@
       "mxnet"
     ],
     "target_os": "any",
-    "template": "MXNet library"
+    "template": "MXNet library",
+    "to_get": "ck pull repo:ck-mxnet"
   }
 }

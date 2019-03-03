@@ -240,6 +240,7 @@
     ],
     "target_os": "windows,linux,macos",
     "template": "",
+    "to_get": "ck pull repo:ck-caffe2",
     "version": ""
   }
 }

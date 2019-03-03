@@ -168,6 +168,7 @@
     ],
     "target_os": "android,linux,macos",
     "template": "image classification via ArmCL",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl",
     "version": ""
   }
 }

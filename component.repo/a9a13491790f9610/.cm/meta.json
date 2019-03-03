@@ -1,0 +1,23 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/dividiti/ck-nntest-outputs"
+  },
+  "misc": {
+    "ckr": {
+      "private": "yes",
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-nntest-outputs"
+    },
+    "data_uid": "a9a13491790f9610",
+    "data_uoa": "ck-nntest-outputs",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-nntest-outputs/tree/master/repo/ck-nntest-outputs/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-nntest-outputs/tree/master/repo/ck-nntest-outputs",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-nntest-outputs"
+  }
+}

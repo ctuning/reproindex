@@ -70,6 +70,7 @@
       "2017_06_14"
     ],
     "target_os": "windows,linux,macos",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
   }
 }

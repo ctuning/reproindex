@@ -132,6 +132,7 @@
     ],
     "target_os": "any",
     "template": "",
+    "to_get": "ck pull repo:ck-dnndk",
     "version": ""
   }
 }

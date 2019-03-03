@@ -111,6 +111,8 @@
     "repo_uoa": "default",
     "repo_url1": "https://github.com/ctuning/ck/tree/master/ck/repo/module/web/module.py",
     "repo_url2": "https://github.com/ctuning/ck/tree/master/ck/repo/module/web/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "",
     "workflow": ""
   }
 }

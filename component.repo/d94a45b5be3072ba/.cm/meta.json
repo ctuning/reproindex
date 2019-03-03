@@ -1,0 +1,34 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-math"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uoa": "ck-autotuning"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-math"
+    },
+    "data_uid": "d94a45b5be3072ba",
+    "data_uoa": "ck-math",
+    "desc": "Collective of CK packages to unify detection, installation and rebuilding of popular mathematical packages such as OpenBLAS, clBLAST and Boost across different OS (see <a href=\"http://cKnowledge.org/shared-packages.html\">shared packages</a> and <a href=\"http://cKnowledge.org/shared-soft-detection-plugins.html\">software detection plugins</a>).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-math/tree/master/repo/ck-math/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-math/tree/master/repo/ck-math",
+    "to_get": "ck pull repo:local",
+    "workflow_desc": ""
+  }
+}

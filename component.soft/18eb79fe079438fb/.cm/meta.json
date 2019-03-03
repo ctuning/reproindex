@@ -45,6 +45,7 @@
       "opencv"
     ],
     "target_os": "any",
-    "template": "OpenCV library"
+    "template": "OpenCV library",
+    "to_get": "ck pull repo:ck-env"
   }
 }

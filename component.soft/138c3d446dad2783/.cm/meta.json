@@ -44,6 +44,7 @@
       "train"
     ],
     "target_os": "any",
-    "template": "dataset (imagenet, train images)"
+    "template": "dataset (imagenet, train images)",
+    "to_get": "ck pull repo:ck-env"
   }
 }

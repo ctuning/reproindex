@@ -126,6 +126,7 @@
     ],
     "target_os": "linux,macos,android",
     "template": "image classification via TFLite (C++)",
+    "to_get": "ck pull repo:ck-tensorflow",
     "version": ""
   }
 }

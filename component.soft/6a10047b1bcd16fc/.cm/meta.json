@@ -46,6 +46,7 @@
       "numpy"
     ],
     "target_os": "any",
-    "template": "Python library (numpy)"
+    "template": "Python library (numpy)",
+    "to_get": "ck pull repo:ck-env"
   }
 }

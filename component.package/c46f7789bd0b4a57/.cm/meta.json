@@ -117,6 +117,7 @@
       "vi8"
     ],
     "target_os": "linux,macos",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:ck-request-asplos18-caffe-intel"
   }
 }

@@ -18,6 +18,8 @@
     "repo_uoa": "ck-autotuning",
     "repo_url1": "https://github.com/ctuning/ck-autotuning/tree/master/module/program.dynamic.features/module.py",
     "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/module/program.dynamic.features/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-autotuning",
     "workflow": ""
   }
 }

@@ -46,6 +46,7 @@
       "aggregathor"
     ],
     "target_os": "any",
-    "template": "simple soft detection plugin for artifact evaluation (SysML'19)"
+    "template": "simple soft detection plugin for artifact evaluation (SysML'19)",
+    "to_get": "ck pull repo:reproduce-sysml19-paper-aggregathor"
   }
 }

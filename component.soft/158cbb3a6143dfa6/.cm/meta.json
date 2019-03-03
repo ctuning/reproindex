@@ -42,6 +42,7 @@
       "tvm"
     ],
     "target_os": "any",
-    "template": "TVM"
+    "template": "TVM",
+    "to_get": "ck pull repo:ck-tvm"
   }
 }

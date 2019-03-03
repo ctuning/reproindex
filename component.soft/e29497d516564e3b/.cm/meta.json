@@ -53,6 +53,7 @@
       "spack"
     ],
     "target_os": "any",
-    "template": "spack tool (binary)"
+    "template": "spack tool (binary)",
+    "to_get": "ck pull repo:ck-env"
   }
 }

@@ -138,6 +138,7 @@
     ],
     "target_os": "any",
     "template": "Qiskit vqe",
+    "to_get": "ck pull repo:ck-qiskit",
     "version": ""
   }
 }

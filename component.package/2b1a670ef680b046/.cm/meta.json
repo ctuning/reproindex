@@ -71,6 +71,7 @@
       "channel-stable"
     ],
     "target_os": "any",
-    "template": "MXNet model - ResNet152"
+    "template": "MXNet model - ResNet152",
+    "to_get": "ck pull repo:ck-mxnet"
   }
 }

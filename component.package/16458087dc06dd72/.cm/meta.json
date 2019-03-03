@@ -54,8 +54,8 @@
     "repo_uid": "57e83bca8a5a4344",
     "repo_uoa": "ck-caffe",
     "repo_url1": "",
-    "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/package/dataset-voc-2007/.cm/meta.json",
-    "repo_url3": "git@github.com:dividiti/ck-caffe/tree/master/package/dataset-voc-2007",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/package/dataset-voc-2007/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-caffe/tree/master/package/dataset-voc-2007",
     "soft_name": "VOC dataset",
     "soft_uid": "041cf4753bed7c62",
     "soft_uoa": "dataset.voc",
@@ -70,6 +70,7 @@
       "channel-stable"
     ],
     "target_os": "any",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git"
   }
 }

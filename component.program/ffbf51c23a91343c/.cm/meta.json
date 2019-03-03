@@ -159,6 +159,7 @@
     ],
     "target_os": "any",
     "template": "cbench/mibench C workflow",
+    "to_get": "ck pull repo:ctuning-programs",
     "version": ""
   }
 }

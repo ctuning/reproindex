@@ -52,6 +52,7 @@
       "channel-stable"
     ],
     "target_os": "any",
-    "template": "OpenME library (Java)"
+    "template": "OpenME library (Java)",
+    "to_get": "ck pull repo:ck-autotuning"
   }
 }

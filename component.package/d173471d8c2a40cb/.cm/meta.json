@@ -15,6 +15,7 @@
     "stags": "",
     "tags": [],
     "target_os": "any",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:reproduce-fgg-2010"
   }
 }

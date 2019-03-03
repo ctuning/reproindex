@@ -88,6 +88,7 @@
       "channel-stable"
     ],
     "target_os": "any",
-    "template": "Dataset (ImageNet images)"
+    "template": "Dataset (ImageNet images)",
+    "to_get": "ck pull repo:ck-env"
   }
 }

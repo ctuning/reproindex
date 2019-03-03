@@ -41,6 +41,7 @@
       "channel-stable"
     ],
     "target_os": "any",
-    "template": "tool to show OpenCL devices"
+    "template": "tool to show OpenCL devices",
+    "to_get": "ck pull repo:ck-env"
   }
 }

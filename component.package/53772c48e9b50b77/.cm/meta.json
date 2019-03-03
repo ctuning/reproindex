@@ -68,6 +68,7 @@
       "mobilenet-v2-1.0-96"
     ],
     "target_os": "any",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
   }
 }

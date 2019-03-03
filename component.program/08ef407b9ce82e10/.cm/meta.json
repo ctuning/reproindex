@@ -78,6 +78,7 @@
     ],
     "target_os": "any",
     "template": "C program workflow",
+    "to_get": "ck pull repo:ck-autotuning",
     "version": ""
   }
 }

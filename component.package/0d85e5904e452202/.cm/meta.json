@@ -41,6 +41,7 @@
       "channel-stable"
     ],
     "target_os": "any",
-    "template": "tool to show CUDA devices"
+    "template": "tool to show CUDA devices",
+    "to_get": "ck pull repo:ck-env"
   }
 }

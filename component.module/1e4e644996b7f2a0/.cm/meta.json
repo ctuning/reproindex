@@ -166,6 +166,8 @@
     "repo_uoa": "ck-web",
     "repo_url1": "https://github.com/ctuning/ck-web/tree/master/module/wfe/module.py",
     "repo_url2": "https://github.com/ctuning/ck-web/tree/master/module/wfe/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-web",
     "workflow": ""
   }
 }

@@ -61,6 +61,7 @@
       "cmake"
     ],
     "target_os": "any",
-    "template": "cmake tool (binary)"
+    "template": "cmake tool (binary)",
+    "to_get": "ck pull repo:ck-env"
   }
 }

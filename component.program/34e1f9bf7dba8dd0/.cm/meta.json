@@ -68,6 +68,7 @@
     ],
     "target_os": "any",
     "template": "image classification via PyTorch",
+    "to_get": "ck pull repo:ck-pytorch",
     "version": ""
   }
 }

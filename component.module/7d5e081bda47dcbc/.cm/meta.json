@@ -32,13 +32,13 @@
   "misc": {
     "actions": {
       "autotune": {
-        "url_api": "git@github.com:dividiti/ck-caffe/tree/master/module/caffe/module.py#L119"
+        "url_api": "https://github.com/dividiti/ck-caffe/tree/master/module/caffe/module.py#L119"
       },
       "crowdbench": {
-        "url_api": "git@github.com:dividiti/ck-caffe/tree/master/module/caffe/module.py#L33"
+        "url_api": "https://github.com/dividiti/ck-caffe/tree/master/module/caffe/module.py#L33"
       },
       "demo": {
-        "url_api": "git@github.com:dividiti/ck-caffe/tree/master/module/caffe/module.py#L54"
+        "url_api": "https://github.com/dividiti/ck-caffe/tree/master/module/caffe/module.py#L54"
       }
     },
     "data_uid": "7d5e081bda47dcbc",
@@ -47,8 +47,10 @@
     "module_uoa": "module",
     "repo_uid": "57e83bca8a5a4344",
     "repo_uoa": "ck-caffe",
-    "repo_url1": "git@github.com:dividiti/ck-caffe/tree/master/module/caffe/module.py",
-    "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/module/caffe/.cm/meta.json",
+    "repo_url1": "https://github.com/dividiti/ck-caffe/tree/master/module/caffe/module.py",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/module/caffe/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git",
     "workflow": "caffe pipeline"
   }
 }

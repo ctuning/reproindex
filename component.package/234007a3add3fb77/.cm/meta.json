@@ -74,8 +74,8 @@
     "repo_uid": "4ae7df4c1a806867",
     "repo_uoa": "ck-gui",
     "repo_url1": "",
-    "repo_url2": "git@github.com:Chunosov/ck-gui/tree/master/package/lib-qscintilla/.cm/meta.json",
-    "repo_url3": "git@github.com:Chunosov/ck-gui/tree/master/package/lib-qscintilla",
+    "repo_url2": "https://github.com/Chunosov/ck-gui/tree/master/package/lib-qscintilla/.cm/meta.json",
+    "repo_url3": "https://github.com/Chunosov/ck-gui/tree/master/package/lib-qscintilla",
     "soft_name": "QScintilla development library",
     "soft_uid": "694943589fc8fb59",
     "soft_uoa": "lib.qscintilla",
@@ -93,6 +93,7 @@
       "channel-stable"
     ],
     "target_os": "linux,macos",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/Chunosov/ck-gui"
   }
 }

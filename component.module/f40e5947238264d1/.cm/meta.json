@@ -31,6 +31,8 @@
     "repo_uoa": "ck-quantum",
     "repo_url1": "https://github.com/ctuning/ck-quantum/tree/master/module/hackathon.20180615/module.py",
     "repo_url2": "https://github.com/ctuning/ck-quantum/tree/master/module/hackathon.20180615/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-quantum",
     "workflow": "quantum hackathon workflow"
   }
 }

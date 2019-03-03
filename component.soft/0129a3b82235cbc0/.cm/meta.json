@@ -70,6 +70,7 @@
       "lang-java"
     ],
     "target_os": "any",
-    "template": "java compiler"
+    "template": "java compiler",
+    "to_get": "ck pull repo:ck-env"
   }
 }

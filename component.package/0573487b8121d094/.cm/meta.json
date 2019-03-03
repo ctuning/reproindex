@@ -62,6 +62,7 @@
       "channel-stable"
     ],
     "target_os": "any",
-    "template": "Reduced OpenME run-time library"
+    "template": "Reduced OpenME run-time library",
+    "to_get": "ck pull repo:ck-autotuning"
   }
 }

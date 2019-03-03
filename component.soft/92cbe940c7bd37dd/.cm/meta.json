@@ -40,6 +40,7 @@
       "source"
     ],
     "target_os": "any",
-    "template": "TensorFlow library (source)"
+    "template": "TensorFlow library (source)",
+    "to_get": "ck pull repo:ck-tensorflow"
   }
 }

@@ -97,6 +97,7 @@
     ],
     "target_os": "linux,macos",
     "template": "",
+    "to_get": "ck pull repo:ck-mlperf",
     "version": ""
   }
 }

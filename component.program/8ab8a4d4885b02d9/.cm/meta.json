@@ -162,6 +162,7 @@
     ],
     "target_os": "any",
     "template": "",
+    "to_get": "ck pull repo:ck-request-asplos18-mobilenets-tvm-arm",
     "version": ""
   }
 }

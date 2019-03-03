@@ -72,6 +72,7 @@
       "2017_06_14"
     ],
     "target_os": "windows,linux,macos",
-    "template": "TensorFlow model - MobileNet v1"
+    "template": "TensorFlow model - MobileNet v1",
+    "to_get": "ck pull repo:ck-tensorflow"
   }
 }

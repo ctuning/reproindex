@@ -44,6 +44,8 @@
     "repo_uoa": "ck-caffe2",
     "repo_url1": "https://github.com/ctuning/ck-caffe2/tree/master/module/caffe2/module.py",
     "repo_url2": "https://github.com/ctuning/ck-caffe2/tree/master/module/caffe2/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-caffe2",
     "workflow": "caffe2 pipeline"
   }
 }

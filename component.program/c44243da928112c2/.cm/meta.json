@@ -178,6 +178,7 @@
     ],
     "target_os": "any",
     "template": "image classification via TVM",
+    "to_get": "ck pull repo:ck-request-asplos18-mobilenets-tvm-arm",
     "version": ""
   }
 }

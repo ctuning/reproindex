@@ -126,6 +126,7 @@
     ],
     "target_os": "android,linux,macos",
     "template": "",
+    "to_get": "ck pull repo:ck-math",
     "version": ""
   }
 }

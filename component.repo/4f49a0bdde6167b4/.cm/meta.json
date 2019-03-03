@@ -1,0 +1,40 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning",
+        "repo_url": "https://github.com/ctuning/ck-autotuning"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-qiskit"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uoa": "ck-quantum",
+          "repo_url": "https://github.com/ctuning/ck-quantum"
+        },
+        {
+          "repo_uoa": "ck-autotuning",
+          "repo_url": "https://github.com/ctuning/ck-autotuning"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-qiskit"
+    },
+    "data_uid": "4f49a0bdde6167b4",
+    "data_uoa": "ck-qiskit",
+    "desc": "CK workflows and portable packages for Quantum Information Software Kit (QISKit).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-qiskit/tree/master/repo/ck-qiskit/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-qiskit/tree/master/repo/ck-qiskit",
+    "to_get": "ck pull repo:local",
+    "workflow_desc": "programs"
+  }
+}

@@ -70,6 +70,7 @@
       "mobilenet-v2-1.4-224"
     ],
     "target_os": "any",
-    "template": "TensorFlow model - MobileNet v2"
+    "template": "TensorFlow model - MobileNet v2",
+    "to_get": "ck pull repo:ck-tensorflow"
   }
 }

@@ -75,6 +75,7 @@
       "channel-stable"
     ],
     "target_os": "windows,mingw",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
   }
 }

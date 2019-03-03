@@ -51,6 +51,7 @@
       "clblast"
     ],
     "target_os": "any",
-    "template": "CLBlast library"
+    "template": "CLBlast library",
+    "to_get": "ck pull repo:ck-env"
   }
 }

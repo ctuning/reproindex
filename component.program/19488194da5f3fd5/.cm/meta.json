@@ -119,6 +119,7 @@
     ],
     "target_os": "any",
     "template": "tensor2tensor via TensorFlow",
+    "to_get": "ck pull repo:ck-tbd-suite",
     "version": ""
   }
 }

@@ -1,0 +1,52 @@
+{
+  "dict": {
+    "checkouts": {
+      "stable": {
+        "branch": "master",
+        "checkout": "5efde26"
+      }
+    },
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-env"
+      },
+      {
+        "repo_uoa": "ck-analytics"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-autotuning"
+  },
+  "misc": {
+    "ckr": {
+      "checkouts": {
+        "stable": {
+          "branch": "master",
+          "checkout": "5efde26"
+        }
+      },
+      "repo_deps": [
+        {
+          "repo_uoa": "ck-env"
+        },
+        {
+          "repo_uoa": "ck-analytics"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-autotuning"
+    },
+    "data_uid": "a4328ba99679e0d1",
+    "data_uoa": "ck-autotuning",
+    "desc": "Portable and customizable CK workflow for multi-dimensional and multi-objective benchmarking, autotuning and co-design (see real use cases: <a href=\"http://cKnowledge.org/rpi-crowd-tuning\">1</a> and <a href=\"https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl\">2</a>).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/repo/ck-autotuning/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-autotuning/tree/master/repo/ck-autotuning",
+    "to_get": "ck pull repo:local",
+    "workflow_desc": ""
+  }
+}

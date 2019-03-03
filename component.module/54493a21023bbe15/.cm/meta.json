@@ -27,6 +27,8 @@
     "repo_uoa": "ck-tensorflow",
     "repo_url1": "https://github.com/ctuning/ck-tensorflow/tree/master/module/model.tensorflowapi/module.py",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/module/model.tensorflowapi/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-tensorflow",
     "workflow": ""
   }
 }

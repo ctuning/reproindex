@@ -91,6 +91,7 @@
       "vmaster"
     ],
     "target_os": "linux,macos,windows",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
   }
 }

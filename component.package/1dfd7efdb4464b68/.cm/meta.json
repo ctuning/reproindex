@@ -147,6 +147,7 @@
       "vcpu"
     ],
     "target_os": "windows",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:ck-old-packages"
   }
 }

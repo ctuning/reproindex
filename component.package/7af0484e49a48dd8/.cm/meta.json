@@ -74,6 +74,7 @@
       "vmaster"
     ],
     "target_os": "linux,macos,android,windows",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:ck-math"
   }
 }

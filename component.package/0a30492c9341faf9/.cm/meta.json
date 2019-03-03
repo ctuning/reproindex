@@ -63,6 +63,7 @@
       "vtrunk"
     ],
     "target_os": "linux,macos,windows,android",
-    "template": "LLVM compiler trunk"
+    "template": "LLVM compiler trunk",
+    "to_get": "ck pull repo:ck-env"
   }
 }

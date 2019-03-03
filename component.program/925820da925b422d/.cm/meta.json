@@ -68,8 +68,8 @@
     "repo_uid": "57e83bca8a5a4344",
     "repo_uoa": "ck-caffe",
     "repo_url1": "",
-    "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/program/caffe-ssd-train-kitti/.cm/meta.json",
-    "repo_url3": "git@github.com:dividiti/ck-caffe/tree/master/program/caffe-ssd-train-kitti",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/program/caffe-ssd-train-kitti/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-caffe/tree/master/program/caffe-ssd-train-kitti",
     "soft_name": "",
     "stags": "caffe-detection,caffe-detection-ssd,ssd,demo,training,object-detection",
     "tags": [
@@ -82,6 +82,7 @@
     ],
     "target_os": "any",
     "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git",
     "version": ""
   }
 }

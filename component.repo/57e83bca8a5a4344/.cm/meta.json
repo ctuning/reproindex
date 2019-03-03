@@ -1,0 +1,42 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning"
+      },
+      {
+        "repo_uoa": "ck-math"
+      }
+    ],
+    "shared": "git",
+    "sync": "yes",
+    "url": "https://github.com/dividiti/ck-caffe"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uoa": "ck-autotuning"
+        },
+        {
+          "repo_uoa": "ck-math"
+        }
+      ],
+      "shared": "git",
+      "sync": "yes",
+      "url": "git@github.com:dividiti/ck-caffe.git"
+    },
+    "data_uid": "57e83bca8a5a4344",
+    "data_uoa": "ck-caffe",
+    "desc": "Portable/customizable installation and unified access to Caffe AI framework with different workflows and data sets (see the real use case from the <a href=\"https://github.com/ctuning/ck-request-asplos18-caffe-intel\">ACM ReQuEST tournament</a>).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/repo/ck-caffe/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-caffe/tree/master/repo/ck-caffe",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe",
+    "workflow_desc": "programs"
+  }
+}

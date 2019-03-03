@@ -84,6 +84,7 @@
       "channel-stable"
     ],
     "target_os": "linux,macos",
-    "template": "TensorFlow AI framework (for CPU)"
+    "template": "TensorFlow AI framework (for CPU)",
+    "to_get": "ck pull repo:ck-tensorflow"
   }
 }

@@ -101,6 +101,7 @@
       "channel-stable"
     ],
     "target_os": "linux,macos,windows",
-    "template": "MXNet AI framework"
+    "template": "MXNet AI framework",
+    "to_get": "ck pull repo:ck-mxnet"
   }
 }

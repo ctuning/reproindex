@@ -79,6 +79,7 @@
       "channel-dev"
     ],
     "target_os": "android,linux,macos,windows",
-    "template": ""
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
   }
 }

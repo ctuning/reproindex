@@ -119,6 +119,7 @@
     ],
     "target_os": "any",
     "template": "image classification via TensorFlow (Python)",
+    "to_get": "ck pull repo:ck-tensorflow",
     "version": ""
   }
 }

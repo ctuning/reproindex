@@ -85,6 +85,8 @@
     "repo_uoa": "ck-crowdtuning",
     "repo_url1": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.bench.dnn/module.py",
     "repo_url2": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/experiment.bench.dnn/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-crowdtuning",
     "workflow": "crowd-benchmarking deep learning via desktop/server/cloud computers"
   }
 }

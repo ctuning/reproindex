@@ -163,6 +163,7 @@
     ],
     "target_os": "any",
     "template": "Arm workload automation workflow",
+    "to_get": "ck pull repo:ck-wa-workloads",
     "version": ""
   }
 }

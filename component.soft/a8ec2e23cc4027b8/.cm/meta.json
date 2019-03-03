@@ -48,6 +48,7 @@
       "google"
     ],
     "target_os": "any",
-    "template": "TensorFlow model"
+    "template": "TensorFlow model",
+    "to_get": "ck pull repo:ck-tensorflow"
   }
 }

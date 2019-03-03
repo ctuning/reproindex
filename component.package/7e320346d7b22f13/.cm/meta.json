@@ -89,6 +89,7 @@
       "channel-stable"
     ],
     "target_os": "linux,macos,windows",
-    "template": "AI CNTK package"
+    "template": "AI CNTK package",
+    "to_get": "ck pull repo:ck-cntk"
   }
 }
