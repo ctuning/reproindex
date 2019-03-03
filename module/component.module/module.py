@@ -136,10 +136,11 @@ def html(i):
     actions2=llmisc.get('actions',{})
 
     h+='<div style="background-color:#efefef;margin:5px;padding:5px;">\n'
+    h+='<b>Repo name:</b> '+ruoa+'<br>\n'
+    if workflow!='':
+       h+='<b>Workflow:</b> '+workflow+'<br>\n'
+
     if len(actions1)>0:
-       h+='<b>Repo name:</b> '+ruoa+'<br>\n'
-       if workflow!='':
-          h+='<b>Workflow:</b> '+workflow+'<br>\n'
        h+='<b>Actions:</b><br>\n'
        h+='<div style="margin-left:20px;">\n'
        h+=' <ul>\n'
