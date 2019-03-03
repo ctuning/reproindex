@@ -231,7 +231,7 @@ def get(i):
         h+='<div id="ck_downloads">\n'
 
         h+='[&nbsp;<a href="'+url_help+'" target="_blank">help</a>&nbsp;] \n'
-        h+='[&nbsp;<a href="'+cfg['url_rr_github_components']+'/'+duid+'/.cm/meta.json" target="_blank">index</a>&nbsp;]&nbsp;&nbsp; \n'
+        h+='[&nbsp;<a href="'+cfg['url_rr_github_components']+'.'+c+'/'+duid+'/.cm/meta.json" target="_blank">index</a>&nbsp;]&nbsp;&nbsp; \n'
 
         if hh1!='':
            h+=hh1
