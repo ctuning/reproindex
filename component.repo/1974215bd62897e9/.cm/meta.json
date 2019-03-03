@@ -12,6 +12,7 @@
     "ckr": {
       "repo_deps": [
         {
+          "repo_uid": "76c4424a1473c873",
           "repo_uoa": "ck-analytics"
         }
       ],

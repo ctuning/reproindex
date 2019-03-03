@@ -19,12 +19,15 @@
     "ckr": {
       "repo_deps": [
         {
+          "repo_uid": "a4328ba99679e0d1",
           "repo_uoa": "ck-autotuning"
         },
         {
+          "repo_uid": "4ffcc1307484d840",
           "repo_uoa": "ctuning-datasets-min"
         },
         {
+          "repo_uid": "57e83bca8a5a4344",
           "repo_uoa": "ck-caffe",
           "repo_url": "https://github.com/dividiti/ck-caffe"
         }

@@ -27,9 +27,11 @@
       },
       "repo_deps": [
         {
+          "repo_uid": "1ff43ae88715a8c1",
           "repo_uoa": "ck-env"
         },
         {
+          "repo_uid": "76c4424a1473c873",
           "repo_uoa": "ck-analytics"
         }
       ],

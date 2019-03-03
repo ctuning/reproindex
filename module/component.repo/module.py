@@ -99,6 +99,17 @@ def add_index(i):
 
     misc['ckr']=ckr
 
+    # Get UIDs for repo deps
+    repo_deps=ckr.get('repo_deps',{})
+    for rd in repo_deps:
+        xruoa=rd.get('repo_uoa','')
+        r=ck.access({'action':'load',
+                     'module_uoa':cfg['module_deps']['repo'],
+                     'data_uoa':xruoa})
+        if r['return']==0:
+           xruid=r['data_uid']
+           rd['repo_uid']=xruid
+
     # Check extra info
     r=ck.access({'action':'load',
                  'module_uoa':cfg['module_deps']['cfg'],

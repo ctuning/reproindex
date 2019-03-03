@@ -20,10 +20,12 @@
       "recache": "yes",
       "repo_deps": [
         {
+          "repo_uid": "57e83bca8a5a4344",
           "repo_uoa": "ck-caffe",
           "repo_url": "https://github.com/dividiti/ck-caffe"
         },
         {
+          "repo_uid": "c51322a8eae14587",
           "repo_uoa": "ck-request"
         }
       ],

@@ -7,13 +7,16 @@
     "ckr": {
       "repo_deps": [
         {
+          "repo_uid": "4439c9443bbab749",
           "repo_uoa": "ck-rpi-optimization",
           "repo_url": "http://github.com/dividiti/ck-rpi-optimization"
         },
         {
+          "repo_uid": "4784a9da122ed85c",
           "repo_uoa": "ck-assets"
         },
         {
+          "repo_uid": "18bb3d4130a4aaf9",
           "repo_uoa": "ck-docker"
         }
       ],

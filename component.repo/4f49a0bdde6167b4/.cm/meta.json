@@ -13,10 +13,12 @@
     "ckr": {
       "repo_deps": [
         {
+          "repo_uid": "de640faafc01c0a0",
           "repo_uoa": "ck-quantum",
           "repo_url": "https://github.com/ctuning/ck-quantum"
         },
         {
+          "repo_uid": "a4328ba99679e0d1",
           "repo_uoa": "ck-autotuning",
           "repo_url": "https://github.com/ctuning/ck-autotuning"
         }

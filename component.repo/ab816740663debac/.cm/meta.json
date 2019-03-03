@@ -7,9 +7,11 @@
     "ckr": {
       "repo_deps": [
         {
+          "repo_uid": "f2be9b14e67b8b23",
           "repo_uoa": "ck-request-asplos18-results"
         },
         {
+          "repo_uid": "9bb172637b2083c2",
           "repo_uoa": "ck-request-asplos18-iot-farm"
         }
       ],

@@ -8,9 +8,11 @@
       "private": "yes",
       "repo_deps": [
         {
+          "repo_uid": "1ff43ae88715a8c1",
           "repo_uoa": "ck-env"
         },
         {
+          "repo_uid": "215d441c19db1fed",
           "repo_uoa": "ck-web"
         }
       ],

@@ -16,9 +16,11 @@
     "ckr": {
       "repo_deps": [
         {
+          "repo_uid": "a4328ba99679e0d1",
           "repo_uoa": "ck-autotuning"
         },
         {
+          "repo_uid": "d94a45b5be3072ba",
           "repo_uoa": "ck-math"
         }
       ],

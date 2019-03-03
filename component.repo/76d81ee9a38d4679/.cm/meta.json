@@ -15,9 +15,11 @@
     "ckr": {
       "repo_deps": [
         {
+          "repo_uid": "1ff43ae88715a8c1",
           "repo_uoa": "ck-env"
         },
         {
+          "repo_uid": "acb7cea44acac9c9",
           "repo_uoa": "ck-tensorflow"
         }
       ],

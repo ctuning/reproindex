@@ -8,6 +8,7 @@
     "ckr": {
       "repo_deps": [
         {
+          "repo_uid": "c51322a8eae14587",
           "repo_uoa": "ck-request"
         }
       ],

@@ -8,9 +8,11 @@
       "ck_artifact": "640fb4c4b9ba9822",
       "repo_deps": [
         {
+          "repo_uid": "acb7cea44acac9c9",
           "repo_uoa": "ck-tensorflow"
         },
         {
+          "repo_uid": "c51322a8eae14587",
           "repo_uoa": "ck-request"
         }
       ],

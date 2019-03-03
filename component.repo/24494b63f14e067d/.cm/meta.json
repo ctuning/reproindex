@@ -12,6 +12,7 @@
     "ckr": {
       "repo_deps": [
         {
+          "repo_uid": "215d441c19db1fed",
           "repo_uoa": "ck-web"
         }
       ],

@@ -18,12 +18,15 @@
     "ckr": {
       "repo_deps": [
         {
+          "repo_uid": "1db88c44a4086634",
           "repo_uoa": "ctuning-programs"
         },
         {
+          "repo_uid": "215d441c19db1fed",
           "repo_uoa": "ck-web"
         },
         {
+          "repo_uid": "168cb19e71ad2493",
           "repo_uoa": "ck-crowdtuning-platforms"
         }
       ],
