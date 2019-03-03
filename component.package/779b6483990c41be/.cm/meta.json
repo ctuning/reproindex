@@ -56,7 +56,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-mobilenet-v1-0.50-128-py/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-mobilenet-v1-0.50-128-py",
-    "soft_uoa": "439b9f1757f27091",
+    "soft_name": "TensorFlow python model and weights",
+    "soft_uid": "439b9f1757f27091",
+    "soft_uoa": "model.tensorflow.py",
     "stags": "tensorflowmodel,weights,python,mobilenet,mobilenet-v1,mobilenet-v1-0.50-128,2017_06_14",
     "tags": [
       "tensorflowmodel",

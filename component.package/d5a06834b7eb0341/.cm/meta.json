@@ -120,7 +120,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-clblast-tune-master-universal/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-clblast-tune-master-universal",
-    "soft_uoa": "7b81c6ad862f4b38",
+    "soft_name": "CLBlast library",
+    "soft_uid": "7b81c6ad862f4b38",
+    "soft_uoa": "lib.clblast",
     "stags": "lib,blas,opencl-blas,clblast,tune,clblast-tune,vmaster,vdev",
     "tags": [
       "lib",

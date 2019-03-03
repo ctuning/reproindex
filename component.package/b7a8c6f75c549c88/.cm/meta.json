@@ -95,7 +95,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-hdf5-1.10.2-parallel-static-src/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-hdf5-1.10.2-parallel-static-src",
-    "soft_uoa": "01ef32c29d84f24b",
+    "soft_name": "HDF5 library (static)",
+    "soft_uid": "01ef32c29d84f24b",
+    "soft_uoa": "lib.hdf5.static",
     "stags": "lib,hdf5-static,vstatic,vparallel,vmpi,vfortran,v1.10.2,v1.10,v1,channel-stable",
     "tags": [
       "lib",

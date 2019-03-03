@@ -99,7 +99,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-libdnn-opencl-master-universal/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-libdnn-opencl-master-universal",
-    "soft_uoa": "3ec4603341894656",
+    "soft_name": "LibDNN library",
+    "soft_uid": "3ec4603341894656",
+    "soft_uoa": "lib.libdnn",
     "stags": "lib,dnn,libdnn,vopencl,vmaster",
     "tags": [
       "lib",

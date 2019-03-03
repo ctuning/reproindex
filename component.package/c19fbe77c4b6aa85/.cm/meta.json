@@ -51,7 +51,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/dataset-openimages-min/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/dataset-openimages-min",
-    "soft_uoa": "df91cf74f7416f94",
+    "soft_name": "OpenImages dataset",
+    "soft_uid": "df91cf74f7416f94",
+    "soft_uoa": "dataset.openimages",
     "stags": "dataset,openimages,OpenImages,open-images,Open-Images,2018,val,min,object-detection,channel-stable",
     "tags": [
       "dataset",

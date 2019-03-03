@@ -91,7 +91,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/tool-dvdt-prof-cjson-master-universal/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/tool-dvdt-prof-cjson-master-universal",
-    "soft_uoa": "4b024aad9147b043",
+    "soft_name": "dividiti's OpenCL API profiler",
+    "soft_uid": "4b024aad9147b043",
+    "soft_uoa": "tool.dvdt.prof",
     "stags": "tool,opencl,dvdt,prof,dvdt-prof2,dividiti,profiler,cjson,vmaster",
     "tags": [
       "tool",

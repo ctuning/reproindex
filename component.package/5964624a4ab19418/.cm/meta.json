@@ -58,7 +58,9 @@
     "repo_url1": "",
     "repo_url2": "http://github.com/ctuning/ck-dnndk/tree/master/package/deephi-images/.cm/meta.json",
     "repo_url3": "http://github.com/ctuning/ck-dnndk/tree/master/package/deephi-images",
-    "soft_uoa": "f45b695201df6d04",
+    "soft_name": "DeePhi calibration images (256;320)",
+    "soft_uid": "f45b695201df6d04",
+    "soft_uoa": "images.deephi",
     "stags": "deephi,calibration,images,channel-stable",
     "tags": [
       "deephi",

@@ -81,7 +81,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-armcl-cpu-master/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-armcl-cpu-master",
-    "soft_uoa": "fc544df6941a5491",
+    "soft_name": "Arm Compute Library",
+    "soft_uid": "fc544df6941a5491",
+    "soft_uoa": "lib.armcl",
     "stags": "lib,arm,armcl,arm-compute-library,vcpu,vmaster,vdefault,vdev",
     "tags": [
       "lib",

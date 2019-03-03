@@ -64,7 +64,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-object-detection-faster-rcnn-inception-resnet-v2-atrous-oid/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-object-detection-faster-rcnn-inception-resnet-v2-atrous-oid",
-    "soft_uoa": "3fc0c4b9ba63de2f",
+    "soft_name": "TensorFlow model (object-detection)",
+    "soft_uid": "3fc0c4b9ba63de2f",
+    "soft_uoa": "model.tensorflow.object-detection",
     "stags": "tensorflowmodel,object-detection,fasterRCNN,inception,resnet,resnet-v2,vopenimages,channel-stable",
     "tags": [
       "tensorflowmodel",

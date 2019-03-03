@@ -40,7 +40,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/compiler-xsb-3.2/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/compiler-xsb-3.2",
-    "soft_uoa": "5ad48e9a7faa2dec",
+    "soft_name": "XSB compiler",
+    "soft_uid": "5ad48e9a7faa2dec",
+    "soft_uoa": "compiler.xsb",
     "stags": "compiler,xsb,lang-prolog,v3.2,v3",
     "tags": [
       "compiler",

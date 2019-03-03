@@ -46,7 +46,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-gemmlowp-src-20171019/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-gemmlowp-src-20171019",
-    "soft_uoa": "5e5ed4439e89b315",
+    "soft_name": "Gemmlowp library",
+    "soft_uid": "5e5ed4439e89b315",
+    "soft_uoa": "lib.gemmlowp",
     "stags": "lib,gemmlowp,lang-cpp,vsrc,v20171019,channel-stable",
     "tags": [
       "lib",

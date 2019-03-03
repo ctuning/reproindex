@@ -64,7 +64,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/lift-project/ck-lift/tree/master/package/compiler-lift-master/.cm/meta.json",
     "repo_url3": "https://github.com/lift-project/ck-lift/tree/master/package/compiler-lift-master",
-    "soft_uoa": "54e56ad7d4a05c0e",
+    "soft_name": "Compiler Lift",
+    "soft_uid": "54e56ad7d4a05c0e",
+    "soft_uoa": "compiler.lift",
     "stags": "compiler,lift,vmaster",
     "tags": [
       "compiler",

@@ -69,7 +69,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-mace-cpu-0.8.1/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-mace-cpu-0.8.1",
-    "soft_uoa": "448d195670f907f4",
+    "soft_name": "MACE library",
+    "soft_uid": "448d195670f907f4",
+    "soft_uoa": "lib.mace",
     "stags": "lib,mace,vsrc,v0.8.1,v0.8,v0,channel-stable",
     "tags": [
       "lib",

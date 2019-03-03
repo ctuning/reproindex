@@ -56,7 +56,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/demo-squeezedet-patched/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/demo-squeezedet-patched",
-    "soft_uoa": "76551749a9854388",
+    "soft_name": "SqueezeDet demo",
+    "soft_uid": "76551749a9854388",
+    "soft_uoa": "demo.squeezedet",
     "stags": "tensorflow,demo,squeezedet,patched,channel-stable",
     "tags": [
       "tensorflow",

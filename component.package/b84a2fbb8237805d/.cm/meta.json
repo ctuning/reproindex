@@ -80,7 +80,9 @@
     "repo_url1": "",
     "repo_url2": "http://github.com/ctuning/ck-kann/tree/master/package/kannmodel-bvlc-googlenet/.cm/meta.json",
     "repo_url3": "http://github.com/ctuning/ck-kann/tree/master/package/kannmodel-bvlc-googlenet",
-    "soft_uoa": "2025bf79b2048719",
+    "soft_name": "KaNN model (net and weights)",
+    "soft_uid": "2025bf79b2048719",
+    "soft_uoa": "model.kann",
     "stags": "kann,kannmodel,bvlc,googlenet",
     "tags": [
       "kann",

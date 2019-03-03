@@ -90,7 +90,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-scc18/tree/master/package/lib-seissol-proxy-scc18/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-scc18/tree/master/package/lib-seissol-proxy-scc18",
-    "soft_uoa": "0d9ef0591d400f95",
+    "soft_name": "Seissol proxy",
+    "soft_uid": "0d9ef0591d400f95",
+    "soft_uoa": "lib.seissol.proxy",
     "stags": "lib,seissol-proxy,vnetcdf,v201703",
     "tags": [
       "lib",

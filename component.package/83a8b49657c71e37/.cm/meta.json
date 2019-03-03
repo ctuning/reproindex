@@ -58,7 +58,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/package/iwslt15-en-vi-all/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tbd-suite/tree/master/package/iwslt15-en-vi-all",
-    "soft_uoa": "b2f3da085d3c47e7",
+    "soft_name": "IWSLT15 English-Vietnamese dataset (all)",
+    "soft_uid": "b2f3da085d3c47e7",
+    "soft_uoa": "dataset.iwslt15.en-vi",
     "stags": "dataset,translation,raw,train,val,iwslt15,iwslt15-all,iwslt15-english-vietnamese,vietnamese,channel-stable",
     "tags": [
       "dataset",

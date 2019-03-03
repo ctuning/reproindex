@@ -48,7 +48,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/jdk-10.0.2-universal/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/jdk-10.0.2-universal",
-    "soft_uoa": "0129a3b82235cbc0",
+    "soft_name": "java compiler",
+    "soft_uid": "0129a3b82235cbc0",
+    "soft_uoa": "compiler.java",
     "stags": "compiler,java,lang-java,v10.0.2,v10.0,v10,channel-stable",
     "tags": [
       "compiler",

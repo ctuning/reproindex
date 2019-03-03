@@ -42,7 +42,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/dataset-snap-facebook/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/dataset-snap-facebook",
-    "soft_uoa": "044f7304f07a7c34",
+    "soft_name": "SNAP graph dataset",
+    "soft_uid": "044f7304f07a7c34",
+    "soft_uoa": "dataset.snap",
     "stags": "dataset,graph,real-world,snap,facebook,small,social-network",
     "tags": [
       "dataset",

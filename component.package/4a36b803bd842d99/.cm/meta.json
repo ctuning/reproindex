@@ -43,7 +43,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/tool-spack-master/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/tool-spack-master",
-    "soft_uoa": "e29497d516564e3b",
+    "soft_name": "spack",
+    "soft_uid": "e29497d516564e3b",
+    "soft_uoa": "tool.spack",
     "stags": "tool,spack,vmaster",
     "tags": [
       "tool",

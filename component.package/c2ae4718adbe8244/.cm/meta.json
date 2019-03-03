@@ -89,7 +89,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-hdf5-1.10.1-src/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-hdf5-1.10.1-src",
-    "soft_uoa": "6d0c245e881231e8",
+    "soft_name": "HDF5 library",
+    "soft_uid": "6d0c245e881231e8",
+    "soft_uoa": "lib.hdf5",
     "stags": "lib,hdf5,v1.10.1,v1.10,v1,channel-stable",
     "tags": [
       "lib",

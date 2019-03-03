@@ -120,7 +120,9 @@
     "repo_url1": "",
     "repo_url2": "http://github.com/ctuning/ck-dnndk/tree/master/package/lib-dnndk/.cm/meta.json",
     "repo_url3": "http://github.com/ctuning/ck-dnndk/tree/master/package/lib-dnndk",
-    "soft_uoa": "118b74d700e3751f",
+    "soft_name": "DeePhi DNNDK",
+    "soft_uid": "118b74d700e3751f",
+    "soft_uoa": "lib.dnndk",
     "stags": "deephi,lib,dnndk,v2",
     "tags": [
       "deephi",

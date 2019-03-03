@@ -48,7 +48,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-python-pillow/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-python-pillow",
-    "soft_uoa": "be1b42af44e2c97e",
+    "soft_name": "Pillow Python library",
+    "soft_uid": "be1b42af44e2c97e",
+    "soft_uoa": "lib.python.pillow",
     "stags": "lib,python-package,pillow,PIL,vmaster",
     "tags": [
       "lib",

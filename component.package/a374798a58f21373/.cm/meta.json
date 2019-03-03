@@ -55,6 +55,8 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-leveldb-1.20/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-leveldb-1.20",
+    "soft_name": "LevelDB library",
+    "soft_uid": "7bcd2d0cb07c45c7",
     "soft_uoa": "lib.leveldb",
     "stags": "lib,leveldb,v1.20,v1",
     "tags": [

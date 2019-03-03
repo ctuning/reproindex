@@ -81,7 +81,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-pytorch/tree/master/package/lib-pytorch-master-cuda/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-pytorch/tree/master/package/lib-pytorch-master-cuda",
-    "soft_uoa": "954c41a2f8668a9b",
+    "soft_name": "PyTorch library",
+    "soft_uid": "954c41a2f8668a9b",
+    "soft_uoa": "lib.pytorch",
     "stags": "lib,pytorch,pytorch-cuda,vmaster,vcuda,channel-stable",
     "tags": [
       "lib",

@@ -42,7 +42,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-old-packages/tree/master/package/tensorflowmodel-imagenet-inception-20151205x/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-old-packages/tree/master/package/tensorflowmodel-imagenet-inception-20151205x",
-    "soft_uoa": "462f93dde8482c10",
+    "soft_name": "TensorFlow Imagenet dataset aux (net and weights)",
+    "soft_uid": "462f93dde8482c10",
+    "soft_uoa": "dataset.tensorflow.imagenet.aux",
     "stags": "tensorflow,model,tensorflowmodel,google,aux,imagenet,inception,v201512,channel-stable",
     "tags": [
       "tensorflow",

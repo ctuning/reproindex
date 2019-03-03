@@ -55,7 +55,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/dataset-tf-slim-imagenet/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/dataset-tf-slim-imagenet",
-    "soft_uoa": "cecb9516584497ac",
+    "soft_name": "Th",
+    "soft_uid": "cecb9516584497ac",
+    "soft_uoa": "dataset.tensorflow.slim",
     "stags": "dataset,tensorflow,slim,tensorflow-slim,imagenet,channel-stable",
     "tags": [
       "dataset",

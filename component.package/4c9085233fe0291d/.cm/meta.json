@@ -45,7 +45,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-viennacl-1.7.1-src/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-viennacl-1.7.1-src",
-    "soft_uoa": "f41d49bd23afa84b",
+    "soft_name": "ViennaCL library",
+    "soft_uid": "f41d49bd23afa84b",
+    "soft_uoa": "lib.viennacl.src",
     "stags": "vsrc,lib,blas,opencl-blas,viennacl,v1.7.1,v1.7,v1,channel-stable",
     "tags": [
       "vsrc",

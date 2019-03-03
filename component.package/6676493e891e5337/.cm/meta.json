@@ -39,7 +39,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/imagenet-2012-train-min/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/imagenet-2012-train-min",
-    "soft_uoa": "138c3d446dad2783",
+    "soft_name": "ImageNet dataset (train)",
+    "soft_uid": "138c3d446dad2783",
+    "soft_uoa": "dataset.imagenet.train",
     "stags": "dataset,imagenet,raw,train,min,ilsvrc2012,channel-stable",
     "tags": [
       "dataset",

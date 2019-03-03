@@ -50,7 +50,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/compiler-ctuning-cc-2.5-plugins-src-via-remote-ck/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/compiler-ctuning-cc-2.5-plugins-src-via-remote-ck",
-    "soft_uoa": "585b44b38178af8c",
+    "soft_name": "MILEPOST cTuning plugin",
+    "soft_uid": "585b44b38178af8c",
+    "soft_uoa": "plugin.milepost.ctuning",
     "stags": "plugin,milepost,ctuning,features,passes,v2.5,v2",
     "tags": [
       "plugin",

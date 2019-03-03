@@ -56,7 +56,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/lib-ppl-0.11.2-linux/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/lib-ppl-0.11.2-linux",
-    "soft_uoa": "b3065be3468aa97f",
+    "soft_name": "PPL library",
+    "soft_uid": "b3065be3468aa97f",
+    "soft_uoa": "lib.ppl",
     "stags": "lib,ppl,v0.11.2,v0.11,v0",
     "tags": [
       "lib",

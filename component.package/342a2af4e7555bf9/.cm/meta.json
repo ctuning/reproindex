@@ -42,7 +42,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/lib-cloog-0.17.0-isl-copy/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/lib-cloog-0.17.0-isl-copy",
-    "soft_uoa": "7dadf96440b48611",
+    "soft_name": "CLOOG library",
+    "soft_uid": "7dadf96440b48611",
+    "soft_uoa": "lib.cloog",
     "stags": "lib,cloog,v0.17.0,v0.17,v0",
     "tags": [
       "lib",

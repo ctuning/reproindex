@@ -52,7 +52,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-rigetti/tree/master/package/lib-pyquil-multiversion/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-rigetti/tree/master/package/lib-pyquil-multiversion",
-    "soft_uoa": "7a688556e84d7c47",
+    "soft_name": "Rigetti pyQuil library",
+    "soft_uid": "7a688556e84d7c47",
+    "soft_uoa": "lib.pyquil",
     "stags": "lib,quantum,rigetti,pyquil,multiversion,with-examples",
     "tags": [
       "lib",

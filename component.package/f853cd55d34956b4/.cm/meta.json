@@ -53,7 +53,9 @@
     "repo_url1": "",
     "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/package/dataset-voc-2012/.cm/meta.json",
     "repo_url3": "git@github.com:dividiti/ck-caffe/tree/master/package/dataset-voc-2012",
-    "soft_uoa": "041cf4753bed7c62",
+    "soft_name": "VOC dataset",
+    "soft_uid": "041cf4753bed7c62",
+    "soft_uoa": "dataset.voc",
     "stags": "dataset,voc,VOC,2012,val,full,channel-stable",
     "tags": [
       "dataset",

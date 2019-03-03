@@ -39,6 +39,8 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tensorflow-source/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tensorflow-source",
+    "soft_name": "TensorFlow library source",
+    "soft_uid": "92cbe940c7bd37dd",
     "soft_uoa": "lib.tensorflow.source",
     "stags": "lib,tensorflow,source",
     "tags": [

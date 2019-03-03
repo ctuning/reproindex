@@ -69,7 +69,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/imagenet-2012-val-lmdb-320/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/imagenet-2012-val-lmdb-320",
-    "soft_uoa": "092da4cabb3b7f8c",
+    "soft_name": "ImageNet dataset (validation, LMDB)",
+    "soft_uid": "092da4cabb3b7f8c",
+    "soft_uoa": "dataset.imagenet.val.lmdb",
     "stags": "dataset,imagenet,val-lmdb,lmdb,caffe,ilsvrc2012,resize-320,inception-v3,default,channel-stable",
     "tags": [
       "dataset",

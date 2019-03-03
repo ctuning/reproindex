@@ -38,7 +38,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-cjson-2013/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-cjson-2013",
-    "soft_uoa": "59c52485faf01e9a",
+    "soft_name": "cJSON library",
+    "soft_uid": "59c52485faf01e9a",
+    "soft_uoa": "lib.cjson.2013",
     "stags": "lib,cjson,v2013,channel-stable",
     "tags": [
       "lib",

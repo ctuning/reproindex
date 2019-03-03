@@ -64,7 +64,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/package/pascal-voc12-tf-trainval/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tbd-suite/tree/master/package/pascal-voc12-tf-trainval",
-    "soft_uoa": "bc2b86d0b1084ccd",
+    "soft_name": "The PASCAL VOC12 (Object Detection) dataset (train, val, TF)",
+    "soft_uid": "bc2b86d0b1084ccd",
+    "soft_uoa": "dataset.pascal_voc12",
     "stags": "dataset,pascal-voc12,raw,train-tf,object-detection",
     "tags": [
       "dataset",

@@ -100,7 +100,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-clblas-master-universal/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-clblas-master-universal",
-    "soft_uoa": "c24825c3cad090f1",
+    "soft_name": "clBLAS library",
+    "soft_uid": "c24825c3cad090f1",
+    "soft_uoa": "lib.clblas",
     "stags": "lib,blas,opencl-blas,clblas,vtrunk",
     "tags": [
       "lib",

@@ -36,7 +36,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/lib-gmp-6.0.0-linux/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/lib-gmp-6.0.0-linux",
-    "soft_uoa": "ed501fa9004a6cb6",
+    "soft_name": "GMP library",
+    "soft_uid": "ed501fa9004a6cb6",
+    "soft_uoa": "lib.gmp",
     "stags": "lib,gmp,v6.0.0,v6.0,v6",
     "tags": [
       "lib",

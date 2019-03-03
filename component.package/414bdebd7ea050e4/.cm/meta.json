@@ -57,7 +57,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tflite-prebuilt-0.1.7-linux-x64/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tflite-prebuilt-0.1.7-linux-x64",
-    "soft_uoa": "22441eac479e90e0",
+    "soft_name": "TensorFlow Lite API",
+    "soft_uid": "22441eac479e90e0",
+    "soft_uoa": "lib.tflite.static",
     "stags": "lib,tensorflow,tensorflow-lite,tensorflow-static,prebuilt,vstatic,v0.1.7,v0.1,v0,channel-stable",
     "tags": [
       "lib",

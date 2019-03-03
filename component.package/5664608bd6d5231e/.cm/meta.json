@@ -39,7 +39,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/tool-cere-trunk/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/tool-cere-trunk",
-    "soft_uoa": "973c95734f81aee7",
+    "soft_name": "CERE Tool",
+    "soft_uid": "973c95734f81aee7",
+    "soft_uoa": "tool.cere",
     "stags": "tool,cere,vtrunk",
     "tags": [
       "tool",

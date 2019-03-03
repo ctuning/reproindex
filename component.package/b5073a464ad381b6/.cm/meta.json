@@ -87,7 +87,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-opencv-3.2.0/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-opencv-3.2.0",
-    "soft_uoa": "18eb79fe079438fb",
+    "soft_name": "OpenCV library",
+    "soft_uid": "18eb79fe079438fb",
+    "soft_uoa": "lib.opencv",
     "stags": "lib,opencv,v3.2.0,v3.2,v3,channel-stable",
     "tags": [
       "lib",

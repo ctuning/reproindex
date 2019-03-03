@@ -65,7 +65,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/package/imagenet-2012-train-tf/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tbd-suite/tree/master/package/imagenet-2012-train-tf",
-    "soft_uoa": "5e30307314b4cd58",
+    "soft_name": "ImageNet dataset (train, TensorFlow)",
+    "soft_uid": "5e30307314b4cd58",
+    "soft_uoa": "dataset.imagenet.train.tf",
     "stags": "dataset,imagenet,raw,train-tf,ilsvrc2012,channel-stable",
     "tags": [
       "dataset",

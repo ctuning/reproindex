@@ -39,7 +39,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-lapack-3.4.2/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-lapack-3.4.2",
-    "soft_uoa": "4069972dfce0f22d",
+    "soft_name": "LAPACK library",
+    "soft_uid": "4069972dfce0f22d",
+    "soft_uoa": "lib.lapack",
     "stags": "lib,lapack,v3.4.2,v3.4,v3,channel-stable",
     "tags": [
       "lib",

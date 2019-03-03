@@ -56,7 +56,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-cntk/tree/master/package/lib-cntk-2.4-cpu/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-cntk/tree/master/package/lib-cntk-2.4-cpu",
-    "soft_uoa": "71c4a94768b7bbe1",
+    "soft_name": "CNTK library",
+    "soft_uid": "71c4a94768b7bbe1",
+    "soft_uoa": "lib.cntk",
     "stags": "lib,cntk,cntk-cpu,v2.4,v2,vprebuilt,vcpu,channel-stable",
     "tags": [
       "lib",

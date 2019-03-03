@@ -63,7 +63,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tensorflow-1.11.0-src-static/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tensorflow-1.11.0-src-static",
-    "soft_uoa": "6ad9e190eb44aa3b",
+    "soft_name": "TensorFlow C++ API",
+    "soft_uid": "6ad9e190eb44aa3b",
+    "soft_uoa": "lib.tensorflow.static",
     "stags": "lib,tensorflow,tensorflow-static,vsrc,vstatic,v1.11.0,v1.11,v1,channel-stable",
     "tags": [
       "lib",

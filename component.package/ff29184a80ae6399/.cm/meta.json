@@ -45,7 +45,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-mlperf/tree/master/package/bench-mlmodelscope-master/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-mlperf/tree/master/package/bench-mlmodelscope-master",
-    "soft_uoa": "bd45429bee5fd779",
+    "soft_name": "MLModelScope",
+    "soft_uid": "bd45429bee5fd779",
+    "soft_uoa": "bench.mlmodelscope",
     "stags": "bench,mlmodelscope,vmaster",
     "tags": [
       "bench",

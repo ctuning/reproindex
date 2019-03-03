@@ -31,7 +31,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/package/compiler-open64-5.0-src-linux-problems/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/package/compiler-open64-5.0-src-linux-problems",
-    "soft_uoa": "3a8a82fa40bf992d",
+    "soft_name": "GNU C compiler",
+    "soft_uid": "3a8a82fa40bf992d",
+    "soft_uoa": "compiler.gcc",
     "stags": "compiler,open64,v5.0,v5",
     "tags": [
       "compiler",

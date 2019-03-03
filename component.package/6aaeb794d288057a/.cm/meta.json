@@ -49,7 +49,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-python-numpy/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-python-numpy",
-    "soft_uoa": "6a10047b1bcd16fc",
+    "soft_name": "NumPy Python library",
+    "soft_uid": "6a10047b1bcd16fc",
+    "soft_uoa": "lib.python.numpy",
     "stags": "lib,python-package,numpy,vmaster",
     "tags": [
       "lib",

@@ -37,7 +37,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-carp-project/tree/master/package/benchmark-pencil-trunk/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-carp-project/tree/master/package/benchmark-pencil-trunk",
-    "soft_uoa": "433d85323a5e077d",
+    "soft_name": "Pencil benchmark",
+    "soft_uid": "433d85323a5e077d",
+    "soft_uoa": "bench.pencil",
     "stags": "benchmark,pencil,lang-c,lang-cpp,vtrunk",
     "tags": [
       "benchmark",

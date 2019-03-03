@@ -250,7 +250,9 @@
     "repo_url1": "",
     "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/package/lib-caffe-bvlc-master-cudnn-universal-20171020/.cm/meta.json",
     "repo_url3": "git@github.com:dividiti/ck-caffe/tree/master/package/lib-caffe-bvlc-master-cudnn-universal-20171020",
-    "soft_uoa": "04ab08137582bd03",
+    "soft_name": "BVLC Caffe framework",
+    "soft_uid": "04ab08137582bd03",
+    "soft_uoa": "lib.caffe",
     "stags": "lib,caffe,bvlc,v20171020,vcuda,vcudnn,channel-stable",
     "tags": [
       "lib",

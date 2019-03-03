@@ -73,7 +73,9 @@
     "repo_url1": "",
     "repo_url2": "http://github.com/ctuning/ck-tensorrt/tree/master/package/lib-jetson-inference-dusty-nv-master-cuda/.cm/meta.json",
     "repo_url3": "http://github.com/ctuning/ck-tensorrt/tree/master/package/lib-jetson-inference-dusty-nv-master-cuda",
-    "soft_uoa": "428380f09d31096d",
+    "soft_name": "Jetson-inference library",
+    "soft_uid": "428380f09d31096d",
+    "soft_uoa": "lib.jetson-inference",
     "stags": "lib,jetson-inference,dusty-nv,nvidia,vmaster,vcuda",
     "tags": [
       "lib",

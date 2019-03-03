@@ -63,7 +63,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-tiny-dnn-master/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-tiny-dnn-master",
-    "soft_uoa": "954bc671f0a5737d",
+    "soft_name": "Tiny DNN library",
+    "soft_uid": "954bc671f0a5737d",
+    "soft_uoa": "lib.tiny-dnn",
     "stags": "lib,dnn,tiny-dnn,vmaster",
     "tags": [
       "lib",

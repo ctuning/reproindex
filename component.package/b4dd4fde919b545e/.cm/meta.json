@@ -53,7 +53,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/bench-deep500/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/bench-deep500",
-    "soft_uoa": "28ae540a4810d8d7",
+    "soft_name": "deep500",
+    "soft_uid": "28ae540a4810d8d7",
+    "soft_uoa": "bench.deep500",
     "stags": "bench,deep500,vmaster",
     "tags": [
       "bench",

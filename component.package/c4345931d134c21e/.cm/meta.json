@@ -60,7 +60,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/dataset-kitti-drive-0009/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/dataset-kitti-drive-0009",
-    "soft_uoa": "dd47415baf24025e",
+    "soft_name": "KITTI dataset",
+    "soft_uid": "dd47415baf24025e",
+    "soft_uoa": "dataset.kitti",
     "stags": "dataset,val,kitti,drive,drive-0009,continuous,kitti-drive,kitti-drive-0009,kitti-continuous,KITTI,KITTI-drive,KITTI-drive-0009,KITTI-continuous,channel-stable",
     "tags": [
       "dataset",

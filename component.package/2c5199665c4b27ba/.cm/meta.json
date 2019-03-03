@@ -44,7 +44,9 @@
     "repo_url1": "",
     "repo_url2": "git@github.com:Chunosov/ck-gui/tree/master/package/ck-gui-prebuilt/.cm/meta.json",
     "repo_url3": "git@github.com:Chunosov/ck-gui/tree/master/package/ck-gui-prebuilt",
-    "soft_uoa": "f29450aa13250654",
+    "soft_name": "ck-gui prebuilt AppImage",
+    "soft_uid": "f29450aa13250654",
+    "soft_uoa": "tool.ck-gui",
     "stags": "tool,ck-gui,vprebuilt",
     "tags": [
       "tool",

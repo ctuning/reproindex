@@ -59,7 +59,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/lift-project/ck-lift/tree/master/package/tool-sbt-0.13.13/.cm/meta.json",
     "repo_url3": "https://github.com/lift-project/ck-lift/tree/master/package/tool-sbt-0.13.13",
-    "soft_uoa": "966d414948618897",
+    "soft_name": "Scala SBT tool",
+    "soft_uid": "966d414948618897",
+    "soft_uoa": "tool.sbt",
     "stags": "tool,scala,sbt,v0.13.13,v0.13,v0",
     "tags": [
       "tool",

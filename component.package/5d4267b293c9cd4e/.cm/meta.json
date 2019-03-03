@@ -91,7 +91,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tvm/tree/master/package/lib-tvm-master-cuda/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tvm/tree/master/package/lib-tvm-master-cuda",
-    "soft_uoa": "158cbb3a6143dfa6",
+    "soft_name": "TVM library",
+    "soft_uid": "158cbb3a6143dfa6",
+    "soft_uoa": "lib.tvm",
     "stags": "lib,tvm,vmaster,vsources,vcuda",
     "tags": [
       "lib",

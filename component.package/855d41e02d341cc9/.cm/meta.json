@@ -58,7 +58,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-mxnet/tree/master/package/mxnetmodel-resnet-18/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-mxnet/tree/master/package/mxnetmodel-resnet-18",
-    "soft_uoa": "539416b3524c4795",
+    "soft_name": "MXNet model (net and weights)",
+    "soft_uid": "539416b3524c4795",
+    "soft_uoa": "model.mxnet",
     "stags": "mxnetmodel,resnet,resnet-18,channel-stable",
     "tags": [
       "mxnetmodel",

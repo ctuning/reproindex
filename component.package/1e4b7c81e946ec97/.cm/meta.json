@@ -51,7 +51,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-imagenet-inception-20151205-stripped/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-imagenet-inception-20151205-stripped",
-    "soft_uoa": "13a3e54526868246",
+    "soft_name": "TensorFlow Imagenet stripped dataset aux (net and weights)",
+    "soft_uid": "13a3e54526868246",
+    "soft_uoa": "dataset.tensorflow.imagenet.stripped.aux",
     "stags": "tensorflow,model,tensorflowmodel,google,imagenet,stripped,inception,v201512,channel-stable",
     "tags": [
       "tensorflow",

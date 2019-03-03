@@ -65,7 +65,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/package/wmt32k-en-de-trainval/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tbd-suite/tree/master/package/wmt32k-en-de-trainval",
-    "soft_uoa": "46efa92a9e2b792a",
+    "soft_name": "WMT32K English-German dataset (all)",
+    "soft_uid": "46efa92a9e2b792a",
+    "soft_uoa": "dataset.wmt32k.en-de",
     "stags": "dataset,tensor2tensor,raw,train-tf,machine-translation,transformer",
     "tags": [
       "dataset",

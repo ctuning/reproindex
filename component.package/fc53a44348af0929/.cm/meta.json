@@ -64,7 +64,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/tool-scons-3.0.0/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/tool-scons-3.0.0",
-    "soft_uoa": "4ae081cd23741160",
+    "soft_name": "scons",
+    "soft_uid": "4ae081cd23741160",
+    "soft_uoa": "tool.scons",
     "stags": "tool,scons,v3.0.0,v3.0,v3",
     "tags": [
       "tool",

@@ -70,7 +70,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-lmdb-0.9.21/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-lmdb-0.9.21",
-    "soft_uoa": "a249f58927ceefa5",
+    "soft_name": "LMDB library",
+    "soft_uid": "a249f58927ceefa5",
+    "soft_uoa": "lib.lmdb",
     "stags": "lib,lmdb,v0.9.21,v0.9,v0,channel-stable",
     "tags": [
       "lib",

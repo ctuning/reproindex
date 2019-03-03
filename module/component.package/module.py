@@ -67,6 +67,19 @@ def add_index(i):
     module_uid=misc.get('module_uid','')
 
     soft_uoa=dd.get('soft_uoa','')
+
+    # Attempt to load Soft UOA
+    r=ck.access({'action':'load',
+                 'module_uoa':cfg['module_deps']['soft'],
+                 'data_uoa':soft_uoa})
+    if r['return']==0:
+       ds=r['dict']
+       soft_uoa=r['data_uoa']
+       soft_uid=r['data_uid']
+
+       misc['soft_uid']=soft_uid
+       misc['soft_name']=ds.get('soft_name','')
+
     misc['soft_uoa']=soft_uoa
 
     cus=dd.get('customize',{})

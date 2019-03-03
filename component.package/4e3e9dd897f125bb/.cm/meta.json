@@ -42,7 +42,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/imagenet-2012-aux/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/imagenet-2012-aux",
-    "soft_uoa": "167d823440e6a59a",
+    "soft_name": "ImageNet dataset (aux)",
+    "soft_uid": "167d823440e6a59a",
+    "soft_uoa": "dataset.imagenet.aux",
     "stags": "dataset,imagenet,aux,caffe,ilsvrc2012,channel-stable",
     "tags": [
       "dataset",

@@ -40,7 +40,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/package/lib-openme-java/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-autotuning/tree/master/package/lib-openme-java",
-    "soft_uoa": "c4955ad2c0a39e38",
+    "soft_name": "OpenME library for Java",
+    "soft_uid": "c4955ad2c0a39e38",
+    "soft_uoa": "lib.openme.java",
     "stags": "lib,plugins,openme,lang-java,channel-stable",
     "tags": [
       "lib",

@@ -87,7 +87,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-old-packages/tree/master/package/lib-tensorflow-cpu-make/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-old-packages/tree/master/package/lib-tensorflow-cpu-make",
-    "soft_uoa": "1441754bd574b689",
+    "soft_name": "TensorFlow library (via make)",
+    "soft_uid": "1441754bd574b689",
+    "soft_uoa": "lib.tensorflow.make",
     "stags": "lib,tensorflow,tensorflow-make,tensorflow-cpu-make,vsrc",
     "tags": [
       "lib",

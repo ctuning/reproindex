@@ -69,7 +69,9 @@
     "repo_url1": "",
     "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/package/caffemodel-resnet101/.cm/meta.json",
     "repo_url3": "git@github.com:dividiti/ck-caffe/tree/master/package/caffemodel-resnet101",
-    "soft_uoa": "e2400aabc11d6cd1",
+    "soft_name": "Caffe model (net and weights)",
+    "soft_uid": "e2400aabc11d6cd1",
+    "soft_uoa": "model.caffe",
     "stags": "caffe,weights,caffemodel,resnet,resnet101,channel-stable",
     "tags": [
       "caffe",

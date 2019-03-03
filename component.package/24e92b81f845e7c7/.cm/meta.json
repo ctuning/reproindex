@@ -56,7 +56,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/model-yad2k/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/model-yad2k",
-    "soft_uoa": "d7aa2c2374f7bbd4",
+    "soft_name": "YAD2K: Yet Another Darknet 2 Keras sources",
+    "soft_uid": "d7aa2c2374f7bbd4",
+    "soft_uoa": "model.yad2k",
     "stags": "darknet,yad2k-src,yolo,keras,dnn",
     "tags": [
       "darknet",

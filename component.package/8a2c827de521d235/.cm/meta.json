@@ -108,7 +108,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-boost-1.64.0-for-armnn/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-boost-1.64.0-for-armnn",
-    "soft_uoa": "23949f2a32490faf",
+    "soft_name": "Boost library",
+    "soft_uid": "23949f2a32490faf",
+    "soft_uoa": "lib.boost",
     "stags": "lib,boost,v1.64.0,v1.64,v1,for-armnn",
     "tags": [
       "lib",

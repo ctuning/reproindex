@@ -255,7 +255,9 @@
     "repo_url1": "",
     "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/package/lib-caffe-bvlc-opencl-clblast-universal-20171015/.cm/meta.json",
     "repo_url3": "git@github.com:dividiti/ck-caffe/tree/master/package/lib-caffe-bvlc-opencl-clblast-universal-20171015",
-    "soft_uoa": "04ab08137582bd03",
+    "soft_name": "BVLC Caffe framework",
+    "soft_uid": "04ab08137582bd03",
+    "soft_uoa": "lib.caffe",
     "stags": "lib,caffe,bvlc,vopencl,vclblast,v20171015,channel-stable",
     "tags": [
       "lib",

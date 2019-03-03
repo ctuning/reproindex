@@ -99,7 +99,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tensorflow-1.11.0-cuda/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tensorflow-1.11.0-cuda",
-    "soft_uoa": "30db354f469bb178",
+    "soft_name": "TensorFlow library",
+    "soft_uid": "30db354f469bb178",
+    "soft_uoa": "lib.tensorflow",
     "stags": "lib,tensorflow,tensorflow-cuda,v1,v1.11,v1.11.0,vprebuilt,vcuda,channel-stable",
     "tags": [
       "lib",

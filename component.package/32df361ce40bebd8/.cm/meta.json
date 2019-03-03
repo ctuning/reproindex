@@ -40,7 +40,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/compiler-gcc-4.9.3-src-linux/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/compiler-gcc-4.9.3-src-linux",
-    "soft_uoa": "3a8a82fa40bf992d",
+    "soft_name": "GNU C compiler",
+    "soft_uid": "3a8a82fa40bf992d",
+    "soft_uoa": "compiler.gcc",
     "stags": "compiler,gcc,v4.9.3,v4.9,v4",
     "tags": [
       "compiler",

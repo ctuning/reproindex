@@ -43,7 +43,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/lib-mpfr-3.1.0-linux/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/lib-mpfr-3.1.0-linux",
-    "soft_uoa": "b212226b44799964",
+    "soft_name": "MPFR library",
+    "soft_uid": "b212226b44799964",
+    "soft_uoa": "lib.mpfr",
     "stags": "lib,mpfr,v3.1.0,v3.1,v3",
     "tags": [
       "lib",

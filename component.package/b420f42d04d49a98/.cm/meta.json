@@ -83,7 +83,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-old-packages/tree/master/package/lib-acl-opencl-17.06/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-old-packages/tree/master/package/lib-acl-opencl-17.06",
-    "soft_uoa": "fc544df6941a5491",
+    "soft_name": "Arm Compute Library",
+    "soft_uid": "fc544df6941a5491",
+    "soft_uoa": "lib.armcl",
     "stags": "lib,arm,acl,arm-compute-lib,vopencl,vmaster",
     "tags": [
       "lib",

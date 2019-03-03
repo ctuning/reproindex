@@ -52,7 +52,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-mobile-mutibox-v1a/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-mobile-mutibox-v1a",
-    "soft_uoa": "13a3e54526868246",
+    "soft_name": "TensorFlow Imagenet stripped dataset aux (net and weights)",
+    "soft_uid": "13a3e54526868246",
+    "soft_uoa": "dataset.tensorflow.imagenet.stripped.aux",
     "stags": "tensorflow,weights,tensorflowmodel,google,object_detection,mobile,multibox,v1a,channel-stable",
     "tags": [
       "tensorflow",

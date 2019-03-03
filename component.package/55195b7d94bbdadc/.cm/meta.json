@@ -60,6 +60,8 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-flatbuffers-master/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-flatbuffers-master",
+    "soft_name": "FlatBuffers library",
+    "soft_uid": "4533ac05aaa9db62",
     "soft_uoa": "lib.flatbuffers",
     "stags": "lib,flatbuffers",
     "tags": [

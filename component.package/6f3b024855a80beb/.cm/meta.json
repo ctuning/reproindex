@@ -87,7 +87,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-glog-trunk/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-glog-trunk",
-    "soft_uoa": "d42a1422abbcbb6a",
+    "soft_name": "GLog library",
+    "soft_uid": "d42a1422abbcbb6a",
+    "soft_uoa": "lib.glog",
     "stags": "lib,glog,vtrunk,vmaster",
     "tags": [
       "lib",

@@ -80,7 +80,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-libjpeg-master/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-libjpeg-master",
-    "soft_uoa": "4471f44a1ca9be9c",
+    "soft_name": "libjpeg library",
+    "soft_uid": "4471f44a1ca9be9c",
+    "soft_uoa": "lib.libjpeg",
     "stags": "lib,libjpeg,jpeg,vmaster",
     "tags": [
       "lib",

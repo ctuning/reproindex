@@ -81,7 +81,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-protobuf-3.5.1-android/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-protobuf-3.5.1-android",
-    "soft_uoa": "c535adb7ab476da6",
+    "soft_name": "ProtoBuf library",
+    "soft_uid": "c535adb7ab476da6",
+    "soft_uoa": "lib.protobuf",
     "stags": "lib,protobuf,v3.5.1,v3.5,v3,channel-stable",
     "tags": [
       "lib",

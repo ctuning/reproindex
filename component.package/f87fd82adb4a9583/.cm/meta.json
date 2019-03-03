@@ -55,7 +55,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/compiler-mingw-gcc-6.3.0/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/compiler-mingw-gcc-6.3.0",
-    "soft_uoa": "3a8a82fa40bf992d",
+    "soft_name": "GNU C compiler",
+    "soft_uid": "3a8a82fa40bf992d",
+    "soft_uoa": "compiler.gcc",
     "stags": "compiler,fortran,gfortran,gcc,lang-c,lang-cpp,lang-f77,lang-f90,lang-f95,v6.3.0,v6.3,v6,channel-stable",
     "tags": [
       "compiler",

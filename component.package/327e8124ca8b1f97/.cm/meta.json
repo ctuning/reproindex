@@ -97,7 +97,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/lib-mgbc/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/lib-mgbc",
-    "soft_uoa": "5c982d4b48a9fb55",
+    "soft_name": "BC on Multi-GPU",
+    "soft_uid": "5c982d4b48a9fb55",
+    "soft_uoa": "lib.mgbc",
     "stags": "lib,bc,exact,betwenness,graph,multigpu,gpu,vbc",
     "tags": [
       "lib",

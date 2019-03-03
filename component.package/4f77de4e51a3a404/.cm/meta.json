@@ -37,7 +37,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/cmake-3.5.2-src/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/cmake-3.5.2-src",
-    "soft_uoa": "77ef5e31404d9589",
+    "soft_name": "cmake",
+    "soft_uid": "77ef5e31404d9589",
+    "soft_uoa": "tool.cmake",
     "stags": "tool,cmake,v3.5.2,v3.5,v3",
     "tags": [
       "tool",

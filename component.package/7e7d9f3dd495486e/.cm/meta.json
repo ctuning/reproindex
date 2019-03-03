@@ -81,6 +81,8 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-gbenchmark-trunk/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-gbenchmark-trunk",
+    "soft_name": "Google Benchmark library",
+    "soft_uid": "f98d153f34de89c5",
     "soft_uoa": "lib.gbenchmark",
     "stags": "lib,google,benchmark,gbenchmark,vtrunk",
     "tags": [

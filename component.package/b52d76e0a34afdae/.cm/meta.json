@@ -42,7 +42,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/lib-isl-0.10/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/lib-isl-0.10",
-    "soft_uoa": "82dd13ca47c64729",
+    "soft_name": "ISL library",
+    "soft_uid": "82dd13ca47c64729",
+    "soft_uoa": "lib.isl",
     "stags": "lib,isl,v0.10,v0",
     "tags": [
       "lib",

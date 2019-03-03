@@ -55,7 +55,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-mvnc/tree/master/package/demo-mvnc-yolo/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-mvnc/tree/master/package/demo-mvnc-yolo",
-    "soft_uoa": "b42dc967b91bfb54",
+    "soft_name": "Yolo demo for Movidius Neural Compute Stick",
+    "soft_uid": "b42dc967b91bfb54",
+    "soft_uoa": "demo.mvnc.yolo",
     "stags": "demo,mvnc,yolo",
     "tags": [
       "demo",

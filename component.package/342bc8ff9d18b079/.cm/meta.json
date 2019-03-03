@@ -62,7 +62,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-xml2-master/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-xml2-master",
-    "soft_uoa": "46b34706d34bb7bf",
+    "soft_name": "XML2 library",
+    "soft_uid": "46b34706d34bb7bf",
+    "soft_uoa": "lib.xml2",
     "stags": "lib,xml2,vmaster,channel-dev",
     "tags": [
       "lib",

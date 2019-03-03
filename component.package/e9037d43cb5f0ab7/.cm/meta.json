@@ -36,7 +36,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/package/compiler-pluto-0.11.3/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/package/compiler-pluto-0.11.3",
-    "soft_uoa": "fbef47870a59450f",
+    "soft_name": "PLUTO polyhedral tool",
+    "soft_uid": "fbef47870a59450f",
+    "soft_uoa": "compiler.pluto",
     "stags": "compiler,source-to-source,pluto,v0.11.3,v0.11,v0",
     "tags": [
       "compiler",

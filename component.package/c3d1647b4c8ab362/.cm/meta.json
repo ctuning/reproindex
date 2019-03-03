@@ -97,7 +97,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/lib-axbc/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/lib-axbc",
-    "soft_uoa": "d85b4ece3e9408d5",
+    "soft_name": "Approximating BC on Multi-GPU",
+    "soft_uid": "d85b4ece3e9408d5",
+    "soft_uoa": "lib.axbc",
     "stags": "lib,bc,betwenness,graph,approximation,approx,vabc,vaxbc",
     "tags": [
       "lib",

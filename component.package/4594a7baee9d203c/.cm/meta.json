@@ -49,7 +49,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-python-requests/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-python-requests",
-    "soft_uoa": "7c7b4d81a2547b62",
+    "soft_name": "Requests Python library",
+    "soft_uid": "7c7b4d81a2547b62",
+    "soft_uoa": "lib.python.requests",
     "stags": "lib,python-package,requests,vmaster",
     "tags": [
       "lib",

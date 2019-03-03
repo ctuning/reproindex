@@ -67,7 +67,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-lmdb-master-universal/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-lmdb-master-universal",
-    "soft_uoa": "a249f58927ceefa5",
+    "soft_name": "LMDB library",
+    "soft_uid": "a249f58927ceefa5",
+    "soft_uoa": "lib.lmdb",
     "stags": "lib,lmdb,vtrunk,vmaster,channel-dev",
     "tags": [
       "lib",

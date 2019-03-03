@@ -44,7 +44,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-carp-project/tree/master/package/compiler-pencilcc-trunk/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-carp-project/tree/master/package/compiler-pencilcc-trunk",
-    "soft_uoa": "4aff7e7480ae0f6d",
+    "soft_name": "PENCIL C compiler",
+    "soft_uid": "4aff7e7480ae0f6d",
+    "soft_uoa": "compiler.pencilcc",
     "stags": "source-to-source-compiler,pencilcc,polyhedral,lang-c,lang-cpp,vtrunk",
     "tags": [
       "source-to-source-compiler",

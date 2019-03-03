@@ -67,7 +67,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-old-packages/tree/master/package/tool-cltune-trunk/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-old-packages/tree/master/package/tool-cltune-trunk",
-    "soft_uoa": "4a0fc75eab604a79",
+    "soft_name": "CLTune autotuner",
+    "soft_uid": "4a0fc75eab604a79",
+    "soft_uoa": "tool.cltune",
     "stags": "tool,opencl,clblast,cltune,vtrunk,vdev",
     "tags": [
       "tool",

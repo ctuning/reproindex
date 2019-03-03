@@ -39,7 +39,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/package/lib-rtl-milepost-codelets/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-autotuning/tree/master/package/lib-rtl-milepost-codelets",
-    "soft_uoa": "4a0ba606d7cee653",
+    "soft_name": "MILEPOST codelet run-time library",
+    "soft_uid": "4a0ba606d7cee653",
+    "soft_uoa": "lib.rtl.milepost.codelet",
     "stags": "lib,rtl,milepost,codelet,channel-stable",
     "tags": [
       "lib",

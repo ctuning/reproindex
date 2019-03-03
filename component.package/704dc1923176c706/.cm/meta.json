@@ -68,7 +68,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga/tree/master/package/lib-vta-python-master/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga/tree/master/package/lib-vta-python-master",
-    "soft_uoa": "13a8561d6a2a166c",
+    "soft_name": "VTA python library",
+    "soft_uid": "13a8561d6a2a166c",
+    "soft_uoa": "lib.vta.python",
     "stags": "lib,vta-python,vmaster,vpython",
     "tags": [
       "lib",

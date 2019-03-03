@@ -47,7 +47,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/compiler-llvm-3.9.0-linux-download/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/compiler-llvm-3.9.0-linux-download",
-    "soft_uoa": "1c2eb494b8ae3bc4",
+    "soft_name": "LLVM compiler",
+    "soft_uid": "1c2eb494b8ae3bc4",
+    "soft_uoa": "compiler.llvm",
     "stags": "compiler,llvm,lang-c,lang-cpp,v3.9.0-ck-package,v3.9.0,v3.9,v3,channel-stable",
     "tags": [
       "compiler",

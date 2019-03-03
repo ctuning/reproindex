@@ -46,7 +46,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/package/lib-rtl-xopenme/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-autotuning/tree/master/package/lib-rtl-xopenme",
-    "soft_uoa": "673507878d649b4a",
+    "soft_name": "xOpenME run-time library",
+    "soft_uid": "673507878d649b4a",
+    "soft_uoa": "lib.rtl.xopenme",
     "stags": "lib,rtl,xopenme,lang-c,lang-cpp,lang-f77,lang-f90,lang-f95,channel-stable",
     "tags": [
       "lib",

@@ -57,7 +57,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/dataset-kitti-full/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/dataset-kitti-full",
-    "soft_uoa": "dd47415baf24025e",
+    "soft_name": "KITTI dataset",
+    "soft_uid": "dd47415baf24025e",
+    "soft_uoa": "dataset.kitti",
     "stags": "dataset,val,kitti,kittifull,kitti-full,kitti_full,kittiFULL,kitti-FULL,kitti_FULL,KITTI,KITTIfull,KITTI-full,KITTI_full,KITTIFULL,KITTI-FULL,KITTI_FULL,object-detection,channel-stable",
     "tags": [
       "dataset",

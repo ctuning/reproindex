@@ -30,7 +30,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/package/autotuning-fco-2006-src-outdated-linux/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/package/autotuning-fco-2006-src-outdated-linux",
-    "soft_uoa": "71432f9a4e231335",
+    "soft_name": "Fursin Continuous Optimization (crowd-tuning) framework (outdated)",
+    "soft_uid": "71432f9a4e231335",
+    "soft_uoa": "autotuning.fco",
     "stags": "autotuning,fco,v2006",
     "tags": [
       "autotuning",

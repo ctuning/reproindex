@@ -247,7 +247,9 @@
     "repo_url1": "",
     "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/package/lib-caffe-nvidia-0.17-cudnn-universal/.cm/meta.json",
     "repo_url3": "git@github.com:dividiti/ck-caffe/tree/master/package/lib-caffe-nvidia-0.17-cudnn-universal",
-    "soft_uoa": "04ab08137582bd03",
+    "soft_name": "BVLC Caffe framework",
+    "soft_uid": "04ab08137582bd03",
+    "soft_uoa": "lib.caffe",
     "stags": "lib,caffe,nvidia,vcaffe-0.17,vnvidia-0.17,v0.17,vfp32,vfp16,vcuda,vcudnn",
     "tags": [
       "lib",

@@ -49,7 +49,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-python-matplotlib/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-python-matplotlib",
-    "soft_uoa": "22a1d0f46439f9a5",
+    "soft_name": "Matplotlib Python library",
+    "soft_uid": "22a1d0f46439f9a5",
+    "soft_uoa": "lib.python.matplotlib",
     "stags": "lib,python-package,matplotlib,vmaster",
     "tags": [
       "lib",

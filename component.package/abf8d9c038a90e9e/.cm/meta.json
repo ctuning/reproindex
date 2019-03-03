@@ -48,7 +48,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/dataset-tf-slim-cifar10/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/dataset-tf-slim-cifar10",
-    "soft_uoa": "cecb9516584497ac",
+    "soft_name": "Th",
+    "soft_uid": "cecb9516584497ac",
+    "soft_uoa": "dataset.tensorflow.slim",
     "stags": "dataset,tensorflow,slim,tensorflow-slim,cifar10,channel-stable",
     "tags": [
       "dataset",

@@ -90,7 +90,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-opencv-shared-3.4.5/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-opencv-shared-3.4.5",
-    "soft_uoa": "18eb79fe079438fb",
+    "soft_name": "OpenCV library",
+    "soft_uid": "18eb79fe079438fb",
+    "soft_uoa": "lib.opencv",
     "stags": "lib,opencv-shared,v3.4.5,v3.4,v3,vshared,channel-stable",
     "tags": [
       "lib",

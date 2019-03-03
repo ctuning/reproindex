@@ -71,7 +71,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-papi-5.5.1-src/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-papi-5.5.1-src",
-    "soft_uoa": "a4c60b043b3b2206",
+    "soft_name": "PAPI library",
+    "soft_uid": "a4c60b043b3b2206",
+    "soft_uoa": "lib.papi",
     "stags": "lib,papi,v5.5.1,v5.5,v5,channel-stable",
     "tags": [
       "lib",

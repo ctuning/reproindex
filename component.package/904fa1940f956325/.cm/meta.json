@@ -46,7 +46,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-eigen-src-3.3.4/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-eigen-src-3.3.4",
-    "soft_uoa": "f1b7a94af4a15473",
+    "soft_name": "Eigen library",
+    "soft_uid": "f1b7a94af4a15473",
+    "soft_uoa": "lib.eigen",
     "stags": "lib,eigen,lang-cpp,vsrc,v3.3.4,v3.3,v3,channel-stable",
     "tags": [
       "lib",

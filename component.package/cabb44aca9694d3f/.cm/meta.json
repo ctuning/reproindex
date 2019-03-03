@@ -50,7 +50,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/perl-strawberry-5.24.1.1-win/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/perl-strawberry-5.24.1.1-win",
-    "soft_uoa": "64af56ff46465488",
+    "soft_name": "Perl",
+    "soft_uid": "64af56ff46465488",
+    "soft_uoa": "compiler.perl",
     "stags": "compiler,perl,lang-perl,v5.24.1.1,v5.24.1,v5.24,v5,channel-stable",
     "tags": [
       "compiler",

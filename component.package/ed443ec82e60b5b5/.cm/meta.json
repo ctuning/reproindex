@@ -56,7 +56,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/dataset-kitti-min/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/dataset-kitti-min",
-    "soft_uoa": "dd47415baf24025e",
+    "soft_name": "KITTI dataset",
+    "soft_uid": "dd47415baf24025e",
+    "soft_uoa": "dataset.kitti",
     "stags": "dataset,small_dataset,min,kitti,kittimin,kitti-min,kitti_min,KITTI,KITTImin,KITTI-min,KITTI_min,object-detection,channel-stable",
     "tags": [
       "dataset",

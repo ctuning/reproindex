@@ -77,7 +77,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-protobuf-trunk-host/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-protobuf-trunk-host",
-    "soft_uoa": "57c5f409aaf1ceed",
+    "soft_name": "ProtoBuf host library",
+    "soft_uid": "57c5f409aaf1ceed",
+    "soft_uoa": "lib.protobuf.host",
     "stags": "lib,protobuf-host,vtrunk,vmaster",
     "tags": [
       "lib",

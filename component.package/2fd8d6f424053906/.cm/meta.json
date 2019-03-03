@@ -45,7 +45,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl/tree/master/package/weights-mobilenet-v1-0.50-224-npy/.cm/meta.json",
     "repo_url3": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl/tree/master/package/weights-mobilenet-v1-0.50-224-npy",
-    "soft_uoa": "50b442db9bde0a0c",
+    "soft_name": "MobileNet weights",
+    "soft_uid": "50b442db9bde0a0c",
+    "soft_uoa": "weights.mobilenet.armcl",
     "stags": "mobilenet,mobilenet-v1,mobilenet-v1-0.50-224,weights,npy",
     "tags": [
       "mobilenet",

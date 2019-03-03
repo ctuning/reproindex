@@ -50,7 +50,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/compiler-llvm-5.0.1-spack-linux/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/compiler-llvm-5.0.1-spack-linux",
-    "soft_uoa": "1c2eb494b8ae3bc4",
+    "soft_name": "LLVM compiler",
+    "soft_uid": "1c2eb494b8ae3bc4",
+    "soft_uoa": "compiler.llvm",
     "stags": "compiler,llvm,lang-c,lang-cpp,v5.0.1-spack,v5.0.1,v5.0,v5,vspack",
     "tags": [
       "compiler",

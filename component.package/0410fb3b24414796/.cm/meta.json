@@ -76,7 +76,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-nccl/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-nccl",
-    "soft_uoa": "de774494bb69f2b0",
+    "soft_name": "NCCL library",
+    "soft_uid": "de774494bb69f2b0",
+    "soft_uoa": "lib.nccl",
     "stags": "lib,nccl,vmaster",
     "tags": [
       "lib",

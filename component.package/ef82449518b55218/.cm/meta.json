@@ -38,7 +38,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/package/lib-rtl-polybench/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-autotuning/tree/master/package/lib-rtl-polybench",
-    "soft_uoa": "ac25cef24e429b24",
+    "soft_name": "Polybench run-time library (outdated)",
+    "soft_uid": "ac25cef24e429b24",
+    "soft_uoa": "lib.rtl.polybench",
     "stags": "lib,rtl,polybench,channel-stable",
     "tags": [
       "lib",

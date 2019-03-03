@@ -50,7 +50,9 @@
     "repo_url1": "",
     "repo_url2": "git@github.com:Chunosov/ck-gui/tree/master/package/lib-orion-qt/.cm/meta.json",
     "repo_url3": "git@github.com:Chunosov/ck-gui/tree/master/package/lib-orion-qt",
-    "soft_uoa": "cbb4893bed2c1049",
+    "soft_name": "orion-qt development library",
+    "soft_uid": "cbb4893bed2c1049",
+    "soft_uoa": "lib.orion-qt",
     "stags": "lib,orion-qt,vqt,vsrc,v0.1,v0,channel-stable",
     "tags": [
       "lib",

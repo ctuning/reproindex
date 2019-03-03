@@ -90,7 +90,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-glog-0.3.5/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-glog-0.3.5",
-    "soft_uoa": "d42a1422abbcbb6a",
+    "soft_name": "GLog library",
+    "soft_uid": "d42a1422abbcbb6a",
+    "soft_uoa": "lib.glog",
     "stags": "lib,glog,v0.3.5,v0.3,v0,channel-stable",
     "tags": [
       "lib",

@@ -65,7 +65,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/tool-cmake-3.12.2-universal/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/tool-cmake-3.12.2-universal",
-    "soft_uoa": "77ef5e31404d9589",
+    "soft_name": "cmake",
+    "soft_uid": "77ef5e31404d9589",
+    "soft_uoa": "tool.cmake",
     "stags": "tool,cmake,v3.12.2,v3.12,v3,channel-stable",
     "tags": [
       "tool",

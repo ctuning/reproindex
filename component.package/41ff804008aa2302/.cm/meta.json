@@ -69,7 +69,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-viennacl-master-universal-src/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-viennacl-master-universal-src",
-    "soft_uoa": "f41d49bd23afa84b",
+    "soft_name": "ViennaCL library",
+    "soft_uid": "f41d49bd23afa84b",
+    "soft_uoa": "lib.viennacl.src",
     "stags": "lib,blas,opencl-blas,viennacl,vsrc,vmaster",
     "tags": [
       "lib",

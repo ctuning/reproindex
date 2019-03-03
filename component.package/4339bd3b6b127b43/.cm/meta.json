@@ -47,7 +47,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/SamAinsworth/reproduce-cgo2017-paper/tree/master/package/plugin-llvm-sw-prefetch-no-strides-pass/.cm/meta.json",
     "repo_url3": "https://github.com/SamAinsworth/reproduce-cgo2017-paper/tree/master/package/plugin-llvm-sw-prefetch-no-strides-pass",
-    "soft_uoa": "cb5940a8eba4fe8b",
+    "soft_name": "LLVM plugin",
+    "soft_uid": "cb5940a8eba4fe8b",
+    "soft_uoa": "plugin.llvm",
     "stags": "plugin,compiler-plugin,llvm,sw-prefetch-no-strides-pass",
     "tags": [
       "plugin",

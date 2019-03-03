@@ -62,7 +62,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-mxnet/tree/master/package/lib-mxnet-spack-cuda-demo/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-mxnet/tree/master/package/lib-mxnet-spack-cuda-demo",
-    "soft_uoa": "73c2ba9aa134e3da",
+    "soft_name": "MXNet library",
+    "soft_uid": "73c2ba9aa134e3da",
+    "soft_uoa": "lib.mxnet",
     "stags": "lib,mxnet,mxnet-gpu,mxnet-cuda,vspack,vcuda",
     "tags": [
       "lib",

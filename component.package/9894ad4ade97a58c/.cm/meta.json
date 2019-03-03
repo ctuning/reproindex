@@ -94,7 +94,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-netcdf-4.4.1/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-netcdf-4.4.1",
-    "soft_uoa": "d96c51eade1f1cb8",
+    "soft_name": "NetCDF library",
+    "soft_uid": "d96c51eade1f1cb8",
+    "soft_uoa": "lib.netcdf",
     "stags": "lib,netcdf,v4.4.1,v4.4,vmaster",
     "tags": [
       "lib",

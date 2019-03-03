@@ -75,7 +75,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/lib-graph-generator-1.0-cnr/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/lib-graph-generator-1.0-cnr",
-    "soft_uoa": "84e0a9d78dae9411",
+    "soft_name": "R-MAT Graph Generator library",
+    "soft_uid": "84e0a9d78dae9411",
+    "soft_uoa": "lib.graph-generator",
     "stags": "lib,graph500,rmat-generator,vcnr",
     "tags": [
       "lib",

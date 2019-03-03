@@ -43,7 +43,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-python-scipy/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-python-scipy",
-    "soft_uoa": "4460bdb0ade2a3df",
+    "soft_name": "SciPy Python library",
+    "soft_uid": "4460bdb0ade2a3df",
+    "soft_uoa": "lib.python.scipy",
     "stags": "lib,python-package,scipy,vmaster",
     "tags": [
       "lib",

@@ -40,7 +40,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/compiler-gcc-5.2.0-src-linux/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/compiler-gcc-5.2.0-src-linux",
-    "soft_uoa": "3a8a82fa40bf992d",
+    "soft_name": "GNU C compiler",
+    "soft_uid": "3a8a82fa40bf992d",
+    "soft_uoa": "compiler.gcc",
     "stags": "compiler,gcc,v5.2.0,v5.2,v5",
     "tags": [
       "compiler",

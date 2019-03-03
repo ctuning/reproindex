@@ -57,7 +57,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-mvnc/tree/master/package/lib-mvnc-master/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-mvnc/tree/master/package/lib-mvnc-master",
-    "soft_uoa": "3ee9f46ae99878c7",
+    "soft_name": "Movidius Neural Compute Stick library",
+    "soft_uid": "3ee9f46ae99878c7",
+    "soft_uoa": "lib.mvnc",
     "stags": "lib,mvnc,vmaster,vnn,channel-stable",
     "tags": [
       "lib",

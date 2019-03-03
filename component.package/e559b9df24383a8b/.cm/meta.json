@@ -66,7 +66,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/tool-hpctoolkit-master/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/tool-hpctoolkit-master",
-    "soft_uoa": "4f80aafdd6784314",
+    "soft_name": "HPCToolKit",
+    "soft_uid": "4f80aafdd6784314",
+    "soft_uoa": "tool.hpctoolkit",
     "stags": "tool,hpctoolkit,vmaster",
     "tags": [
       "tool",

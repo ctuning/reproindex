@@ -54,7 +54,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-imagenet-inception-20151205/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-imagenet-inception-20151205",
-    "soft_uoa": "a8ec2e23cc4027b8",
+    "soft_name": "TensorFlow model (net and weights)",
+    "soft_uid": "a8ec2e23cc4027b8",
+    "soft_uoa": "model.tensorflow",
     "stags": "tensorflow,native,weights,tensorflowmodel,google,imagenet,inception,v20151205,channel-stable",
     "tags": [
       "tensorflow",

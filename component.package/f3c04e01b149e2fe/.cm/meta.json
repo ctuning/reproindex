@@ -31,7 +31,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/tool-show-opencl-devices/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/tool-show-opencl-devices",
-    "soft_uoa": "9a78ab6a5c89d8b8",
+    "soft_name": "show-opencl-devices",
+    "soft_uid": "9a78ab6a5c89d8b8",
+    "soft_uoa": "tool.show-opencl-devices",
     "stags": "tool,show-opencl-devices,channel-stable",
     "tags": [
       "tool",

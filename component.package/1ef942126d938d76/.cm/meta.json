@@ -31,7 +31,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/autotuning-ccc-2.5-src-outdated-linux/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/autotuning-ccc-2.5-src-outdated-linux",
-    "soft_uoa": "24fc0bdc87f0f2f9",
+    "soft_name": "Continuous Collective Compilation (autotuning) tool (outdated)",
+    "soft_uid": "24fc0bdc87f0f2f9",
+    "soft_uoa": "autotuning.ccc",
     "stags": "autotuning,ccc,v2.5,v2",
     "tags": [
       "autotuning",

@@ -55,7 +55,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/compiler-ctuning-cc-2.5-src/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/compiler-ctuning-cc-2.5-src",
-    "soft_uoa": "bfe7a4662a8e87d0",
+    "soft_name": "cTuning CC compiler (outdated)",
+    "soft_uid": "bfe7a4662a8e87d0",
+    "soft_uoa": "compiler.ctuning-cc",
     "stags": "compiler,lang-c,ctuning-cc,v2.5.1,v2.5,v2",
     "tags": [
       "compiler",

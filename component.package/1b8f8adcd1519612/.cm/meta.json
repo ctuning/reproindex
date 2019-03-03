@@ -59,7 +59,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/tool-hpctoolkit-externals-master/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/tool-hpctoolkit-externals-master",
-    "soft_uoa": "df8bc9e7eb393612",
+    "soft_name": "HPCToolKit (externals)",
+    "soft_uid": "df8bc9e7eb393612",
+    "soft_uoa": "tool.hpctoolkit.externals",
     "stags": "tool,hpctoolkit-externals,vmaster",
     "tags": [
       "tool",

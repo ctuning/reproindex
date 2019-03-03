@@ -53,7 +53,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/squeezedetmodel-vgg16/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/squeezedetmodel-vgg16",
-    "soft_uoa": "00ea54addb99aab8",
+    "soft_name": "TensorFlow model - SqueezeDet",
+    "soft_uid": "00ea54addb99aab8",
+    "soft_uoa": "model.squeezedet",
     "stags": "tensorflow,model,vgg16,vgg,squeezedetmodel,channel-stable",
     "tags": [
       "tensorflow",

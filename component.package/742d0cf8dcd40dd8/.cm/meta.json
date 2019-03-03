@@ -33,7 +33,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-scc18/tree/master/package/dataset-seissol-sumatra-andaman-2004/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-scc18/tree/master/package/dataset-seissol-sumatra-andaman-2004",
-    "soft_uoa": "57f42cb43c398078",
+    "soft_name": "SEISSOL dataset",
+    "soft_uid": "57f42cb43c398078",
+    "soft_uoa": "dataset.seissol",
     "stags": "dataset,seissol,tpv33,vnetcdf,v201703",
     "tags": [
       "dataset",

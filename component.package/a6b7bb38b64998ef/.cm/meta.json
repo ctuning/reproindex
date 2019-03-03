@@ -70,7 +70,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-cntk/tree/master/package/lib-cntk-2.4-gpu-1bit-sgd/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-cntk/tree/master/package/lib-cntk-2.4-gpu-1bit-sgd",
-    "soft_uoa": "71c4a94768b7bbe1",
+    "soft_name": "CNTK library",
+    "soft_uid": "71c4a94768b7bbe1",
+    "soft_uoa": "lib.cntk",
     "stags": "lib,cntk,cntk-gpu,v2.4,v2,vprebuilt,vgpu,vgpu-1bit,vgpu-1bit-sgd,vcuda,channel-stable",
     "tags": [
       "lib",

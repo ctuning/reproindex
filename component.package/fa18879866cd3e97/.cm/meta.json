@@ -119,7 +119,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-boost-1.67.0-min-for-caffe/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-boost-1.67.0-min-for-caffe",
-    "soft_uoa": "23949f2a32490faf",
+    "soft_name": "Boost library",
+    "soft_uid": "23949f2a32490faf",
+    "soft_uoa": "lib.boost",
     "stags": "lib,boost,v1.67.0-min-for-caffe,v1.67.0,v1.67,v1,min-for-caffe,channel-stable",
     "tags": [
       "lib",

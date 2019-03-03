@@ -54,7 +54,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-api/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-api",
-    "soft_uoa": "72ca45fb219ff46c",
+    "soft_name": "TensorFlow models",
+    "soft_uid": "72ca45fb219ff46c",
+    "soft_uoa": "model.tensorflow-models-api",
     "stags": "tensorflowmodel,tensorflow,model,api,channel-stable",
     "tags": [
       "tensorflowmodel",

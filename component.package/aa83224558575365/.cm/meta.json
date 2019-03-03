@@ -42,7 +42,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/env-msys2-20161025/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/env-msys2-20161025",
-    "soft_uoa": "ddf344c4ac044203",
+    "soft_name": "msys2",
+    "soft_uid": "ddf344c4ac044203",
+    "soft_uoa": "env.msys2",
     "stags": "env,msys2,v20161025,channel-stable",
     "tags": [
       "env",

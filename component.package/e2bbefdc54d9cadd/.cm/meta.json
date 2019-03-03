@@ -58,7 +58,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-quantum/tree/master/package/tool-hackathon/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-quantum/tree/master/package/tool-hackathon",
-    "soft_uoa": "f0a25d64c3891b4f",
+    "soft_name": "CK-Quantum Hackathon Module",
+    "soft_uid": "f0a25d64c3891b4f",
+    "soft_uoa": "lib.hackathon",
     "stags": "tool,hackathon,ck-quantum,quantum,v1",
     "tags": [
       "tool",

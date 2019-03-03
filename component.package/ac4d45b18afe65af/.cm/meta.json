@@ -130,7 +130,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-openblas-0.3.0-universal/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-openblas-0.3.0-universal",
-    "soft_uoa": "252d8364ec25497b",
+    "soft_name": "OpenBLAS library",
+    "soft_uid": "252d8364ec25497b",
+    "soft_uoa": "lib.openblas",
     "stags": "lib,blas,cblas,openblas,v0.3.0,v0.3,v0,channel-stable",
     "tags": [
       "lib",

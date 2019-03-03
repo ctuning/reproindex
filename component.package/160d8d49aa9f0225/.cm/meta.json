@@ -87,7 +87,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-gflags-2.2.0/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-gflags-2.2.0",
-    "soft_uoa": "64abac44465943ea",
+    "soft_name": "GFlags library",
+    "soft_uid": "64abac44465943ea",
+    "soft_uoa": "lib.gflags",
     "stags": "lib,gflags,v2.2.0,v2.2,v2,channel-stable",
     "tags": [
       "lib",

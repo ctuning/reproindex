@@ -101,7 +101,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-request-asplos18-caffe-intel/tree/master/package/caffemodel-deepscale-squeezenet-1.1-intel-i8/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-request-asplos18-caffe-intel/tree/master/package/caffemodel-deepscale-squeezenet-1.1-intel-i8",
-    "soft_uoa": "e2400aabc11d6cd1",
+    "soft_name": "Caffe model (net and weights)",
+    "soft_uid": "e2400aabc11d6cd1",
+    "soft_uoa": "model.caffe",
     "stags": "caffe,weights,caffemodel,squeezenet,squeezenet-v1.1,channel-stable,intel,vint8,vi8",
     "tags": [
       "caffe",

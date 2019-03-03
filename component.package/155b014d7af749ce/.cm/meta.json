@@ -182,7 +182,9 @@
     "repo_url1": "",
     "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/package/lib-caffe-ssd-cpu/.cm/meta.json",
     "repo_url3": "git@github.com:dividiti/ck-caffe/tree/master/package/lib-caffe-ssd-cpu",
-    "soft_uoa": "04ab08137582bd03",
+    "soft_name": "BVLC Caffe framework",
+    "soft_uid": "04ab08137582bd03",
+    "soft_uoa": "lib.caffe",
     "stags": "lib,caffe,caffe-ssd,ssd,vcpu",
     "tags": [
       "lib",

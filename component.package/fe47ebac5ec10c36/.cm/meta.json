@@ -37,7 +37,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-toon-2.2/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-toon-2.2",
-    "soft_uoa": "f3fbb766bb4456ea",
+    "soft_name": "TooN library",
+    "soft_uid": "f3fbb766bb4456ea",
+    "soft_uoa": "lib.toon",
     "stags": "lib,toon,v2.2,v2,channel-stable",
     "tags": [
       "lib",

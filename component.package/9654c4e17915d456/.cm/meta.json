@@ -38,7 +38,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-ck-paper/tree/master/package/lib-android-aux/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-ck-paper/tree/master/package/lib-android-aux",
-    "soft_uoa": "e088ecb44b41acdb",
+    "soft_name": "Android auxilary libraries and tools (outdated)",
+    "soft_uid": "e088ecb44b41acdb",
+    "soft_uoa": "lib.android.aux",
     "stags": "lib,android,aux,v1.0",
     "tags": [
       "lib",

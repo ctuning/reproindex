@@ -55,7 +55,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-pytorch/tree/master/package/lib-pytorch-vision-master/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-pytorch/tree/master/package/lib-pytorch-vision-master",
-    "soft_uoa": "9909041c40c481d9",
+    "soft_name": "PyTorch Vision library",
+    "soft_uid": "9909041c40c481d9",
+    "soft_uoa": "lib.pytorch.vision",
     "stags": "lib,pytorch-vision,vmaster,channel-stable",
     "tags": [
       "lib",

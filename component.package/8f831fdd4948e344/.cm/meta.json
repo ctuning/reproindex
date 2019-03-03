@@ -59,7 +59,9 @@
     "repo_url1": "",
     "repo_url2": "http://github.com/ctuning/ck-kann/tree/master/package/kanndataset-imagenet-val-bvlc-googlenet/.cm/meta.json",
     "repo_url3": "http://github.com/ctuning/ck-kann/tree/master/package/kanndataset-imagenet-val-bvlc-googlenet",
-    "soft_uoa": "8db14d6a8ccd42fe",
+    "soft_name": "ImageNet dataset (validation, KaNN)",
+    "soft_uid": "8db14d6a8ccd42fe",
+    "soft_uoa": "dataset.imagenet.val.kann",
     "stags": "dataset,imagenet,val,kann,bvlc,googlenet",
     "tags": [
       "dataset",

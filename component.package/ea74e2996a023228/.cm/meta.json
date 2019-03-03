@@ -42,7 +42,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/dataset-egsolver-model-checking/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/dataset-egsolver-model-checking",
-    "soft_uoa": "04a7a93a5b1436a6",
+    "soft_name": "EGSolver graph dataset",
+    "soft_uid": "04a7a93a5b1436a6",
+    "soft_uoa": "dataset.egsolver",
     "stags": "dataset,graph,egsolver,large,realworld,model",
     "tags": [
       "dataset",

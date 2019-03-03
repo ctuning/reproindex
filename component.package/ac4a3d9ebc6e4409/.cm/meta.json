@@ -80,7 +80,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga/tree/master/package/lib-vta-server-master-pynq/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga/tree/master/package/lib-vta-server-master-pynq",
-    "soft_uoa": "5422a92be021d21f",
+    "soft_name": "VTA server",
+    "soft_uid": "5422a92be021d21f",
+    "soft_uoa": "lib.vta.server",
     "stags": "lib,vta-server,vmaster,vpython",
     "tags": [
       "lib",

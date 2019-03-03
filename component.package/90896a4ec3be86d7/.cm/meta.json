@@ -88,7 +88,9 @@
     "repo_url1": "",
     "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/package/caffemodel-tidsp-jacintonet11-non-sparse/.cm/meta.json",
     "repo_url3": "git@github.com:dividiti/ck-caffe/tree/master/package/caffemodel-tidsp-jacintonet11-non-sparse",
-    "soft_uoa": "e2400aabc11d6cd1",
+    "soft_name": "Caffe model (net and weights)",
+    "soft_uid": "e2400aabc11d6cd1",
+    "soft_uoa": "model.caffe",
     "stags": "caffe,weights,caffemodel,tidsp,jacintonet11,non-sparse,channel-stable",
     "tags": [
       "caffe",

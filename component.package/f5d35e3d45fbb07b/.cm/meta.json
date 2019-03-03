@@ -100,7 +100,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-mxnet/tree/master/package/lib-mxnet-master-cpu/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-mxnet/tree/master/package/lib-mxnet-master-cpu",
-    "soft_uoa": "73c2ba9aa134e3da",
+    "soft_name": "MXNet library",
+    "soft_uid": "73c2ba9aa134e3da",
+    "soft_uoa": "lib.mxnet",
     "stags": "lib,mxnet,mxnet-cpu,vmaster,vsource,vcpu",
     "tags": [
       "lib",

@@ -53,7 +53,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/utils-unix-win-from-git-2.7.10/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/utils-unix-win-from-git-2.7.10",
-    "soft_uoa": "3d7bbd39e4e0400c",
+    "soft_name": "Unix Utils for Windows",
+    "soft_uid": "3d7bbd39e4e0400c",
+    "soft_uoa": "utils.unix.win",
     "stags": "utils,unix-win,git,v2.7.10,v2.7,v2,channel-stable",
     "tags": [
       "utils",

@@ -47,7 +47,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-mlperf/tree/master/package/bench-sylt-master/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-mlperf/tree/master/package/bench-sylt-master",
-    "soft_uoa": "b50bf41c6bda616e",
+    "soft_name": "Trace Generation and Replay Harness",
+    "soft_uid": "b50bf41c6bda616e",
+    "soft_uoa": "bench.sylt",
     "stags": "bench,google,sylt,vmaster",
     "tags": [
       "bench",

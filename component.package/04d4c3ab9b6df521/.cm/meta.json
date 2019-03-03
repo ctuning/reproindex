@@ -122,7 +122,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tensorflow_cc-shared-1.4.0-cuda/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tensorflow_cc-shared-1.4.0-cuda",
-    "soft_uoa": "0cdc7594d430ab2b",
+    "soft_name": "TensorFlow C++ API",
+    "soft_uid": "0cdc7594d430ab2b",
+    "soft_uoa": "lib.tensorflow_cc",
     "stags": "lib,bazel,api,tensorflow,tensorflow_cc,vmaster,vshared,vsrc,vcuda,v1.4.0,v1.4,v1,channel-stable",
     "tags": [
       "lib",

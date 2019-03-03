@@ -52,7 +52,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga/tree/master/package/vtamodel-resnet18-int8/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga/tree/master/package/vtamodel-resnet18-int8",
-    "soft_uoa": "5cd477e80e72a9dc",
+    "soft_name": "VTA model (net and weights)",
+    "soft_uid": "5cd477e80e72a9dc",
+    "soft_uoa": "model.vta",
     "stags": "vtamodel,weights,resenet,resnet18,vint8,channel-stable",
     "tags": [
       "vtamodel",

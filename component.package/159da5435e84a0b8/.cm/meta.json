@@ -88,7 +88,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-request-asplos18-mobilenets-tvm-arm/tree/master/package/lib-nnvm-tvm-master-opencl/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-request-asplos18-mobilenets-tvm-arm/tree/master/package/lib-nnvm-tvm-master-opencl",
-    "soft_uoa": "2086788429a96c47",
+    "soft_name": "NNVM library",
+    "soft_uid": "2086788429a96c47",
+    "soft_uoa": "lib.nnvm.python",
     "stags": "lib,nnvm,nnvm-tvm,vmaster,vsources,vopencl,vgpu",
     "tags": [
       "lib",

@@ -65,7 +65,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-hpctoolkit-libmonitor-master/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-hpctoolkit-libmonitor-master",
-    "soft_uoa": "3445528e05d76d99",
+    "soft_name": "HPCToolKit libmonitor library",
+    "soft_uid": "3445528e05d76d99",
+    "soft_uoa": "lib.hpctoolkit.libmonitor",
     "stags": "lib,hpctoolkit-libmonitor,vmaster",
     "tags": [
       "lib",

@@ -91,7 +91,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-caffe2/tree/master/package/caffemodel2-deepscale-squeezenet-1.1/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-caffe2/tree/master/package/caffemodel2-deepscale-squeezenet-1.1",
-    "soft_uoa": "0512081c543edb2e",
+    "soft_name": "Caffe2 model (net and weights)",
+    "soft_uid": "0512081c543edb2e",
+    "soft_uoa": "model.caffe2",
     "stags": "caffe2,weights,caffemodel2,deepscale,squeezenet,v1.1,v1,channel-stable",
     "tags": [
       "caffe2",

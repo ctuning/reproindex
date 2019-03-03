@@ -80,7 +80,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tvm/tree/master/package/lib-nnvm-master/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tvm/tree/master/package/lib-nnvm-master",
-    "soft_uoa": "98928b1af4dcf29d",
+    "soft_name": "NNVM library",
+    "soft_uid": "98928b1af4dcf29d",
+    "soft_uoa": "lib.nnvm",
     "stags": "lib,nnvm,vmaster,vsources",
     "tags": [
       "lib",

@@ -125,7 +125,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-scc18/tree/master/package/lib-seissol-scc18/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-scc18/tree/master/package/lib-seissol-scc18",
-    "soft_uoa": "b29000ec3c6f16b6",
+    "soft_name": "Seissol",
+    "soft_uid": "b29000ec3c6f16b6",
+    "soft_uoa": "lib.seissol",
     "stags": "lib,seissol,vnetcdf,v201703",
     "tags": [
       "lib",

@@ -44,7 +44,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/tool-bazel-0.4.1/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/tool-bazel-0.4.1",
-    "soft_uoa": "359f7730bd23ec60",
+    "soft_name": "bazel",
+    "soft_uid": "359f7730bd23ec60",
+    "soft_uoa": "tool.bazel",
     "stags": "tool,bazel,v0.4.1,v0.4,v0,channel-stable",
     "tags": [
       "tool",

@@ -57,7 +57,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/compiler-gcc-4.4.4-milepost-src-no-deps/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/compiler-gcc-4.4.4-milepost-src-no-deps",
-    "soft_uoa": "a34a00e452894f94",
+    "soft_name": "Milepost ML-based self-tuning research GCC compiler",
+    "soft_uid": "a34a00e452894f94",
+    "soft_uoa": "compiler.gcc.milepost",
     "stags": "compiler,gcc,milepost,lang-c,v4.4.4,v4.4,v4",
     "tags": [
       "compiler",

@@ -102,7 +102,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-qiskit/tree/master/package/lib-qiskit/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-qiskit/tree/master/package/lib-qiskit",
-    "soft_uoa": "126e8e93a4041e7a",
+    "soft_name": "IBM Quantum Information Science Kit (QISKit)",
+    "soft_uid": "126e8e93a4041e7a",
+    "soft_uoa": "lib.qiskit",
     "stags": "lib,python-package,qiskit,qiskit-sdk-py,quantum,master",
     "tags": [
       "lib",

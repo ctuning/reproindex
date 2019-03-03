@@ -51,7 +51,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-ncurses-6.0-root/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-ncurses-6.0-root",
-    "soft_uoa": "4406ad35b182eba4",
+    "soft_name": "NCurses library",
+    "soft_uid": "4406ad35b182eba4",
+    "soft_uoa": "lib.ncurses",
     "stags": "lib,ncurses,v6.0,v6,channel-stable",
     "tags": [
       "lib",

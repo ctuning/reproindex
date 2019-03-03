@@ -52,7 +52,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/package/lib-openme/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-autotuning/tree/master/package/lib-openme",
-    "soft_uoa": "815be64bec1d4613",
+    "soft_name": "OpenME library",
+    "soft_uid": "815be64bec1d4613",
+    "soft_uoa": "lib.openme",
     "stags": "lib,plugins,openme,lang-c,lang-cpp,lang-f77,lang-f90,lang-f95,channel-stable",
     "tags": [
       "lib",

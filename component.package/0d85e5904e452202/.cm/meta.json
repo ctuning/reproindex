@@ -31,7 +31,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/tool-show-cuda-devices/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/tool-show-cuda-devices",
-    "soft_uoa": "2d23c0324a4ca3bb",
+    "soft_name": "show-cuda-devices",
+    "soft_uid": "2d23c0324a4ca3bb",
+    "soft_uoa": "tool.show-cuda-devices",
     "stags": "tool,show-cuda-devices,channel-stable",
     "tags": [
       "tool",

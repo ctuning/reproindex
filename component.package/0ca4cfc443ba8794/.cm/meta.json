@@ -101,7 +101,9 @@
     "repo_url1": "",
     "repo_url2": "http://github.com/ctuning/ck-dnndk/tree/master/package/deephimodel-inception-v1/.cm/meta.json",
     "repo_url3": "http://github.com/ctuning/ck-dnndk/tree/master/package/deephimodel-inception-v1",
-    "soft_uoa": "478ab1937ec9c4e2",
+    "soft_name": "Caffe/DeePhi model (net and weights)",
+    "soft_uid": "478ab1937ec9c4e2",
+    "soft_uoa": "model.deephi",
     "stags": "caffe,weights,caffemodel,deephimodel,inception,inception_v1,googlenet,vfloat32,vfp32,deephi,channel-stable",
     "tags": [
       "caffe",

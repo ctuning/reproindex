@@ -82,7 +82,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-mxnet/tree/master/package/lib-mxnet-1.0.0-cuda80/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-mxnet/tree/master/package/lib-mxnet-1.0.0-cuda80",
-    "soft_uoa": "73c2ba9aa134e3da",
+    "soft_name": "MXNet library",
+    "soft_uid": "73c2ba9aa134e3da",
+    "soft_uoa": "lib.mxnet",
     "stags": "lib,mxnet,mxnet-gpu,mxnet-cuda,v1.0.0,v1.0,v1,vprebuilt,vcuda,vcuda-80,channel-stable",
     "tags": [
       "lib",

@@ -64,7 +64,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-old-packages/tree/master/package/tensorflowapimodel-faster-rcnn-resnet101-coco/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-old-packages/tree/master/package/tensorflowapimodel-faster-rcnn-resnet101-coco",
-    "soft_uoa": "68b0b66df81fdc1d",
+    "soft_name": "TensorFlow model(from API)",
+    "soft_uid": "68b0b66df81fdc1d",
+    "soft_uoa": "model.tensorflow-model",
     "stags": "tensorflow,model,tensorflowapi,tensorflowapimodel,fasterRCNN,resnet,resnet101,coco,channel-stable",
     "tags": [
       "tensorflow",

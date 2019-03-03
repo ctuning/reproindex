@@ -46,7 +46,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/imagenet-2012-val-min/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/imagenet-2012-val-min",
-    "soft_uoa": "ff47fc6a33b4b03b",
+    "soft_name": "ImageNet dataset (validation)",
+    "soft_uid": "ff47fc6a33b4b03b",
+    "soft_uoa": "dataset.imagenet.val",
     "stags": "dataset,imagenet,raw,val,caffe,ilsvrc2012,ilsvrc2012min,small_dataset,channel-stable",
     "tags": [
       "dataset",

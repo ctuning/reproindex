@@ -47,7 +47,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-keras-pip/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-keras-pip",
-    "soft_uoa": "04698bcbc46c246f",
+    "soft_name": "Keras API, TensorFlow based",
+    "soft_uid": "04698bcbc46c246f",
+    "soft_uoa": "lib.keras",
     "stags": "lib,keras,tensorflow-based,vpip",
     "tags": [
       "lib",

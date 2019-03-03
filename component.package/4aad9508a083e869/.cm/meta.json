@@ -39,7 +39,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-sysml19-paper-p3/tree/master/package/dataset-imagenet-2012-train-p3-ready/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-sysml19-paper-p3/tree/master/package/dataset-imagenet-2012-train-p3-ready",
-    "soft_uoa": "ba4e60824bd329f8",
+    "soft_name": "ImageNet dataset (train, MXNet)",
+    "soft_uid": "ba4e60824bd329f8",
+    "soft_uoa": "dataset.imagenet.train.mxnet",
     "stags": "dataset,imagenet,raw,train-p3,ilsvrc2012,ready",
     "tags": [
       "dataset",

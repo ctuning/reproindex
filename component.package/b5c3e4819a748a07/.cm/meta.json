@@ -68,7 +68,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-xsmm-1.10/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-xsmm-1.10",
-    "soft_uoa": "155ef1b1fd24230b",
+    "soft_name": "Intel XSMM library",
+    "soft_uid": "155ef1b1fd24230b",
+    "soft_uoa": "lib.xsmm",
     "stags": "lib,intel,xsmm,v1.10,v1",
     "tags": [
       "lib",

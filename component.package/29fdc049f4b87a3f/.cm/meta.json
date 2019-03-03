@@ -61,7 +61,9 @@
     "repo_url1": "",
     "repo_url2": "http://github.com/ctuning/ck-kann/tree/master/package/kanndataset-imagenet-val-deepscale-squeezenet-1.0/.cm/meta.json",
     "repo_url3": "http://github.com/ctuning/ck-kann/tree/master/package/kanndataset-imagenet-val-deepscale-squeezenet-1.0",
-    "soft_uoa": "8db14d6a8ccd42fe",
+    "soft_name": "ImageNet dataset (validation, KaNN)",
+    "soft_uid": "8db14d6a8ccd42fe",
+    "soft_uoa": "dataset.imagenet.val.kann",
     "stags": "dataset,imagenet,val,kann,deepscale,squeezenet,v1.0,v1",
     "tags": [
       "dataset",

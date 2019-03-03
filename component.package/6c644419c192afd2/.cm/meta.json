@@ -51,7 +51,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/compiler-llvm-3.9.0-src-linux/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/compiler-llvm-3.9.0-src-linux",
-    "soft_uoa": "1c2eb494b8ae3bc4",
+    "soft_name": "LLVM compiler",
+    "soft_uid": "1c2eb494b8ae3bc4",
+    "soft_uoa": "compiler.llvm",
     "stags": "compiler,llvm,v3.9.0,v3.9,v3",
     "tags": [
       "compiler",

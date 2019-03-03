@@ -67,7 +67,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-openmpi-1.10.3-universal/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-openmpi-1.10.3-universal",
-    "soft_uoa": "944935ffa276c08a",
+    "soft_name": "MPI library",
+    "soft_uid": "944935ffa276c08a",
+    "soft_uoa": "lib.mpi",
     "stags": "lib,mpi,openmpi,v1.10.3,v1.10,v1,channel-stable",
     "tags": [
       "lib",

@@ -39,7 +39,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/package/plugin-openme-ctuning-1.5/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-autotuning/tree/master/package/plugin-openme-ctuning-1.5",
-    "soft_uoa": "77a2104b4b828802",
+    "soft_name": "cTuning OpenME plugin",
+    "soft_uid": "77a2104b4b828802",
+    "soft_uoa": "plugin.openme.ctuning",
     "stags": "plugin,openme,ctuning,auto-tuning,channel-stable",
     "tags": [
       "plugin",

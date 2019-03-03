@@ -49,7 +49,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/dataset-coco-2014/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/dataset-coco-2014",
-    "soft_uoa": "2439499e39a313b5",
+    "soft_name": "COCO dataset",
+    "soft_uid": "2439499e39a313b5",
+    "soft_uoa": "dataset.coco",
     "stags": "dataset,coco,COCO,2014,val,full,object-detection,channel-stable",
     "tags": [
       "dataset",

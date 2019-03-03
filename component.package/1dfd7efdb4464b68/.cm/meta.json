@@ -135,7 +135,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-old-packages/tree/master/package/lib-caffe-bvlc-master-cpu-win/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-old-packages/tree/master/package/lib-caffe-bvlc-master-cpu-win",
-    "soft_uoa": "04ab08137582bd03",
+    "soft_name": "BVLC Caffe framework",
+    "soft_uid": "04ab08137582bd03",
+    "soft_uoa": "lib.caffe",
     "stags": "lib,caffe,bvlc,vmaster,vcpu",
     "tags": [
       "lib",

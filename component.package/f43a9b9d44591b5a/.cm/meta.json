@@ -112,7 +112,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-sysml19-paper-p3/tree/master/package/sysml19-p3-github/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-sysml19-paper-p3/tree/master/package/sysml19-p3-github",
-    "soft_uoa": "e8ad4fd0a0ebc4f7",
+    "soft_name": "SysML'19 P3",
+    "soft_uid": "e8ad4fd0a0ebc4f7",
+    "soft_uoa": "sysml19-p3",
     "stags": "tool,sysml19,p3,vmaster",
     "tags": [
       "tool",

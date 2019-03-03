@@ -50,7 +50,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/lib-mpc-1.0.3-linux/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/lib-mpc-1.0.3-linux",
-    "soft_uoa": "067e4f40badd4223",
+    "soft_name": "MPC library",
+    "soft_uid": "067e4f40badd4223",
+    "soft_uoa": "lib.mpc",
     "stags": "lib,mpc,v1.0.3,v1.0,v1",
     "tags": [
       "lib",

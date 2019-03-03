@@ -101,7 +101,9 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-clblast-1.1.0-universal/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-clblast-1.1.0-universal",
-    "soft_uoa": "7b81c6ad862f4b38",
+    "soft_name": "CLBlast library",
+    "soft_uid": "7b81c6ad862f4b38",
+    "soft_uoa": "lib.clblast",
     "stags": "lib,blas,no-tune,opencl-blas,clblast,v1.1.0,v1.1,v1,channel-stable",
     "tags": [
       "lib",
