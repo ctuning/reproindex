@@ -422,7 +422,9 @@ def index(i):
                if lm_uoa!='repo' and lr=='default':
                   to_get=''
                elif url.find('github.com/ctuning/')>0:
-                  to_get='ck pull repo:'+lr
+                  x=lr
+                  if lm_uoa=='repo': x=ln
+                  to_get='ck pull repo:'+x
                else:
                   to_get='ck pull repo --url='+url
 

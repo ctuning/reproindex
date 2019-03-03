@@ -23,7 +23,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-mxnet/tree/master/repo/ck-mxnet/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-mxnet/tree/master/repo/ck-mxnet",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:ck-mxnet",
     "workflow_desc": "programs"
   }
 }

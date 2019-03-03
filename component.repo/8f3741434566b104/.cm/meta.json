@@ -34,7 +34,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-ck-paper/tree/master/repo/reproduce-ck-paper/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-ck-paper/tree/master/repo/reproduce-ck-paper",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:reproduce-ck-paper",
     "workflow_desc": "reproducible&nbsp;paper\n"
   }
 }

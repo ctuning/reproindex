@@ -27,7 +27,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-request-asplos18-results-mobilenets-armcl-opencl/tree/master/repo/ck-request-asplos18-results-mobilenets-armcl-opencl/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-request-asplos18-results-mobilenets-armcl-opencl/tree/master/repo/ck-request-asplos18-results-mobilenets-armcl-opencl",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:ck-request-asplos18-results-mobilenets-armcl-opencl",
     "workflow_desc": ""
   }
 }

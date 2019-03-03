@@ -46,7 +46,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-wa/tree/master/repo/ck-wa/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-wa/tree/master/repo/ck-wa",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:ck-wa",
     "workflow_desc": "programs"
   }
 }

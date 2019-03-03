@@ -26,7 +26,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproducible-papers/tree/master/repo/reproducible-papers/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproducible-papers/tree/master/repo/reproducible-papers",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:reproducible-papers",
     "workflow_desc": ""
   }
 }

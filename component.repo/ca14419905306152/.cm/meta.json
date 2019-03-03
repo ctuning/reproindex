@@ -26,7 +26,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-request-asplos18-results-mobilenets-tvm-arm/tree/master/repo/ck-request-asplos18-results-mobilenets-tvm-arm/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-request-asplos18-results-mobilenets-tvm-arm/tree/master/repo/ck-request-asplos18-results-mobilenets-tvm-arm",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:ck-request-asplos18-results-mobilenets-tvm-arm",
     "workflow_desc": ""
   }
 }

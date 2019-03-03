@@ -36,7 +36,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/repo/ck-tensorflow/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/repo/ck-tensorflow",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:ck-tensorflow",
     "workflow_desc": "programs"
   }
 }

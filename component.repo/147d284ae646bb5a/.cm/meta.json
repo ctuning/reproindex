@@ -30,7 +30,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-rpi-optimization-results/tree/master/repo/ck-rpi-optimization-results/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-rpi-optimization-results/tree/master/repo/ck-rpi-optimization-results",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:ck-rpi-optimization-results",
     "workflow_desc": "reproducible&nbsp;paper\n"
   }
 }

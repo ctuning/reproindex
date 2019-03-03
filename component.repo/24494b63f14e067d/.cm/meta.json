@@ -28,7 +28,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-rescue-hpc/tree/master/repo/ck-rescue-hpc/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-rescue-hpc/tree/master/repo/ck-rescue-hpc",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:ck-rescue-hpc",
     "workflow_desc": "website generator"
   }
 }

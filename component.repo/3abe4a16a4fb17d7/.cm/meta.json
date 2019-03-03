@@ -28,7 +28,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorrt/tree/master/repo/ck-tensorrt/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tensorrt/tree/master/repo/ck-tensorrt",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:ck-tensorrt",
     "workflow_desc": "programs"
   }
 }

@@ -29,7 +29,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-cntk/tree/master/repo/ck-cntk/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-cntk/tree/master/repo/ck-cntk",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:ck-cntk",
     "workflow_desc": "programs"
   }
 }

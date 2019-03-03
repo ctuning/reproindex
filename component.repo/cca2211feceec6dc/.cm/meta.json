@@ -18,7 +18,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-wa-workloads/tree/master/repo/ck-wa-workloads/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-wa-workloads/tree/master/repo/ck-wa-workloads",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:ck-wa-workloads",
     "workflow_desc": ""
   }
 }

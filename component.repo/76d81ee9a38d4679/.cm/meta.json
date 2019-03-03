@@ -34,7 +34,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor/tree/master/repo/reproduce-sysml19-paper-aggregathor/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor/tree/master/repo/reproduce-sysml19-paper-aggregathor",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:reproduce-sysml19-paper-aggregathor",
     "workflow_desc": "programs"
   }
 }

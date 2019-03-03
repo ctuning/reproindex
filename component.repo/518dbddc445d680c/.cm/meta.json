@@ -42,7 +42,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-mvnc/tree/master/repo/ck-mvnc/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-mvnc/tree/master/repo/ck-mvnc",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:ck-mvnc",
     "workflow_desc": "programs"
   }
 }

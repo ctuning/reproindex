@@ -28,7 +28,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-mlperf/tree/master/repo/ck-mlperf/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-mlperf/tree/master/repo/ck-mlperf",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:ck-mlperf",
     "workflow_desc": "programs"
   }
 }

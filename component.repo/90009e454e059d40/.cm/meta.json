@@ -54,7 +54,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/repo/ck-tbd-suite/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tbd-suite/tree/master/repo/ck-tbd-suite",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:ck-tbd-suite",
     "workflow_desc": "programs"
   }
 }

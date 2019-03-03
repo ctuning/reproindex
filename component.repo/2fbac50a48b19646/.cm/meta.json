@@ -23,7 +23,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-pamela-project-small-dataset/tree/master/repo/reproduce-pamela-project-medium-dataset/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-pamela-project-small-dataset/tree/master/repo/reproduce-pamela-project-medium-dataset",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:reproduce-pamela-project-medium-dataset",
     "workflow_desc": "programs"
   }
 }

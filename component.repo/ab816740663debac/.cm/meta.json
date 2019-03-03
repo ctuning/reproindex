@@ -26,7 +26,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-request-asplos18-results-iot-farm/tree/master/repo/ck-request-asplos18-results-iot-farm/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-request-asplos18-results-iot-farm/tree/master/repo/ck-request-asplos18-results-iot-farm",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:ck-request-asplos18-results-iot-farm",
     "workflow_desc": ""
   }
 }

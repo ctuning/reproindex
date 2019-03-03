@@ -23,7 +23,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-web-adapt-workshop/tree/master/repo/ck-web-adapt-workshop/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-web-adapt-workshop/tree/master/repo/ck-web-adapt-workshop",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:ck-web-adapt-workshop",
     "workflow_desc": "website generator"
   }
 }

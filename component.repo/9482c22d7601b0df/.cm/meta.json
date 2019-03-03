@@ -34,7 +34,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/repo/reproduce-milepost-project/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/repo/reproduce-milepost-project",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:reproduce-milepost-project",
     "workflow_desc": "reproducible&nbsp;paper\n"
   }
 }

@@ -34,7 +34,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ctuning-programs/tree/master/repo/ctuning-programs/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ctuning-programs/tree/master/repo/ctuning-programs",
-    "to_get": "ck pull repo:local",
+    "to_get": "ck pull repo:ctuning-programs",
     "workflow_desc": "programs"
   }
 }
