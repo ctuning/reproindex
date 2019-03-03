@@ -101,8 +101,8 @@
     "module_uoa": "program",
     "repo_uid": "6456e78d8c044a88",
     "repo_uoa": "ck-rigetti",
-    "repo_url1": "https://github.com/ctuning/ck-rigetti/tree/master/module/rigetti-vqe2/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-rigetti/tree/master/module/rigetti-vqe2/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-rigetti/tree/master/program/rigetti-vqe2/.cm/meta.json",
     "soft_name": "",
     "stags": "vqe,vqe-implementation,quantum,pyquil,rigetti,hackathon",
     "tags": [

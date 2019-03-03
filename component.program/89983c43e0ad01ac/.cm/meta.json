@@ -56,8 +56,8 @@
     "module_uoa": "program",
     "repo_uid": "de640faafc01c0a0",
     "repo_uoa": "ck-quantum",
-    "repo_url1": "https://github.com/ctuning/ck-quantum/tree/master/module/benchmark-helper/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-quantum/tree/master/module/benchmark-helper/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-quantum/tree/master/program/benchmark-helper/.cm/meta.json",
     "soft_name": "",
     "stags": "program,lang-python",
     "tags": [

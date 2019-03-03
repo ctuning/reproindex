@@ -107,8 +107,8 @@
     "module_uoa": "program",
     "repo_uid": "90009e454e059d40",
     "repo_uoa": "ck-tbd-suite",
-    "repo_url1": "https://github.com/ctuning/ck-tbd-suite/tree/master/module/tensor2tensor-attention-tf/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/module/tensor2tensor-attention-tf/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/program/tensor2tensor-attention-tf/.cm/meta.json",
     "soft_name": "",
     "stags": "machine-translation,tensor2tensor,transformer",
     "tags": [

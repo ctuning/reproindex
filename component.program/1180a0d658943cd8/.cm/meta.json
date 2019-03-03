@@ -82,8 +82,8 @@
     "module_uoa": "program",
     "repo_uid": "4ae7df4c1a806867",
     "repo_uoa": "ck-gui",
-    "repo_url1": "git@github.com:Chunosov/ck-gui/tree/master/module/ck-gui-qt/module.py",
-    "repo_url2": "git@github.com:Chunosov/ck-gui/tree/master/module/ck-gui-qt/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "git@github.com:Chunosov/ck-gui/tree/master/program/ck-gui-qt/.cm/meta.json",
     "soft_name": "",
     "stags": "ck-gui,vqt",
     "tags": [

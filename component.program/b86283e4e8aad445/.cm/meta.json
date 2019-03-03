@@ -46,8 +46,8 @@
     "module_uoa": "program",
     "repo_uid": "4e58bd6003fc6875",
     "repo_uoa": "reproduce-fgg-2010",
-    "repo_url1": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/module/test-boost/module.py",
-    "repo_url2": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/module/test-boost/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/program/test-boost/.cm/meta.json",
     "soft_name": "",
     "stags": "test,boost",
     "tags": [

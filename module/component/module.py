@@ -410,11 +410,13 @@ def index(i):
                      url2=url2[:-4]
 
                   if '/tree/master/' not in url2:
-                     url2+='/tree/master/module/'
+                     url2+='/tree/master/'+lm_uoa+'/'
                   else:
-                     url2+='/module/'
+                     url2+='/'+lm_uoa+'/'
 
-                  repo_url1_full=url2+ln+'/module.py'
+                  if lm_uoa=='module':
+                     repo_url1_full=url2+ln+'/module.py'
+   
                   repo_url2_full=url2+ln+'/.cm/meta.json'
 
                # Update dict

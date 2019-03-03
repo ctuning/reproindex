@@ -76,8 +76,8 @@
     "module_uoa": "program",
     "repo_uid": "1db88c44a4086634",
     "repo_uoa": "ctuning-programs",
-    "repo_url1": "https://github.com/ctuning/ctuning-programs/tree/master/module/milepost-codelet-mibench-telecomm-adpcm-c-src-adpcm-codelet-1-1/module.py",
-    "repo_url2": "https://github.com/ctuning/ctuning-programs/tree/master/module/milepost-codelet-mibench-telecomm-adpcm-c-src-adpcm-codelet-1-1/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ctuning-programs/tree/master/program/milepost-codelet-mibench-telecomm-adpcm-c-src-adpcm-codelet-1-1/.cm/meta.json",
     "soft_name": "",
     "stags": "lang-c,program,milepost,small,codelet,crowd-tuning",
     "tags": [

@@ -165,8 +165,8 @@
     "module_uoa": "program",
     "repo_uid": "c47366a47958ef4b",
     "repo_uoa": "ck-request-asplos18-mobilenets-tvm-arm",
-    "repo_url1": "https://github.com/ctuning/ck-request-asplos18-mobilenets-tvm-arm/tree/master/module/request-tvm-nnvm-inference/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-request-asplos18-mobilenets-tvm-arm/tree/master/module/request-tvm-nnvm-inference/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-request-asplos18-mobilenets-tvm-arm/tree/master/program/request-tvm-nnvm-inference/.cm/meta.json",
     "soft_name": "",
     "stags": "tmv-nnvm,benchmark,tvm,vgpu",
     "tags": [

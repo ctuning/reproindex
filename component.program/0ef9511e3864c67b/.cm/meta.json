@@ -104,8 +104,8 @@
     "module_uoa": "program",
     "repo_uid": "1e884df489890fa1",
     "repo_uoa": "gemmbench",
-    "repo_url1": "git@github.com:dividiti/gemmbench/tree/master/module/clblast-xgemm/module.py",
-    "repo_url2": "git@github.com:dividiti/gemmbench/tree/master/module/clblast-xgemm/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "git@github.com:dividiti/gemmbench/tree/master/program/clblast-xgemm/.cm/meta.json",
     "soft_name": "",
     "stags": "gemmbench,program,clblast,xgemm",
     "tags": [

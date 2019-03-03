@@ -86,8 +86,8 @@
     "module_uoa": "program",
     "repo_uid": "4439c9443bbab749",
     "repo_uoa": "ck-rpi-optimization",
-    "repo_url1": "https://github.com/dividiti/ck-rpi-optimization/tree/master/module/7z/module.py",
-    "repo_url2": "https://github.com/dividiti/ck-rpi-optimization/tree/master/module/7z/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-rpi-optimization/tree/master/program/7z/.cm/meta.json",
     "soft_name": "",
     "stags": "7z,lang-cpp,automotive,benchmark,program,crowd-tuning",
     "tags": [

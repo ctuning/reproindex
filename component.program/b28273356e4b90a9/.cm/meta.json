@@ -87,8 +87,8 @@
     "module_uoa": "program",
     "repo_uid": "1be6d862d67244da",
     "repo_uoa": "ck-mlperf",
-    "repo_url1": "https://github.com/ctuning/ck-mlperf/tree/master/module/fai-pep/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-mlperf/tree/master/module/fai-pep/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-mlperf/tree/master/program/fai-pep/.cm/meta.json",
     "soft_name": "",
     "stags": "fai-pep",
     "tags": [

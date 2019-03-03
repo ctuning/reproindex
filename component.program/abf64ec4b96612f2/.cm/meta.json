@@ -140,8 +140,8 @@
     "module_uoa": "program",
     "repo_uid": "0442e96ea67b7957",
     "repo_uoa": "ck-tvm",
-    "repo_url1": "https://github.com/ctuning/ck-tvm/tree/master/module/image-classification-vta-pynq/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-tvm/tree/master/module/image-classification-vta-pynq/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tvm/tree/master/program/image-classification-vta-pynq/.cm/meta.json",
     "soft_name": "",
     "stags": "tvm-fpga-demo,request,request-tournament,request-asplos18,demo",
     "tags": [

@@ -110,8 +110,8 @@
     "module_uoa": "program",
     "repo_uid": "4439c9443bbab749",
     "repo_uoa": "ck-rpi-optimization",
-    "repo_url1": "https://github.com/dividiti/ck-rpi-optimization/tree/master/module/gzip/module.py",
-    "repo_url2": "https://github.com/dividiti/ck-rpi-optimization/tree/master/module/gzip/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-rpi-optimization/tree/master/program/gzip/.cm/meta.json",
     "soft_name": "",
     "stags": "gzip,lang-c,automotive,benchmark,program,crowd-tuning",
     "tags": [

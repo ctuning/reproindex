@@ -243,8 +243,8 @@
     "module_uoa": "program",
     "repo_uid": "57e83bca8a5a4344",
     "repo_uoa": "ck-caffe",
-    "repo_url1": "git@github.com:dividiti/ck-caffe/tree/master/module/caffe-detection-ssd/module.py",
-    "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/module/caffe-detection-ssd/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/program/caffe-detection-ssd/.cm/meta.json",
     "soft_name": "",
     "stags": "caffe-detection,caffe-detection-ssd,ssd,demo,vcpu,continuous,object-detection,webcam",
     "tags": [

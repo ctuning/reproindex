@@ -338,8 +338,8 @@
     "module_uoa": "program",
     "repo_uid": "d94a45b5be3072ba",
     "repo_uoa": "ck-math",
-    "repo_url1": "https://github.com/ctuning/ck-math/tree/master/module/clblast-tune-fp32/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-math/tree/master/module/clblast-tune-fp32/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-math/tree/master/program/clblast-tune-fp32/.cm/meta.json",
     "soft_name": "",
     "stags": "clblast,cltune,opencl,sgemm",
     "tags": [

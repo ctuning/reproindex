@@ -57,8 +57,8 @@
     "module_uoa": "program",
     "repo_uid": "9116e3c9d3784902",
     "repo_uoa": "ck-pytorch",
-    "repo_url1": "https://github.com/ctuning/ck-pytorch/tree/master/module/pytorch/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-pytorch/tree/master/module/pytorch/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-pytorch/tree/master/program/pytorch/.cm/meta.json",
     "soft_name": "",
     "stags": "pytorch-demo,demo",
     "tags": [

@@ -118,8 +118,8 @@
     "module_uoa": "program",
     "repo_uid": "518dbddc445d680c",
     "repo_uoa": "ck-mvnc",
-    "repo_url1": "https://github.com/ctuning/ck-mvnc/tree/master/module/demo-mvnc-yolo/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-mvnc/tree/master/module/demo-mvnc-yolo/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-mvnc/tree/master/program/demo-mvnc-yolo/.cm/meta.json",
     "soft_name": "",
     "stags": "demo,mvnc,yolo",
     "tags": [

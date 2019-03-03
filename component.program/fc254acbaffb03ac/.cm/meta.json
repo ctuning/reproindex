@@ -122,8 +122,8 @@
     "module_uoa": "program",
     "repo_uid": "1db88c44a4086634",
     "repo_uoa": "ctuning-programs",
-    "repo_url1": "https://github.com/ctuning/ctuning-programs/tree/master/module/cbench-bzip2/module.py",
-    "repo_url2": "https://github.com/ctuning/ctuning-programs/tree/master/module/cbench-bzip2/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ctuning-programs/tree/master/program/cbench-bzip2/.cm/meta.json",
     "soft_name": "",
     "stags": "small,cbench,program,lang-c,crowd-tuning",
     "tags": [

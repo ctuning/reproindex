@@ -87,8 +87,8 @@
     "module_uoa": "program",
     "repo_uid": "d94a45b5be3072ba",
     "repo_uoa": "ck-math",
-    "repo_url1": "https://github.com/ctuning/ck-math/tree/master/module/acl-sgemm-neon-example/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-math/tree/master/module/acl-sgemm-neon-example/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-math/tree/master/program/acl-sgemm-neon-example/.cm/meta.json",
     "soft_name": "",
     "stags": "demo,program,arm-compute-lib,sgemm",
     "tags": [

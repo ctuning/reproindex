@@ -47,8 +47,8 @@
     "module_uoa": "program",
     "repo_uid": "07aff7c7b258f26b",
     "repo_uoa": "ck-ccprof",
-    "repo_url1": "https://github.com/proywm/ck-ccprof/tree/master/module/tinydnn-representative-pad/module.py",
-    "repo_url2": "https://github.com/proywm/ck-ccprof/tree/master/module/tinydnn-representative-pad/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/proywm/ck-ccprof/tree/master/program/tinydnn-representative-pad/.cm/meta.json",
     "soft_name": "",
     "stags": "ccprof,tinydnn,representative-pad",
     "tags": [

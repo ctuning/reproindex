@@ -97,8 +97,8 @@
     "module_uoa": "program",
     "repo_uid": "7d60433aa9fd29fe",
     "repo_uoa": "reproduce-carp-project",
-    "repo_url1": "https://github.com/ctuning/reproduce-carp-project/tree/master/module/pencil-benchmark-gaussian/module.py",
-    "repo_url2": "https://github.com/ctuning/reproduce-carp-project/tree/master/module/pencil-benchmark-gaussian/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-carp-project/tree/master/program/pencil-benchmark-gaussian/.cm/meta.json",
     "soft_name": "",
     "stags": "program,pencil-benchmark,resize,lang-cpp",
     "tags": [

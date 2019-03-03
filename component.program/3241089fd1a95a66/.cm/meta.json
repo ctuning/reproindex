@@ -86,8 +86,8 @@
     "module_uoa": "program",
     "repo_uid": "d03f001de4248a2a",
     "repo_uoa": "ck-dnndk",
-    "repo_url1": "http://github.com/ctuning/ck-dnndk/tree/master/module/image-classification-template-deephi/module.py",
-    "repo_url2": "http://github.com/ctuning/ck-dnndk/tree/master/module/image-classification-template-deephi/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "http://github.com/ctuning/ck-dnndk/tree/master/program/image-classification-template-deephi/.cm/meta.json",
     "soft_name": "",
     "stags": "deephi,image-classification,template,lang-cpp",
     "tags": [

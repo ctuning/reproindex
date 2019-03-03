@@ -229,8 +229,8 @@
     "module_uoa": "program",
     "repo_uid": "b8adffa0791cb38a",
     "repo_uoa": "ck-caffe2",
-    "repo_url1": "https://github.com/ctuning/ck-caffe2/tree/master/module/caffe2/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-caffe2/tree/master/module/caffe2/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-caffe2/tree/master/program/caffe2/.cm/meta.json",
     "soft_name": "",
     "stags": "program,caffe2",
     "tags": [

@@ -44,8 +44,8 @@
     "module_uoa": "program",
     "repo_uid": "a1294586bce671ba",
     "repo_uoa": "ck-request-asplos18-resnet-tvm-fpga",
-    "repo_url1": "https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga/tree/master/module/vta-pynq-server/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga/tree/master/module/vta-pynq-server/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga/tree/master/program/vta-pynq-server/.cm/meta.json",
     "soft_name": "",
     "stags": "request,request-tournament,request-asplos18,vta-pynq-server",
     "tags": [

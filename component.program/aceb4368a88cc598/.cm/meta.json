@@ -72,8 +72,8 @@
     "module_uoa": "program",
     "repo_uid": "4f49a0bdde6167b4",
     "repo_uoa": "ck-qiskit",
-    "repo_url1": "https://github.com/ctuning/ck-qiskit/tree/master/module/qiskit-backends/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-qiskit/tree/master/module/qiskit-backends/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-qiskit/tree/master/program/qiskit-backends/.cm/meta.json",
     "soft_name": "",
     "stags": "qiskit,qiskit,qiskit-sdk-py,demo,examples,ibm,quantum_random_numbers,teleport",
     "tags": [

@@ -79,8 +79,8 @@
     "module_uoa": "program",
     "repo_uid": "90009e454e059d40",
     "repo_uoa": "ck-tbd-suite",
-    "repo_url1": "https://github.com/ctuning/ck-tbd-suite/tree/master/module/image-classification-inception-cntk/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/module/image-classification-inception-cntk/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/program/image-classification-inception-cntk/.cm/meta.json",
     "soft_name": "",
     "stags": "image-classification,cntk-image-classification",
     "tags": [

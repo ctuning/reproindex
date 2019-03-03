@@ -137,8 +137,8 @@
     "module_uoa": "program",
     "repo_uid": "cca2211feceec6dc",
     "repo_uoa": "ck-wa-workloads",
-    "repo_url1": "https://github.com/ctuning/ck-wa-workloads/tree/master/module/wa-castlemaster/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-wa-workloads/tree/master/module/wa-castlemaster/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-castlemaster/.cm/meta.json",
     "soft_name": "",
     "stags": "wa,workload-automation,castlemaster",
     "tags": [

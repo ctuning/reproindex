@@ -84,8 +84,8 @@
     "module_uoa": "program",
     "repo_uid": "1db88c44a4086634",
     "repo_uoa": "ctuning-programs",
-    "repo_url1": "https://github.com/ctuning/ctuning-programs/tree/master/module/polybench-cpu-fdtd-2d/module.py",
-    "repo_url2": "https://github.com/ctuning/ctuning-programs/tree/master/module/polybench-cpu-fdtd-2d/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ctuning-programs/tree/master/program/polybench-cpu-fdtd-2d/.cm/meta.json",
     "soft_name": "",
     "stags": "program,polybench,lang-c,cpu",
     "tags": [

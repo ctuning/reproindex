@@ -80,8 +80,8 @@
     "module_uoa": "program",
     "repo_uid": "bd5c40d5b3fd5035",
     "repo_uoa": "ck-clsmith",
-    "repo_url1": "https://github.com/ctuning/ck-clsmith/tree/master/module/tool-cl-launcher-1.0/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-clsmith/tree/master/module/tool-cl-launcher-1.0/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-clsmith/tree/master/program/tool-cl-launcher-1.0/.cm/meta.json",
     "soft_name": "",
     "stags": "opencl,program,clsmith,v1.0,v1,lang-c",
     "tags": [

@@ -131,8 +131,8 @@
     "module_uoa": "program",
     "repo_uid": "acb7cea44acac9c9",
     "repo_uoa": "ck-tensorflow",
-    "repo_url1": "https://github.com/ctuning/ck-tensorflow/tree/master/module/tensorflow-classification-cpu/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/module/tensorflow-classification-cpu/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/program/tensorflow-classification-cpu/.cm/meta.json",
     "soft_name": "",
     "stags": "tensorflow-classification-cpp,demo,vcpu",
     "tags": [

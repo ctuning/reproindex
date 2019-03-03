@@ -83,8 +83,8 @@
     "module_uoa": "program",
     "repo_uid": "90009e454e059d40",
     "repo_uoa": "ck-tbd-suite",
-    "repo_url1": "https://github.com/ctuning/ck-tbd-suite/tree/master/module/sequence2sequence-lstm-tf/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/module/sequence2sequence-lstm-tf/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/program/sequence2sequence-lstm-tf/.cm/meta.json",
     "soft_name": "",
     "stags": "machine-translation,tensorflow-machine-translation",
     "tags": [

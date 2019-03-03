@@ -49,8 +49,8 @@
     "module_uoa": "program",
     "repo_uid": "a4328ba99679e0d1",
     "repo_uoa": "ck-autotuning",
-    "repo_url1": "https://github.com/ctuning/ck-autotuning/tree/master/module/tool-print-opencl-devices/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/module/tool-print-opencl-devices/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/program/tool-print-opencl-devices/.cm/meta.json",
     "soft_name": "",
     "stags": "tool,print-devices,opencl,lang-c",
     "tags": [

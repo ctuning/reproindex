@@ -174,8 +174,8 @@
     "module_uoa": "program",
     "repo_uid": "9bb172637b2083c2",
     "repo_uoa": "ck-request-asplos18-iot-farm",
-    "repo_url1": "https://github.com/ctuning/ck-request-asplos18-iot-farm/tree/master/module/request-iot-benchmark/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-request-asplos18-iot-farm/tree/master/module/request-iot-benchmark/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-request-asplos18-iot-farm/tree/master/program/request-iot-benchmark/.cm/meta.json",
     "soft_name": "",
     "stags": "program,request,request-tournament,request-asplos18,iot-farm",
     "tags": [

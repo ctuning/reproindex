@@ -68,8 +68,8 @@
     "module_uoa": "program",
     "repo_uid": "68121412a8ff317c",
     "repo_uoa": "ck-graph-analytics",
-    "repo_url1": "https://github.com/ctuning/ck-graph-analytics/tree/master/module/mgbc-snap/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/module/mgbc-snap/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/program/mgbc-snap/.cm/meta.json",
     "soft_name": "",
     "stags": "graph",
     "tags": [

@@ -104,8 +104,8 @@
     "module_uoa": "program",
     "repo_uid": "1db88c44a4086634",
     "repo_uoa": "ctuning-programs",
-    "repo_url1": "https://github.com/ctuning/ctuning-programs/tree/master/module/shared-bzip2-1.0.6/module.py",
-    "repo_url2": "https://github.com/ctuning/ctuning-programs/tree/master/module/shared-bzip2-1.0.6/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ctuning-programs/tree/master/program/shared-bzip2-1.0.6/.cm/meta.json",
     "soft_name": "",
     "stags": "demo,program,lang-c",
     "tags": [

@@ -66,8 +66,8 @@
     "module_uoa": "program",
     "repo_uid": "ba416ebde828395d",
     "repo_uoa": "ck-tiny-dnn",
-    "repo_url1": "https://github.com/ctuning/ck-tiny-dnn/tree/master/module/tiny-dnn-bench/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-tiny-dnn/tree/master/module/tiny-dnn-bench/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tiny-dnn/tree/master/program/tiny-dnn-bench/.cm/meta.json",
     "soft_name": "",
     "stags": "cbench,lang-cpp,dnn,tiny-dnn,benchmark",
     "tags": [

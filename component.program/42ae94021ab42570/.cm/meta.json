@@ -62,8 +62,8 @@
     "module_uoa": "program",
     "repo_uid": "a4328ba99679e0d1",
     "repo_uoa": "ck-autotuning",
-    "repo_url1": "https://github.com/ctuning/ck-autotuning/tree/master/module/template-hello-world-c-jpeg-dataset/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/module/template-hello-world-c-jpeg-dataset/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/program/template-hello-world-c-jpeg-dataset/.cm/meta.json",
     "soft_name": "",
     "stags": "template,program,lang-c",
     "tags": [

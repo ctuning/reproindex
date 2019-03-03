@@ -76,8 +76,8 @@
     "module_uoa": "program",
     "repo_uid": "acb7cea44acac9c9",
     "repo_uoa": "ck-tensorflow",
-    "repo_url1": "https://github.com/ctuning/ck-tensorflow/tree/master/module/tensorflow_cc-demo-label-image/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/module/tensorflow_cc-demo-label-image/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/program/tensorflow_cc-demo-label-image/.cm/meta.json",
     "soft_name": "",
     "stags": "label_image,tensorflow_cc,tensorflow,example",
     "tags": [

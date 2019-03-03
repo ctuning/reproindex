@@ -383,8 +383,8 @@
     "module_uoa": "program",
     "repo_uid": "d94a45b5be3072ba",
     "repo_uoa": "ck-math",
-    "repo_url1": "https://github.com/ctuning/ck-math/tree/master/module/test-armcl-opencl/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-math/tree/master/module/test-armcl-opencl/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-math/tree/master/program/test-armcl-opencl/.cm/meta.json",
     "soft_name": "",
     "stags": "armcl,arm-compute-library,test,benchmark,validation,vopencl",
     "tags": [

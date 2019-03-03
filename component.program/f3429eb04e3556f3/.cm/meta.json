@@ -54,8 +54,8 @@
     "module_uoa": "program",
     "repo_uid": "1ca4108a0485b920",
     "repo_uoa": "ck-scc18",
-    "repo_url1": "https://github.com/ctuning/ck-scc18/tree/master/module/seissol-proxy/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-scc18/tree/master/module/seissol-proxy/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-scc18/tree/master/program/seissol-proxy/.cm/meta.json",
     "soft_name": "",
     "stags": "scientific,seissol-proxy,supercomputing,scc,2018",
     "tags": [

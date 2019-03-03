@@ -46,8 +46,8 @@
     "module_uoa": "program",
     "repo_uid": "9482c22d7601b0df",
     "repo_uoa": "reproduce-milepost-project",
-    "repo_url1": "https://github.com/ctuning/reproduce-milepost-project/tree/master/module/sample-milepost-codelet/module.py",
-    "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/module/sample-milepost-codelet/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/program/sample-milepost-codelet/.cm/meta.json",
     "soft_name": "",
     "stags": "sample-milepost-program,lang-c",
     "tags": [

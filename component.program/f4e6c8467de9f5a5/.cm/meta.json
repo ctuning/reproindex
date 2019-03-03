@@ -89,8 +89,8 @@
     "module_uoa": "program",
     "repo_uid": "90009e454e059d40",
     "repo_uoa": "ck-tbd-suite",
-    "repo_url1": "https://github.com/ctuning/ck-tbd-suite/tree/master/module/image-classification-inception-mxnet/module.py",
-    "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/module/image-classification-inception-mxnet/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/program/image-classification-inception-mxnet/.cm/meta.json",
     "soft_name": "",
     "stags": "image-classification,mxnet-image-classification",
     "tags": [

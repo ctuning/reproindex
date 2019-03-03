@@ -77,8 +77,8 @@
     "module_uoa": "program",
     "repo_uid": "aa8299de464392e3",
     "repo_uoa": "ck-kann",
-    "repo_url1": "http://github.com/ctuning/ck-kann/tree/master/module/kann/module.py",
-    "repo_url2": "http://github.com/ctuning/ck-kann/tree/master/module/kann/.cm/meta.json",
+    "repo_url1": "",
+    "repo_url2": "http://github.com/ctuning/ck-kann/tree/master/program/kann/.cm/meta.json",
     "soft_name": "",
     "stags": "kann,evaluation,client",
     "tags": [
