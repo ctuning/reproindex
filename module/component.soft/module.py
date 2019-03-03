@@ -143,10 +143,11 @@ def html(i):
     llmisc=llm.get('misc',{})
     lldict=llm.get('dict',{})
 
-    workflow=llmisc.get('workflow','')
+    template=llmisc.get('template','')
 
     repo_url1=llmisc.get('repo_url1','')
     repo_url2=llmisc.get('repo_url2','')
+    repo_url3=llmisc.get('repo_url3','')
 
     desc=lldict.get('desc','')
 
@@ -162,35 +163,36 @@ def html(i):
     if desc!='':
        h+='<i> - '+desc+'</i>\n'
 
-    actions1=lldict.get('actions',{})
-    actions2=llmisc.get('actions',{})
+    host_os=llmisc.get('host_os','')
+    target_os=llmisc.get('target_os','')
+
+    stags=llmisc.get('stags','').replace(',',', ')
+
+    h=''
+    if desc!='':
+       h+='<i> - '+desc+'</i>\n'
+
+    run_cmds=lldict.get('run_cmds',{})
 
     h+='<div style="background-color:#efefef;margin:5px;padding:5px;">\n'
-    if len(actions1)>0:
-       h+='<b>Repo name:</b> '+ruoa+'<br>\n'
-       if workflow!='':
-          h+='<b>Workflow:</b> '+workflow+'<br>\n'
-       h+='<b>Actions:</b><br>\n'
-       h+='<div style="margin-left:20px;">\n'
-       h+=' <ul>\n'
-       for a in actions1:
-           x=actions1[a]
-           ad=x.get('desc','')
-           y=actions2.get(a,{})
-           au=y.get('url_api','')
 
-           h+='  <li><span style="color:#2f0000;">ck <i>'+str(a)+'</i> '+duoa+'</span> - '+ad
-           if au!='':
-              h+=' [<a href="'+au+'"><b><span style="color:#2f0000;">API</span></b></a>]\n'
+    h+='<b>Repo name:</b> '+ruoa+'<br>\n'
 
-       h+=' </ul>\n'
-       h+='</div>\n'
+    if template!='':
+       h+='<b>Template:</b> '+template+'<br>\n'
+
+    h+='<b>Host&nbsp;OS:</b> '+host_os+'<br>\n'
+
+    h+='<b>Target&nbsp;OS:</b> '+target_os+'<br>\n'
+
+    h+='<b>Tags:</b> '+stags+'<br>\n'
+
     h+='</div>\n'
 
     h1=''
 
-    if repo_url1!='':
-       h1+='[&nbsp;<a href="'+repo_url1+'" target="_blank">code</a>&nbsp;] \n'
+    if repo_url3!='':
+       h1+='[&nbsp;<a href="'+repo_url3+'" target="_blank">detection plugin</a>&nbsp;] \n'
     if repo_url2!='':
        h1+='[&nbsp;<a href="'+repo_url2+'" target="_blank">meta</a>&nbsp;]\n'
 
