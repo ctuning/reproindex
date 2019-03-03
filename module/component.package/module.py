@@ -155,7 +155,10 @@ def html(i):
     repo_url2=llmisc.get('repo_url2','')
     repo_url3=llmisc.get('repo_url3','')
 
-    desc=lldict.get('package_name','')
+    desc=llmisc.get('soft_name','')
+
+    soft_uoa=llmisc.get('soft_uoa','')
+    soft_uid=llmisc.get('soft_uid','')
 
     cus=lldict.get('customize','')
     ver=cus.get('version','')
@@ -185,10 +188,13 @@ def html(i):
 
     h+='<div style="background-color:#efefef;margin:5px;padding:5px;">\n'
 
-    h+='<b>Repo name:</b> '+ruoa+'<br>\n'
-
     if ver!='':
        h+='<b>Version:</b> '+ver+'<br>\n'
+
+    h+='<b>Repo name:</b> '+ruoa+'<br>\n'
+
+    if soft_uoa!='':
+       h+='<b>Soft plugin:</b> '+soft_uoa+'<br>\n'
 
     if template!='':
        h+='<b>Template:</b> '+template+'<br>\n'
