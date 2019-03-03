@@ -163,6 +163,8 @@ def html(i):
 
     d=i.get('dict',{})
 
+    url0=i.get('url','')
+
     llm=d.get('meta',{})
 
     llmisc=llm.get('misc',{})
@@ -218,8 +220,14 @@ def html(i):
        h+=' <ul>\n'
        for rd in repo_deps:
            ruoa=rd.get('repo_uoa','')
+           ruid=rd.get('repo_uid','')
            if ruoa!='':
-              h+='  <li><span style="color:#2f0000;">'+str(ruoa)+'</li>\n'
+              x1=''
+              x2=''
+              if url0!='' and ruid!='':
+                 x1='<a href="'+url0+'cid='+work['self_module_uid']+':'+ruid+'" target="_blank">'
+                 x2='</a>'
+              h+='  <li>'+x1+'<span style="color:#2f0000;">'+str(ruoa)+'</span>'+x2+'</li>\n'
 
        h+=' </ul>\n'
        h+='</div>\n'

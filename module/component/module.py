@@ -205,7 +205,8 @@ def get(i):
 
         r=ck.access({'action':'html',
                      'module_uoa':c_uid,
-                     'dict':ll})
+                     'dict':ll,
+                     'url':url0})
         if r['return']>0: return r
 
         hh=r['html']

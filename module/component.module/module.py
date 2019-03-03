@@ -136,7 +136,15 @@ def html(i):
     actions2=llmisc.get('actions',{})
 
     h+='<div style="background-color:#efefef;margin:5px;padding:5px;">\n'
-    h+='<b>Repo name:</b> '+ruoa+'<br>\n'
+
+    url0=i.get('url','')
+    x1=''
+    x2=''
+    if url0!='' and ruid!='':
+       x1='<a href="'+url0+'cid='+cfg['module_deps']['component.repo']+':'+ruid+'" target="_blank">'
+       x2='</a>'
+    h+='<b>Repo name:</b> '+x1+ruoa+x2+'<br>\n'
+
     if workflow!='':
        h+='<b>Workflow:</b> '+workflow+'<br>\n'
 

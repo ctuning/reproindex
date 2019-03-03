@@ -7,5 +7,8 @@
       "desc": "generate html"
     }
   },
-  "desc": "index of CK programs"
+  "desc": "index of CK programs",
+  "module_deps": {
+    "component.repo":"4adfaff6d69d41a9"
+  }
 }
