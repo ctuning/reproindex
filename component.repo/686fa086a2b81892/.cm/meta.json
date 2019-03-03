@@ -7,15 +7,19 @@
     "ckr": {
       "repo_deps": [
         {
+          "repo_uid": "c7e5332641d8922a",
           "repo_uoa": "ck-crowdtuning"
         },
         {
+          "repo_uid": "62a4f46acf5ff29e",
           "repo_uoa": "ck-dissemination-modules"
         },
         {
+          "repo_uid": "1b8b35474438bdbc",
           "repo_uoa": "ck-artifact-evaluation"
         },
         {
+          "repo_uid": "18bb3d4130a4aaf9",
           "repo_uoa": "ck-docker"
         }
       ],

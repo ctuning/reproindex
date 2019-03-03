@@ -21,15 +21,19 @@
     "ckr": {
       "repo_deps": [
         {
+          "repo_uid": "18bb3d4130a4aaf9",
           "repo_uoa": "ck-docker"
         },
         {
+          "repo_uid": "cca2211feceec6dc",
           "repo_uoa": "ck-wa-workloads"
         },
         {
+          "repo_uid": "b674321852dd4dd6",
           "repo_uoa": "ck-wa-extra"
         },
         {
+          "repo_uid": "c7e5332641d8922a",
           "repo_uoa": "ck-crowdtuning"
         }
       ],

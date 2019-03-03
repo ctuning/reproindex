@@ -7,9 +7,11 @@
     "ckr": {
       "repo_deps": [
         {
+          "repo_uid": "c7e5332641d8922a",
           "repo_uoa": "ck-crowdtuning"
         },
         {
+          "repo_uid": "57e83bca8a5a4344",
           "repo_uoa": "ck-caffe"
         }
       ],

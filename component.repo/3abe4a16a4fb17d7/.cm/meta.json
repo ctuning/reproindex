@@ -12,6 +12,7 @@
     "ckr": {
       "repo_deps": [
         {
+          "repo_uid": "c7e5332641d8922a",
           "repo_uoa": "ck-crowdtuning"
         }
       ],

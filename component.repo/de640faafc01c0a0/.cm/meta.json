@@ -21,18 +21,22 @@
     "ckr": {
       "repo_deps": [
         {
+          "repo_uid": "1ff43ae88715a8c1",
           "repo_uoa": "ck-env",
           "repo_url": "https://github.com/ctuning/ck-env"
         },
         {
+          "repo_uid": "18bb3d4130a4aaf9",
           "repo_uoa": "ck-docker",
           "repo_url": "https://github.com/ctuning/ck-docker"
         },
         {
+          "repo_uid": "6456e78d8c044a88",
           "repo_uoa": "ck-rigetti",
           "repo_url": "https://github.com/ctuning/ck-rigetti"
         },
         {
+          "repo_uid": "4f49a0bdde6167b4",
           "repo_uoa": "ck-qiskit",
           "repo_url": "https://github.com/ctuning/ck-qiskit"
         }

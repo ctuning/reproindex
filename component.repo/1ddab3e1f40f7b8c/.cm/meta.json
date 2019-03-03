@@ -7,9 +7,11 @@
     "ckr": {
       "repo_deps": [
         {
+          "repo_uid": "1ff43ae88715a8c1",
           "repo_uoa": "ck-env"
         },
         {
+          "repo_uid": "678494f8b520000f",
           "repo_uoa": "ck-mxnet"
         }
       ],

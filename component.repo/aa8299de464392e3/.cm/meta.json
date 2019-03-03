@@ -14,6 +14,7 @@
     "ckr": {
       "repo_deps": [
         {
+          "repo_uid": "57e83bca8a5a4344",
           "repo_uoa": "ck-caffe",
           "repo_url": "http://github.com/dividiti/ck-caffe"
         }

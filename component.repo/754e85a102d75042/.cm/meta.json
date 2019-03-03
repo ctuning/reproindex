@@ -13,6 +13,7 @@
     "ckr": {
       "repo_deps": [
         {
+          "repo_uid": "62a4f46acf5ff29e",
           "repo_uoa": "ck-dissemination-modules"
         }
       ],
