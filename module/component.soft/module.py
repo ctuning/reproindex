@@ -181,6 +181,10 @@ def html(i):
 
     h+='<b>Repo name:</b> '+ruoa+'<br>\n'
 
+    to_get=llmisc.get('to_get','')
+    if to_get!='':
+       h+='<b>How to get:</b> <span style="color:#2f0000">'+to_get+'</span><br>\n'
+
     if template!='':
        h+='<b>Template:</b> '+template+'<br>\n'
 

@@ -140,6 +140,10 @@ def html(i):
     if workflow!='':
        h+='<b>Workflow:</b> '+workflow+'<br>\n'
 
+    to_get=llmisc.get('to_get','')
+    if to_get!='':
+       h+='<b>How to get:</b> <span style="color:#2f0000">'+to_get+'</span><br>\n'
+
     if len(actions1)>0:
        h+='<b>Actions:</b><br>\n'
        h+='<div style="margin-left:20px;">\n'
