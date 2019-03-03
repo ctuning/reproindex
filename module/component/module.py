@@ -89,6 +89,7 @@ def get(i):
     if c=='': c='module'
 
     c_uid='component.*' # Selected UID
+    orig_module_uid=''
 
     r=ck.access({'action':'load',
                  'module_uoa':'cfg',
@@ -106,6 +107,7 @@ def get(i):
         if xid==c:
            hc+=' selected'
            c_uid=uid
+           orig_module_uid=q['orig_module_uid']
            url+='&c='+xid
         hc+='>'+name+'</option>\n'
 
@@ -149,7 +151,7 @@ def get(i):
     if ilength!=dlength:
        url+='&l='+str(ilength)
 
-    # Search
+    # Search via CK
     ii={"action":"list",
         "module_uoa":c_uid,
         "add_meta":"yes",
@@ -174,13 +176,6 @@ def get(i):
     if llst!=1:
        h='<center>'+str(llst)+' result'+x+' ('+("%.3f" % float(ep))+' seconds)<br></center>\n'
 
-    # Get help
-    r=ck.access({'action':'get_help',
-                 'module_uoa':c_uid})
-    if r['return']==0:
-       h+='<div style="background-color:#efefef;margin:30px;padding:10px;">\n'
-       h+=r['html']+'\n'
-       h+='</div>\n'
     # List
     j1=(ipage-1)*ilength
     j2=((ipage)*ilength)-1
@@ -198,6 +193,7 @@ def get(i):
         duoa=llmisc.get('data_uoa','')
         duid=llmisc.get('data_uid','')
 
+        muid=llmisc.get('module_uid','')
         muoa=llmisc.get('module_uoa','')
 
         r=ck.access({'action':'html',
@@ -211,22 +207,29 @@ def get(i):
         xcid=c_uid+':'+duid
 
         h+='<div id="ck_entries">\n'
-        xurl1='<a href="'+url0+'cid='+xcid+'">'
-        xurl2='</a>'
+        xurl1='<a href="'+url0+'cid='+xcid+'"><span style="color:#2f0000;"><b>'
+        xurl2='</b></span></a>'
 
         if llst==1:
-           h+='<b><span style="color:#9f0000;">'+muoa+':'+duoa+'</span></b>\n'
+           h+=xurl1+muoa+':'+duoa+xurl2+'\n'
         else:
-           h+=str(jj)+') <b><span style="color:#ff0000;">'+duoa+'</span></b>\n'
+           h+=str(jj)+') '+xurl1+duoa+xurl2+'\n'
 
         h+=hh
 
+        # Extra links
+        url_help=cfg['url_ck_github_components']+cfg['module_deps']['module']+'_'+orig_module_uid
+
+        h+='<div id="ck_entries_space4"></div>\n'
+        h+='<div id="ck_downloads">\n'
+
+        h+='[&nbsp;<a href="'+url_help+'" target="_blank">help</a>&nbsp;] \n'
+        h+='[&nbsp;<a href="'+cfg['url_rr_github_components']+'/'+duid+'/.cm/meta.json" target="_blank">index</a>&nbsp;]&nbsp;&nbsp; \n'
+
         if hh1!='':
-           h+='<div id="ck_entries_space4"></div>\n'
-           h+='<div id="ck_downloads">\n'
-           h+='[&nbsp;'+xurl1+'self-ref'+xurl2+'&nbsp;]&nbsp;\n'
            h+=hh1
-           h+='</div>\n'
+
+        h+='</div>\n'
 
         h+='</div>\n'
 

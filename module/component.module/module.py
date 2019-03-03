@@ -149,9 +149,9 @@ def html(i):
            y=actions2.get(a,{})
            au=y.get('url_api','')
 
-           h+='  <li><span style="color:#9f0000;">ck <i>'+str(a)+'</i> '+duoa+'</span> - '+ad
+           h+='  <li><span style="color:#2f0000;">ck <i>'+str(a)+'</i> '+duoa+'</span> - '+ad
            if au!='':
-              h+=' (&nbsp;<a href="'+au+'"><b>API</b></a>&nbsp;)\n'
+              h+=' [<a href="'+au+'"><b><span style="color:#2f0000;">API</span></b></a>]\n'
 
        h+=' </ul>\n'
        h+='</div>\n'
@@ -160,40 +160,8 @@ def html(i):
     h1=''
 
     if repo_url1!='':
-       h1+='[&nbsp;<a href="'+repo_url1+'" target="_blank">code</a>&nbsp;]&nbsp;\n'
+       h1+='[&nbsp;<a href="'+repo_url1+'" target="_blank">code</a>&nbsp;] \n'
     if repo_url2!='':
        h1+='[&nbsp;<a href="'+repo_url2+'" target="_blank">meta</a>&nbsp;]\n'
 
-
     return {'return':0, 'html':h, 'html1':h1}
-
-##############################################################################
-# get help
-
-def get_help(i):
-    """
-    Input:  {
-            }
-
-    Output: {
-              return       - return code =  0, if successful
-                                         >  0, if error
-              (error)      - error text if return > 0
-            }
-
-    """
-
-    import os
-
-    h=''
-
-    p=work['path']
-
-    ph=os.path.join(p, 'help.html')
-
-    r=ck.load_text_file({'text_file':ph})
-    if r['return']>0: return r
-
-    h=r['string']
-
-    return {'return':0, 'html':h}

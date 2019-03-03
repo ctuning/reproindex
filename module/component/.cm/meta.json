@@ -11,5 +11,7 @@
   "module_deps": {
     "cfg":"b34231a3467566f8",
     "module": "032630d041b4fd8a"
-  }
+  },
+  "url_ck_github_components":"https://github.com/ctuning/ck/wiki/ckb_",
+  "url_rr_github_components":"https://github.com/ctuning/reuse-research/tree/master/component.module"
 }
