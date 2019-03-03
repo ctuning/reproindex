@@ -76,6 +76,7 @@
     "repo_uoa": "reproduce-cgo2017-paper",
     "repo_url1": "",
     "repo_url2": "https://github.com/SamAinsworth/reproduce-cgo2017-paper/tree/master/program/hashjoin-ph-2/.cm/meta.json",
+    "repo_url3": "https://github.com/SamAinsworth/reproduce-cgo2017-paper/tree/master/program/hashjoin-ph-2",
     "soft_name": "",
     "stags": "program,ae,cgo2017,sw-prefetch",
     "tags": [

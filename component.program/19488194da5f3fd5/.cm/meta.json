@@ -109,6 +109,7 @@
     "repo_uoa": "ck-tbd-suite",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/program/tensor2tensor-attention-tf/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tbd-suite/tree/master/program/tensor2tensor-attention-tf",
     "soft_name": "",
     "stags": "machine-translation,tensor2tensor,transformer",
     "tags": [

@@ -90,6 +90,7 @@
     "repo_uoa": "gemmbench",
     "repo_url1": "",
     "repo_url2": "git@github.com:dividiti/gemmbench/tree/master/program/arm-mali-sgemm/.cm/meta.json",
+    "repo_url3": "git@github.com:dividiti/gemmbench/tree/master/program/arm-mali-sgemm",
     "soft_name": "",
     "stags": "program,arm,mali,sgemm,opencl,lang-cpp",
     "tags": [

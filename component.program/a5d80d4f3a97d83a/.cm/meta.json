@@ -385,6 +385,7 @@
     "repo_uoa": "ck-math",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/program/test-armcl-opencl/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-math/tree/master/program/test-armcl-opencl",
     "soft_name": "",
     "stags": "armcl,arm-compute-library,test,benchmark,validation,vopencl",
     "tags": [

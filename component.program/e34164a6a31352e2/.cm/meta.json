@@ -51,6 +51,7 @@
     "repo_uoa": "ck-autotuning",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/program/tool-print-opencl-devices/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-autotuning/tree/master/program/tool-print-opencl-devices",
     "soft_name": "",
     "stags": "tool,print-devices,opencl,lang-c",
     "tags": [

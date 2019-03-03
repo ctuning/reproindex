@@ -46,6 +46,7 @@
     "repo_uoa": "ck-tvm",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tvm/tree/master/program/tvm-vta-pynq-server/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tvm/tree/master/program/tvm-vta-pynq-server",
     "soft_name": "",
     "stags": "request,request-tournament,request-asplos18,vta-pynq-server",
     "tags": [

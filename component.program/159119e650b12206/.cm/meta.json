@@ -85,6 +85,7 @@
     "repo_uoa": "ctuning-programs",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ctuning-programs/tree/master/program/polybench-cpu-jacobi-2d-imper/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ctuning-programs/tree/master/program/polybench-cpu-jacobi-2d-imper",
     "soft_name": "",
     "stags": "program,polybench,lang-c,cpu",
     "tags": [

@@ -117,6 +117,7 @@
     "repo_uoa": "reproduce-carp-project",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-carp-project/tree/master/program/polyhedral-hog-opencl-tbb/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-carp-project/tree/master/program/polyhedral-hog-opencl-tbb",
     "soft_name": "",
     "stags": "program,realeyes,polyhedral,hog,lang-cpp",
     "tags": [

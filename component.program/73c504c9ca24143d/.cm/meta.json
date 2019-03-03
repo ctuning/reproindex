@@ -98,6 +98,7 @@
     "repo_uoa": "ck-mxnet",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-mxnet/tree/master/program/mxnet/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-mxnet/tree/master/program/mxnet",
     "soft_name": "",
     "stags": "mxnet-demo,demo",
     "tags": [

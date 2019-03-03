@@ -116,6 +116,7 @@
     "repo_uoa": "ck-tvm",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tvm/tree/master/program/image-classification-tvm/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tvm/tree/master/program/image-classification-tvm",
     "soft_name": "",
     "stags": "bechmark,tvm",
     "tags": [

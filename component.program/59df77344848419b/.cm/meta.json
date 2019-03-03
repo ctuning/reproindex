@@ -71,6 +71,7 @@
     "repo_uoa": "ck-tensorflow",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/program/tensorflow-detection-squeezedet/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/program/tensorflow-detection-squeezedet",
     "soft_name": "",
     "stags": "tensorflow,squeezedet,object-detection",
     "tags": [

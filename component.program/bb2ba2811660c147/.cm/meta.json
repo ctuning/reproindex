@@ -237,6 +237,7 @@
     "repo_uoa": "reproduce-pamela-project",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-pamela-project/tree/master/program/slambench-1.1-cuda/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-pamela-project/tree/master/program/slambench-1.1-cuda",
     "soft_name": "",
     "stags": "cuda,program,slambench,v1.1,v1,lang-cpp",
     "tags": [

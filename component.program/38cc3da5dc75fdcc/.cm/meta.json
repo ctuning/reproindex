@@ -93,6 +93,7 @@
     "repo_uoa": "ctuning-programs",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ctuning-programs/tree/master/program/polybench-opencl-3dconv/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ctuning-programs/tree/master/program/polybench-opencl-3dconv",
     "soft_name": "",
     "stags": "opencl,program,polybench,lang-c",
     "tags": [

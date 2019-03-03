@@ -120,6 +120,7 @@
     "repo_uoa": "ck-mvnc",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-mvnc/tree/master/program/demo-mvnc-yolo/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-mvnc/tree/master/program/demo-mvnc-yolo",
     "soft_name": "",
     "stags": "demo,mvnc,yolo",
     "tags": [

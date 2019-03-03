@@ -133,6 +133,7 @@
     "repo_uoa": "ck-tensorflow",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/program/tensorflow-classification-cpu-1.2.1/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/program/tensorflow-classification-cpu-1.2.1",
     "soft_name": "",
     "stags": "tensorflow-classification-cpp,demo,vcpu",
     "tags": [

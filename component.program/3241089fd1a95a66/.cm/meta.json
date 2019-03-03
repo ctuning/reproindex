@@ -88,6 +88,7 @@
     "repo_uoa": "ck-dnndk",
     "repo_url1": "",
     "repo_url2": "http://github.com/ctuning/ck-dnndk/tree/master/program/image-classification-template-deephi/.cm/meta.json",
+    "repo_url3": "http://github.com/ctuning/ck-dnndk/tree/master/program/image-classification-template-deephi",
     "soft_name": "",
     "stags": "deephi,image-classification,template,lang-cpp",
     "tags": [

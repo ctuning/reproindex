@@ -78,6 +78,7 @@
     "repo_uoa": "ctuning-programs",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ctuning-programs/tree/master/program/milepost-codelet-mibench-automotive-basicmath-cubic-codelet-3-1/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ctuning-programs/tree/master/program/milepost-codelet-mibench-automotive-basicmath-cubic-codelet-3-1",
     "soft_name": "",
     "stags": "lang-c,program,milepost,small,codelet,crowd-tuning",
     "tags": [

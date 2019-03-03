@@ -117,6 +117,7 @@
     "repo_uoa": "ck-dnndk",
     "repo_url1": "",
     "repo_url2": "http://github.com/ctuning/ck-dnndk/tree/master/program/image-classification-resnet50-deephi/.cm/meta.json",
+    "repo_url3": "http://github.com/ctuning/ck-dnndk/tree/master/program/image-classification-resnet50-deephi",
     "soft_name": "",
     "stags": "deephi,image-classification,resnet50,lang-cpp",
     "tags": [

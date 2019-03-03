@@ -378,6 +378,7 @@
     "repo_uoa": "ck-caffe",
     "repo_url1": "",
     "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/program/caffe/.cm/meta.json",
+    "repo_url3": "git@github.com:dividiti/ck-caffe/tree/master/program/caffe",
     "soft_name": "",
     "stags": "program,caffe",
     "tags": [

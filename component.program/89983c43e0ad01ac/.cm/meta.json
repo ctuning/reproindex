@@ -58,6 +58,7 @@
     "repo_uoa": "ck-quantum",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-quantum/tree/master/program/benchmark-helper/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-quantum/tree/master/program/benchmark-helper",
     "soft_name": "",
     "stags": "program,lang-python",
     "tags": [

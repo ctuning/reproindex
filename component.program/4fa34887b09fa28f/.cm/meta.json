@@ -86,6 +86,7 @@
     "repo_uoa": "ctuning-programs",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ctuning-programs/tree/master/program/polybench-cpu-2mm/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ctuning-programs/tree/master/program/polybench-cpu-2mm",
     "soft_name": "",
     "stags": "program,polybench,lang-c,cpu",
     "tags": [

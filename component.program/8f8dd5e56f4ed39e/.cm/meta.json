@@ -145,6 +145,7 @@
     "repo_uoa": "ck-request-asplos18-mobilenets-tvm-arm",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-request-asplos18-mobilenets-tvm-arm/tree/master/program/request-armcl-inference/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-request-asplos18-mobilenets-tvm-arm/tree/master/program/request-armcl-inference",
     "soft_name": "",
     "stags": "armcl,benchmark,armcl-benchmark,float32,float16,tvm,vopencl",
     "tags": [

@@ -109,6 +109,7 @@
     "repo_uoa": "ck-scc18",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-scc18/tree/master/program/seissol-netcdf/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-scc18/tree/master/program/seissol-netcdf",
     "soft_name": "",
     "stags": "scientific,seissol,supercomputing,cluster,cluster-competition,2018",
     "tags": [

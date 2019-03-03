@@ -153,6 +153,7 @@
     "repo_uoa": "ck-wa-workloads",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-googlephotos/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-googlephotos",
     "soft_name": "",
     "stags": "wa,workload-automation,googlephotos",
     "tags": [

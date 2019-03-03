@@ -117,6 +117,7 @@
     "repo_uoa": "ck-math",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/program/armcl-classification-mobilenet/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-math/tree/master/program/armcl-classification-mobilenet",
     "soft_name": "",
     "stags": "armcl-classification,demo",
     "tags": [

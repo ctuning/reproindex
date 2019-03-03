@@ -110,6 +110,7 @@
     "repo_uoa": "ck-rigetti",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-rigetti/tree/master/program/pyquil-demo/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-rigetti/tree/master/program/pyquil-demo",
     "soft_name": "",
     "stags": "pyquil,rigetti,demo,examples",
     "tags": [

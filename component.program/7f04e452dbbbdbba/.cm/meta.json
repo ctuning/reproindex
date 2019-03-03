@@ -141,6 +141,7 @@
     "repo_uoa": "ck-tvm",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tvm/tree/master/program/image-classification-vta-sim/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tvm/tree/master/program/image-classification-vta-sim",
     "soft_name": "",
     "stags": "tvm-fpga-demo,request,request-tournament,request-asplos18,demo",
     "tags": [

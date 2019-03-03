@@ -103,6 +103,7 @@
     "repo_uoa": "ck-rigetti",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-rigetti/tree/master/program/rigetti-vqe2/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-rigetti/tree/master/program/rigetti-vqe2",
     "soft_name": "",
     "stags": "vqe,vqe-implementation,quantum,pyquil,rigetti,hackathon",
     "tags": [

@@ -279,6 +279,7 @@
     "repo_uoa": "ck-caffe",
     "repo_url1": "",
     "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/program/caffe-classification-opencl/.cm/meta.json",
+    "repo_url3": "git@github.com:dividiti/ck-caffe/tree/master/program/caffe-classification-opencl",
     "soft_name": "",
     "stags": "caffe-classification,demo,vcuda,continuous",
     "tags": [

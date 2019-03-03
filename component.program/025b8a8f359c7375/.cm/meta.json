@@ -89,6 +89,7 @@
     "repo_uoa": "ck-rpi-optimization",
     "repo_url1": "",
     "repo_url2": "https://github.com/dividiti/ck-rpi-optimization/tree/master/program/rhash/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-rpi-optimization/tree/master/program/rhash",
     "soft_name": "",
     "stags": "rhash,sha3,lang-c,automotive,benchmark,program,crowd-tuning",
     "tags": [

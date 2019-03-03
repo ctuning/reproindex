@@ -119,6 +119,7 @@
     "repo_uoa": "ck-tensorrt",
     "repo_url1": "",
     "repo_url2": "http://github.com/ctuning/ck-tensorrt/tree/master/program/tensorrt-time/.cm/meta.json",
+    "repo_url3": "http://github.com/ctuning/ck-tensorrt/tree/master/program/tensorrt-time",
     "soft_name": "",
     "stags": "tensorrt-time,demo",
     "tags": [

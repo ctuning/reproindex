@@ -79,6 +79,7 @@
     "repo_uoa": "ctuning-programs",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ctuning-programs/tree/master/program/cbench-telecom-adpcm-c/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ctuning-programs/tree/master/program/cbench-telecom-adpcm-c",
     "soft_name": "",
     "stags": "small,cbench,program,lang-c,crowd-tuning",
     "tags": [

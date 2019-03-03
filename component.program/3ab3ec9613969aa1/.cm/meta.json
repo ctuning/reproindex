@@ -102,6 +102,7 @@
     "repo_uoa": "ck-math",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/program/acl-sgemm-opencl-example/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-math/tree/master/program/acl-sgemm-opencl-example",
     "soft_name": "",
     "stags": "demo,program,arm-compute-lib,opencl,sgemm",
     "tags": [

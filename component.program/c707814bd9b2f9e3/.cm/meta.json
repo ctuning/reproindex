@@ -49,6 +49,7 @@
     "repo_uoa": "ck-quantum",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-quantum/tree/master/program/visualize-convergence/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-quantum/tree/master/program/visualize-convergence",
     "soft_name": "",
     "stags": "program,lang-python,quantum,visualize-convergence",
     "tags": [

@@ -106,6 +106,7 @@
     "repo_uoa": "gemmbench",
     "repo_url1": "",
     "repo_url2": "git@github.com:dividiti/gemmbench/tree/master/program/clblast-xgemm/.cm/meta.json",
+    "repo_url3": "git@github.com:dividiti/gemmbench/tree/master/program/clblast-xgemm",
     "soft_name": "",
     "stags": "gemmbench,program,clblast,xgemm",
     "tags": [

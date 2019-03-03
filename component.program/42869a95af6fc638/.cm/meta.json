@@ -92,6 +92,7 @@
     "repo_uoa": "ck-request-asplos18-caffe-intel",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-request-asplos18-caffe-intel/tree/master/program/convert-ssd-to-i8/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-request-asplos18-caffe-intel/tree/master/program/convert-ssd-to-i8",
     "soft_name": "",
     "stags": "caffe,intel,vint8",
     "tags": [

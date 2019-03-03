@@ -42,6 +42,7 @@
     "repo_uoa": "ck-rigetti",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-rigetti/tree/master/program/qvm-server/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-rigetti/tree/master/program/qvm-server",
     "soft_name": "",
     "stags": "rigetti,forest,server,qvm",
     "tags": [

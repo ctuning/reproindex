@@ -101,6 +101,7 @@
     "repo_uoa": "ck-math",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-math/tree/master/program/acl-alexnet-neon/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-math/tree/master/program/acl-alexnet-neon",
     "soft_name": "",
     "stags": "benchmark,acl,arm-compute-library,alexnet,neon",
     "tags": [

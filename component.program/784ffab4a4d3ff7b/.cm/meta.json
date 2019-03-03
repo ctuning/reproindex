@@ -93,6 +93,7 @@
     "repo_uoa": "ck-tbd-suite",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/program/image-classification-inception-tf/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tbd-suite/tree/master/program/image-classification-inception-tf",
     "soft_name": "",
     "stags": "image-classification,tensorflow-image-classification",
     "tags": [

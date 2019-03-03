@@ -93,6 +93,7 @@
     "repo_uoa": "ck-tensorflow",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/program/tensorflow-time/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/program/tensorflow-time",
     "soft_name": "",
     "stags": "benchmark,tensorflow,demo",
     "tags": [

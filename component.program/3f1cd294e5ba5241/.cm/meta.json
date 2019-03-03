@@ -117,6 +117,7 @@
     "repo_uoa": "ctuning-programs",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ctuning-programs/tree/master/program/cbench-consumer-tiff2bw/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ctuning-programs/tree/master/program/cbench-consumer-tiff2bw",
     "soft_name": "",
     "stags": "small,cbench,program,lang-c",
     "tags": [

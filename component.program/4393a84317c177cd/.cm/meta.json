@@ -108,6 +108,7 @@
     "repo_uoa": "reproduce-carp-project",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-carp-project/tree/master/program/realeyes-hog-opencl/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-carp-project/tree/master/program/realeyes-hog-opencl",
     "soft_name": "",
     "stags": "program,realeyes,hog,lang-cpp",
     "tags": [

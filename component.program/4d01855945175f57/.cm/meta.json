@@ -181,6 +181,7 @@
     "repo_uoa": "ck-caffe",
     "repo_url1": "",
     "repo_url2": "git@github.com:dividiti/ck-caffe/tree/master/program/caffe-time/.cm/meta.json",
+    "repo_url3": "git@github.com:dividiti/ck-caffe/tree/master/program/caffe-time",
     "soft_name": "",
     "stags": "caffe-time,demo,vcpu",
     "tags": [

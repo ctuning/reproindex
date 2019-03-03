@@ -71,6 +71,7 @@
     "repo_uoa": "ck-qiskit",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-qiskit/tree/master/program/visualize-ansatz/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-qiskit/tree/master/program/visualize-ansatz",
     "soft_name": "",
     "stags": "ibm,ibmq,ibmqx,qiskit,vqe,visualize,ansatz,hackathon",
     "tags": [

@@ -75,6 +75,7 @@
     "repo_uoa": "ctuning-programs",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ctuning-programs/tree/master/program/cbench-telecom-crc32/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ctuning-programs/tree/master/program/cbench-telecom-crc32",
     "soft_name": "",
     "stags": "small,cbench,program,lang-c,crowd-tuning",
     "tags": [

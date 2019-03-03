@@ -187,6 +187,7 @@
     "repo_uoa": "ck-tensorrt",
     "repo_url1": "",
     "repo_url2": "http://github.com/ctuning/ck-tensorrt/tree/master/program/tensorrt-test/.cm/meta.json",
+    "repo_url3": "http://github.com/ctuning/ck-tensorrt/tree/master/program/tensorrt-test",
     "soft_name": "",
     "stags": "tensorrt-test,demo",
     "tags": [

@@ -231,6 +231,7 @@
     "repo_uoa": "ck-caffe2",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-caffe2/tree/master/program/caffe2/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-caffe2/tree/master/program/caffe2",
     "soft_name": "",
     "stags": "program,caffe2",
     "tags": [

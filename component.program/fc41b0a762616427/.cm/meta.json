@@ -125,6 +125,7 @@
     "repo_uoa": "gemmbench",
     "repo_url1": "",
     "repo_url2": "git@github.com:dividiti/gemmbench/tree/master/program/gemmbench-cl-launcher-1.0/.cm/meta.json",
+    "repo_url3": "git@github.com:dividiti/gemmbench/tree/master/program/gemmbench-cl-launcher-1.0",
     "soft_name": "",
     "stags": "program,gemmbench,opencl,v1.0,v1,lang-cpp",
     "tags": [

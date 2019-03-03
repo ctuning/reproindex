@@ -403,6 +403,7 @@ def index(i):
 
                repo_url1_full=''
                repo_url2_full=''
+               repo_url3_full=''
                if url!='':
                   url2=url
 
@@ -416,13 +417,16 @@ def index(i):
 
                   if lm_uoa=='module':
                      repo_url1_full=url2+ln+'/module.py'
-   
+                  else:
+                     repo_url3_full=url2+ln
+
                   repo_url2_full=url2+ln+'/.cm/meta.json'
 
                # Update dict
                ddd['dict']=copy.deepcopy(lm)
                ddd['misc']={'repo_url1':repo_url1_full,
                             'repo_url2':repo_url2_full,
+                            'repo_url3':repo_url3_full,
                             'data_uoa':ln,
                             'data_uid':ln_uid,
                             'repo_uoa':lr,

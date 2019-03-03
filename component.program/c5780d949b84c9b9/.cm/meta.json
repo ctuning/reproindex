@@ -88,6 +88,7 @@
     "repo_uoa": "ctuning-programs",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ctuning-programs/tree/master/program/polybench-cuda-syr2k/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ctuning-programs/tree/master/program/polybench-cuda-syr2k",
     "soft_name": "",
     "stags": "program,polybench,lang-c-cuda,cuda",
     "tags": [

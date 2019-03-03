@@ -118,6 +118,7 @@
     "repo_uoa": "ck-tensorflow",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/program/image-classification-tflite/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/program/image-classification-tflite",
     "soft_name": "",
     "stags": "tensorflow-lite-classification",
     "tags": [

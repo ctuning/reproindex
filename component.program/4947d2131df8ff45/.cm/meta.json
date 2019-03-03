@@ -68,6 +68,7 @@
     "repo_uoa": "reproduce-adapt16",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-adapt16/tree/master/program/adapt16-adpcm/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-adapt16/tree/master/program/adapt16-adpcm",
     "soft_name": "",
     "stags": "adapt16,program,lang-c",
     "tags": [

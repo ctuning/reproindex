@@ -45,6 +45,7 @@
     "repo_uoa": "ck-autotuning",
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/program/tool-print-cuda-devices/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-autotuning/tree/master/program/tool-print-cuda-devices",
     "soft_name": "",
     "stags": "tool,print-devices,lang-c-cuda,cuda",
     "tags": [
