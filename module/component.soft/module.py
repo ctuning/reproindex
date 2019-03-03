@@ -149,7 +149,7 @@ def html(i):
     repo_url2=llmisc.get('repo_url2','')
     repo_url3=llmisc.get('repo_url3','')
 
-    desc=lldict.get('desc','')
+    desc=lldict.get('soft_name','')
 
     duoa=llmisc.get('data_uoa','')
     duid=llmisc.get('data_uid','')
@@ -158,6 +158,9 @@ def html(i):
     ruid=llmisc.get('repo_uid','')
 
     muoa=llmisc.get('module_uoa','')
+
+    ad=llmisc.get('auto_detect','')
+    ep=llmisc.get('env_prefix','')
 
     h=''
     if desc!='':
@@ -180,6 +183,10 @@ def html(i):
 
     if template!='':
        h+='<b>Template:</b> '+template+'<br>\n'
+
+    h+='<b>Auto detection:</b> '+ad+'<br>\n'
+
+    h+='<b>Environment var: </b> '+ep+'<br>\n'
 
     h+='<b>Host&nbsp;OS:</b> '+host_os+'<br>\n'
 
