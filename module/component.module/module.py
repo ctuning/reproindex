@@ -113,6 +113,8 @@ def html(i):
     llmisc=llm.get('misc',{})
     lldict=llm.get('dict',{})
 
+    workflow=llmisc.get('workflow','')
+
     repo_url1=llmisc.get('repo_url1','')
     repo_url2=llmisc.get('repo_url2','')
 
@@ -120,6 +122,9 @@ def html(i):
 
     duoa=llmisc.get('data_uoa','')
     duid=llmisc.get('data_uid','')
+
+    ruoa=llmisc.get('repo_uoa','')
+    ruid=llmisc.get('repo_uid','')
 
     muoa=llmisc.get('module_uoa','')
 
@@ -132,6 +137,9 @@ def html(i):
 
     h+='<div style="background-color:#efefef;margin:5px;padding:5px;">\n'
     if len(actions1)>0:
+       h+='<b>Repo name:</b> '+ruoa+'<br>\n'
+       if workflow!='':
+          h+='<b>Workflow:</b> '+workflow+'<br>\n'
        h+='<b>Actions:</b><br>\n'
        h+='<div style="margin-left:20px;">\n'
        h+=' <ul>\n'
@@ -143,7 +151,7 @@ def html(i):
 
            h+='  <li><span style="color:#9f0000;">ck <i>'+str(a)+'</i> '+duoa+'</span> - '+ad
            if au!='':
-              h+=' (&nbsp;<a href="'+au+'">API</a>&nbsp;)\n'
+              h+=' (&nbsp;<a href="'+au+'"><b>API</b></a>&nbsp;)\n'
 
        h+=' </ul>\n'
        h+='</div>\n'
@@ -158,3 +166,34 @@ def html(i):
 
 
     return {'return':0, 'html':h, 'html1':h1}
+
+##############################################################################
+# get help
+
+def get_help(i):
+    """
+    Input:  {
+            }
+
+    Output: {
+              return       - return code =  0, if successful
+                                         >  0, if error
+              (error)      - error text if return > 0
+            }
+
+    """
+
+    import os
+
+    h=''
+
+    p=work['path']
+
+    ph=os.path.join(p, 'help.html')
+
+    r=ck.load_text_file({'text_file':ph})
+    if r['return']>0: return r
+
+    h=r['string']
+
+    return {'return':0, 'html':h}

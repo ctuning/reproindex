@@ -3,6 +3,9 @@
     "add_index": {
       "desc": "add index"
     },
+    "get_help": {
+      "desc": "get help"
+    },
     "html": {
       "desc": "generate html"
     }

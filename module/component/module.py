@@ -174,6 +174,13 @@ def get(i):
     if llst!=1:
        h='<center>'+str(llst)+' result'+x+' ('+("%.3f" % float(ep))+' seconds)<br></center>\n'
 
+    # Get help
+    r=ck.access({'action':'get_help',
+                 'module_uoa':c_uid})
+    if r['return']==0:
+       h+='<div style="background-color:#efefef;margin:30px;padding:10px;">\n'
+       h+=r['html']+'\n'
+       h+='</div>\n'
     # List
     j1=(ipage-1)*ilength
     j2=((ipage)*ilength)-1
@@ -208,15 +215,16 @@ def get(i):
         xurl2='</a>'
 
         if llst==1:
-           h+='<b>'+xurl1+muoa+':'+duoa+xurl2+'</b>\n'
+           h+='<b><span style="color:#9f0000;">'+muoa+':'+duoa+'</span></b>\n'
         else:
-           h+=str(jj)+') <b>'+xurl1+duoa+xurl2+'</b>\n'
+           h+=str(jj)+') <b><span style="color:#ff0000;">'+duoa+'</span></b>\n'
 
         h+=hh
 
         if hh1!='':
            h+='<div id="ck_entries_space4"></div>\n'
            h+='<div id="ck_downloads">\n'
+           h+='[&nbsp;'+xurl1+'self-ref'+xurl2+'&nbsp;]&nbsp;\n'
            h+=hh1
            h+='</div>\n'
 
