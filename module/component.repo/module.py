@@ -49,44 +49,88 @@ def add_index(i):
     """
 
     import copy
+    import os
 
     d=i['dict']
     m=i['meta']
 
-    repo_url1_full=d['misc'].get('repo_url1','')
+    dd=d.get('dict',{})
 
-    data_uoa=d['misc'].get('data_uoa','')
-    data_uid=d['misc'].get('data_uid','')
+    if 'misc' not in d: d['misc']={}
+    misc=d['misc']
 
-    module_uoa=d['misc'].get('module_uoa','')
-    module_uid=d['misc'].get('module_uid','')
+    repo_url1_full=misc.get('repo_url1','')
+    repo_url2_full=misc.get('repo_url2','')
+    repo_url3_full=misc.get('repo_url3','')
 
-    xworkflow=m.get('workflow','')
-    workflow=m.get('workflow_type','')
-    if xworkflow=='yes' and workflow=='':
-       workflow='yes'
+    data_uoa=misc.get('data_uoa','')
+    data_uid=misc.get('data_uid','')
 
-    d['misc']['workflow']=workflow
-    d['misc']['actions']={}
+    module_uoa=misc.get('module_uoa','')
+    module_uid=misc.get('module_uid','')
 
-    actions=m.get('actions',{})
+    # Find real repo and get .ckr.json
+    ckr={}
+    rx=ck.access({'action':'where',
+                  'module_uoa':cfg['module_deps']['repo'],
+                  'data_uoa':data_uoa})
+    if rx['return']==0: 
+       pckr=os.path.join(rx['path'], ck.cfg['repo_file'])
+       if os.path.isfile(pckr):
+          rx=ck.load_json_file({'json_file':pckr})
+          if rx['return']>0: return rx
 
-    if len(actions)>0:
-       for q in sorted(actions):
+          rxd=rx['dict']
 
-           qq=actions[q]
+          dx=rxd['dict']
 
-           d['misc']['actions'][q]={}
+          if 'path' in dx:
+             del(dx['path'])
 
-           if repo_url1_full!='':
-              # Get API!
-              l=-1
-              rx=ck.get_api({'module_uoa':data_uid, 'func':q})
-              if rx['return']==0:
-                 l=rx['line']
+          real_repo_uid=rxd['data_uid']
 
-              if l!=-1:
-                 d['misc']['actions'][q]['url_api']=repo_url1_full+'#L'+str(l)
+          # Check if mismatch of real uid and current one (old bug - should be fixed now)
+          if real_repo_uid!=data_uid:
+             ck.out('')
+             ck.out('WARNING: repo UID mismatch for '+data_uoa+' ('+real_repo_uid+' != '+data_uid+')')
+             ck.out('')
+          else:
+             ckr=dx
+
+    misc['ckr']=ckr
+
+    # Check extra info
+    r=ck.access({'action':'load',
+                 'module_uoa':cfg['module_deps']['cfg'],
+                 'data_uoa':cfg['cfg-list-of-repos']})
+    if r['return']==0:
+       dx=r['dict']
+
+       d1=dx.get(data_uid,{})
+       if len(d1)>0:
+          d=d1.get('dict',{})
+
+          url=d.get('url','')
+          external_url=d.get('external_url','')
+          rd=d.get('repo_deps',{})
+
+          ld=d.get('desc','')
+          ld=ld.replace('$#repo_url#$',repo_url3_full)
+
+          misc['desc']=ld
+
+          workflow_desc=d.get('workflow_desc','')
+          
+          workflow_desc=workflow_desc.replace('$#repo_url#$',repo_url3_full)
+
+          if d.get('ck_artifact','')!='' or d.get('reproducible_article','')=='yes' or d.get('passed_artifact_evaluation','')=='yes':
+             if workflow_desc!='': workflow_desc+='<p>'
+             workflow_desc+='reproducible&nbsp;paper\n'
+             if d.get('passed_artifact_evaluation','')=='yes':
+                workflow_desc+='-&nbsp;passed&nbsp;<a href="http://cTuning.org/ae">Artifact&nbsp;Evaluation</a>:\n'
+                workflow_desc+='<p><center><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg" width="64"></center>\n'
+
+          misc['workflow_desc']=workflow_desc
 
     return {'return':0}
 

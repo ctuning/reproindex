@@ -7,5 +7,10 @@
       "desc": "generate html"
     }
   },
-  "desc": "index of CK repositories"
+  "cfg-list-of-repos":"list-of-repos",
+  "desc": "index of CK repositories",
+  "module_deps": {
+    "repo":"befd7892b0d469e9",
+    "cfg":"b34231a3467566f8"
+  }
 }

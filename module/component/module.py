@@ -294,6 +294,7 @@ def index(i):
 
     import os
     import copy
+    import json
 
     o=i.get('out','')
 
@@ -301,13 +302,13 @@ def index(i):
     if tr_uoa=='': tr_uoa='reuse-research'
 
     # Check which components to index
-    duoa=i.get('data_uoa','')
-    if duoa!='':
+    qduoa=i.get('data_uoa','')
+    if qduoa!='':
        r=ck.access({'action':'load',
                     'module_uoa':cfg['module_deps']['module'],
-                    'data_uoa':duoa})
+                    'data_uoa':qduoa})
        if r['return']>0: return r
-       duoa=r['data_uid']
+       qduoa=r['data_uid']
 
     r=ck.access({'action':'load',
                  'module_uoa':cfg['module_deps']['cfg'],
@@ -320,7 +321,7 @@ def index(i):
         c_uid=cc["uid"]
         cm_uid=cc["orig_module_uid"]
 
-        if duoa!='' and c_uid!=duoa:
+        if qduoa!='' and c_uid!=qduoa:
            continue
 
         ck.out('==========================================================')
@@ -366,19 +367,42 @@ def index(i):
                rx=ck.load_repo_info_from_cache({'repo_uoa':lr_uid})
                if rx['return']>0: return rx
                url=rx.get('dict',{}).get('url','')
+
+               if url!='' and url.startswith('git@'):
+                  url=url.replace(':','/').replace('git@','https://')
+
                repo_private[lr_uid]=rx.get('dict',{}).get('private','')
                repo_url[lr_uid]=url
 
-            private=repo_private.get(lr_uid,'')
+            # Check if indexing repository (slightly different mechanism from all other components)
+            skip=False
+            if lm_uoa=='repo':
+               lm=l['meta']
 
-            # Check that repository is not private or local ...
-            if lr not in cfg.get('skip_repos',[]) and private!='yes' and url!='':
+               if 'path' in lm: del(lm['path'])
+
+               private=lm.get('private','')
+               skip_indexing=lm.get('skip_from_index','')
+               remote=lm.get('remote','')
+               url=lm.get('url','')
+
+               if url!='' and url.startswith('git@'):
+                  url=url.replace(':','/').replace('git@','https://')
+
+               if url=='' or private=='yes' or skip_indexing=='yex' or remote=='yes' or ln=='default' or ln=='local' or ln in ck.cfg.get('skip_repos',[]):
+                  skip=True
+
+            elif not (lr not in ck.cfg.get('skip_repos',[]) and repo_private.get(lr_uid,'')!='yes' and url!=''):
+               skip=True
+
+            if not skip:
                num+=1
 
                ck.out('  '+str(num)+') '+ln)
 
                # Check if entry already exists
                ddd={}
+               ddd_exist={}
                exist=False
                r=ck.access({'action':'load',
                             'module_uoa':c_uid,
@@ -387,6 +411,7 @@ def index(i):
                if r['return']>0 and r['return']!=16: return r
                if r['return']==0: 
                   ddd=r['dict']
+                  ddd_exist=copy.deepcopy(ddd)
                   exist=True
 
                # General vars
@@ -394,7 +419,7 @@ def index(i):
                ld=lm.get('desc','')
 
                # Info about repo
-               if lr=='default':
+               if lm_uoa!='repo' and lr=='default':
                   to_get=''
                elif url.find('github.com/ctuning/')>0:
                   to_get='ck pull repo:'+lr
@@ -417,6 +442,10 @@ def index(i):
 
                   if lm_uoa=='module':
                      repo_url1_full=url2+ln+'/module.py'
+                  elif lm_uoa=='repo':
+                     if lm.get('skip_from_index','')=='yes':
+                        continue
+                     repo_url3_full=url2+ln
                   else:
                      repo_url3_full=url2+ln
 
@@ -432,7 +461,8 @@ def index(i):
                             'repo_uoa':lr,
                             'repo_uid':lr_uid,
                             'module_uoa':lm_uoa,
-                            'module_uid':lm_uid}
+                            'module_uid':lm_uid,
+                            'to_get':to_get}
 
                # Add specific info per component
                r=ck.access({'action':'add_index',
@@ -452,11 +482,19 @@ def index(i):
                if exist:
                   ii['action']='update'
                   ii['ignore_update']='yes'
+
+                  # Hack to check arrays
+                  j1=json.dumps(ddd_exist,sort_keys=True)
+                  j2=json.dumps(ddd,sort_keys=True)
+
+                  if j1!=j2:
+                     r=ck.access(ii)
+                     if r['return']>0: return r
                else:
                   ii['action']='add'
 
-               r=ck.access(ii)
-               if r['return']>0: return r
+                  r=ck.access(ii)
+                  if r['return']>0: return r
 
         ck.out('')
         ck.out('  Total components: '+str(num))
