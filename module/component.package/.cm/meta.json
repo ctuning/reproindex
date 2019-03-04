@@ -17,6 +17,7 @@
   "module_deps": {
     "component": "bd4513457990ba8f",
     "component.repo": "4adfaff6d69d41a9",
+    "component.soft": "c4746e18ba0d23fe",
     "soft": "5e1100048ab875d7"
   }
 }

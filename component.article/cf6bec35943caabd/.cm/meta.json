@@ -1,0 +1,30 @@
+{
+  "misc": {
+    "artifact_doi_url": "https://doi.org/10.1145/3229770",
+    "artifact_sources": "github",
+    "artifact_sources_url": "https://github.com/merrymercy/tvm-mali",
+    "authors": "lianmin zheng, tianqi chen",
+    "badge_acm_artifact_available": "",
+    "badge_acm_artifact_reusable": "yes",
+    "badge_acm_results_replicated": "yes",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "c47366a47958ef4b",
+    "paper_doi_url": "https://doi.org/10.1145/3229762.3229764",
+    "paper_pdf_url": "",
+    "reproducibility_url": "http://cknowledge.org/request-cfp-asplos2018.html",
+    "results_dashboard_url": "http://cknowledge.org/dashboard/request.asplos18",
+    "results_url": "https://github.com/ctuning/ck-request-asplos18-results-mobilenets-tvm-arm",
+    "title": "Optimizing deep learning workloads on arm gpu with tvm",
+    "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
+    "where": "request-asplos'18",
+    "where_url": "http://cknowledge.org/request-cfp-asplos2018.html",
+    "workflow": "ck",
+    "workflow_url": "https://github.com/ctuning/ck-request-asplos18-mobilenets-tvm-arm"
+  },
+  "tags": [
+    "papers",
+    "papers-request",
+    "papers-request-asplos",
+    "papers-request-asplos-2018"
+  ]
+}

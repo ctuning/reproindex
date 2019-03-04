@@ -166,14 +166,27 @@ def get(i):
         "search_dict":qs}
     if d_uoa!='':
        ii['data_uoa']=d_uoa
+
     r=ck.access(ii)
     if r['return']>0: return r
 
     lst=r['lst']
     ep=r['elapsed_time']
 
-    # Sort by name
-    lst=sorted(lst, key=lambda x: x.get('meta',{}).get('misc',{}).get('data_uoa',''))
+    # Extra processing if article and selector != ""
+    if c=='article':
+       if selector!='':
+          lst1=[]
+          for l in lst:
+              tags=l['meta'].get('tags',[])
+              if selector in tags:
+                 lst1.append(l)
+          lst=lst1
+       # Sort by title
+       lst=sorted(lst, key=lambda x: x.get('meta',{}).get('misc',{}).get('title','').lower())
+    else:
+       # Sort by data alias
+       lst=sorted(lst, key=lambda x: x.get('meta',{}).get('misc',{}).get('data_uoa',''))
 
     llst=len(lst)
 
@@ -199,6 +212,8 @@ def get(i):
 
         duoa=llmisc.get('data_uoa','')
         duid=llmisc.get('data_uid','')
+        if duid=='':
+           duid=ll['data_uid']
 
         muid=llmisc.get('module_uid','')
         muoa=llmisc.get('module_uoa','')
@@ -211,6 +226,7 @@ def get(i):
 
         hh=r['html']
         hh1=r.get('html1','')
+        article=r.get('article','')
 
         xcid=c_uid+':'+duid
 
@@ -219,9 +235,15 @@ def get(i):
         xurl2='</b></span></a>'
 
         if llst==1:
-           h+=xurl1+muoa+':'+duoa+xurl2+'\n'
+           if article!='':
+              h+=xurl1+article+xurl2+'\n'
+           else:
+              h+=xurl1+muoa+':'+duoa+xurl2+'\n'
         else:
-           h+=str(jj)+') '+xurl1+duoa+xurl2+'\n'
+           if article!='':
+              h+=str(jj)+') '+xurl1+article+xurl2+'\n'
+           else:
+              h+=str(jj)+') '+xurl1+duoa+xurl2+'\n'
 
         h+=hh
 
@@ -231,7 +253,9 @@ def get(i):
         h+='<div id="ck_entries_space4"></div>\n'
         h+='<div id="ck_downloads">\n'
 
-        h+='[&nbsp;<a href="'+url_help+'" target="_blank">help</a>&nbsp;] \n'
+        if orig_module_uid!='':
+           h+='[&nbsp;<a href="'+url_help+'" target="_blank">help</a>&nbsp;] \n'
+
         h+='[&nbsp;<a href="'+cfg['url_rr_github_components']+'.'+c+'/'+duid+'/.cm/meta.json" target="_blank">index</a>&nbsp;]&nbsp;&nbsp; \n'
 
         if hh1!='':

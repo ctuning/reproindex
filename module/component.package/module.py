@@ -204,7 +204,13 @@ def html(i):
        h+='<b>How to get:</b> <span style="color:#2f0000">'+to_get+'</span><br>\n'
 
     if soft_uoa!='':
-       h+='<b>Soft plugin:</b> '+soft_uoa+'<br>\n'
+       x1=''
+       x2=''
+       if soft_uid!='':
+          x1='<a href="'+url0+'cid='+cfg['module_deps']['component.soft']+':'+soft_uid+'" target="_blank">'
+          x2='</a>'
+
+       h+='<b>Soft plugin:</b> '+x1+soft_uoa+x2+'<br>\n'
 
     if template!='':
        h+='<b>Template:</b> '+template+'<br>\n'

@@ -113,12 +113,9 @@ def html(i):
     llmisc=llm.get('misc',{})
     lldict=llm.get('dict',{})
 
-    workflow=llmisc.get('workflow','')
-
     repo_url1=llmisc.get('repo_url1','')
     repo_url2=llmisc.get('repo_url2','')
-
-    desc=lldict.get('desc','')
+    repo_url3=llmisc.get('repo_url3','')
 
     duoa=llmisc.get('data_uoa','')
     duid=llmisc.get('data_uid','')
@@ -126,45 +123,139 @@ def html(i):
     ruoa=llmisc.get('repo_uoa','')
     ruid=llmisc.get('repo_uid','')
 
+    muid=llmisc.get('module_uid','')
     muoa=llmisc.get('module_uoa','')
 
-    h=''
-    if desc!='':
-       h+='<i> - '+desc+'</i>\n'
+    #Main
+    title=llmisc.get('title','')
+    authors=llmisc.get('authors','')
+    where=llmisc.get('where','')
+    paper_pdf_url=llmisc.get('paper_pdf_url','')
+    paper_doi_url=llmisc.get('paper_doi_url','')
+    artifact_doi_url=llmisc.get('artifact_doi_url','')
 
-    actions1=lldict.get('actions',{})
-    actions2=llmisc.get('actions',{})
+    workflow=llmisc.get('workflow','')
+    workflow_url=llmisc.get('workflow_url','')
+
+    h=''
+    article=''
+    if title!='':
+       article='<b>"'+title+'"</b>'
+
+    if authors!='':
+       h+='<div id="ck_entries_space4"></div>\n'
+       h+='<i>'+authors+'</i>\n'
+
+    baaa=llmisc.get('badge_acm_artifact_available','')
+    baaf=llmisc.get('badge_acm_artifact_functional','')
+    baar=llmisc.get('badge_acm_artifact_reusable','')
+    barr=llmisc.get('badge_acm_results_reproduced','')
+    barp=llmisc.get('badge_acm_results_replicated','')
+
+    badges=''
+    if baaa!='':
+       badges+=' <a href="http://cTuning.org/ae/reviewing.html"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_available_dl.jpg" width="64"></a>'
+    if baaf!='':
+       badges+=' <a href="http://cTuning.org/ae/reviewing.html"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_functional_dl.jpg" width="64"></a>'
+    if baar!='':
+       badges+=' <a href="http://cTuning.org/ae/reviewing.html"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg" width="64"></a>'
+    if barr!='':
+       badges+=' <a href="http://cTuning.org/ae/reviewing.html"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/results_reproduced_dl.jpg" width="64"></a>'
+    if barp!='':
+       badges+=' <a href="http://cTuning.org/ae/reviewing.html"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/results_replicated_dl.jpg" width="64"></a>'
+
+    if workflow.lower()=='ck':
+       badges+=' <a href="http://cKnowledge.org"><img src="http://ctuning.org/ae/stamps/ck-workflow.png" width="100"></a>'
+
+
+    if badges!='':
+       h+='<div id="ck_entries_space4"></div>\n'
+       h+='<center>'+badges+'</center>\n'
 
     h+='<div style="background-color:#efefef;margin:5px;padding:5px;">\n'
-    if len(actions1)>0:
-       h+='<b>Repo name:</b> '+ruoa+'<br>\n'
-       if workflow!='':
-          h+='<b>Workflow:</b> '+workflow+'<br>\n'
-       h+='<b>Actions:</b><br>\n'
-       h+='<div style="margin-left:20px;">\n'
-       h+=' <ul>\n'
-       for a in actions1:
-           x=actions1[a]
-           ad=x.get('desc','')
-           y=actions2.get(a,{})
-           au=y.get('url_api','')
 
-           h+='  <li><span style="color:#2f0000;">ck <i>'+str(a)+'</i> '+duoa+'</span> - '+ad
-           if au!='':
-              h+=' [<a href="'+au+'"><b><span style="color:#2f0000;">API</span></b></a>]\n'
+    url0=i.get('url','')
+#    x1=''
+#    x2=''
+#    if url0!='' and ruid!='':
+#       x1='<a href="'+url0+'cid='+cfg['module_deps']['component.repo']+':'+ruid+'" target="_blank">'
+#       x2='</a>'
+#    h+='<b>Repo name:</b> '+x1+ruoa+x2+'<br>\n'
 
-       h+=' </ul>\n'
-       h+='</div>\n'
+    where_url=llmisc.get('where_url','')
+    if where!='':
+       x1=''
+       x2=''
+       if where_url!='':
+          x1='<a href="'+where_url+'">'
+          x2='</a>'
+       h+='<b>Where published:</b> '+x1+where+x2+'<br>\n'
+
+    if paper_doi_url!='':
+       x=paper_doi_url
+       j=paper_doi_url.find('doi.org/')
+       if j>0: x=paper_doi_url[j+8:]
+       h+='<b>Article DOI:</b> <a href="'+paper_doi_url+'">'+x+'</a><br>\n'
+
+    if paper_pdf_url!='':
+       h+='<b>Article:</b> <a href="'+paper_pdf_url+'">PDF</a><br>\n'
+
+    if artifact_doi_url!='':
+       x=artifact_doi_url
+       j=artifact_doi_url.find('doi.org/')
+       if j>0: x=artifact_doi_url[j+8:]
+       h+='<b>Artifact DOI:</b> <a href="'+artifact_doi_url+'">'+x+'</a><br>\n'
+
+    arts=llmisc.get('artifact_sources','')
+    arts_url=llmisc.get('artifact_sources_url','')
+
+    if arts_url!='':
+       x=arts_url
+       if arts!='': x=arts
+       h+='<b>Artifact Sources:</b> <a href="'+arts_url+'">'+x+'</a><br>\n'
+
+    uaa=llmisc.get('unified_artifact_appendix','')
+    if uaa!='':
+       h+='<b>Unified artifact appendix:</b> <a href="'+uaa+'">Link</a><br>\n'
+
+    if workflow_url!='':
+       x=workflow_url
+       if workflow!='': x=workflow
+       h+='<b>Automated workflow:</b> <a href="'+workflow_url+'">'+x+'</a><br>\n'
+
+    results=llmisc.get('results','')
+    results_url=llmisc.get('results_url','')
+    if results_url!='':
+       x=results_url
+       if results!='': x=results
+       h+='<b>Reproducible results:</b> <a href="'+results_url+'">'+x+'</a><br>\n'
+
+    rurl=llmisc.get('reproducibility_url','')
+    if rurl!='':
+       h+='<b>Reproducibility (methodology):</b> yes (<a href="'+rurl+'">link</a>)<br>\n'
+
+    results_dashboard_url=llmisc.get('results_dashboard_url','')
+    if results_dashboard_url!='':
+       x=results_dashboard_url
+       j=x.find('://')
+       if j>=0:
+          x=x[j+3:]
+       h+='<b>Dashboard with results:</b> <a href="'+results_dashboard_url+'">'+x+'</a><br>\n'
+
     h+='</div>\n'
 
+    # Extras
     h1=''
 
-    if repo_url1!='':
-       h1+='[&nbsp;<a href="'+repo_url1+'" target="_blank">code</a>&nbsp;] \n'
-    if repo_url2!='':
-       h1+='[&nbsp;<a href="'+repo_url2+'" target="_blank">meta</a>&nbsp;]\n'
+    if paper_doi_url!='':
+       h1+='[&nbsp;<a href="'+paper_doi_url+'" target="_blank">paper</a>&nbsp;] \n'
 
-    return {'return':0, 'html':h, 'html1':h1}
+    ck_repo_uid=llmisc.get('ck_repo_uid','')
+    if ck_repo_uid!='':
+       x=url0+'cid='+cfg['module_deps']['component.repo']+':'+ck_repo_uid
+       h1+='[&nbsp;<a href="'+x+'" target="_blank">CK repository</a>&nbsp;] \n'
+
+    return {'return':0, 'html':h, 'html1':h1, 'article':article}
 
 ##############################################################################
 # index components
@@ -227,3 +318,171 @@ def get(i):
     i['component_uoa']=duoa
 
     return ck.access(i)
+
+##############################################################################
+# add new index manually
+
+def add(i):
+    """
+    Input:  {
+            }
+
+    Output: {
+              return       - return code =  0, if successful
+                                         >  0, if error
+              (error)      - error text if return > 0
+            }
+
+    """
+
+    import os
+
+    for k in ['cids', 'cid', 'xcids']:
+        if k in i: del(i[k])
+
+    o=i.get('out','')
+
+    ruoa=i.get('repo_uoa','')
+    if ruoa=='': tr_uoa='reuse-research'
+
+    i['common_func']='yes'
+    i['sort_keys']='yes'
+
+    share=i.get('share','')
+    if share=='': share='yes'
+    i['share']='yes'
+
+    d=i.get('dict',{})
+
+    if 'misc' not in d: d['misc']={}
+    misc=d.get('misc',{})
+
+    # Ask questions
+    ##########################################################
+    r=ck.inp({'text':'Enter event tags without spaces and separated by comma (example: papers,papers-sysml-2019): '})
+    if r['return']>0: return r
+    s=r['string'].strip().lower()
+
+    tags=s.split(',')
+    d['tags']=tags
+
+    ##########################################################
+    r=ck.inp({'text':'Enter title: '})
+    if r['return']>0: return r
+    misc['title']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter authors separated by comma: '})
+    if r['return']>0: return r
+    misc['authors']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter event title (example: SysML\'19): '})
+    if r['return']>0: return r
+    misc['where']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter event URL: '})
+    if r['return']>0: return r
+    misc['where_url']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter PDF URL (if available): '})
+    if r['return']>0: return r
+    misc['paper_pdf_url']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter paper DOI URL: '})
+    if r['return']>0: return r
+    misc['paper_doi_url']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter artifact DOI URL: '})
+    if r['return']>0: return r
+    misc['artifact_doi_url']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter artifact sources URL: '})
+    if r['return']>0: return r
+    misc['artifact_sources_url']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter artifact sources type (example: GitHub, GitLab, BitBucket): '})
+    if r['return']>0: return r
+    misc['artifact_sources']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter URL for unified artifact appendix template (if used by this article): '})
+    if r['return']>0: return r
+    misc['unified_artifact_appendix']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter automated workflow URL (if used): '})
+    if r['return']>0: return r
+    misc['workflow_url']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter automated workflow type (example: CK): '})
+    if r['return']>0: return r
+    misc['workflow']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter URL with reproducible results (if available): '})
+    if r['return']>0: return r
+    misc['results_url']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter used methodology for reproducibility: '})
+    if r['return']>0: return r
+    misc['reproducibility_url']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter URL for dashboard (if used): '})
+    if r['return']>0: return r
+    misc['results_dashboard_url']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter CK repository UID (if used): '})
+    if r['return']>0: return r
+    misc['ck_repo_uid']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter yes if artifact is available (ACM badges): '})
+    if r['return']>0: return r
+    misc['badge_acm_artifact_available']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter yes if artifact is functional (ACM badges): '})
+    if r['return']>0: return r
+    misc['badge_acm_artifact_available']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter yes if artifact is reusable (ACM badges): '})
+    if r['return']>0: return r
+    misc['badge_acm_artifact_reusable']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter yes if results were reproduced (ACM badges): '})
+    if r['return']>0: return r
+    misc['badge_acm_results_reproduced']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter yes if results were replicated (ACM badges): '})
+    if r['return']>0: return r
+    misc['badge_acm_results_replicated']=r['string'].strip().lower()
+
+    # update dict
+    i['dict']=d
+
+    # Add entry
+    r=ck.access(i)
+    if r['return']>0: return r
+
+    # Print info
+    p=r['path']
+    p1=os.path.join(p,'.cm/meta.json')
+
+    ck.out('')
+    ck.out('You can continue editing meta description file "'+p1+'" directly ...')
+
+    return r
