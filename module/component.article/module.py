@@ -230,6 +230,10 @@ def html(i):
        if results!='': x=results
        h+='<b>Reproducible results:</b> <a href="'+results_url+'">'+x+'</a><br>\n'
 
+    some_results_replicated=llmisc.get('some_results_replicated','')
+    if some_results_replicated=='yes':
+       h+='<b>Some results replicated:</b> &#10004;<br>\n'
+
     rurl=llmisc.get('reproducibility_url','')
     if rurl!='':
        h+='<b>Reproducibility (methodology):</b> yes (<a href="'+rurl+'">link</a>)<br>\n'
@@ -475,6 +479,11 @@ def add(i):
     r=ck.inp({'text':'Enter yes if results were replicated (ACM badges): '})
     if r['return']>0: return r
     misc['badge_acm_results_replicated']=r['string'].strip().lower()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter yes if some results were replicated: '})
+    if r['return']>0: return r
+    misc['some_results_replicated']=r['string'].strip().lower()
 
     # update dict
     i['dict']=d
