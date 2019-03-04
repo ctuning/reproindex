@@ -369,77 +369,82 @@ def add(i):
     ##########################################################
     r=ck.inp({'text':'Enter title: '})
     if r['return']>0: return r
-    misc['title']=r['string'].strip().lower()
+    misc['title']=r['string'].strip()
 
     ##########################################################
     r=ck.inp({'text':'Enter authors separated by comma: '})
     if r['return']>0: return r
-    misc['authors']=r['string'].strip().lower()
+    misc['authors']=r['string'].strip()
 
     ##########################################################
     r=ck.inp({'text':'Enter event title (example: SysML\'19): '})
     if r['return']>0: return r
-    misc['where']=r['string'].strip().lower()
+    misc['where']=r['string'].strip()
 
     ##########################################################
     r=ck.inp({'text':'Enter event URL: '})
     if r['return']>0: return r
-    misc['where_url']=r['string'].strip().lower()
+    misc['where_url']=r['string'].strip()
 
     ##########################################################
     r=ck.inp({'text':'Enter PDF URL (if available): '})
     if r['return']>0: return r
-    misc['paper_pdf_url']=r['string'].strip().lower()
+    misc['paper_pdf_url']=r['string'].strip()
 
     ##########################################################
     r=ck.inp({'text':'Enter paper DOI URL: '})
     if r['return']>0: return r
-    misc['paper_doi_url']=r['string'].strip().lower()
+    misc['paper_doi_url']=r['string'].strip()
 
     ##########################################################
     r=ck.inp({'text':'Enter artifact DOI URL: '})
     if r['return']>0: return r
-    misc['artifact_doi_url']=r['string'].strip().lower()
+    misc['artifact_doi_url']=r['string'].strip()
 
     ##########################################################
     r=ck.inp({'text':'Enter artifact sources URL: '})
     if r['return']>0: return r
-    misc['artifact_sources_url']=r['string'].strip().lower()
+    misc['artifact_sources_url']=r['string'].strip()
 
     ##########################################################
     r=ck.inp({'text':'Enter artifact sources type (example: GitHub, GitLab, BitBucket): '})
     if r['return']>0: return r
-    misc['artifact_sources']=r['string'].strip().lower()
+    misc['artifact_sources']=r['string'].strip()
 
     ##########################################################
     r=ck.inp({'text':'Enter URL for unified artifact appendix template (if used by this article): '})
     if r['return']>0: return r
-    misc['unified_artifact_appendix']=r['string'].strip().lower()
+    misc['unified_artifact_appendix']=r['string'].strip()
 
     ##########################################################
     r=ck.inp({'text':'Enter automated workflow URL (if used): '})
     if r['return']>0: return r
-    misc['workflow_url']=r['string'].strip().lower()
+    misc['workflow_url']=r['string'].strip()
 
     ##########################################################
     r=ck.inp({'text':'Enter automated workflow type (example: CK): '})
     if r['return']>0: return r
-    misc['workflow']=r['string'].strip().lower()
+    misc['workflow']=r['string'].strip()
 
     ##########################################################
     r=ck.inp({'text':'Enter URL with reproducible results (if available): '})
     if r['return']>0: return r
-    misc['results_url']=r['string'].strip().lower()
+    misc['results_url']=r['string'].strip()
+
+    ##########################################################
+    r=ck.inp({'text':'Enter results format (example: CK format): '})
+    if r['return']>0: return r
+    misc['results']=r['string'].strip()
 
     ##########################################################
     r=ck.inp({'text':'Enter used methodology for reproducibility: '})
     if r['return']>0: return r
-    misc['reproducibility_url']=r['string'].strip().lower()
+    misc['reproducibility_url']=r['string'].strip()
 
     ##########################################################
     r=ck.inp({'text':'Enter URL for dashboard (if used): '})
     if r['return']>0: return r
-    misc['results_dashboard_url']=r['string'].strip().lower()
+    misc['results_dashboard_url']=r['string'].strip()
 
     ##########################################################
     r=ck.inp({'text':'Enter CK repository UID (if used): '})
@@ -454,7 +459,7 @@ def add(i):
     ##########################################################
     r=ck.inp({'text':'Enter yes if artifact is functional (ACM badges): '})
     if r['return']>0: return r
-    misc['badge_acm_artifact_available']=r['string'].strip().lower()
+    misc['badge_acm_artifact_functional']=r['string'].strip().lower()
 
     ##########################################################
     r=ck.inp({'text':'Enter yes if artifact is reusable (ACM badges): '})
@@ -473,6 +478,8 @@ def add(i):
 
     # update dict
     i['dict']=d
+
+    ck.out('')
 
     # Add entry
     r=ck.access(i)
