@@ -281,8 +281,12 @@ def get(i):
 def index(i):
     """
     Input:  {
-              (data_uoa)        - which component to index; if "", take from cfg:component
+              (data_uoa)        - specify which components to index (module name); if "", take from cfg:component
               (target_repo_uoa) - if "", use "reuse-research"
+
+              (component_uoa)   - index specific component
+
+              (share)           - if 'yes', add to Git
             }
 
     Output: {
@@ -302,6 +306,8 @@ def index(i):
     tr_uoa=i.get('target_repo_uoa','')
     if tr_uoa=='': tr_uoa='reuse-research'
 
+    share=i.get('share','')
+
     # Check which components to index
     qduoa=i.get('data_uoa','')
     if qduoa!='':
@@ -316,6 +322,8 @@ def index(i):
                  'data_uoa':'component'})
     if r['return']>0: return r
     components=r['dict']['index']
+
+    component_uoa=i.get('component_uoa','')
 
     for cc in components:
         name=cc["name"]
@@ -335,6 +343,9 @@ def index(i):
         ii['module_uoa']=cm_uid
         ii['add_meta']='yes'
         ii['time_out']=-1
+
+        if component_uoa!='':
+           ii['data_uoa']=component_uoa
 
         rx=ck.access(ii)
         if rx['return']>0: return rx
@@ -491,17 +502,23 @@ def index(i):
                   j2=json.dumps(ddd,sort_keys=True)
 
                   if j1!=j2:
-                     ck.out('            Index updated!' )
+                     ck.out('            Index updated; UID: '+ln_uid )
                      r=ck.access(ii)
                      if r['return']>0: return r
                   else:
-                     ck.out('            Update skiped (the same dict)!')
+                     ck.out('            Update SKIPPED; UID: '+ln_uid)
 
                else:
                   ii['action']='add'
 
+                  ii['share']=share
+
                   r=ck.access(ii)
                   if r['return']>0: return r
+
+                  new_uid=r['data_uid']
+                  ck.out('            Generated UID: '+new_uid)
+ 
 
         ck.out('')
         ck.out('  Total components: '+str(num))
@@ -585,3 +602,95 @@ def create_selector(i):
         hc+='>'+name+'</option>\n'
 
     return {'return':0, 'html':hc, 'c_uid':c_uid, 'orig_module_uid':orig_module_uid, 'url':url}
+
+##############################################################################
+# get component from CMD
+
+def get_from_cmd(i):
+    """
+    Input:  {
+              (data_uoa)      - component module UOA
+              (component_uoa) - component UOA (not UID!)
+              (s) or (string) - search string
+              (all)           - if 'yes', show repo and path
+            }
+
+    Output: {
+              return       - return code =  0, if successful
+                                         >  0, if error
+              (error)      - error text if return > 0
+            }
+
+    """
+
+    import sys
+
+    # Parse search string
+    s=i.get('s','')
+    if s=='': s=i.get('string','')
+
+    if '"' in s:
+       s1=s.split('"')
+    else:
+       s1=s.split(' ')
+    ss=[]
+    for s in s1:
+        if s!='':
+           if s.startswith(' '):
+              s3=s.strip().split(' ')
+              s2=[]
+              for s in s3:
+                  s2.append(s.strip().lower())
+           else:
+              s2=[s.strip().lower()]
+           ss+=s2
+
+    # Other vars
+    muoa=i.get('data_uoa','')
+
+    duoa=i.get('component_uoa','')
+    duid=''
+    if ck.is_uid(duoa):
+       duid=duoa
+       duoa=''
+
+    xall=i.get('all','')
+    
+    # Search
+    ii={"action":"list",
+        "module_uoa":muoa,
+        "add_meta":"yes",
+        "filter_func_addr":getattr(sys.modules[__name__],'search_filter'),
+        "search_dict":ss}
+    if duid!='':
+       ii['data_uoa']=duid
+    r=ck.access(ii)
+    if r['return']>0: return r
+
+    lst=r['lst']
+    ep=r['elapsed_time']
+
+    # Sort by name
+    lst=sorted(lst, key=lambda x: x.get('meta',{}).get('misc',{}).get('data_uoa',''))
+
+    for ll in lst:
+        muoa=ll['module_uoa']
+        ruoa=ll['repo_uoa']
+
+        llm=ll['meta']
+        misc=llm.get('misc',{})
+
+        misc_duoa=misc.get('data_uoa','')
+
+        if duoa!='' and misc_duoa!=duoa:
+           continue
+
+        xduid=ll['data_uid']
+
+        p=muoa+':'+xduid
+        if xall=='yes':
+           p=ruoa+':'+p+' ('+misc_duoa+') - '+ll['path']
+
+        ck.out(p)
+
+    return {'return':0}

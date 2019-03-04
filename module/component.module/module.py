@@ -178,3 +178,65 @@ def html(i):
        h1+='[&nbsp;<a href="'+repo_url2+'" target="_blank">meta</a>&nbsp;]\n'
 
     return {'return':0, 'html':h, 'html1':h1}
+
+##############################################################################
+# index components
+
+def index(i):
+    """
+    Input:  {
+              (data_uoa) - specific component to index (otherwise check all)
+              (share)    - if 'yes', add to Git
+            }
+
+    Output: {
+              return       - return code =  0, if successful
+                                         >  0, if error
+              (error)      - error text if return > 0
+            }
+
+    """
+
+    # Clean input to pass to component
+    for k in ['cids', 'cid', 'xcids']:
+        if k in i: del(i[k])
+
+    duoa=i.get('data_uoa','')
+
+    i['module_uoa']=cfg['module_deps']['component']
+    i['data_uoa']=work['self_module_uid']
+    i['component_uoa']=duoa
+
+    return ck.access(i)
+
+##############################################################################
+# find specific components
+
+def get(i):
+    """
+    Input:  {
+              (data_uoa)      - if not UID, search for specific UOA inside dicts
+              (s) or (string) - search string
+              (all)           - if 'yes', show repo and path
+            }
+
+    Output: {
+              return       - return code =  0, if successful
+                                         >  0, if error
+              (error)      - error text if return > 0
+            }
+
+    """
+
+    # Clean input to pass to component
+    for k in ['cids', 'cid', 'xcids']:
+        if k in i: del(i[k])
+
+    duoa=i.get('data_uoa','')
+
+    i['action']='get_from_cmd'
+    i['module_uoa']=cfg['module_deps']['component']
+    i['data_uoa']=work['self_module_uid']
+    i['component_uoa']=duoa
+
+    return ck.access(i)
