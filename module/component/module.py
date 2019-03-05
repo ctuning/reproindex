@@ -106,11 +106,13 @@ def get(i):
     if c=='article':
        di=rd.get('index_articles',[])
        selector=a
+       selector_key='a'
     else:
        di=rd.get('index',[])
        selector=c
+       selector_key='c'
 
-    r=create_selector({'list':di, 'c':selector, 'url':url})
+    r=create_selector({'list':di, 'c':selector, 'url':url, 'key':selector_key})
     if r['return']>0: return r
     hc=r['html']
 
@@ -176,6 +178,7 @@ def get(i):
 
     # Extra processing if article and selector != ""
     if c=='article':
+       if selector=='-': selector=''
        if selector!='':
           lselector=selector.split(',')
           lst1=[]
@@ -609,6 +612,8 @@ def create_selector(i):
     di=i['list']
     c=i['c']
     url=i['url']
+    key=i.get('key','')
+    if key=='': key='c'
 
     hc=''
 
@@ -625,7 +630,7 @@ def create_selector(i):
            hc+=' selected'
            c_uid=uid
            orig_module_uid=q.get('orig_module_uid','')
-           url+='&c='+xid
+           url+='&'+key+'='+xid
         hc+='>'+name+'</option>\n'
 
     return {'return':0, 'html':hc, 'c_uid':c_uid, 'orig_module_uid':orig_module_uid, 'url':url}
@@ -682,7 +687,7 @@ def get_from_cmd(i):
        duoa=''
 
     xall=i.get('all','')
-    
+
     # Search
     ii={"action":"list",
         "module_uoa":muoa,
