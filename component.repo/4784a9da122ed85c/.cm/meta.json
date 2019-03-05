@@ -24,6 +24,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-assets/tree/master/repo/ck-assets/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-assets/tree/master/repo/ck-assets",
+    "tasks": {},
     "to_get": "ck pull repo:ck-assets",
     "workflow_desc": ""
   }

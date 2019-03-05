@@ -36,6 +36,11 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-pytorch/tree/master/repo/ck-pytorch/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-pytorch/tree/master/repo/ck-pytorch",
+    "tasks": {
+      "34e1f9bf7dba8dd0": {
+        "data_uoa": "pytorch"
+      }
+    },
     "to_get": "ck pull repo:ck-pytorch",
     "workflow_desc": "programs"
   }

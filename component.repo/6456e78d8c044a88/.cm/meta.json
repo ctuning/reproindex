@@ -36,6 +36,20 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-rigetti/tree/master/repo/ck-rigetti/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-rigetti/tree/master/repo/ck-rigetti",
+    "tasks": {
+      "08a7c804ac3ab6f5": {
+        "data_uoa": "rigetti-vqe2"
+      },
+      "3e474f96394e39f4": {
+        "data_uoa": "qvm-server"
+      },
+      "8d1c41306f46808e": {
+        "data_uoa": "pyquil-demo"
+      },
+      "ae41be73ab84d73a": {
+        "data_uoa": "rigetti-vqe"
+      }
+    },
     "to_get": "ck pull repo:ck-rigetti",
     "workflow_desc": "programs"
   }

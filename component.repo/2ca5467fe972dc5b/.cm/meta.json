@@ -24,6 +24,11 @@
     "repo_url1": "",
     "repo_url2": "https://gfursin@bitbucket.org/gfursin/ck-azure-tuning/tree/master/repo/ck-azure-tuning/.cm/meta.json",
     "repo_url3": "https://gfursin@bitbucket.org/gfursin/ck-azure-tuning/tree/master/repo/ck-azure-tuning",
+    "tasks": {
+      "aa4e109c55f1182f": {
+        "data_uoa": "test-prog-azure"
+      }
+    },
     "to_get": "ck pull repo --url=https://gfursin@bitbucket.org/gfursin/ck-azure-tuning"
   }
 }

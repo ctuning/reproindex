@@ -54,6 +54,14 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-quantum/tree/master/repo/ck-quantum/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-quantum/tree/master/repo/ck-quantum",
+    "tasks": {
+      "89983c43e0ad01ac": {
+        "data_uoa": "benchmark-helper"
+      },
+      "c707814bd9b2f9e3": {
+        "data_uoa": "visualize-convergence"
+      }
+    },
     "to_get": "ck pull repo:ck-quantum",
     "workflow_desc": "programs"
   }

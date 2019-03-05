@@ -36,6 +36,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-crowd-scenarios/tree/master/repo/ck-crowd-scenarios/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-crowd-scenarios/tree/master/repo/ck-crowd-scenarios",
+    "tasks": {},
     "to_get": "ck pull repo:ck-crowd-scenarios",
     "workflow_desc": ""
   }

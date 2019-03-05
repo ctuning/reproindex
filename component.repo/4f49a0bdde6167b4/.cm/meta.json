@@ -36,6 +36,29 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-qiskit/tree/master/repo/ck-qiskit/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-qiskit/tree/master/repo/ck-qiskit",
+    "tasks": {
+      "369940a853898e4f": {
+        "data_uoa": "qiskit-vqe"
+      },
+      "3cf079d410d8f5aa": {
+        "data_uoa": "qiskit-demo"
+      },
+      "425ebb1d00d74d82": {
+        "data_uoa": "qiskit-shor"
+      },
+      "aceb4368a88cc598": {
+        "data_uoa": "qiskit-backends"
+      },
+      "b1733609704b0983": {
+        "data_uoa": "qiskit-0.6-demo"
+      },
+      "b4eb8fb4417addb4": {
+        "data_uoa": "visualize-ansatz"
+      },
+      "efd1f493d14b4086": {
+        "data_uoa": "qiskit-0.6-vqe"
+      }
+    },
     "to_get": "ck pull repo:ck-qiskit",
     "workflow_desc": "programs"
   }

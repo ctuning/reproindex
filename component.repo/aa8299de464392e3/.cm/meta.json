@@ -33,6 +33,11 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-kann/tree/master/repo/ck-kann/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-kann/tree/master/repo/ck-kann",
+    "tasks": {
+      "842c1b1e69052423": {
+        "data_uoa": "kann"
+      }
+    },
     "to_get": "ck pull repo:ck-kann",
     "workflow_desc": "programs"
   }

@@ -36,6 +36,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-crowd-papers/tree/master/repo/ck-crowd-papers/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-crowd-papers/tree/master/repo/ck-crowd-papers",
+    "tasks": {},
     "to_get": "ck pull repo:ck-crowd-papers",
     "workflow_desc": ""
   }

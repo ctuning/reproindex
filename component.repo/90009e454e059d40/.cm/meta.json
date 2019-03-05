@@ -59,6 +59,32 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/repo/ck-tbd-suite/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tbd-suite/tree/master/repo/ck-tbd-suite",
+    "tasks": {
+      "0f7bf209cd44b505": {
+        "data_uoa": "image-classification-resnet-50-cntk"
+      },
+      "19488194da5f3fd5": {
+        "data_uoa": "tensor2tensor-attention-tf"
+      },
+      "5c8859cddd2936cd": {
+        "data_uoa": "image-classification-inception-cntk"
+      },
+      "784ffab4a4d3ff7b": {
+        "data_uoa": "image-classification-inception-tf"
+      },
+      "84617aa6b95406a9": {
+        "data_uoa": "sequence2sequence-lstm-tf"
+      },
+      "c7cd7d34ef29e2e9": {
+        "data_uoa": "image-classification-resnet-50-mxnet"
+      },
+      "f4e6c8467de9f5a5": {
+        "data_uoa": "image-classification-inception-mxnet"
+      },
+      "fe746299446589d1": {
+        "data_uoa": "image-classification-resnet-50-tf"
+      }
+    },
     "to_get": "ck pull repo:ck-tbd-suite",
     "workflow_desc": "programs"
   }

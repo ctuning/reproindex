@@ -24,6 +24,14 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/proywm/ck-ccprof/tree/master/repo/ck-ccprof/.cm/meta.json",
     "repo_url3": "https://github.com/proywm/ck-ccprof/tree/master/repo/ck-ccprof",
+    "tasks": {
+      "eba343c39e498453": {
+        "data_uoa": "tinydnn-representative"
+      },
+      "f676f4407b6cf91c": {
+        "data_uoa": "tinydnn-representative-pad"
+      }
+    },
     "to_get": "ck pull repo --url=https://github.com/proywm/ck-ccprof",
     "workflow_desc": "reproducible&nbsp;paper\n-&nbsp;passed&nbsp;<a href=\"http://cTuning.org/ae\">Artifact&nbsp;Evaluation</a>:\n<p><center><img src=\"https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg\" width=\"64\"></center>\n"
   }

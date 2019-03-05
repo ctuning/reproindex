@@ -29,6 +29,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-env/tree/master/repo/ck-env/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-env/tree/master/repo/ck-env",
+    "tasks": {},
     "to_get": "ck pull repo:ck-env",
     "workflow_desc": ""
   }

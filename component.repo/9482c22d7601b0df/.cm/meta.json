@@ -36,6 +36,11 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/repo/reproduce-milepost-project/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/repo/reproduce-milepost-project",
+    "tasks": {
+      "16a12a3fee44b659": {
+        "data_uoa": "sample-milepost-codelet"
+      }
+    },
     "to_get": "ck pull repo:reproduce-milepost-project",
     "workflow_desc": "reproducible&nbsp;paper\n"
   }

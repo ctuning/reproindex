@@ -29,6 +29,44 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-carp-project/tree/master/repo/reproduce-carp-project/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-carp-project/tree/master/repo/reproduce-carp-project",
+    "tasks": {
+      "3575763a4eeba814": {
+        "data_uoa": "pencil-benchmark-gaussian"
+      },
+      "4393a84317c177cd": {
+        "data_uoa": "realeyes-hog-opencl"
+      },
+      "4b332e6b37e4dc50": {
+        "data_uoa": "pencil-benchmark-resize"
+      },
+      "5e40eb901b6cbfe7": {
+        "data_uoa": "pencil-benchmark-dilate"
+      },
+      "60ac6bc55e814b91": {
+        "data_uoa": "pencil-benchmark-filter2d"
+      },
+      "6579ef99a5513e38": {
+        "data_uoa": "pencil-benchmark-histogram"
+      },
+      "7cb46e0a0268992f": {
+        "data_uoa": "polyhedral-hog-opencl"
+      },
+      "869438087e69bdac": {
+        "data_uoa": "pencil-benchmark-warpaffine"
+      },
+      "8f8996a916c08fd1": {
+        "data_uoa": "pencil-benchmark-hog"
+      },
+      "b1eeb4e8043e48ae": {
+        "data_uoa": "pencil-benchmark-cvt-color"
+      },
+      "b93bc750890706bc": {
+        "data_uoa": "realeyes-hog-opencl-tbb"
+      },
+      "c329e1eb576de749": {
+        "data_uoa": "polyhedral-hog-opencl-tbb"
+      }
+    },
     "to_get": "ck pull repo:reproduce-carp-project",
     "workflow_desc": "programs"
   }

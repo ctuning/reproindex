@@ -32,6 +32,11 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-cntk/tree/master/repo/ck-cntk/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-cntk/tree/master/repo/ck-cntk",
+    "tasks": {
+      "0bfecb4858004a23": {
+        "data_uoa": "cntk"
+      }
+    },
     "to_get": "ck pull repo:ck-cntk",
     "workflow_desc": "programs"
   }

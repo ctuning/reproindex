@@ -43,6 +43,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-crowdtuning/tree/master/repo/ck-crowdtuning/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-crowdtuning/tree/master/repo/ck-crowdtuning",
+    "tasks": {},
     "to_get": "ck pull repo:ck-crowdtuning",
     "workflow_desc": "<a href=\"https://github.com/ctuning/ck-crowdtuning/tree/master/repo/ck-crowdtuning/module\">reusable modules</a>"
   }

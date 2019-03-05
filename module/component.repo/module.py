@@ -99,6 +99,16 @@ def add_index(i):
 
     misc['ckr']=ckr
 
+    # Check program workflows (pipelines of CK components) with tasks
+    r=ck.access({'action':'list',
+                 'repo_uoa':data_uoa,
+                 'module_uoa':cfg['module_deps']['program']})
+    if r['return']==0:
+       tlst=r['lst']
+       misc['tasks']={}
+       for t in tlst:
+           misc['tasks'][t['data_uid']]={'data_uoa':t['data_uoa']}
+
     # Get UIDs for repo deps
     repo_deps=ckr.get('repo_deps',{})
     for rd in repo_deps:

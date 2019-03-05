@@ -20,6 +20,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-web/tree/master/repo/ck-web/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-web/tree/master/repo/ck-web",
+    "tasks": {},
     "to_get": "ck pull repo:ck-web",
     "workflow_desc": ""
   }

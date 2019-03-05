@@ -29,6 +29,35 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/dividiti/ck-rpi-optimization/tree/master/repo/ck-rpi-optimization/.cm/meta.json",
     "repo_url3": "https://github.com/dividiti/ck-rpi-optimization/tree/master/repo/ck-rpi-optimization",
+    "tasks": {
+      "025b8a8f359c7375": {
+        "data_uoa": "rhash"
+      },
+      "0ab9fa4425c85211": {
+        "data_uoa": "gzip"
+      },
+      "0eaff5b110631fe3": {
+        "data_uoa": "aubio"
+      },
+      "2b96daac23c3f034": {
+        "data_uoa": "unrar"
+      },
+      "6ec2287294570ae2": {
+        "data_uoa": "sha512sum"
+      },
+      "870b7744a6511320": {
+        "data_uoa": "ccrypt"
+      },
+      "c4fb948b4a75a0d6": {
+        "data_uoa": "zlib"
+      },
+      "ccad6c81f94904a7": {
+        "data_uoa": "minigzip"
+      },
+      "dba9c44de68b633c": {
+        "data_uoa": "7z"
+      }
+    },
     "to_get": "ck pull repo --url=https://github.com/dividiti/ck-rpi-optimization",
     "workflow_desc": ""
   }

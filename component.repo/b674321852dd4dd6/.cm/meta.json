@@ -18,6 +18,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-wa-extra/tree/master/repo/ck-wa-extra/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-wa-extra/tree/master/repo/ck-wa-extra",
+    "tasks": {},
     "to_get": "ck pull repo:ck-wa-extra",
     "workflow_desc": ""
   }

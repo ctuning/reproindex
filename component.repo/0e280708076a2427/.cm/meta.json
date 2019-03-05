@@ -18,6 +18,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/paperasub/reproduce-anon-paper/tree/master/repo/reproduce-anon-paper/.cm/meta.json",
     "repo_url3": "https://github.com/paperasub/reproduce-anon-paper/tree/master/repo/reproduce-anon-paper",
+    "tasks": {},
     "to_get": "ck pull repo --url=https://github.com/paperasub/reproduce-anon-paper.git",
     "workflow_desc": ""
   }

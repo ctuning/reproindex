@@ -36,6 +36,17 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-ck-paper/tree/master/repo/reproduce-ck-paper/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-ck-paper/tree/master/repo/reproduce-ck-paper",
+    "tasks": {
+      "24c94b0e0b26640a": {
+        "data_uoa": "shared-codelet-adaptive-filter"
+      },
+      "3a2498cb437a87aa": {
+        "data_uoa": "shared-codelet-filter"
+      },
+      "4f998899226d33c3": {
+        "data_uoa": "shared-codelet-filter5"
+      }
+    },
     "to_get": "ck pull repo:reproduce-ck-paper",
     "workflow_desc": "reproducible&nbsp;paper\n"
   }

@@ -29,6 +29,11 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/repo/reproduce-fgg-2010/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/repo/reproduce-fgg-2010",
+    "tasks": {
+      "b86283e4e8aad445": {
+        "data_uoa": "test-boost"
+      }
+    },
     "to_get": "ck pull repo:reproduce-fgg-2010",
     "workflow_desc": ""
   }

@@ -56,6 +56,11 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl/tree/master/repo/ck-request-asplos18-mobilenets-armcl-opencl/.cm/meta.json",
     "repo_url3": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl/tree/master/repo/ck-request-asplos18-mobilenets-armcl-opencl",
+    "tasks": {
+      "5a9a6915b20ea1bf": {
+        "data_uoa": "mobilenets-armcl-opencl"
+      }
+    },
     "to_get": "ck pull repo --url=https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl",
     "workflow_desc": "reproducible&nbsp;paper\n-&nbsp;passed&nbsp;<a href=\"http://cTuning.org/ae\">Artifact&nbsp;Evaluation</a>:\n<p><center><img src=\"https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg\" width=\"64\"></center>\n"
   }

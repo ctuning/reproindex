@@ -24,6 +24,11 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/dividiti/ck-crowdsource-dnn-optimization/tree/master/repo/ck-crowdsource-dnn-optimization/.cm/meta.json",
     "repo_url3": "https://github.com/dividiti/ck-crowdsource-dnn-optimization/tree/master/repo/ck-crowdsource-dnn-optimization",
+    "tasks": {
+      "64769bf4da7e874e": {
+        "data_uoa": "dnn-desktop-demo"
+      }
+    },
     "to_get": "ck pull repo --url=https://github.com/dividiti/ck-crowdsource-dnn-optimization",
     "workflow_desc": "GUI, programs"
   }

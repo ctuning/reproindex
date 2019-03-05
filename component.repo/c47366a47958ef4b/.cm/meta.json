@@ -30,6 +30,17 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-request-asplos18-mobilenets-tvm-arm/tree/master/repo/ck-request-asplos18-mobilenets-tvm-arm/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-request-asplos18-mobilenets-tvm-arm/tree/master/repo/ck-request-asplos18-mobilenets-tvm-arm",
+    "tasks": {
+      "8ab8a4d4885b02d9": {
+        "data_uoa": "request-mxnet-inference"
+      },
+      "8f8dd5e56f4ed39e": {
+        "data_uoa": "request-armcl-inference"
+      },
+      "c44243da928112c2": {
+        "data_uoa": "request-tvm-nnvm-inference"
+      }
+    },
     "to_get": "ck pull repo:ck-request-asplos18-mobilenets-tvm-arm",
     "workflow_desc": "reproducible&nbsp;paper\n-&nbsp;passed&nbsp;<a href=\"http://cTuning.org/ae\">Artifact&nbsp;Evaluation</a>:\n<p><center><img src=\"https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg\" width=\"64\"></center>\n"
   }

@@ -29,6 +29,20 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-dnndk/tree/master/repo/ck-dnndk/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-dnndk/tree/master/repo/ck-dnndk",
+    "tasks": {
+      "3241089fd1a95a66": {
+        "data_uoa": "image-classification-template-deephi"
+      },
+      "698f4d1babe85aa5": {
+        "data_uoa": "image-classification-inception_v1-deephi"
+      },
+      "940f78403ec557f1": {
+        "data_uoa": "image-classification-resnet50-deephi"
+      },
+      "e224f20d41189604": {
+        "data_uoa": "caffe2deephi"
+      }
+    },
     "to_get": "ck pull repo:ck-dnndk",
     "workflow_desc": ""
   }

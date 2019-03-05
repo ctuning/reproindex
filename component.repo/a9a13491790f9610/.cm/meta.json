@@ -18,6 +18,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/dividiti/ck-nntest-outputs/tree/master/repo/ck-nntest-outputs/.cm/meta.json",
     "repo_url3": "https://github.com/dividiti/ck-nntest-outputs/tree/master/repo/ck-nntest-outputs",
+    "tasks": {},
     "to_get": "ck pull repo --url=https://github.com/dividiti/ck-nntest-outputs"
   }
 }

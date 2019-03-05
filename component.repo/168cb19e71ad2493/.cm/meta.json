@@ -18,6 +18,7 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-crowdtuning-platforms/tree/master/repo/ck-crowdtuning-platforms/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-crowdtuning-platforms/tree/master/repo/ck-crowdtuning-platforms",
+    "tasks": {},
     "to_get": "ck pull repo:ck-crowdtuning-platforms",
     "workflow_desc": ""
   }

@@ -32,6 +32,20 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tvm/tree/master/repo/ck-tvm/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tvm/tree/master/repo/ck-tvm",
+    "tasks": {
+      "61234d5d8f0cd62d": {
+        "data_uoa": "image-classification-tvm"
+      },
+      "7f04e452dbbbdbba": {
+        "data_uoa": "image-classification-vta-sim"
+      },
+      "abf64ec4b96612f2": {
+        "data_uoa": "image-classification-vta-pynq"
+      },
+      "c2e8ed8f342a88db": {
+        "data_uoa": "tvm-vta-pynq-server"
+      }
+    },
     "to_get": "ck pull repo:ck-tvm",
     "workflow_desc": "programs"
   }

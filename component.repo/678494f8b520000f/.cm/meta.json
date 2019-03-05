@@ -24,6 +24,11 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-mxnet/tree/master/repo/ck-mxnet/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-mxnet/tree/master/repo/ck-mxnet",
+    "tasks": {
+      "73c504c9ca24143d": {
+        "data_uoa": "mxnet"
+      }
+    },
     "to_get": "ck pull repo:ck-mxnet",
     "workflow_desc": "programs"
   }

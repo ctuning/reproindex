@@ -28,6 +28,11 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/reproduce-sysml19-paper-p3/tree/master/repo/reproduce-sysml19-paper-p3/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/reproduce-sysml19-paper-p3/tree/master/repo/reproduce-sysml19-paper-p3",
+    "tasks": {
+      "7e8be4502317495b": {
+        "data_uoa": "sysml19-p3"
+      }
+    },
     "to_get": "ck pull repo:reproduce-sysml19-paper-p3",
     "workflow_desc": "programs"
   }

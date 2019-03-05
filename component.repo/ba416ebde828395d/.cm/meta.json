@@ -36,6 +36,11 @@
     "repo_url1": "",
     "repo_url2": "https://github.com/ctuning/ck-tiny-dnn/tree/master/repo/ck-tiny-dnn/.cm/meta.json",
     "repo_url3": "https://github.com/ctuning/ck-tiny-dnn/tree/master/repo/ck-tiny-dnn",
+    "tasks": {
+      "5d67d68bd7141eda": {
+        "data_uoa": "tiny-dnn-bench"
+      }
+    },
     "to_get": "ck pull repo:ck-tiny-dnn",
     "workflow_desc": "programs"
   }

@@ -18,6 +18,7 @@
     "repo_url1": "",
     "repo_url2": "https://gfursin@bitbucket.org/gfursin/ck-book/tree/master/repo/ck-book/.cm/meta.json",
     "repo_url3": "https://gfursin@bitbucket.org/gfursin/ck-book/tree/master/repo/ck-book",
+    "tasks": {},
     "to_get": "ck pull repo --url=https://gfursin@bitbucket.org/gfursin/ck-book"
   }
 }
