@@ -240,8 +240,15 @@ def html(i):
 
     if workflow_url!='':
        x=workflow_url
-       if workflow!='': x=workflow
+       if workflow!='': 
+          x=workflow
+          if x=='CK': x='Link (CK)'
        h+='<b>Automated workflow:</b> <a href="'+workflow_url+'">'+x+'</a><br>\n'
+
+    ck_repo_uid=llmisc.get('ck_repo_uid','')
+    if ck_repo_uid!='':
+       x=url0+'cid='+cfg['module_deps']['component.repo']+':'+ck_repo_uid
+       h+='<b>CK repository:</b> <a href="'+x+'">Index</a><br>\n'
 
     tasks=llmisc.get('tasks',{})
     if len(tasks)>0:
