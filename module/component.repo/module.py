@@ -242,6 +242,21 @@ def html(i):
        h+=' </ul>\n'
        h+='</div>\n'
 
+    tasks=llmisc.get('tasks',{})
+    if len(tasks)>0:
+       h+='<b>Tasks (program workflows):</b><br>\n'
+       h+='<div style="margin-left:20px;">\n'
+       h+=' <ul>\n'
+       for tuid in tasks:
+           tt=tasks[tuid]
+           tuoa=tt.get('data_uoa','')
+           if tuoa!='':
+              x='<a href="'+url0+'cid='+cfg['module_deps']['component.program']+':'+tuid+'" target="_blank">'+tuoa+'</a>'
+              h+='  <li><span style="color:#2f0000;">'+x+'</li>\n'
+
+       h+=' </ul>\n'
+       h+='</div>\n'
+
     h+='</div>\n'
 
     h1=''

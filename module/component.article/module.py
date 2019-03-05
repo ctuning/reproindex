@@ -223,6 +223,21 @@ def html(i):
        if workflow!='': x=workflow
        h+='<b>Automated workflow:</b> <a href="'+workflow_url+'">'+x+'</a><br>\n'
 
+    tasks=llmisc.get('tasks',{})
+    if len(tasks)>0:
+       h+='<b>Tasks (program workflows):</b><br>\n'
+       h+='<div style="margin-left:20px;">\n'
+       h+=' <ul>\n'
+       for tuid in tasks:
+           tt=tasks[tuid]
+           tuoa=tt.get('data_uoa','')
+           if tuoa!='':
+              x='<a href="'+url0+'cid='+cfg['module_deps']['component.program']+':'+tuid+'" target="_blank">'+tuoa+'</a>'
+              h+='  <li><span style="color:#2f0000;">'+x+'</li>\n'
+
+       h+=' </ul>\n'
+       h+='</div>\n'
+
     results=llmisc.get('results','')
     results_url=llmisc.get('results_url','')
     if results_url!='':
