@@ -14,17 +14,13 @@
     {"name":"PPoPP'19", "id":"papers-ppopp-2019"},
     {"name":"CGO'18", "id":"papers-cgo-2018"},
     {"name":"PPoPP'18", "id":"papers-ppopp-2018"},
+    {"name":"SC'17", "id":"papers-sc-2017"},
     {"name":"IA3-SC'17", "id":"papers-ia3"},
     {"name":"CGO'17", "id":"papers-cgo-2017"},
-    {"name":"SC'17", "id":"papers-sc-2017"},
-    {"name":"PPoPP'17", "id":"papers-ppopp-2017"},
     {"name":"ADAPT'16", "id":"papers-adapt-2016"},
-    {"name":"PPoPP'16", "id":"papers-ppopp-2016"},
-    {"name":"CGO'16", "id":"papers-cgo-2016"},
-    {"name":"PPoPP'15", "id":"papers-ppopp-2015"},
-    {"name":"CGO'15", "id":"papers-cgo-2015"},
-    {"name":"ADAPT'15", "id":"papers-adapt-2015"},
-    {"name":"GCC Summit'09", "id":"papers-gcc-summit-2009"},
-    {"name":"ArXiv", "id":"papers-arxiv"}
+    {"name":"PACT'16", "id":"papers-pact-2016"},
+    {"name":"SC'15", "id":"papers-sc-2015"},
+    {"name":"IJPP'11", "id":"papers-ijpp-2011"},
+    {"name":"Reports", "id":"papers-reports"}
   ]
 }
