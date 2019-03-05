@@ -7,7 +7,8 @@
     {"name":"Packages (code, data, models)", "id":"package", "uid":"5bd40c8c212063a3", "orig_module_uid":"1dc07ee0f4742028"}
   ],
   "index_articles": [
-    {"name":"", "id":""},
+    {"name":"All", "id":"-"},
+    {"name":"Recent", "id":"papers-sysml-2019,papers-request-asplos-2018"},
     {"name":"SysML'19", "id":"papers-sysml-2019"},
     {"name":"ReQuEST-ASPLOS'18", "id":"papers-request-asplos-2018"},
     {"name":"PPoPP'19", "id":"papers-ppopp-2019"},

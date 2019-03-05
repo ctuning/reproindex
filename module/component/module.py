@@ -176,14 +176,16 @@ def get(i):
     # Extra processing if article and selector != ""
     if c=='article':
        if selector!='':
+          lselector=selector.split(',')
           lst1=[]
           for l in lst:
               tags=l['meta'].get('tags',[])
-              if selector in tags:
-                 lst1.append(l)
+              for ll in lselector:
+                  if ll in tags:
+                     lst1.append(l)
           lst=lst1
        # Sort by title
-       lst=sorted(lst, key=lambda x: x.get('meta',{}).get('misc',{}).get('title','').lower())
+       lst=sorted(lst, key=lambda x: (x.get('meta',{}).get('misc',{}).get('title','').lower()))
     else:
        # Sort by data alias
        lst=sorted(lst, key=lambda x: x.get('meta',{}).get('misc',{}).get('data_uoa',''))
