@@ -17,6 +17,11 @@
     "results_dashboard_url": "http://cKnowledge.org/repo",
     "results_url": "http://ctuning.org/wiki/index.php/CDatabase",
     "some_results_replicated": "yes",
+    "tasks": {
+      "16a12a3fee44b659": {
+        "data_uoa": "sample-milepost-codelet"
+      }
+    },
     "title": "MILEPOST GCC: machine learning based research compiler",
     "unified_artifact_appendix": "",
     "where": "GCC Summit'08",

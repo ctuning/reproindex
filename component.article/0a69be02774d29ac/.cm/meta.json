@@ -17,6 +17,11 @@
     "results_dashboard_url": "http://cKnowledge.org/repo",
     "results_url": "",
     "some_results_replicated": "yes",
+    "tasks": {
+      "16a12a3fee44b659": {
+        "data_uoa": "sample-milepost-codelet"
+      }
+    },
     "title": "Milepost GCC: Machine Learning Enabled Self-tuning Compiler",
     "unified_artifact_appendix": "",
     "where": "IJPP'11",

@@ -17,6 +17,23 @@
     "results_dashboard_url": "http://cKnowledge.org/repo-beta",
     "results_url": "",
     "some_results_replicated": "yes",
+    "tasks": {
+      "4f65440aa4139cce": {
+        "data_uoa": "slambench-1.1-opencl-dragon-board"
+      },
+      "6a7145744fa93c7e": {
+        "data_uoa": "slambench-1.1-opencl"
+      },
+      "a17c72b9a4c4f2fb": {
+        "data_uoa": "slambench-1.1-cpu-openmp"
+      },
+      "bb2ba2811660c147": {
+        "data_uoa": "slambench-1.1-cuda"
+      },
+      "e4495a6270f52615": {
+        "data_uoa": "slambench-1.1-cpu"
+      }
+    },
     "title": "Integrating algorithmic parameters into benchmarking and design space exploration in dense 3D scene understanding",
     "unified_artifact_appendix": "",
     "where": "PACT'16",

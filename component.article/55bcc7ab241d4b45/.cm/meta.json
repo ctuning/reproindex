@@ -16,6 +16,14 @@
     "results": "CK format",
     "results_dashboard_url": "http://cKnowledge.org/dashboard/request.asplos18",
     "results_url": "https://github.com/ctuning/ck-request-asplos18-results-resnet-tvm-fpga",
+    "tasks": {
+      "22a7270418ba03af": {
+        "data_uoa": "request-tvm-vta-pynq"
+      },
+      "5a91d416d88bb665": {
+        "data_uoa": "vta-pynq-server"
+      }
+    },
     "title": "Leveraging the VTA-TVM Hardware-Software Stack for FPGA Acceleration of 8-bit ResNet-18 Inference",
     "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
     "where": "ReQuEST-ASPLOS'18",

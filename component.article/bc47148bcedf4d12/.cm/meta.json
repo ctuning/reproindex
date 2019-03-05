@@ -17,6 +17,14 @@
     "results_dashboard_url": "",
     "results_url": "",
     "some_results_replicated": "yes",
+    "tasks": {
+      "c374d10bbfd53379": {
+        "data_uoa": "seissol-netcdf"
+      },
+      "f3429eb04e3556f3": {
+        "data_uoa": "seissol-proxy"
+      }
+    },
     "title": "Extreme scale multi-physics simulations of the tsunamigenic 2004 sumatra megathrust earthquake",
     "unified_artifact_appendix": "https://sc18.supercomputing.org/submit/sc-reproducibility-initiative",
     "where": "SC'17",

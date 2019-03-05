@@ -33,7 +33,7 @@ def init(i):
 ##############################################################################
 # add index
 
-def add_index(i):
+def index(i):
     """
     Input:  {
               dict - index dict
@@ -49,44 +49,64 @@ def add_index(i):
     """
 
     import copy
+    import json
 
-    d=i['dict']
-    m=i['meta']
+    i['action']='search'
+    i['add_meta']='yes'
+    i['out']=''
+    i['cid']=''
 
-    repo_url1_full=d['misc'].get('repo_url1','')
+    r=ck.access(i)
+    if r['return']>0: return r
 
-    data_uoa=d['misc'].get('data_uoa','')
-    data_uid=d['misc'].get('data_uid','')
+    lst=r['lst']
 
-    module_uoa=d['misc'].get('module_uoa','')
-    module_uid=d['misc'].get('module_uid','')
+    for l in lst:
+        ck.out('=========================================================')
 
-    xworkflow=m.get('workflow','')
-    workflow=m.get('workflow_type','')
-    if xworkflow=='yes' and workflow=='':
-       workflow='yes'
+        duid=l['data_uid']
+        muid=l['module_uid']
+        ruid=l['repo_uid']
 
-    d['misc']['workflow']=workflow
-    d['misc']['actions']={}
+        ck.out('* '+duid)
 
-    actions=m.get('actions',{})
+        d=l['meta']
+        dorig=copy.deepcopy(d)
 
-    if len(actions)>0:
-       for q in sorted(actions):
+        # Check CK repo UID with tasks
+        ck_repo_uid=d['misc'].get('ck_repo_uid','')
+        if ck_repo_uid!='':
+           # Load repo component and take task
+           r=ck.access({'action':'load',
+                        'module_uoa':cfg['module_deps']['component.repo'],
+                        'data_uoa':ck_repo_uid})
+           if r['return']>0: return r
+           dr=r['dict']
+           tasks=dr.get('misc',{}).get('tasks',{})
+           if len(tasks)>0:
+               d['misc']['tasks']=tasks
 
-           qq=actions[q]
+               # Hack to check arrays
+               j1=json.dumps(dorig,sort_keys=True)
+               j2=json.dumps(d,sort_keys=True)
 
-           d['misc']['actions'][q]={}
+               if j1!=j2:
+                  ck.out('            Index updated')
 
-           if repo_url1_full!='':
-              # Get API!
-              l=-1
-              rx=ck.get_api({'module_uoa':data_uid, 'func':q})
-              if rx['return']==0:
-                 l=rx['line']
+                  # Update entry
+                  ii={'action':'update',
+                      'module_uoa':muid,
+                      'data_uoa':duid,
+                      'repo_uoa':ruid,
+                      'dict':d,
+                      'substitute':'yes',
+                      'sort_keys':'yes',
+                      'ignore_update':'yes'}
 
-              if l!=-1:
-                 d['misc']['actions'][q]['url_api']=repo_url1_full+'#L'+str(l)
+                  r=ck.access(ii)
+                  if r['return']>0: return r
+               else:
+                  ck.out('            Update SKIPPED')
 
     return {'return':0}
 
@@ -275,36 +295,6 @@ def html(i):
        h1+='[&nbsp;<a href="'+x+'" target="_blank">CK repository</a>&nbsp;] \n'
 
     return {'return':0, 'html':h, 'html1':h1, 'article':article}
-
-##############################################################################
-# index components
-
-def index(i):
-    """
-    Input:  {
-              (data_uoa) - specific component to index (otherwise check all)
-              (share)    - if 'yes', add to Git
-            }
-
-    Output: {
-              return       - return code =  0, if successful
-                                         >  0, if error
-              (error)      - error text if return > 0
-            }
-
-    """
-
-    # Clean input to pass to component
-    for k in ['cids', 'cid', 'xcids']:
-        if k in i: del(i[k])
-
-    duoa=i.get('data_uoa','')
-
-    i['module_uoa']=cfg['module_deps']['component']
-    i['data_uoa']=work['self_module_uid']
-    i['component_uoa']=duoa
-
-    return ck.access(i)
 
 ##############################################################################
 # find specific components

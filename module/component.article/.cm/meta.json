@@ -3,7 +3,7 @@
     "add": {
       "desc": "add new index manually"
     },
-    "add_index": {
+    "index": {
       "desc": "add index"
     },
     "get": {
@@ -11,9 +11,6 @@
     },
     "html": {
       "desc": "generate html"
-    },
-    "index": {
-      "desc": "index components"
     }
   },
   "desc": "index of reproducible articles",

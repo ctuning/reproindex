@@ -17,6 +17,11 @@
     "results_dashboard_url": "",
     "results_url": "Open review via GitHub issues",
     "some_results_replicated": "yes",
+    "tasks": {
+      "7e8be4502317495b": {
+        "data_uoa": "sysml19-p3"
+      }
+    },
     "title": "Priority-based Parameter Propagation for Distributed DNN Training",
     "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
     "where": "SysML'19",

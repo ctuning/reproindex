@@ -17,6 +17,11 @@
     "results_dashboard_url": "http://cKnowledge.org/repo-beta",
     "results_url": "https://www.reddit.com/r/adaptworkshop/comments/3sngmg/adapt16_submission_integrating_a_largescale",
     "some_results_replicated": "yes",
+    "tasks": {
+      "4eca01a57df4dfb2": {
+        "data_uoa": "tool-cl-launcher-1.0"
+      }
+    },
     "title": "Integrating a large-scale testing campaign in the CK framework",
     "unified_artifact_appendix": "",
     "where": "ADAPT'16",

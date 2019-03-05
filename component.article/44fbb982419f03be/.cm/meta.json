@@ -16,6 +16,11 @@
     "results": "CK format",
     "results_dashboard_url": "http://cKnowledge.org/dashboard/request.asplos18",
     "results_url": "https://github.com/ctuning/ck-request-asplos18-results-caffe-intel",
+    "tasks": {
+      "42869a95af6fc638": {
+        "data_uoa": "convert-ssd-to-i8"
+      }
+    },
     "title": "Highly Efficient 8-bit Low Precision Inference of Convolutional Neural Networks with IntelCaffe",
     "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
     "where": "ReQuEST-ASPLOS'18",

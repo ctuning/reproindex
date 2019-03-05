@@ -16,6 +16,17 @@
     "results": "CK format",
     "results_dashboard_url": "http://cKnowledge.org/dashboard/request.asplos18",
     "results_url": "https://github.com/ctuning/ck-request-asplos18-results-mobilenets-tvm-arm",
+    "tasks": {
+      "8ab8a4d4885b02d9": {
+        "data_uoa": "request-mxnet-inference"
+      },
+      "8f8dd5e56f4ed39e": {
+        "data_uoa": "request-armcl-inference"
+      },
+      "c44243da928112c2": {
+        "data_uoa": "request-tvm-nnvm-inference"
+      }
+    },
     "title": "Optimizing Deep Learning Workloads on ARM GPU with TVM",
     "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
     "where": "ReQuEST-ASPLOS'18",

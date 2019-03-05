@@ -16,6 +16,11 @@
     "results": "CK format",
     "results_dashboard_url": "http://cKnowledge.org/dashboard/request.asplos18",
     "results_url": "https://github.com/ctuning/ck-request-asplos18-results-iot-farm",
+    "tasks": {
+      "88b118634abf9491": {
+        "data_uoa": "request-iot-benchmark"
+      }
+    },
     "title": "Real-Time Image Recognition Using Collaborative IoT Devices",
     "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
     "where": "ReQuEST-ASPLOS'18",

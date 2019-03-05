@@ -17,6 +17,20 @@
     "results_dashboard_url": "",
     "results_url": "https://www.reddit.com/r/adaptworkshop/comments/3sngox/adapt16_submission_gemmbench_a_framework_for",
     "some_results_replicated": "yes",
+    "tasks": {
+      "0ef9511e3864c67b": {
+        "data_uoa": "clblast-xgemm"
+      },
+      "345594b4ab4624fc": {
+        "data_uoa": "arm-mali-sgemm"
+      },
+      "5dbd24d34a039434": {
+        "data_uoa": "clblast-xgemm-overlay"
+      },
+      "fc41b0a762616427": {
+        "data_uoa": "gemmbench-cl-launcher-1.0"
+      }
+    },
     "title": "GEMMbench: a framework for reproducible and collaborative benchmarking of matrix multiplication",
     "unified_artifact_appendix": "",
     "where": "ADAPT'16",
