@@ -126,6 +126,7 @@ def get(i):
        if r['return']==0:
           c_uid=r.get('module_uoa','')
           d_uoa=r.get('data_uoa','')
+          selector=''
 
     # Parse search string
     q=wv.get('q','')
@@ -188,7 +189,7 @@ def get(i):
        lst=sorted(lst, key=lambda x: (x.get('meta',{}).get('misc',{}).get('title','').lower()))
     else:
        # Sort by data alias
-       lst=sorted(lst, key=lambda x: x.get('meta',{}).get('misc',{}).get('data_uoa',''))
+       lst=sorted(lst, key=lambda x: x.get('meta',{}).get('misc',{}).get('data_uoa','').lower())
 
     llst=len(lst)
 
