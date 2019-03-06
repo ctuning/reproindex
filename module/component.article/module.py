@@ -195,6 +195,7 @@ def html(i):
     h+='<div style="background-color:#efefef;margin:5px;padding:5px;">\n'
 
     url0=i.get('url','')
+    urlc=url0.replace('index.php','c.php') # Needed for components
 #    x1=''
 #    x2=''
 #    if url0!='' and ruid!='':
@@ -247,7 +248,7 @@ def html(i):
 
     ck_repo_uid=llmisc.get('ck_repo_uid','')
     if ck_repo_uid!='':
-       x=url0+'cid='+cfg['module_deps']['component.repo']+':'+ck_repo_uid
+       x=urlc+'cid='+cfg['module_deps']['component.repo']+':'+ck_repo_uid
        h+='<b>CK repository:</b> <a href="'+x+'">Index</a><br>\n'
 
     tasks=llmisc.get('tasks',{})
@@ -259,7 +260,7 @@ def html(i):
            tt=tasks[tuid]
            tuoa=tt.get('data_uoa','')
            if tuoa!='':
-              x='<a href="'+url0+'cid='+cfg['module_deps']['component.program']+':'+tuid+'" target="_blank">'+tuoa+'</a>'
+              x='<a href="'+urlc+'cid='+cfg['module_deps']['component.program']+':'+tuid+'" target="_blank">'+tuoa+'</a>'
               h+='  <li><span style="color:#2f0000;">'+x+'</li>\n'
 
        h+=' </ul>\n'
@@ -298,7 +299,7 @@ def html(i):
 
     ck_repo_uid=llmisc.get('ck_repo_uid','')
     if ck_repo_uid!='':
-       x=url0+'cid='+cfg['module_deps']['component.repo']+':'+ck_repo_uid
+       x=urlc+'cid='+cfg['module_deps']['component.repo']+':'+ck_repo_uid
        h1+='[&nbsp;<a href="'+x+'" target="_blank">CK repository</a>&nbsp;] \n'
 
     return {'return':0, 'html':h, 'html1':h1, 'article':article}
