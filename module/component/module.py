@@ -89,7 +89,7 @@ def get(i):
 
     # Check component and prepare selector
     c=wv.get('c','')
-    if c=='': c='module'
+    if c=='': c='repo'
 
     c_uid='component.module' # Selected UID
     orig_module_uid=''
