@@ -27,8 +27,8 @@
     "repo_uid": "9a3280b14a4285c9",
     "repo_uoa": "local",
     "repo_url1": "",
-    "repo_url2": "https://github.com/ctuning/ck-tensorrt/tree/master/repo/ck-tensorrt/.cm/meta.json",
-    "repo_url3": "https://github.com/ctuning/ck-tensorrt/tree/master/repo/ck-tensorrt",
+    "repo_url2": "http://github.com/ctuning/ck-tensorrt/tree/master/repo/ck-tensorrt/.cm/meta.json",
+    "repo_url3": "http://github.com/ctuning/ck-tensorrt/tree/master/repo/ck-tensorrt",
     "tasks": {
       "5d4e5a43da89baca": {
         "data_uoa": "tensorrt-time"

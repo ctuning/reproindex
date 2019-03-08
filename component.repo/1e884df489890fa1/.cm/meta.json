@@ -46,7 +46,7 @@
         "data_uoa": "gemmbench-cl-launcher-1.0"
       }
     },
-    "to_get": "ck pull repo --url=https://github.com/dividiti/gemmbench",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/gemmbench.git",
     "workflow_desc": "programs"
   }
 }

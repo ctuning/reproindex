@@ -48,10 +48,10 @@
     "repo_uid": "9a3280b14a4285c9",
     "repo_uoa": "local",
     "repo_url1": "",
-    "repo_url2": "https://github.com/ctuning/ck-wa/tree/master/repo/ck-wa/.cm/meta.json",
-    "repo_url3": "https://github.com/ctuning/ck-wa/tree/master/repo/ck-wa",
+    "repo_url2": "https://github.com/dividiti/ck-wa/tree/master/repo/ck-wa/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-wa/tree/master/repo/ck-wa",
     "tasks": {},
-    "to_get": "ck pull repo:ck-wa",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-wa",
     "workflow_desc": "programs"
   }
 }
