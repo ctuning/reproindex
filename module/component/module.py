@@ -421,9 +421,21 @@ def index(i):
             if lm_uoa=='repo':
                lm=l['meta']
 
-               if 'path' in lm: del(lm['path'])
+               if 'path' in lm: 
+                  real_path=lm.get('path','')
+
+                  del(lm['path'])
+
+                  ppr=os.path.join(real_path, '.ckr.json')
+
+                  rz=ck.load_json_file({'json_file':ppr})
+                  if rz['return']==0: 
+                     lm=rz['dict'].get('dict',{})
+
+                  print (lm)
 
                private=lm.get('private','')
+
                skip_indexing=lm.get('skip_from_index','')
                remote=lm.get('remote','')
                url=lm.get('url','')
@@ -431,11 +443,13 @@ def index(i):
                if url!='' and url.startswith('git@'):
                   url=url.replace(':','/').replace('git@','https://')
 
-               if url=='' or private=='yes' or skip_indexing=='yex' or remote=='yes' or ln=='default' or ln=='local' or ln in ck.cfg.get('skip_repos',[]):
+               if url=='' or private=='yes' or skip_indexing=='yes' or remote=='yes' or ln=='default' or ln=='local' or ln in ck.cfg.get('skip_repos',[]):
                   skip=True
 
             elif not (lr not in ck.cfg.get('skip_repos',[]) and repo_private.get(lr_uid,'')!='yes' and url!=''):
                skip=True
+
+            print (skip)
 
             if not skip:
                num+=1
