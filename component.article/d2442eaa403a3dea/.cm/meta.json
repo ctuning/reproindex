@@ -11,7 +11,7 @@
     "badge_acm_results_reproduced": "",
     "ck_repo_uid": "76d81ee9a38d4679",
     "paper_doi_url": "",
-    "paper_pdf_url": "",
+    "paper_pdf_url": "http://www.sysml.cc/doc/2019/54.pdf",
     "reproducibility_url": "http://ctuning.org/ae/sysml2019.html",
     "results": "Open review via GitHub issues",
     "results_dashboard_url": "",
@@ -22,7 +22,7 @@
         "data_uoa": "sysml19-aggregathor"
       }
     },
-    "title": "AggregaThor: Byzantine Machine Learning",
+    "title": "AGGREGATHOR: Byzantine Machine Learning via Robust Gradient Aggregation",
     "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
     "where": "SysML'19",
     "where_url": "http://sysml.cc",
