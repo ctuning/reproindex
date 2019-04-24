@@ -60,11 +60,11 @@ Feel free to update meta description of other components and send us a PR:
 
 You can index new CK components as follows:
 
-* CK modules: `ck add component.module:{CK module name} --share`
-* CK repositories: `ck add component.repo:{CK repo name} --share`
-* CK software detection plugins: `ck add component.soft:{CK soft name} --share`
-* CK packages: `ck add component.package:{CK package name} --share`
-* CK tasks (program workflows): `ck add component.program:{CK program name} --share`
+* CK modules: `ck index component.module:{CK module name} --share`
+* CK repositories: `ck index component.repo:{CK repo name} --share`
+* CK software detection plugins: `ck index component.soft:{CK soft name} --share`
+* CK packages: `ck index component.package:{CK package name} --share`
+* CK tasks (program workflows): `ck index component.program:{CK program name} --share`
 
 You can then commit your changes and send us a PR as described above:
 ```
