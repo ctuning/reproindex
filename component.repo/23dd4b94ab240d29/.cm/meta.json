@@ -24,6 +24,7 @@
     },
     "data_uid": "23dd4b94ab240d29",
     "data_uoa": "ck-mlflow",
+    "desc": "Portable and customizable installation and unified CK access to MLFlow from DataBricks",
     "module_uid": "befd7892b0d469e9",
     "module_uoa": "repo",
     "repo_uid": "9a3280b14a4285c9",

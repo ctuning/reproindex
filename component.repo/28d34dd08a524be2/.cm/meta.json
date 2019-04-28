@@ -10,6 +10,7 @@
     },
     "data_uid": "28d34dd08a524be2",
     "data_uoa": "armnn-mlperf",
+    "desc": "CK workflows to unify and automate ArmNN preparation and benchmarking for mlperf.org",
     "module_uid": "befd7892b0d469e9",
     "module_uoa": "repo",
     "repo_uid": "9a3280b14a4285c9",
@@ -28,6 +29,7 @@
         "data_uoa": "image-classification-armnn-tflite"
       }
     },
-    "to_get": "ck pull repo --url=https://github.com/arm-software/armnn-mlperf"
+    "to_get": "ck pull repo --url=https://github.com/arm-software/armnn-mlperf",
+    "workflow_desc": "programs"
   }
 }

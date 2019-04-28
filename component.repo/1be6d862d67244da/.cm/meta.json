@@ -21,7 +21,7 @@
     },
     "data_uid": "1be6d862d67244da",
     "data_uoa": "ck-mlperf",
-    "desc": "CK workflows and components for the <a href=\"http://mlperf.org\">MLPerf benchmark</a>.",
+    "desc": "Automated, customizable and portable CK workflows and components for the <a href=\"http://mlperf.org\">MLPerf benchmark</a>.",
     "module_uid": "befd7892b0d469e9",
     "module_uoa": "repo",
     "repo_uid": "9a3280b14a4285c9",
