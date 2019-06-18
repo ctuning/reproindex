@@ -26,11 +26,11 @@ $ ck pull repo:reproindex --url={URL of the forked repository}
 # Adding new article with reusable research
 
 ```
-$ ck add component.article
+$ ck add repro.article
 ```
 
 Answer ~12 questions about the article (you can just press Enter when a question is not applicable).
-You can also find related answers in meta.json files of [already shared articles](https://github.com/ctuning/reproindex/tree/master/component.article).
+You can also find related answers in meta.json files of [already shared articles](https://github.com/ctuning/reproindex/tree/master/repro.article).
 You can use an [existing event tag](https://github.com/ctuning/reproindex/blob/master/cfg/component/.cm/meta.json#L9)
 or add a new one there.
 

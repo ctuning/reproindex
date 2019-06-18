@@ -103,7 +103,7 @@ def get(i):
     orig_module_uid=''
 
     if c=='article':
-#       c_uid='component.article'
+#       c_uid='repro.article'
        c_uid='b56ccd54ac2b15b9'
     elif c=='event':
        c_uid='c528f82d6ee43a79'
@@ -281,7 +281,11 @@ def get(i):
         if orig_module_uid!='':
            h+='[&nbsp;<a href="'+url_help+'" target="_blank">help</a>&nbsp;] \n'
 
-        h+='[&nbsp;<a href="'+cfg['url_rr_github_components']+'.'+c+'/'+duid+'/.cm/meta.json" target="_blank">index</a>&nbsp;]&nbsp;&nbsp; \n'
+        if c=='article' or c=='event':
+           y=cfg['url_rr_github_components2']
+        else:
+           y=cfg['url_rr_github_components']
+        h+='[&nbsp;<a href="'+y+'.'+c+'/'+duid+'/.cm/meta.json" target="_blank">index</a>&nbsp;]&nbsp;&nbsp; \n'
 
         if hh1!='':
            h+=hh1
