@@ -126,6 +126,7 @@ def add_index(i):
 def html(i):
     """
     Input:  {
+              (skip_cid_predix) - if 'yes', skip "?cid=" prefix when creating URLs
             }
 
     Output: {
@@ -137,6 +138,9 @@ def html(i):
     """
 
     d=i.get('dict',{})
+
+    scp=i.get('skip_cid_prefix','')
+    bscp=(scp=="yes")
 
     llm=d.get('meta',{})
 
@@ -183,7 +187,9 @@ def html(i):
     x1=''
     x2=''
     if url0!='' and ruid!='':
-       x1='<a href="'+url0+'cid='+cfg['module_deps']['component.repo']+':'+ruid+'" target="_blank">'
+       prfx=''
+       if not bscp: prfx='cid='
+       x1='<a href="'+url0+prfx+cfg['module_deps']['component.repo']+':'+ruid+'" target="_blank">'
        x2='</a>'
     h+='<b>Repo name:</b> '+x1+ruoa+x2+'<br>\n'
 

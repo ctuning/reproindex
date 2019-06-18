@@ -116,6 +116,7 @@ def index(i):
 def html(i):
     """
     Input:  {
+              (skip_cid_predix) - if 'yes', skip "?cid=" prefix when creating URLs
             }
 
     Output: {
@@ -127,6 +128,9 @@ def html(i):
     """
 
     d=i.get('dict',{})
+
+    scp=i.get('skip_cid_prefix','')
+    bscp=(scp=="yes")
 
     llm=d.get('meta',{})
 
@@ -199,7 +203,9 @@ def html(i):
 #    x1=''
 #    x2=''
 #    if url0!='' and ruid!='':
-#       x1='<a href="'+url0+'cid='+cfg['module_deps']['component.repo']+':'+ruid+'" target="_blank">'
+#       prfx=''
+#       if not bscp: prfx='cid='
+#       x1='<a href="'+url0+prfx+cfg['module_deps']['component.repo']+':'+ruid+'" target="_blank">'
 #       x2='</a>'
 #    h+='<b>Repo name:</b> '+x1+ruoa+x2+'<br>\n'
 
@@ -248,7 +254,9 @@ def html(i):
 
     ck_repo_uid=llmisc.get('ck_repo_uid','')
     if ck_repo_uid!='':
-       x=urlc+'cid='+cfg['module_deps']['component.repo']+':'+ck_repo_uid
+       prfx=''
+       if not bscp: prfx='cid='
+       x=urlc+prfx+cfg['module_deps']['component.repo']+':'+ck_repo_uid
        h+='<b>CK repository:</b> <a href="'+x+'">Index</a><br>\n'
 
     tasks=llmisc.get('tasks',{})
@@ -260,7 +268,9 @@ def html(i):
            tt=tasks[tuid]
            tuoa=tt.get('data_uoa','')
            if tuoa!='':
-              x='<a href="'+urlc+'cid='+cfg['module_deps']['component.program']+':'+tuid+'" target="_blank">'+tuoa+'</a>'
+              prfx=''
+              if not bscp: prfx='cid='
+              x='<a href="'+urlc+prfx+cfg['module_deps']['component.program']+':'+tuid+'" target="_blank">'+tuoa+'</a>'
               h+='  <li><span style="color:#2f0000;">'+x+'</li>\n'
 
        h+=' </ul>\n'
@@ -299,7 +309,9 @@ def html(i):
 
     ck_repo_uid=llmisc.get('ck_repo_uid','')
     if ck_repo_uid!='':
-       x=urlc+'cid='+cfg['module_deps']['component.repo']+':'+ck_repo_uid
+       prfx=''
+       if not bscp: prfx='cid='
+       x=urlc+prfx+cfg['module_deps']['component.repo']+':'+ck_repo_uid
        h1+='[&nbsp;<a href="'+x+'" target="_blank">CK repository</a>&nbsp;] \n'
 
     return {'return':0, 'html':h, 'html1':h1, 'article':article}

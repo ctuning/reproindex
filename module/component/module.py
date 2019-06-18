@@ -62,7 +62,8 @@ def get(i):
     wvp=i.get('web_vars_post',{})
     if type(wvp)==list: wvp={}
 
-    scp=(i.get('skip_cid_prefix','')=="yes")
+    scp=i.get('skip_cid_prefix','')
+    bscp=(scp=="yes")
 
     wv=copy.deepcopy(wvp)
     wv.update(wvg)
@@ -85,7 +86,7 @@ def get(i):
 
     # Init URL
     url='/'+page_name
-    if not scp: 
+    if not bscp: 
        url+='?'
     else: 
        url+='/'
@@ -235,7 +236,8 @@ def get(i):
         r=ck.access({'action':'html',
                      'module_uoa':c_uid,
                      'dict':ll,
-                     'url':url0})
+                     'url':url0,
+                     'skip_cid_prefix':scp})
         if r['return']>0: return r
 
         hh=r['html']
@@ -246,7 +248,7 @@ def get(i):
 
         h+='<div id="ck_entries">\n'
         prfx=''
-        if not scp: prfx='cid='
+        if not bscp: prfx='cid='
 
         xurl1='<a href="'+url0+prfx+xcid+'"><span style="color:#2f0000;"><b>'
         xurl2='</b></span></a>'

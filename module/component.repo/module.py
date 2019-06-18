@@ -161,6 +161,7 @@ def add_index(i):
 def html(i):
     """
     Input:  {
+              (skip_cid_predix) - if 'yes', skip "?cid=" prefix when creating URLs
             }
 
     Output: {
@@ -172,6 +173,9 @@ def html(i):
     """
 
     d=i.get('dict',{})
+
+    scp=i.get('skip_cid_prefix','')
+    bscp=(scp=="yes")
 
     url0=i.get('url','')
 
@@ -235,7 +239,9 @@ def html(i):
               x1=''
               x2=''
               if url0!='' and ruid!='':
-                 x1='<a href="'+url0+'cid='+work['self_module_uid']+':'+ruid+'" target="_blank">'
+                 prfx=''
+                 if not bscp: prfx='cid='
+                 x1='<a href="'+url0+prfx+work['self_module_uid']+':'+ruid+'" target="_blank">'
                  x2='</a>'
               h+='  <li>'+x1+'<span style="color:#2f0000;">'+str(ruoa)+'</span>'+x2+'</li>\n'
 
@@ -251,7 +257,9 @@ def html(i):
            tt=tasks[tuid]
            tuoa=tt.get('data_uoa','')
            if tuoa!='':
-              x='<a href="'+url0+'cid='+cfg['module_deps']['component.program']+':'+tuid+'" target="_blank">'+tuoa+'</a>'
+              prfx=''
+              if not bscp: prfx='cid='
+              x='<a href="'+url0+prfx+cfg['module_deps']['component.program']+':'+tuid+'" target="_blank">'+tuoa+'</a>'
               h+='  <li><span style="color:#2f0000;">'+x+'</li>\n'
 
        h+=' </ul>\n'
