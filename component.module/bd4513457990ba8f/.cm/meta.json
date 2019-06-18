@@ -23,15 +23,15 @@
       "module": "032630d041b4fd8a"
     },
     "url_ck_github_components": "https://github.com/ctuning/ck/wiki/ckb_",
-    "url_rr_github_components": "https://github.com/ctuning/reuse-research/tree/master/component"
+    "url_rr_github_components": "https://github.com/ctuning/reproindex/tree/master/component"
   },
   "misc": {
     "actions": {
       "get": {
-        "url_api": "https://github.com/ctuning/reuse-research/tree/master/module/component/module.py#L33"
+        "url_api": "https://github.com/ctuning/reproindex/tree/master/module/component/module.py#L33"
       },
       "index": {
-        "url_api": "https://github.com/ctuning/reuse-research/tree/master/module/component/module.py#L277"
+        "url_api": "https://github.com/ctuning/reproindex/tree/master/module/component/module.py#L277"
       }
     },
     "data_uid": "bd4513457990ba8f",
@@ -39,11 +39,11 @@
     "module_uid": "032630d041b4fd8a",
     "module_uoa": "module",
     "repo_uid": "c590dea823213918",
-    "repo_uoa": "reuse-research",
-    "repo_url1": "https://github.com/ctuning/reuse-research/tree/master/module/component/module.py",
-    "repo_url2": "https://github.com/ctuning/reuse-research/tree/master/module/component/.cm/meta.json",
+    "repo_uoa": "reproindex",
+    "repo_url1": "https://github.com/ctuning/reproindex/tree/master/module/component/module.py",
+    "repo_url2": "https://github.com/ctuning/reproindex/tree/master/module/component/.cm/meta.json",
     "repo_url3": "",
-    "to_get": "ck pull repo:reuse-research",
+    "to_get": "ck pull repo:reproindex",
     "workflow": ""
   },
   "module_deps": {

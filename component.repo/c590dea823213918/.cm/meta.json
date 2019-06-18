@@ -12,7 +12,7 @@
       }
     ],
     "shared": "git",
-    "url": "https://github.com/ctuning/reuse-research"
+    "url": "https://github.com/ctuning/reproindex"
   },
   "misc": {
     "ckr": {
@@ -31,20 +31,20 @@
         }
       ],
       "shared": "git",
-      "url": "https://github.com/ctuning/reuse-research"
+      "url": "https://github.com/ctuning/reproindex"
     },
     "data_uid": "c590dea823213918",
-    "data_uoa": "reuse-research",
+    "data_uoa": "reproindex",
     "desc": "",
     "module_uid": "befd7892b0d469e9",
     "module_uoa": "repo",
     "repo_uid": "9a3280b14a4285c9",
     "repo_uoa": "local",
     "repo_url1": "",
-    "repo_url2": "https://github.com/ctuning/reuse-research/tree/master/repo/reuse-research/.cm/meta.json",
-    "repo_url3": "https://github.com/ctuning/reuse-research/tree/master/repo/reuse-research",
+    "repo_url2": "https://github.com/ctuning/reproindex/tree/master/repo/reproindex/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproindex/tree/master/repo/reproindex",
     "tasks": {},
-    "to_get": "ck pull repo:reuse-research",
+    "to_get": "ck pull repo:reproindex",
     "workflow_desc": ""
   }
 }

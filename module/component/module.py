@@ -105,6 +105,8 @@ def get(i):
     if c=='article':
 #       c_uid='component.article'
        c_uid='b56ccd54ac2b15b9'
+    elif c=='event':
+       c_uid='c528f82d6ee43a79'
 
     r=ck.access({'action':'load',
                  'module_uoa':'cfg',
@@ -114,6 +116,10 @@ def get(i):
 
     if c=='article':
        di=rd.get('index_articles',[])
+       selector=a
+       selector_key='a'
+    elif c=='event':
+       di=rd.get('index_events',[])
        selector=a
        selector_key='a'
     else:
@@ -325,7 +331,7 @@ def index(i):
     """
     Input:  {
               (data_uoa)        - specify which components to index (module name); if "", take from cfg:component
-              (target_repo_uoa) - if "", use "reuse-research"
+              (target_repo_uoa) - if "", use "reproindex"
 
               (component_uoa)   - index specific component
 
@@ -347,7 +353,7 @@ def index(i):
     o=i.get('out','')
 
     tr_uoa=i.get('target_repo_uoa','')
-    if tr_uoa=='': tr_uoa='reuse-research'
+    if tr_uoa=='': tr_uoa='reproindex'
 
     share=i.get('share','')
 

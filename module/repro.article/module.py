@@ -372,7 +372,7 @@ def add(i):
     o=i.get('out','')
 
     ruoa=i.get('repo_uoa','')
-    if ruoa=='': tr_uoa='reuse-research'
+    if ruoa=='': tr_uoa='reproindex'
 
     i['common_func']='yes'
     i['sort_keys']='yes'

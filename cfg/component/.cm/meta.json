@@ -22,5 +22,13 @@
     {"name":"SC'15", "id":"papers-sc-2015"},
     {"name":"IJPP'11", "id":"papers-ijpp-2011"},
     {"name":"Reports", "id":"papers-reports"}
+  ],
+  "index_events": [
+    {"name":"All", "id":"-"},
+    {"name":"Upcoming", "id":"events-upcoming"},
+    {"name":"Challenges", "id":"events-challenges"},
+    {"name":"Conferences", "id":"events-conferences"},
+    {"name":"Journals", "id":"events-journals"},
+    {"name":"Workshops", "id":"events-workshops"}
   ]
 }

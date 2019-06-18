@@ -173,8 +173,8 @@
     "repo_uid": "28d34dd08a524be2",
     "repo_uoa": "armnn-mlperf",
     "repo_url1": "",
-    "repo_url2": "https://github.com/ctuning/reuse-research/tree/master/program/image-classification-armnn-tflite/.cm/meta.json",
-    "repo_url3": "https://github.com/ctuning/reuse-research/tree/master/program/image-classification-armnn-tflite",
+    "repo_url2": "https://github.com/ctuning/reproindex/tree/master/program/image-classification-armnn-tflite/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproindex/tree/master/program/image-classification-armnn-tflite",
     "soft_name": "",
     "stags": "image-classification,tflite,armnn,lang-cpp",
     "tags": [
