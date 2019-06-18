@@ -84,8 +84,11 @@ def get(i):
        return {'return':1, 'error':'page_name is empty'}
 
     # Init URL
-    url=page_name
-    if not scp: url+='?'
+    url='/'+page_name
+    if not scp: 
+       url+='?'
+    else: 
+       url+='/'
     url0=url
 
     # Check article
@@ -99,7 +102,8 @@ def get(i):
     orig_module_uid=''
 
     if c=='article':
-       c_uid='component.article'
+#       c_uid='component.article'
+       c_uid='b56ccd54ac2b15b9'
 
     r=ck.access({'action':'load',
                  'module_uoa':'cfg',
