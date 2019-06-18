@@ -39,6 +39,7 @@ def get(i):
               (web_vars_post)
               (web_vars_get)
               (web_vars_session)
+              (skip_cid_predix) - if 'yes', skip "?cid=" prefix when creating URLs
             }
 
     Output: {
@@ -61,6 +62,8 @@ def get(i):
     wvp=i.get('web_vars_post',{})
     if type(wvp)==list: wvp={}
 
+    scp=(i.get('skip_cid_prefix','')=="yes")
+
     wv=copy.deepcopy(wvp)
     wv.update(wvg)
 
@@ -81,7 +84,8 @@ def get(i):
        return {'return':1, 'error':'page_name is empty'}
 
     # Init URL
-    url=page_name+'?'
+    url=page_name
+    if not scp: url+='?'
     url0=url
 
     # Check article
@@ -237,7 +241,10 @@ def get(i):
         xcid=c_uid+':'+duid
 
         h+='<div id="ck_entries">\n'
-        xurl1='<a href="'+url0+'cid='+xcid+'"><span style="color:#2f0000;"><b>'
+        prfx=''
+        if not scp: prfx='cid='
+
+        xurl1='<a href="'+url0+prfx+xcid+'"><span style="color:#2f0000;"><b>'
         xurl2='</b></span></a>'
 
         if llst==1:
