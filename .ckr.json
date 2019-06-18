@@ -1,8 +1,8 @@
 {
-  "data_alias": "reuse-research",
-  "data_name": "reuse-research",
+  "data_alias": "reproindex",
+  "data_name": "reproindex",
   "data_uid": "c590dea823213918",
-  "data_uoa": "reuse-research",
+  "data_uoa": "reproindex",
   "dict": {
     "repo_deps": [
       {
@@ -16,6 +16,6 @@
       }
     ],
     "shared": "git",
-    "url": "https://github.com/ctuning/reuse-research"
+    "url": "https://github.com/ctuning/reproindex"
   }
 }
