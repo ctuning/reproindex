@@ -164,7 +164,7 @@ def html(i):
     h=''
     article=''
     if title!='':
-       article='<b>"'+title+'"</b>'
+       article='<b>'+title+'</b>'
 
     if authors!='':
        h+='<div id="ck_entries_space4"></div>\n'

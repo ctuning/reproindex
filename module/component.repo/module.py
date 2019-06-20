@@ -219,7 +219,10 @@ def html(i):
 
     to_get=llmisc.get('to_get','')
     if to_get!='':
-       h+='<b>How to get:</b> <span style="color:#2f0000">'+to_get+'</span><br>\n'
+       h+='<b>How to get:</b>\n'
+       h+='<div style="margin-left:20px;">\n'
+       h+='<span style="color:#2f0000">'+to_get+'</span><br>\n'
+       h+='</div>\n'
 
     workflow_desc=llmisc.get('workflow_desc','')
     if workflow_desc!='':

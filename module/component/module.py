@@ -222,6 +222,8 @@ def get(i):
     j2=((ipage)*ilength)-1
     if j2>=llst: j2=llst-1
 
+    # Go through the pruned list
+    number_of_entries=(j2-j1+1)
     for j in range(j1,j2+1):
         jj=j+1
 
@@ -243,7 +245,8 @@ def get(i):
                      'module_uoa':c_uid,
                      'dict':ll,
                      'url':url0,
-                     'skip_cid_prefix':scp})
+                     'skip_cid_prefix':scp,
+                     'number_of_entries':number_of_entries})
         if r['return']>0: return r
 
         hh=r['html']

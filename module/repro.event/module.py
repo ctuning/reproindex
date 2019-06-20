@@ -116,7 +116,8 @@ def index(i):
 def html(i):
     """
     Input:  {
-              (skip_cid_predix) - if 'yes', skip "?cid=" prefix when creating URLs
+              (skip_cid_predix)   - if 'yes', skip "?cid=" prefix when creating URLs
+              (number_of_entries) - if 1, then single entry view
             }
 
     Output: {
@@ -127,10 +128,14 @@ def html(i):
 
     """
 
+    import os
+
     d=i.get('dict',{})
 
     scp=i.get('skip_cid_prefix','')
     bscp=(scp=="yes")
+
+    single_entry=(i.get('number_of_entries','')==1)
 
     llm=d.get('meta',{})
 
@@ -161,10 +166,26 @@ def html(i):
     workflow=llmisc.get('workflow','')
     workflow_url=llmisc.get('workflow_url','')
 
+    # Check if in sinlge_entry mode and check if there is an html file
     h=''
+    if single_entry:
+       p=d['path']
+       ff=os.path.join(p, 'info.html')
+       if os.path.isfile(ff):
+          r=ck.load_text_file({'text_file':ff})
+          if r['return']==0:
+             s=r['string'].strip()
+             h+='\n<p>'+s+'\n'
+
+
     article=''
     if title!='':
-       article='<b>"'+title+'"</b>'
+       x1='<b>'
+       x2='</b>'
+       if single_entry:
+          x1='<h2><center>'
+          x2='</center></h2>'
+       article=x1+title+x2
 
     if authors!='':
        h+='<div id="ck_entries_space4"></div>\n'
